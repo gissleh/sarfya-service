@@ -4,13 +4,10 @@ This was created to break away all the logic from the library to make it easier 
 
 ## License
 
-The GPL license is no longer in effect since the GPL dependency is in the other package.
+This part of Sarfya, including the annotations to the data are licensed under the GPL license.
 
 The text used in `data/` is the property of their original authors,
-and are attributed under the `source` property of the YAML documents.
-
-The remaining code and the annotations in `data/` falls under the ISC license (LICENSE-ISC.txt).
-
+who are attributed under the `source` property of the YAML documents.
 
 ## Project structure.
 
