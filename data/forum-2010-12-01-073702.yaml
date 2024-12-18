@@ -29,6 +29,6 @@ inputs:
     - id: xbB6vrg-QZagzVbzG1EbNA
       text: 1Utralìri 2lu 3fìpo 4nìftxan 5tsawl.
       lookup_filter:
-        5: 5268:pn.:noprefix:noinfix:=-l:nolen
+        5: 2364:adj.:noaffix:nolen
       translations:
         en: '{(That places too much emphasis on utral, which is only the standard of comparison and presumably hasn''t yet figured into the conversation. In this case na utral would be preferable.)}'
