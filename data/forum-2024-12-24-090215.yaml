@@ -1,0 +1,19 @@
+source:
+    id: forum-2024-12-24-090215
+    date: "2024-12-24"
+    url: https://forum.learnnavi.org/language-updates/you-should-have-gone-but-didn-t/
+    title: '"You should have gone (but didn''t)" '
+    author: Paul Frommer, Willm
+inputs:
+    - id: VMixHHeVR5aeO5G_thgJaQ
+      text: 1Sweylu 2zun 3nga 4kilvä.
+      translations:
+        en: |-
+            3You 1+2should 4(have gone).
+            {(The above assumes that the "better" part was in the past: You didn't go last year, and LAST YEAR it would have better if you HAD gone.)}
+    - id: 2ajBfmTbT0CZBjI7gyzyZA
+      text: 1Sweylivu 2zun 3nga 4kilvä.
+      translations:
+        en: |-
+            3You 1+2should 4(have gone).
+            {(If you had gone last year, the situation would be better NOW.)}
