@@ -1,0 +1,41 @@
+source:
+    id: blog-2024-12-28
+    date: "2024-12-28"
+    url: https://naviteri.org/2024/12/odds-and-ends/
+    title: Odds and Ends
+    author: Paul Frommer
+inputs:
+    - id: F55gz4WrQZyyuC6LkZ6Ieg
+      text: 1Teynga 2lumpe 3po 4holum 5ke 6lu 7law.
+      translations:
+        en: 1(It)6('s) 5not 7clear 1+2why 3he 4left.
+    - id: u57DjK3cRtaWUDxo2284zw
+      text: 1Teyngla 2lumpe 3po 4holum 5oeti 6heykolangham.
+      translations:
+        en: 1+2Why 3he 4left 6made 5me 6laugh.
+    - id: Dg3_RTtFQMCAkiGFHdHq8g
+      text: 1Omum 2oel 3teyngta 4lumpe 5po 6holum.
+      translations:
+        en: 2I 1know 3+4why 5he 6left.
+    - id: VUQu-N0aTj-Q95sDLufTDQ
+      text: 1Rutxe 2(law sivi) 3teyngra 4lumpe 5po 6holum.
+      translations:
+        en: 1Please 2clarify 3+4why 5he 6left.
+    - id: Y7XG4TjZTNC73HdAWM6pZQ
+      text: 1Tìrunìl 2teyngä 3lumpe 4po 5holum 6oeti 7keftxo 8'eykolefu.
+      translations:
+        en: 1(The discovery) 2of 2+3why 4he 5left 7+8saddened 6me.
+    - id: JcKdWna2R--EtGLb3WrrKQ
+      text: 1Teyngria 2lumpe 3po 4holum 5oel 6ke 7tslam 8ke'ut.
+      translations:
+        en: 5I 7understand 6+8nothing 1about 2+1why 3he 4left.
+    - id: L9WUxijFTVmmuHIftT7zHw
+      text: 1Ayoe 2perängkxo 3teri 4teynga 5lumpe 6po 7holum.
+      lookup_filter:
+        1: 212:pn.:noaffix:nolen
+      translations:
+        en: 1(We)2('re chatting) 3about 4+5why 6he 7left.
+    - id: bhYPQo8KS0akRLHlndxw4w
+      text: 1Ngeyä 2fìtìkangkemvi 3atxantsan 4ke 5slayu 6na 7fkxen 8eo 9fkio.
+      translations:
+        en: 2This 3excellent 2work 1(of yours) 5+6+7+8+9will 4not 5+6+7+8+9(go to waste).
