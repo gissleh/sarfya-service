@@ -1,0 +1,26 @@
+source:
+    id: forum-2025-01-06-124357
+    date: "2025-01-06"
+    url: https://forum.learnnavi.org/language-updates/a-quick-pum-question/
+    title: 'a quick pum question '
+    author: Tirea Aean, Paul Frommer
+inputs:
+    - id: XaM1uUaTT7eM9Qbw1RxrPQ
+      text: 1Lu 2ngaru 3swizaw 4nìhawng 5(srak?) 6Tìng 7oer 8pumit 9a'aw!
+      lookup_filter:
+        6: 2176:vtr.:noaffix:nolen
+        9: 12:num.:=a-:noinfix:nosuffix:nolen
+      translations:
+        en: 2You 1have 4(too many) 3(arrows)5(?) 6Give 7me 8+9one!
+    - id: jbientZCSXqrAjCic3Y-SA
+      text: 1Lu 2ngaru 3'eveng 4apukap, 5slä 6smon 7oer 8(fo)12(ta) 9pum 10amrr 11nì'aw.
+      lookup_filter:
+        8: 412:pn.:noaffix:nolen
+      translations:
+        en: 2You 1have 4six 3children, 5but 7I 11only 6know 9+10five 12of 8them.
+    - id: EeEVFeurRlu8mm6vWF9oqQ
+      text: 1Lu 2ngaru 3kelku, 4ulte 5oeru 6nìteng.
+      lookup_filter:
+        6: 1304:adv.:noaffix:nolen
+      translations:
+        en: 2You 1have 3(a house) 4and 5I 6(have one too).
