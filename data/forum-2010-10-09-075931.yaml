@@ -1,0 +1,13 @@
+source:
+    id: forum-2010-10-09-075931
+    date: "2010-10-09"
+    url: https://forum.learnnavi.org/language-updates/sieyng-a-ftu-naring-4-siltsan-ke-nang/
+    title: 'Sì''eyng a ftu Na''rìng #4: sìltsan; ke; nang '
+    author: 'wm.annis '
+inputs:
+    - id: a35cqQaLSQmE9673_u1k0A
+      text: 1Ke 2fratawtute 3ke 4tsun 5kivame.
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1+3Not 2(every human) 4can 5See.

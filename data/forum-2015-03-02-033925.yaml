@@ -9,17 +9,17 @@ inputs:
       text: 1Oel 2tsre'i 3tskxet 4ne 5nga.
       translations:
         en: |-
-            1I 2throw 3(a stone) 4(to )4{(direction)} 5you.
-            {[}{this sound 'neutral']}
+            1I 2throw 3(a stone) 4(to/towards) 5you.
+            {(Ne does indeed imply the physical act of throwing towards someone, keeping with the idea that verbs of motion use ne as the place towards which the motion is directed.)}
     - id: EObwTaFVSqynquaG3ypCAg
       text: 1Oel 2tsre'i 3tskxet 4ngaru.
       translations:
         en: |-
-            1I 2throw 3(a stone) 4(to you )4{(dative)}.
-            {[}{this would imply that one would give a stone to someone]}
+            1I 2throw 3(a stone) 4(to you)
+            {(The dative case would be used in the sense of giving the stone to someone, although there's some overlap here with ne.)}
     - id: 5fJ91T3nRMS5zgN0J-wwjA
       text: 1Oel 2tsre'i 3tskxet 4wä 5nga.
       translations:
         en: |-
-            1I 2throw 3(a stone) 4against 5you.
-            {[}{this would have an aggressive meaning]}
+            1I 2throw 3(a stone) 4at 5you.
+            {(And wä would have an aggressive connotation.)}

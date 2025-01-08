@@ -23,6 +23,8 @@ inputs:
         en: 1Sure. 1{(Gladly. With pleasure.)} 2(What I said) 3was . . .
     - id: Pi-qNTiSReKZ3golkS8gfQ
       text: 1Tsun 2nga 3(law sivi) 4nì'it 5srak?
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
       translations:
         en: |-
             1Could 2you 3(make that) 4(a bit) 3(clearer)5(?)

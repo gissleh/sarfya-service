@@ -90,7 +90,7 @@ inputs:
     - id: J7XBvS_uTVCKGGAyQsrdhA
       text: 1Fäziva'u 2ne 3tsenge 4a 5oel 6tok!
       translations:
-        en: 1(Come up) 2to 3where 5I 4+6am!
+        en: 1(Come up) 2to 3+4where 5I 6am!
     - id: qHncvc3oSFWonb9MNqLszQ
       text: 1Fäza'u 2tsawke 3krrpe?
       lookup_filter:

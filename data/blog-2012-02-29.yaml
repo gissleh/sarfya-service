@@ -54,7 +54,7 @@ inputs:
         1: 8516:vin.:noaffix:nolen
         3: 8516:vin.:noaffix:nolen
       translations:
-        en: 1(The more you) 2practice, 3the 4better 3(you)4('ll get).
+        en: 1(The more you) 2practice, 3the 4better 3you'll 4get.
     - id: gh6KsC7oS_y2-66b5oEDag
       text: 1'Ul 2tute, 3'ul 4tìngäzìk.
       lookup_filter:

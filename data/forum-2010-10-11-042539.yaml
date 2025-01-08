@@ -1,0 +1,24 @@
+source:
+    id: forum-2010-10-11-042539
+    date: "2010-10-11"
+    url: https://forum.learnnavi.org/language-updates/sieyng-a-ftu-naring-6-tute-alo-slu-kan/
+    title: 'Sì''eyng a ftu Na''rìng #6: tuté, alo; slu; kan'
+    author: Prrton
+inputs:
+    - id: Hp31rd7nR-uolfNfH38yzw
+      text: 1Oe 2pot 3karman 4tspivang...
+      translations:
+        en: 1I 3(was intending to) 4kill 2him...
+    - id: 2dFmce4uQSGTEC6_xCN9nQ
+      text: 1Oel 2keran 3futa 4frapo 5pivähem 6(txon'ong)7(sre).
+      lookup_filter:
+        4: 460:pn.:noaffix:nolen
+      translations:
+        en: 1I 2intend 3for 4everyone 3to 5arrive 7before 6nightfall.
+    - id: mFGlfYc4SR6h6ZaBVRlYcg
+      text: 1Po 2kayan 3ngivop 4mipa 5pxesìrolit 6txo 7por 8tsun 9(srung sivi) 10peyä 11meylan.
+      lookup_filter:
+        7: 1548:pn.:noprefix:noinfix:=-r:nolen
+        8: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1He 2(will be of a mind to) 3create 5(3) 4new 5songs 6if 10his 11(two friends) 8can 9help 7him 9out.

@@ -43,27 +43,15 @@ inputs:
         5: 6376:vin.:noaffix:nolen
         6: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
-        en: 4(Just as) 2I 1like 3teylu, 6he 5likes 7fkxen.
+        en: 4(Just as) 2I 1like 3teylu, 6he 5likes 7vegetables.
     - id: Xbrle39VRC-vpITBTQZ0Fg
       text: 1Po 2sì 3oe 4(tìkangkem soli) 5nìtengfya.
       translations:
         en: 1She 2and 3I 4(did it) 5(in the same way).
-    - id: q4aIMyNbTJSf6-3Qu1Aeng
-      text: 1Pol 2oeru 3teyluti 4yeykolom.
-      translations:
-        en: 1He 4made 2me 4eat 3teylu.
-    - id: Fk-5ofj1SbKh4MYAiqAP1w
-      text: 1Pol 2oeru 3neykew 4futa 5oel 6yivom 7teyluti.
-      translations:
-        en: 1He 3made 2me 3(want to) 4+5+6eat 7teylu.
     - id: IFrbKEOETMqHA03m8WD36w
       text: 1Wina 2(uvan si).
       translations:
         en: 2(Play a) 1quick 2game.
-    - id: xzl3PVrdQU6Zlr8OTcQsiw
-      text: 1smäpusona 2tute
-      translations:
-        en: 1self-knowing 2person
     - id: TTe6r3udQ5qrgOHxgfQIsQ
       text: 1Po 2kllkxäpeykem.
       translations:

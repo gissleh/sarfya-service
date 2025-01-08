@@ -30,7 +30,7 @@ templ searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGr
 
 templ indexPage() {
     <h1>Sarfya</h1>
-    <h6>Na'vi Text Search</h6>
+    <h6>Säsrung a fwew sìkenongit</h6>
 
     @searchBox("")
     if ctx.Value(demoCtxKey) != nil {
@@ -50,4 +50,7 @@ templ indexPage() {
     @queryExample("flag:proverb", "See all proverbs.")
     @queryExample("\"kx\"", "Search all words that contain 'kx'.")
     @queryExample("\" endless \":en", "Search \"endless\" in the English translation.")
+    @queryExample("fwa OR fula OR futa OR fura OR furia", "The f-words.")
+    @queryExample("tsawa OR tsala OR tsata:sbd. OR tsara OR tsaria", "The other f-words.")
+    @queryExample("teynga OR teyngla OR teyngta OR teyngra OR teyngria OR teyngä", "The answer-to contractions.")
 }
