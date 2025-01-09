@@ -6,6 +6,8 @@ import (
 	"strings"
 )
 
+var exampleCount = 0
+
 var demoCtxKey = &struct{ key string }{key: "demoCtxKey"}
 var langCtxKey = &struct{ key string }{key: "langCtxKey"}
 

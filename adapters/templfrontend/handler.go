@@ -25,6 +25,15 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service) {
 		return component.Render(c.Request().Context(), c.Response())
 	}
 
+	go func() {
+		examples, err := svc.Storage.FetchExamples(context.Background(), nil, nil)
+		if err != nil {
+			log.Fatal("Failed to load examples for counting:", err)
+		}
+
+		exampleCount = len(examples)
+	}()
+
 	demo := createDemo(svc.Dictionary)
 
 	assets, err := fs.Sub(assets, "assets")

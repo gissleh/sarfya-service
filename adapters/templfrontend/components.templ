@@ -3,6 +3,7 @@ package templfrontend
 import (
     "github.com/gissleh/sarfya"
     "net/url"
+	"strconv"
 )
 
 func hostnameFromUrl(u string) string {
@@ -34,7 +35,7 @@ templ example(data sarfya.FilterMatch, lang string) {
 templ searchBox(initialValue string) {
 	<form onsubmit="search(this); return false;">
         <label>
-            <input class="search-box" value={initialValue} placeholder="Search among 1,700 writings." />
+            <input class="search-box" value={initialValue} placeholder={"Search among "+strconv.Itoa(exampleCount)[:1]+","+strconv.Itoa(exampleCount)[1:]+" examples."} />
         </label>
 	</form>
 }
