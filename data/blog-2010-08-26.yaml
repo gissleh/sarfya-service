@@ -47,3 +47,41 @@ inputs:
       text: 1Fìsyulang 2lu 3ean 4na 5ta'leng.
       translations:
         en: 1(This flower) 2is 3+4+5skin-blue.
+    - id: E_zvya2DS6ORWRnICxdEiA
+      text: 1ngul 2na 3tskxe
+      translations:
+        en: 1(the drab color) of 3stone
+    - id: MDJoYXvqQcCygcHtg2FYpA
+      text: 1vawm 2na 3uk
+      translations:
+        en: 1(dark)-3shadow 1color
+    - id: rqR5tyNvRqSEgq8r4b6kfQ
+      text: 1neyn 2na 3yapay
+      translations:
+        en: 1(the light), nondescript 1color of 3(mist or fog)
+    - id: cv2LKgRpTrm6CPzzNdPpSQ
+      text: 1tun 2na 3eyktan
+      translations:
+        en: 3leader 1red
+    - id: SUYBdU34Rj6WkLvHpQ_SMQ
+      text: 1neyn 2na 3txärem
+      translations:
+        en: 1(the light color) of 3bone
+    - id: Z7kEneFxQDuD505uveZYtQ
+      text: 1ean 2na 3pil
+      translations:
+        en: 3facial-stripe 1blue
+    - id: OSGO7d_TTV2uXJhpzeYHjw
+      text: 1rim 2na 3nari
+      translations:
+        en: |-
+            {(Although there are lots of different kinds of eyes on Pandora, in the
+            absence of further specification it's understand here that nari means nari leNa'vi.)}{)}
+    - id: HvbvAXWPR_mXPGeU3vpMlQ
+      text: 1vawm 2na 3nikre
+      translations:
+        en: 1(the dark color) of 3(Na'vi hair)
+    - id: KCOFZvutTVmtZifi4iBUvA
+      text: 1'om 2na 3mikyun
+      translations:
+        en: 1(the purplish color) on 3(the inside of a Na'vi ear)

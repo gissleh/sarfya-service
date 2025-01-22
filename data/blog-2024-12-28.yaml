@@ -39,3 +39,23 @@ inputs:
       text: 1Ngeyä 2fìtìkangkemvi 3atxantsan 4ke 5slayu 6na 7fkxen 8eo 9fkio.
       translations:
         en: 2This 3excellent 2work 1(of yours) 5+6+7+8+9will 4not 5+6+7+8+9(go to waste).
+    - id: K3E5xH3sRw6-qZlWqe8j5g
+      text: 1Ngal 2oeti 3ke 4ftìyem!
+      translations:
+        en: 1You 4+2shall 3not 4+2pass!
+    - id: VDLMLgZJQymrvTXtnT9YzA
+      text: 1Oel 2ke 3tslam 4tì'eyngit 5a 6ngal 7tolìng 8ayoer.
+      lookup_filter:
+        8: 212:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 1I 2don't 3understand 4(the answer) 6you 5+7gave 8us.
+    - id: gLKdLyGcSkekg7OX5sRcEg
+      text: 1Ayoel 2lawk 3teyngta 4lumpe 5po 6holum.
+      lookup_filter:
+        1: 212:pn.:noprefix:noinfix:=-l:nolen
+      translations:
+        en: 1(We)2('re talking about) 3+4why 5he 6left.
+    - id: SnwBQKYuSc2VC326fN50HA
+      text: 1Teyngria 2lumpe 3po 4holum 5komum/6kemum
+      translations:
+        en: 5+6{(I have) no idea} 1+2why 3he 2left.

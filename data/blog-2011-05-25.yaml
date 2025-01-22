@@ -40,9 +40,9 @@ inputs:
       translations:
         en: 4I 5really 3like 1(the sound) 2(of this instrument).
     - id: FwEUVYcoQ6yH5XXHuCvLVw
-      text: 1Peotxangfa 2nga 3(pamtseo si)?
+      text: 1(Peotxang)4(fa) 2nga 3(pamtseo si)?
       translations:
-        en: 1(What instrument) 3do 2you 3play?
+        en: 1+4(What instrument) 3do 2you 3play?
     - id: Vtyxr1OjQ4Kq0AkEpMAq-A
       text: 1(Pamtseo si) 2fa 3i'en.
       translations:

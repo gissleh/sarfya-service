@@ -54,6 +54,8 @@ inputs:
         en: 4(Thank you) 2for 1your 3friendly 2words.'
     - id: xh5ChiyYTmqrOW8uWr-cEw
       text: 1Krrka 2tsam 3slängu 4pxaya 5'eveng 6hasa'.
+      lookup_filter:
+        1: 10144:adp.:noaffix:nolen
       translations:
         en: 1During 2war, 3(sad to say), 4many 5children 3become 6orphans.
     - id: F3SiPic1SdaTNkLnXU8mmA

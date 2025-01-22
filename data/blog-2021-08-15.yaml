@@ -106,9 +106,9 @@ inputs:
       translations:
         en: 2They 1hunted 3(two sturmbeest)? 4Wow, 5+6+7+8(they work very well together).
     - id: dda-ftZ5QvOrsouQ9f3FzQ
-      text: 1Po 2maw 3kxitx 4muntxatuä 5'amefu 6na 7lanay'ka 8re'oluke.
+      text: 1Po 2maw 3kxitx 4muntxatuä 5'amefu 6na 7lanay'ka 8(re'o)9(luke).
       translations:
-        en: 2After 3(the death) 4of 1his 4spouse, 1he 5felt 6+7+8(completely lost).
+        en: 2After 3(the death) 4of 1his 4spouse, 1he 5felt 6+7+8+9(completely lost).
     - id: BQKaIp_cQA2FH8q8XXcJMA
       text: "A: 1Srake 2ngal 3stolawm 4futa 5Tsenu 6Ralur 7mowan 8lu 9nìtxan? \nB: 10Zawr 11mì 12na'rìng, 13ma 14tsmuk! 15Tsat 16omum 17oel 18kintrro."
       lookup_filter:

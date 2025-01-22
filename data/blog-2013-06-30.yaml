@@ -12,12 +12,12 @@ inputs:
       translations:
         en: 1(A mother) 3feeds 2(an infant) 4with 6her 5milk.
     - id: XhVSfrV0TYC-FT1S6l6HVw
-      text: 1Rolun 2ayoel 3tsrulmì 4hì'ia 5pxeloit 6ateyr.
+      text: 1Rolun 2ayoel 3(tsrul)7(mì) 4hì'ia 5pxeloit 6ateyr.
       lookup_filter:
         1: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
         2: 212:pn.:noprefix:noinfix:=-l:nolen
       translations:
-        en: 2We 1found 5three 4little 6white 5eggs 3(in the nest).
+        en: 2We 1found 5three 4little 6white 5eggs 7in 3(the nest).
     - id: 6su-jPhgTKmcca7x_dURaQ
       text: 1Käteng 2oe 3hu 4eylan 5(M|Perlin)6(mì) 7a 8mrrtrr 9lu 10tsyeym 11a 12ke 13tsun 14tswiva' 15kawkrr.
       lookup_filter:

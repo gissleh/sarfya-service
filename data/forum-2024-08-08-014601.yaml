@@ -10,8 +10,7 @@ inputs:
       translations:
         en: 1But 2(there are) 3several 4differences, 5(for example), 6(the hand) 7doesn't 8have 10four 11but 12five 9digits.
     - id: Sg7YJXOITmeUc8UvamwNnA
-      text: 1Sunu 2oer 3a'awa 4lì'fya—5natkenong 6Toitsye, 7(M|Tsyungwen), 8sì 9Na'vi.
+      text: 1Sunu 2oer 3'a'awa 4lì'fya—5natkenong 6Toitsye, 7(M|Tsyungwen), 8sì 9Na'vi.
       lookup_filter:
         1: 6376:vin.:noaffix:nolen
-        3: 6224:adj.:noprefix:noinfix:=-a:='a→a
       translations: {}

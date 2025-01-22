@@ -10,18 +10,18 @@ inputs:
       lookup_filter:
         1: 412:pn.:noaffix:nolen
       translations:
-        en: 1They 2forced 3me 4+5(to do it).
+        en: 1They 2forced 3me 4to 5(do it).
     - id: GyVq90-kQDKCDI4giBL3tA
-      text: 1Vin 2oel 3äzanluke 4futa 5nga 6kivä 7(poe)8+7(hu).
+      text: 1Vin 2oel 3äzanluke 4futa 5nga 6kivä 7(poe)8(hu).
       lookup_filter:
         3: 13174:adv.:noaffix:nolen
-        7: 1556:pn.:noprefix:noinfix:=-hu:nolen
+        7: 1556:pn.:noaffix:nolen
       translations:
         en: 2I 1request, 3(without compulsion), 4that 5you 6go 8with 7her.
     - id: FquEayb9Rp2GF8hLhUp7ZA
-      text: 1Vin 2oel 3futa 4nga 5kivä 6(poe)7+6(hu) 8äzanluke.
+      text: 1Vin 2oel 3futa 4nga 5kivä 6(poe)7(hu) 8äzanluke.
       lookup_filter:
-        6: 1556:pn.:noprefix:noinfix:=-hu:nolen
+        6: 1556:pn.:noaffix:nolen
         8: 13174:adv.:noaffix:nolen
       translations:
         en: 2I 1request 3that 4you 5go 7with 6her 8voluntarily.

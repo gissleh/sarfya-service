@@ -19,8 +19,20 @@ inputs:
             B: 7No, 8(the one who saw) 9Neytiri 8was 10Eytukan.
             {(Here the speaker has chosen a word order that puts Eytukanìl at the end of the sentence to highlight the important, contrastive information—just as the English translation does, but less concisely than the Na'vi.)}
     - id: V4OTUdnQRHKcWPdQRQ6zvg
-      text: 1(Oe)1{(l)} 2teylut 3new 4yivom.
+      text: 1Oel 2teylut 3new 4yivom.
       translations:
         en: |-
             1I 3(want to) 4eat 2teylu.
             {(So a reanalysis takes place, where new yivom is thought of as a single, transitive verb, making 9b possible.)}
+    - id: Py7ks9YNTe2bnNt2LVAVVA
+      text: 1Pol 2säfpìlit 3verar 4wivan.
+      translations:
+        en: |-
+            1(He)3('s continuing to) 4hide 2(the idea).
+            {(He's keeping his idea a secret.)}
+    - id: 7qYJ0N_8SzqSYUfiihVOsg
+      text: 1Po 2tsun 3tsive'a 4ngati.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1He 2can 3see 4you.

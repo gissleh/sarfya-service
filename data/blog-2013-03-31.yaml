@@ -27,7 +27,7 @@ inputs:
       lookup_filter:
         3: 2476:vim.:noaffix:nolen
       translations:
-        en: 1+2(Anything at all) 3+4(will be fine).
+        en: 2(Any)1(thing) 2(at all) 3+4(will be fine).
     - id: FBgr8vI5TzWIbuAlZXWnHg
       text: 1Ketsran 2fya'o 3sivunu 4ngar, 5(kem si).
       translations:

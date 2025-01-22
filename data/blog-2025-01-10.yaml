@@ -1,0 +1,29 @@
+source:
+    id: blog-2025-01-10
+    date: "2025-01-10"
+    url: https://naviteri.org/2025/01/tsaliu-alu-pum-aysaomum-asawnung-additional-information-about-pum/#comments
+    title: 'Tsalì’u alu pum: aysäomum asawnung Additional information about “pum”'
+    author: Paul Frommer
+inputs:
+    - id: TP5RH5ZzQq63hou-zyIZJQ
+      text: 1(Na'vi)2(ta) 3luyu 4hapxì.
+      lookup_filter:
+        3: 1044:vin.:noprefix:=<uy>:nosuffix:nolen
+      translations:
+        en: You 3are 4part 2of 1(The People).
+    - id: i2g8PDtYQduAReZj8kXAZQ
+      text: 1Na'viyä 2luyu 3hapxì.
+      translations:
+        en: You 2are 3part 1(of The People).
+    - id: PdBf4PApTwG63xIdhkYxag
+      text: 1Tsu'teyìl 2tolìng 3oer 4mawlit 5(smar)6(ta).
+      translations:
+        en: 1Tsu'tey 2gave 3me 4(a half) 6of 5(the prey).
+    - id: w66I-ynwSaa_BpmyTQ7RIA
+      text: 1Lu 2ayngaru 3pxaya 4tsamsiyu. 5Fpe' 6ayoer 7(fo)8(ta) 9pumit 10amrr.
+      lookup_filter:
+        2: 208:pn.:noprefix:noinfix:=-ru:nolen
+        6: 212:pn.:noprefix:noinfix:=-r:nolen
+        7: 412:pn.:noaffix:nolen
+      translations:
+        en: 2You 1have 3many 4warriors. 5Send 6us 9+10five 8of 7them.

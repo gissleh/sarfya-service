@@ -22,7 +22,7 @@ inputs:
       lookup_filter:
         5: 4456:conj.:noaffix:nolen
       translations:
-        en: 1Success 2+3+4(depends on) 5whether 9(or not) 6one 8follows 7instructions.
+        en: 1Success 2+3(depends on) 4+5whether 9(or not) 6one 8follows 7instructions.
     - id: nMfSR995Sfa2iElzbuXoew
       text: 1Ìlä 2Feyral, 3(muntxa soli) 5Ralu 6sì 7Newey 8nìwan 9mesrram.
       translations:

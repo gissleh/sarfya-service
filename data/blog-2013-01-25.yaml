@@ -111,9 +111,8 @@ inputs:
       translations:
         en: 1Relax, 2+3friend, 4relax. 6There's 5+7+8(nothing to worry about).
     - id: YOB3WLYySSiBYnfb9li2iA
-      text: 1New 2oe 3rivun 4asim 5tìfnunga'a 6tsengit 7a 8(tsa)9+8(ro) 10tsun 11syivor 12tsivurokx 13fte 14späpiveng.
+      text: 1New 2oe 3rivun 4asim 5tìfnunga'a 6tsengit 7a 8(tsaw|tsa)9(ro) 10tsun 11syivor 12tsivurokx 13fte 14späpiveng.
       lookup_filter:
-        8: 5268:pn.:noprefix:noinfix:=-ro:nolen
         10: 2476:vim.:noaffix:nolen
         14: 9568:vin.:noprefix:=<iv>:nosuffix:nolen
       translations:

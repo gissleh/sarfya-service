@@ -78,7 +78,7 @@ inputs:
     - id: n1_rPEvvSYiCQ7LdCSHmpA
       text: 1(Ätxäle si) 2tsnì 3livu 4oheru 5Uniltaron.
       translations:
-        en: 4(I respectfully) 1+2+3+4request 5(the Dreamhunt).
+        en: 4(I respectfully) 1+2request 3+5(the Dreamhunt).
       flags:
         - formal
     - id: MFtGxF93SkuIJU3CLfmqzw
@@ -111,13 +111,13 @@ inputs:
         5: 412:pn.:noaffix:nolen
         7: 1520:inter.:noaffix:nolen
       translations:
-        en: 3I 1don't 2know 4+7where 6(they)6+8('re going).
+        en: 3I 1don't 2know 4+7where 5(they)6+8('re going).
     - id: B5VxTauoT3iYgHZVdzET9Q
       text: 1Teynga 2lumpe 3fo 4holum 5ke 6lu 7law.
       lookup_filter:
         3: 412:pn.:noaffix:nolen
       translations:
-        en: 1(It)6('s) 5not 7clear 2why 3they 4left.
+        en: 6It's 5not 7clear 1+2why 3they 4left.
     - id: EhZJgkBiTKaUnQ4u8H2vtA
       text: 1Ulte 2sìlpey 3oe, 4faysìoeyktìng 5livu 6law 7nìwotx!
       lookup_filter:

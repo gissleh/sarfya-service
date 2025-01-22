@@ -20,7 +20,9 @@ inputs:
       translations:
         en: 1Someone 4built 2(a tower) 3(of bones) 5in 6(the forest).
     - id: YpltsG3JS3--11YDoyhIaQ
-      text: 1(N|Ranu) 2(kilvan)2+3(mì) 4fyarmufye 5na 6tsawla 7payoang 8apìsaw.
+      text: 1(N|Ranu) 2(kilvan)3(mì) 4fyarmufye 5na 6tsawla 7payoang 8apìsaw.
+      lookup_filter:
+        2: 804:n.:noaffix:nolen
       translations:
         en: 1Ranu 4(was splashing) 3in 2(the river) 5like 7a 6big 8clumsy 7fish.
     - id: FthgZyRMSIWcAZ0hFHnO5A

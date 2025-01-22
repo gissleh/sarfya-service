@@ -88,5 +88,5 @@ inputs:
       translations:
         en: |-
             A: 1+2(How's everything)?
-            B: 2Good. 4+5You?
+            B: 3Good. 4+5You?
             A: 6So-so. 7(I)8+9('m fine), 10but 11my 12son 13is 14sick.
