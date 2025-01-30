@@ -13,6 +13,12 @@ github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nos
 github.com/fsnotify/fsnotify v1.7.0/go.mod h1:40Bi/Hjc2AVfZrqy+aj+yEI+/bRxZnMJyTJwOpGvigM=
 github.com/fwew/fwew-lib/v5 v5.19.6 h1:dUKQD59THoDwUv8Nyv2PK1L5LvZra5BkDwHRFVWJ4Xs=
 github.com/fwew/fwew-lib/v5 v5.19.6/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
+github.com/fwew/fwew-lib/v5 v5.22.4 h1:taIroxNT1bIB24agsgpXgPCr+g0GBR6WhSrgK7YqOO4=
+github.com/fwew/fwew-lib/v5 v5.22.4/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
+github.com/gissleh/litxap v1.1.2 h1:7k0EqtM2DLCFwdZ6386NH9Bl1ZuZgy73LZAdfHKA72c=
+github.com/gissleh/litxap v1.1.2/go.mod h1:MQm+GZW5MQSxjfKu4ad/62e/W08rL3whmRQFVXlTioY=
+github.com/gissleh/litxap v1.4.1 h1:ujvy9CFmVX40FGFGZTdLLb5SA88tA90Dz0DTwQNrCKU=
+github.com/gissleh/litxap v1.4.1/go.mod h1:MQm+GZW5MQSxjfKu4ad/62e/W08rL3whmRQFVXlTioY=
 github.com/gissleh/sarfya v1.0.0 h1:fVWQNDKSqa1IuzvRz3vI3MQRdlelpibYbt0iMrIdUFw=
 github.com/gissleh/sarfya v1.0.0/go.mod h1:qOVccVAJSTZCv4cl1tRwiAPagd14+n51q7hYQ8mYeEU=
 github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpvNJ1Y=

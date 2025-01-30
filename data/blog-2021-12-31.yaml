@@ -86,3 +86,9 @@ inputs:
       text: 1Tì'eylanìri 2tsranten 3frato 4tìsay.
       translations:
         en: What 2matters 3most 1(in friendship) is 4loyalty.
+    - id: mfaYuMwVThq9vGrXQWtXQQ
+      text: 1Tarep! 2Tarep!
+      translations:
+        en: |-
+            1Help! 2Help!
+            {(If your life is being threatened)}
