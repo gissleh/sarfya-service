@@ -12,13 +12,13 @@ inputs:
       translations:
         en: 3Thanks 1for 1this 2beautiful 1gift.
     - id: 8WVXA0KVRLqhkfuPi6OAcg
-      text: 1Fìtutan 2a 3(rì'ìr|rììr)4(mì) 5ftu 6na'rìng.
+      text: 1Fìtutan 2a 3(rììr)4(mì) 5ftu 6na'rìng.
       translations:
         en: 1(This man) 2+4in 3(the reflection) 5(is from) 6(the forest).
       flags:
         - reef_dialect
     - id: a52cML6vTf2kjCPt_njlaw
-      text: 1Kehe, 2faysuteri 3ke 4(syawm|shawm) 5ayoel 6(ke'ut|keut).
+      text: 1Kehe, 2faysuteri 3ke 4shawm 5ayoel 6keut.
       lookup_filter:
         2: 2296:n.:=fay-:noinfix:=-ri:=t→s
         5: 212:pn.:noprefix:noinfix:=-l:nolen

@@ -6,7 +6,7 @@ source:
     author: Paul Frommer
 inputs:
     - id: pMz6ft6KSJex_xvVGN7TTg
-      text: 1Pori 2(txo|do) 3new 4fìtutanti 5rivun, 6zene 7ftu 8fayspono 9(hivum|hivùm), 10kivä 11(nìtxukx|nìdukx) 12nemfa 13na'rìng.
+      text: 1Pori 2do 3new 4fìtutanti 5rivun, 6zene 7ftu 8fayspono 9(hivum|hivùm), 10kivä 11nìdukx 12nemfa 13na'rìng.
       lookup_filter:
         11: 13000:adv.:noaffix:nolen
       translations:
