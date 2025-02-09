@@ -1,0 +1,19 @@
+source:
+    id: forum-2021-08-20-085342
+    date: "2021-08-20"
+    url: https://forum.learnnavi.org/language-updates/ltapeykgt-in-transitive-constructions/msg676894/#msg676894
+    title: <äpeyk> in transitive constructions
+    author: Vawmataw, Paul Frommer
+inputs:
+    - id: L-i5KNF0RYinib7rfiJu1Q
+      text: 1Oe 2täpeykaron
+      translations:
+        en: |-
+            1I 2cause 1(my)2(self) 2(to hunt)
+            {(Here the original construction is intransitive, i.e., Oe taron. So the doer is oe, not oel.)}
+    - id: 1GK9YBPaT8KWzYW7eXRn-g
+      text: 1Oel 2täpeykaron 3yerikit.
+      translations:
+        en: |-
+            1I 2cause 1(my)2(self) 2(to hunt) 3yerik.
+            {(Here the original construction is transitive, i.e., Oel taron yerikit. So the doer is oel, not oe.)}

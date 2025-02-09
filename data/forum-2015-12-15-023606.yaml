@@ -7,8 +7,6 @@ source:
 inputs:
     - id: GCqRCuOKSXiMijm-I39YIQ
       text: 1Ma 2'ite, 3awngeyä 4fya'ori 5zene 6nga 7(sänume sivi) 8poru 9fte 10tsivun 11pivlltxe 12sì 13tivìran 14nìayoeng.
-      lookup_filter:
-        14: 1268:adv.:noaffix:nolen
       translations:
         en: My 1+2daughter, 6you 5will 7teach 8him 3our 4way 9+10to 11speak 12and 13walk 14(as we do).
     - id: HVxUwKAuQsys5S3seK--vg

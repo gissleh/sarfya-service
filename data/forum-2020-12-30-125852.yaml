@@ -1,0 +1,23 @@
+source:
+    id: forum-2020-12-30-125852
+    date: "2020-12-30"
+    url: https://forum.learnnavi.org/language-updates/more-stuff-about-the-may-28th-post-on-na'viteri/
+    title: More stuff about the May 28th post on Na'viteri
+    author: Vawmataw, Paul Frommer
+inputs:
+    - id: J6z9NDNXQ4-xzrD7P9pXXg
+      text: 1Fol 2volin 3teyngta 4Tsyeykìl 5tok 6pesenget.
+      lookup_filter:
+        1: 412:pn.:noprefix:noinfix:=-l:nolen
+        3: 7976:sbd.:noaffix:nolen
+        4: 13535:prop.n.:noprefix:noinfix:=-ìl:nolen
+      translations:
+        en: |-
+            1They 2requested 3the 6(where)-5(is)-4Jake 3answer.
+            {(They wanted to know where Jake is.)}
+    - id: g9cvigjqTsSkN0FYVYQqoA
+      text: 1'Oleyng 2po 3san 4po 5ke 6smon 7oeru 8sìk.
+      lookup_filter:
+        8: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2He 1answered 3+8that 7he 5doesn't 6know 4him
