@@ -92,3 +92,13 @@ inputs:
         en: |-
             1Help! 2Help!
             {(If your life is being threatened)}
+    - id: MLR0w3gDTIiZtgSdMW26Mw
+      text: 1Pol 2tsatxumit 3noläk 4terkup.
+      translations:
+        en: |-
+            1He 3drank 2(the poison) 4(and died).
+            {(we don't know how long it was between the drinking and the dying; it might have been hours or days.)}
+    - id: aehk7pjlSN6eFfWGSlKWrA
+      text: 1Tsatxumit 2näk 3tìk 4terkup.
+      translations:
+        en: 3(If you) 2drink 1(that poison), 3(you'll immediately) 4(keel over and die).
