@@ -21,7 +21,7 @@ func main() {
 
 	input := sarfya.Input{
 		ID:   "0",
-		Text: "1Fìfya 2sar 3fko 4fìvefyat!",
+		Text: "1Fìfya 2sar 3fkol 4fìvefyat!",
 		LookupFilter: map[int]string{
 			2: "vtr.",
 			4: "9316",

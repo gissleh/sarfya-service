@@ -169,7 +169,7 @@ func indexPage() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("sìk:1796", "Filter by word-ID to not get tsìk.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("sìk:1796", "Filter by word-ID to not get tsìk or tìk.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -177,31 +177,39 @@ func indexPage() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("*:<eyk er>", "Search for causative imperfect infixes.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:<äp eyk>", "Search for causative reflexive infixes.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("*:<äng>|<ei>", "Search for moods infixes.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:<äng>|<ei>|<ui>", "Search for affect infixes.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("*:vin. SURROUNDING !*:part.|adj.", "Search all intransitive verbs that surrounds a non-partilce/adjective.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:<ats>", "Search for inferential infix.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("*:n.|pn. SURROUNDED BY *:adj.:-a-", "Search all nouns and pronouns with adjectives on both sides.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:vin. >+< !*:part.|adj.", "Search all intransitive verbs that surrounds a non-partilce/adjective.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("*:adj.:-a FOLLOWED BY *:n.|pn. FOLLOWED BY *:adj.:a-", "Find all sequences that are adj-a noun/pronoun a-adj.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:n.|pn. ++ *:adj.:-a-", "Search all nouns and pronouns with adjectives on both sides.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("fpìl BEFORE san", "Search all cases where fpìl is used with san.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:adj.:-a +> *:n.|pn. +> *:adj.:a-", "Find all sequences that are adj-a noun/pronoun a-adj.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("zun AND zel", "Find all conterfactual conditionals.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:n.|pn. +> *:adj.:a- +> a:part.", "Attributive particle after attributed verb.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("fpìl +>> san", "Search all cases where fpìl comes before san.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("zun && zel", "Find all conterfactual conditionals.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -213,19 +221,23 @@ func indexPage() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("\" endless \":en", "Search \"endless\" in the English translation.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("\"endless\":en", "Search \"endless\" in the English translation.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("fwa OR fula OR futa OR fura OR furia", "The f-words.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("\" art \":en", "Search \"art\" in the English translation without matching \"part\" or \"heart\".").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("tsawa OR tsala OR tsata:sbd. OR tsara OR tsaria", "The other f-words.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("fwa || fula || futa || fura || furia", "The f-words.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("teynga OR teyngla OR teyngta OR teyngra OR teyngria OR teyngä", "The answer-to contractions.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("tsawa || tsala || tsata:sbd. || tsara || tsaria", "The other f-words.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("teynga:sbd. || teyngla:sbd. || teyngta:sbd. || teyngra:sbd. || teyngria:sbd. || teyngä:sbd.", "The answer-to contractions.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

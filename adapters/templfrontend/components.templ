@@ -4,6 +4,7 @@ import (
     "github.com/gissleh/sarfya"
     "net/url"
 	"strconv"
+	"strings"
 )
 
 func hostnameFromUrl(u string) string {
@@ -42,7 +43,7 @@ templ searchBox(initialValue string) {
 
 templ queryExample(query string, description string) {
     <div class="query-example">
-        <a href={templ.SafeURL("/search/" + query)}>{query}</a>
+        <a href={templ.SafeURL("/search/" + strings.ReplaceAll(url.QueryEscape(query), "+", "%20"))}>{query}</a>
         <span class="dash">&nbsp;–&nbsp;</span>
         <span class="desc">{description}</span>
     </div>

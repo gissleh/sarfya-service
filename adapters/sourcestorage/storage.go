@@ -85,6 +85,13 @@ func (s *Storage) FetchExamples(ctx context.Context, filter *sarfya.Filter, reso
 	return res, nil
 }
 
+func (s *Storage) AllExamples() []sarfya.Example {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	return append(make([]sarfya.Example, len(s.examples)), s.examples...)
+}
+
 func (s *Storage) SaveExample(ctx context.Context, example sarfya.Example) error {
 	if err := ctx.Err(); err != nil {
 		return err

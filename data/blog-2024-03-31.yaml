@@ -29,6 +29,7 @@ inputs:
       text: 1Pot 2spaw 3rä'ä! 4Lu 5fì'u 6säflel!
       lookup_filter:
         5: 368:pn.:noaffix:nolen
+        6: 13483:n.:noaffix:nolen
       translations:
         en: 3Don't 2believe 1him! 5(It)4('s) 6(a trick)!
     - id: QCBHekACS3GAV_l_rRjQKA
