@@ -63,9 +63,7 @@ func (d *dictionary) Lookup(ctx context.Context, word string) (entries []sarfya.
 	}
 
 	// Fwew gets a bit ornery with multi-thread access.
-	globalLock.Lock()
-	res, err := fwew.TranslateFromNaviHash(word, true)
-	globalLock.Unlock()
+	res, err := fwew.TranslateFromNaviHash(word, true, false)
 	if err != nil {
 		return nil, err
 	}

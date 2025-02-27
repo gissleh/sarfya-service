@@ -21,6 +21,7 @@ inputs:
         4: 1800:vin.:noaffix:nolen
         20: 1808:adj.:noaffix:nolen
         22: 2224:part.:noaffix:nolen
+        25: 3684:vin.:noprefix:=<ìlm>:nosuffix:nolen
         35: 1312:adv.:noaffix:nolen
       translations: {}
     - id: K2iyrj5DRZSfLemRcnp69A

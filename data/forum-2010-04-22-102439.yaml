@@ -18,6 +18,7 @@ inputs:
     - id: c9KS1DDHQKeXP9wp-EJ0Jg
       text: '1Ngaytxoa, 2nìawnomum 3ke 4lolu 5oer 6nìkeftxo 7mì 8soka 9srr 10ayskxom 11letam 12fte 13lì''fyari 14awngeyä 15(tìkangkem sivi). 16Slä 17lu 18oeru 19fmawno 20asìltsan: 21ye''rìn 22''ìyi''a 23sänume 24a 25tsari 26kllfro'' 27oe; 28mawkrr 29layeiu 30oer 31krr 32nì''ul 33fte 34ngivop 35aylì''ut 36sì 37tsayfnesänumvit 38a 39tsun 40frapor 41(srung sivi) 42fte 43nivume 44sì 45ziverok 46nìswey.'
       lookup_filter:
+        22: 3684:vin.:noprefix:=<ìy>:nosuffix:nolen
         39: 2476:vim.:noaffix:nolen
         40: 460:pn.:noprefix:noinfix:=-r:nolen
         46: 5160:adv.:noaffix:nolen

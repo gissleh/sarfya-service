@@ -7,5 +7,7 @@ source:
 inputs:
     - id: iiokASyuS8Sb8-CBnseftQ
       text: 1Eo 2Eywa 3oe 4'ia.
+      lookup_filter:
+        4: 3688:vin.:noaffix:nolen
       translations:
         en: 3I 4(lose myself) 1before 2Eywa.

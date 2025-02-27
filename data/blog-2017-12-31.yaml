@@ -22,6 +22,8 @@ inputs:
         en: 3+1(Happy anniversary) 2{(of your marriage)}!
     - id: vWUcHPbuTHionp0mx3W2HQ
       text: 1Neytiril 2nantangit 3tsolukx 4fte 5peyä 6tìsrawti 7'eykivi'a.
+      lookup_filter:
+        7: 3684:vin.:noprefix:=<eyk iv>:nosuffix:nolen
       translations:
         en: 1Neytiri 3stabbed 2(the viperwolf) 4to 7end 5its 6pain.
     - id: 7zEzLSGZSYyEgTl8EXEEEQ
