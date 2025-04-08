@@ -8,5 +8,7 @@ inputs:
     - id: 5q3bAkgYSEOW6YfUdOWdzg
       text: 1(Utral)21(mì) 2a 3nantang 4ke 5namew 6fpive' 7ikranur 8a 9mì 10saw 11upxaret 12a 13tsìyun 14wivìntxu 15futa 16pol 17tsatsengit 18terok 19fa 20nguway.
       lookup_filter:
+        9: 1108:adp.:noaffix:nolen
         10: 2020:n.:noaffix:=t→s
+        21: 1108:adp.:noaffix:nolen
       translations: {}

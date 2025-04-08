@@ -97,6 +97,7 @@ inputs:
       lookup_filter:
         2: 6376:vin.:noaffix:nolen
         8: 412:pn.:noprefix:noinfix:=-l:nolen
+        9: 7976:sbd.:noaffix:nolen
         13: 4180:pn.:noprefix:noinfix:=-ti:nolen
         14: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
       translations:

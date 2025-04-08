@@ -16,11 +16,13 @@ inputs:
       lookup_filter:
         1: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
         2: 212:pn.:noprefix:noinfix:=-l:nolen
+        7: 1108:adp.:noaffix:nolen
       translations:
         en: 2We 1found 5three 4little 6white 5eggs 7in 3(the nest).
     - id: 6su-jPhgTKmcca7x_dURaQ
       text: 1Käteng 2oe 3hu 4eylan 5(M|Perlin)6(mì) 7a 8mrrtrr 9lu 10tsyeym 11a 12ke 13tsun 14tswiva' 15kawkrr.
       lookup_filter:
+        6: 1108:adp.:noaffix:nolen
         13: 2476:vim.:noaffix:nolen
       translations:
         en: 8(The )8{(5-day)}8( week) 2I 1spent 4with 2my 3friends 6in 5Berlin 9is 10(a treasure) 11that I13+14'll 12+15never 13+14forget.

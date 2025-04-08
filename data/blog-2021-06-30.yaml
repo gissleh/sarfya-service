@@ -24,6 +24,7 @@ inputs:
     - id: HNaG5N99Q7OfdTHKh0yDNA
       text: 1Kxetse 2sì 3mikyun 4kop 5plltxe.
       lookup_filter:
+        2: 1792:part.:noaffix:nolen
         4: 872:adv.:noaffix:nolen
       translations:
         en: |-

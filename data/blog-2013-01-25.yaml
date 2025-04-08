@@ -62,6 +62,7 @@ inputs:
     - id: CBD-6f65T1yt2cQXrJHAaw
       text: 1Oeyä 2tskalep 3'olìp 4ningyen. 5Ke 6omum 7teyngta 8pesengit 9terok.
       lookup_filter:
+        7: 7976:sbd.:noaffix:nolen
         8: 1520:inter.:noprefix:noinfix:=-it:nolen
       translations:
         en: 1My 2crossbow 3has 4mysteriously 3disappeared. I 5don't 6know 7+8where 9(it is).
@@ -73,6 +74,8 @@ inputs:
         en: 1His 3mysterious 2words 4+5worried 6us 7all.
     - id: EKYWORhNRFyW0I2LM48nyw
       text: 1Tsatìoeyktìng 2ayayayrnga' 3srung 4ke 3soli 5oer 6fte 7tslivam 8teyngta 9kempe 10zene 9sivi.
+      lookup_filter:
+        8: 7976:sbd.:noaffix:nolen
       translations:
         en: 1That 2confusing 1explanation 4didn't 3help 5me 6+7understand 8+9what I 10(have to) 9do.
     - id: x3nly7KET0W-V98QyVBEPQ

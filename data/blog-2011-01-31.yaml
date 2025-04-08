@@ -40,6 +40,8 @@ inputs:
         en: 1I 2+7never 8went 3to 5the 4opposite 5side 6(of the river).
     - id: xnaD1meYRxm0OuNwlnwaGw
       text: 1Pol 2sla'tsu 3ayioangit 4a 5tse'a 6fkol 7mì 8Eywa'eveng/9Eyweveng.
+      lookup_filter:
+        7: 1108:adp.:noaffix:nolen
       translations:
         en: 1She 2describes 3animals 4+5+6seen 7on 8+9Pandora.
     - id: _5XZ4G9vR6uwo4HPSy0C3g
@@ -60,6 +62,8 @@ inputs:
         en: 3You 5only 2get 4(three guesses) 1(in this game).
     - id: KvL-rznEQRmbNd4BMdQX2w
       text: 1Ke 2sterawm 3oel 4ke'ut 5mì 6na'rìng. 7('En si) 9oe, 10Sawtuteol 11tìlmok 12fìtsengit.
+      lookup_filter:
+        5: 1108:adp.:noaffix:nolen
       translations:
         en: 3I 1+4don't 2hear 1+4anything 5in 6(the forest). 9I 7guess 10(some Skypeople) 11(were just) 12here.
     - id: 97qSYkIsT3G0ARuNKM3ZjQ

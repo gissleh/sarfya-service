@@ -71,6 +71,8 @@ inputs:
         - proverb
     - id: mFFhO-izR8KCR17FVpw_PQ
       text: 1zawr 2{(a)} 3mì 4na'rìng
+      lookup_filter:
+        3: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             1(an animal cry) 2+3in 4(the forest)
@@ -87,6 +89,8 @@ inputs:
         - proverb
     - id: yRbuuLX8Tm646a4h6sgUAQ
       text: 1yerik 2{(a)} 3mì 4yrrap
+      lookup_filter:
+        3: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             1Hexapede 2+3in 4(a storm)
@@ -114,6 +118,7 @@ inputs:
       lookup_filter:
         6: 13077:prop.n.:noprefix:noinfix:=-r:nolen
         9: 1312:adv.:noaffix:nolen
+        11: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             A: 1+3Have 2you 1+3heard 4that 6Ralu 7+8+9(has the hots for) 5(Tsenu)1(?)

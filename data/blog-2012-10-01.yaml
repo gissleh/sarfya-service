@@ -99,6 +99,7 @@ inputs:
     - id: E-1_eODkSMiCbHZIwJGmWw
       text: 1(Ya)2(mì) 3tsun 4fko 5tsive'a 6loranit 7renuä 8kilvanä 9slä 10(kllte)11(sìn) 12wäpan.
       lookup_filter:
+        2: 1108:adp.:noaffix:nolen
         3: 2476:vim.:noaffix:nolen
         11: 4048:adp.:noaffix:nolen
       translations:
@@ -112,6 +113,7 @@ inputs:
     - id: hLHfGg61SHq_wSBQzwhGLA
       text: 1('Rrta)2(mì) 3a 4reyfya 5Sawtuteyä 6latsu 7fe'ran 8nìngay.
       lookup_filter:
+        2: 1108:adp.:noaffix:nolen
         8: 1296:adv.:noaffix:nolen
       translations:
         en: 5(The Skypeople's) 4culture 3+2on 1earth 6must 8truly 6be 7flawed.
@@ -125,6 +127,7 @@ inputs:
     - id: GE5Ne5lmRVO8FAWZHIvK1A
       text: 1Nìran 2lu 3(N|Loak) 4mi 5'eveng 6slä 7tsun 8tivaron 9nìtengfya 10na 11fyeyntu.
       lookup_filter:
+        4: 1096:adv.:noaffix:nolen
         7: 2476:vim.:noaffix:nolen
       translations:
         en: 3Loak 2is 4still 1(really just) 5(a boy) 6but 3he 7can 8hunt 9(the same) 10as 11(an adult).
@@ -132,6 +135,8 @@ inputs:
       text: 1Tok 2oel 3lora 4tsamoti 5a 6mì 7na'rìng 8a 9krr, 10'efu 11mawey 12sì 13nitram.
       lookup_filter:
         4: 9264:n.:=tsa-:noinfix:=-ti:nolen
+        6: 1108:adp.:noaffix:nolen
+        12: 1792:part.:noaffix:nolen
       translations:
         en: 8+9When 2(I)1('m in) 5(that beautiful hollow) 5+6in 7(the forest), 2I 10feel 11calm 12and 13happy.
     - id: PrlqmS-zQ_CkvCpXwwDkmg
@@ -186,7 +191,6 @@ inputs:
         en: 3When 4are 1you 4(going to organize) 1your 2room, 5+6son?
     - id: NM87MDDATT2pl1HjxIV82A
       text: 1Neytiril 2(N-ur|Tsyeykur) 3wamìntxu 4Omatikayaä 5vefyat 6tìtusaronä.
-      lookup_filter:
       translations:
         en: 1Neytiri 3showed 2Jake 4(the Omatikaya's) 5approach 6(to hunting).
     - id: iFNOQEysR-KFpGniZVgZLA
@@ -198,7 +202,5 @@ inputs:
         en: 4+3(Every time) 2Kamun 1(is in charge), 6(the hunt) 5is 7+8(a mess). 9+10+11(Everything goes wrong that can).
     - id: 2lQON989SvOcWrrQ-oqEgQ
       text: 1Txo 2nivew 3fko 4(säro'a sivi), 5zene 6nì'awve 7venga' 8livu.
-      lookup_filter:
-        6: 1256:adv.:noaffix:nolen
       translations:
         en: 1If 3you 2(want to) 4(accomplish great things), 3you 6first 5(have to) 8be 7organized.

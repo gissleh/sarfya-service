@@ -66,6 +66,7 @@ inputs:
     - id: 2SYcogHpS1a__w8bvbddbQ
       text: 1Tìyäkx 2ke 3lu 4srunga', 5ma 6tsmuk. 7Nga 8txo 9sti, 10oeyktìng 11teyngta 12pelun.
       lookup_filter:
+        11: 7976:sbd.:noaffix:nolen
         12: 1508:inter.:noaffix:nolen
       translations:
         en: 1Snubbing 3(is)2(n't) 4helpful, 5+6brother. 8If 7(you)9('re angry), 10explain 11+12why.

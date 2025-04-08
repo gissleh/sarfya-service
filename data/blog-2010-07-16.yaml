@@ -23,6 +23,8 @@ inputs:
         en: 1my 2family's 3history
     - id: PIjBJMXFQK6SBT4vPETuTQ
       text: 1okvur 2Sawtuteyä 3mì 4Eywa'eveng
+      lookup_filter:
+        3: 1108:adp.:noaffix:nolen
       translations:
         en: 1(the history) 2(of the Sky People) 3on 4Pandora.
     - id: 3fJrmwc7SainjLZSFZF5yg

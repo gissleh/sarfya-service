@@ -8,6 +8,7 @@ inputs:
     - id: m0HOuqqWR2OKY07Vh3bodw
       text: 1Pori 2frapil 3sì 4frasil 5lor 6lu 7nìtxan.
       lookup_filter:
+        3: 1792:part.:noaffix:nolen
         7: 1312:adv.:noaffix:nolen
       translations:
         en: |-

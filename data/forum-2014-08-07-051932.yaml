@@ -6,7 +6,9 @@ source:
     author: Plumps, Paul Frommer
 inputs:
     - id: gSOnZlUBROaQ-xl27YyIeQ
-      text: 5{(Mì}{)} 1kaym 2oe 3slele 4nìtrrtrr
+      text: 5{(Mì)} 1kaym 2oe 3slele 4nìtrrtrr
+      lookup_filter:
+        5: 1108:adp.:noaffix:nolen
       translations: {}
     - id: 7K2M2uW0QyGlC7We-dw2XQ
       text: 1Ngaru 2fìmeu, 3ma 4tsmuk

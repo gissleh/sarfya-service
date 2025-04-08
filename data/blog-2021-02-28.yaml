@@ -19,5 +19,7 @@ inputs:
       text: 1mrra 2palukantsyìp 3atsawl 4sì 5layon
       lookup_filter:
         2: 13375:n.:noaffix:nolen
+        3: 2364:adj.:=a-:noinfix:nosuffix:nolen
+        4: 1792:part.:noaffix:nolen
       translations:
         en: 1five 3big 4+5black 2cats

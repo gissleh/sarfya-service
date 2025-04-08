@@ -51,7 +51,9 @@ inputs:
       text: 1Tengkrr 2hu 3palukantsyìp 4(uvan seri) 5zolìm 6oel 7mì 8sa'leng 9a 10'uot 11a 12lu 13txa' 14sì 15ekxtxu.
       lookup_filter:
         3: 13375:n.:noaffix:nolen
+        7: 1108:adp.:noaffix:nolen
         10: 4180:pn.:noprefix:noinfix:=-t:nolen
+        14: 1792:part.:noaffix:nolen
       translations:
         en: 1While 4playing 2with my 3cat 6I 7felt 10something 11+12+13hard 14and 11+12+15rough 7on his 8skin.
     - id: uK5_24gFS4illTCexTgh0A

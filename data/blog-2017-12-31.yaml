@@ -22,8 +22,6 @@ inputs:
         en: 3+1(Happy anniversary) 2{(of your marriage)}!
     - id: vWUcHPbuTHionp0mx3W2HQ
       text: 1Neytiril 2nantangit 3tsolukx 4fte 5peyä 6tìsrawti 7'eykivi'a.
-      lookup_filter:
-        7: 3684:vin.:noprefix:=<eyk iv>:nosuffix:nolen
       translations:
         en: 1Neytiri 3stabbed 2(the viperwolf) 4to 7end 5its 6pain.
     - id: 7zEzLSGZSYyEgTl8EXEEEQ
@@ -37,6 +35,6 @@ inputs:
     - id: ittWEJh5SvWAjVvfKSWA_A
       text: 1Mì 2sangek 3a 4sävllit 5ngolop 6eykyul 7tarponguä.
       lookup_filter:
-        6: 8856:n.:noprefix:noinfix:=-l:nolen
+        1: 1108:adp.:noaffix:nolen
       translations:
         en: 4(The sign) 1+3on 2(the tree trunk) 5(was made by) 6(the leader) 7(of the hunting party).

@@ -101,7 +101,7 @@
     const nextText = input.text;
     loading = true;
     
-    client.parseSentence(input.text).then(newParsed => {
+    client.parseSentence(input.text, true, input.flags.includes("reef_dialect")).then(newParsed => {
       parsed = newParsed
       if (input.lookupFilter == null) {
         input.lookupFilter = {};

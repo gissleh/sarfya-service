@@ -7,6 +7,8 @@ source:
 inputs:
     - id: 7N7Eq8kpRciOnAKuspAJGA
       text: 1Tìkelu 2tìeyktanä 3asìltsan 4längu 5mì 6olo' 7awngeyä 8tìngäzìk.
+      lookup_filter:
+        5: 1108:adp.:noaffix:nolen
       translations:
         en: 4Unfortunately, 1(the lack) 2of 3good 2leadership 5in 7our 6clan 4is 8(a problem).
     - id: Ykf20ieqTDaz866MebzV9g
@@ -46,13 +48,16 @@ inputs:
       text: 1Peioang 2tsun 3mì 4tampay 5kop 6mì 7reym 8rivey?
       lookup_filter:
         2: 2476:vim.:noaffix:nolen
+        3: 1108:adp.:noaffix:nolen
         5: 10476:conj.:noaffix:nolen
+        6: 1108:adp.:noaffix:nolen
       translations:
         en: 1(What animal) 2can 8live both 3in 4(the sea) 5and 6on 7(the land)?
     - id: YEInN485R32Yi1kIhk1pbw
       text: 1Entu 2lu 3tuvoma 4taronyu. 5Kawtut 6na 7po 8ke 9tsole'a 10oel 11mì 12sìrey.
       lookup_filter:
         4: 2008:n.:noaffix:nolen
+        11: 1108:adp.:noaffix:nolen
       translations:
         en: 1Entu 2is 4an 3incredible 4hunter. 10(I)9('ve) 8+11+12never 9seen 5anyone 6like 7him 8+11+12before.
     - id: YZxoAeLwRsiQ7t8t1z4RcA

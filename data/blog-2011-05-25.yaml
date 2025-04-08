@@ -48,7 +48,7 @@ inputs:
       translations:
         en: I 1+2play 3(the i'en).
     - id: tNXRHtWCSM-xZHtgF9J_wQ
-      text: 1Oeri 2skxir 3a 4mì 5syokx 6(tìsraw sengi).
+      text: 1Oeri 2skxir 3a 4mì 5syokx 6(tìsraw sängi|tìsraw sengi).
       translations:
         en: 2(The wound) 3+4on 1my 5hand 6hurts.
     - id: EZA8yRrpSMigo8k8xp5SxA
@@ -121,6 +121,7 @@ inputs:
     - id: X9X5hW82RMiZ0NHnpfKQOA
       text: 1(Nari si)! 2Tsatsko 3lu 4spuwin 5ulte 6ke 7lu 8mi 9txur, 10slä 11oeri 12txanwawe 13leiu. 14Lu 15stxeli 16a 17(sempul)18(ta).
       lookup_filter:
+        2: 2408:n.:=tsa-:noinfix:nosuffix:nolen
         17: 1764:n.:noaffix:nolen
       translations:
         en: 1Careful! 2(That bow) 3is 4old 5+7and 6no 8longer 9strong, 10but 12+13(it means a lot) 14(to me). It 14was 15(a gift) 16+18from my 17father.

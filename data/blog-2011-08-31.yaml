@@ -102,12 +102,14 @@ inputs:
     - id: rSEmMcHbQVG4SY9pZ3BKOw
       text: 1Volin 2oel 3teyngta 4Neytiri 5kä 6(peseng)7(ne).
       lookup_filter:
+        3: 7976:sbd.:noaffix:nolen
         6: 1520:inter.:noaffix:nolen
       translations:
         en: 2I 1asked 3+6where 4Neytiri 5+7(was going).
     - id: 1NQzpyU9Q1-SPK3BD7Zjow
       text: 1Ke 2omum 3oel 4teyngta 5fo 6kä 7(peseng)8(ne).
       lookup_filter:
+        4: 7976:sbd.:noaffix:nolen
         5: 412:pn.:noaffix:nolen
         7: 1520:inter.:noaffix:nolen
       translations:

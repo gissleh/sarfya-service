@@ -19,19 +19,25 @@ inputs:
       text: 1Tengkrr 2zìsìt 3leratem, 4sìlpey 5oe 6tsnì 7zìsìtìl 8amip 9awngaru 10nìwotx 11zamiyevunge 12txana 13fpomit 14sì 15fpomtokxit, 16ulte 17tsnì 18mipa 19fìzìsìt 20sìltsan 21lìyevu 22to 23pum 24a 25'ìlmi'a. 26Slä 27oe 28zenänge 29pivlltxe 30san 31zusawkrrìri 32(txopu si) 34oe 35nìtxan. 36Oeri 37lu 38ayskxe 39mì 40te'lan.
       lookup_filter:
         4: 1800:vin.:noaffix:nolen
+        12: 2500:adj.:noprefix:noinfix:=-a:nolen
+        14: 1792:part.:noaffix:nolen
         20: 1808:adj.:noaffix:nolen
         22: 2224:part.:noaffix:nolen
-        25: 3684:vin.:noprefix:=<ìlm>:nosuffix:nolen
         35: 1312:adv.:noaffix:nolen
+        39: 1108:adp.:noaffix:nolen
       translations: {}
     - id: K2iyrj5DRZSfLemRcnp69A
       text: 1Tìfkeytok 2a 3mì 4tanlokxe 5oeyä 6alu 7(M|Amerika) 8längu 9txewm 10sì 11lehrrap. 12Fkol 13ftxolängey 14na 15eyktan 16tutanti 17a 18tìeyktanìri 19ke 20lu 21pxan 22kaw'it. 23Kifkeyri 24fìtutanìl 25ayaymak 26ke 27tslam 28stum 29ke'ut, 30ulte 31ke 32new 33nivume 34nì'ul. 35Po 36yawne 37lu 38snor 39nì'aw; 40fpom 41txanlokxeyä 42ke 43tsranten. 44Plltxe 45po 46nìtengfya 47na 48'eveng 49a'ewan, 50ke 51na 52fyeyntu. 53Pori 54lu 55snolup 56räptum, 57ulte 58mawl 59aylì'uä 60ke 61lu 62ngay. 63Ran 64peyä 65lu 66kawng. 67Frapor 68a 69ke 70sunu 71por 72(zoplo si). 73(Fratseng)81(mì) 74a 75(tsa'u|tsa)80(ne) 76po 77kä, 78'ul 79tìve'kì.
       lookup_filter:
+        3: 1108:adp.:noaffix:nolen
+        10: 1792:part.:noaffix:nolen
         62: 1356:adj.:noaffix:nolen
         67: 460:pn.:noprefix:noinfix:=-r:nolen
         70: 6376:vin.:noaffix:nolen
         71: 1548:pn.:noprefix:noinfix:=-r:nolen
+        75: 2316:n.:noaffix:nolen
         78: 8516:vin.:noaffix:nolen
+        81: 1108:adp.:noaffix:nolen
       translations: {}
     - id: rV1G5yh3RpmucYR8k6Jbfw
       text: 1Tìeyktanìri 2aysäfpìl 3peyä 4lu 5reng, 6aysìhawl 7lu 8fe'ran. 9Ulte 10ftxoley 11pol 12ayeyktanayti 13a 14lu 15stum 16nìftxan 17kawng 18na 19po. 20Nìngay 21lu 22po 23skxawng.
@@ -41,6 +47,9 @@ inputs:
     - id: 6XCQRXePSiSHPgX4sezvkQ
       text: 1Slä 2tsranten 3frato, 4tsatutan 5layängu 6ye'rìn 7eyktan 8a 9txantur 10frato 11('Rrta)12(mì), 13ulte 14pori 15aysamsä'o 16atìtxurnga' 17frato 18mì 19hifkey 20layu 21mì 22syokx. 23+40Kempe 24po 23sayi? 25Ke 26omum, 27slä 28lu 29oer 30sngumtsim 31a 32pol 33(M-t|Amerikat) 34skiyeva'a, 35ulte 36kxawm 37kifkeyti 38nìwotx 39nìteng.
       lookup_filter:
+        12: 1108:adp.:noaffix:nolen
+        18: 1108:adp.:noaffix:nolen
+        21: 1108:adp.:noaffix:nolen
         39: 1304:adv.:noaffix:nolen
         40: 772:inter.:noaffix:nolen
       translations: {}
@@ -52,11 +61,15 @@ inputs:
         18: 540:conj.:noaffix:nolen
         20: 2476:vim.:noaffix:nolen
         35: 216:pn.:noaffix:nolen
+        37: 2500:adj.:noprefix:noinfix:=-a:nolen
         39: 1796:adv.:noaffix:nolen
+        41: 1108:adp.:noaffix:nolen
         46: 216:pn.:noaffix:nolen
         52: 772:inter.:noaffix:nolen
         57: 1304:adv.:noaffix:nolen
       translations: {}
     - id: Aj5yeB0dQtGCfSWjgVUT0g
       text: '{(}1TSERI 2RUTXE: 3Faysäfpìl 4(faysì''efu)5(sì) 6lu 7pum 8oeyä 9nì''aw, 10kenzen 11pum 12suteyä 13a 14zamolunge 15awngar 16(relit arusikx) 17alu 18Uniltìrantokx.{)}'
+      lookup_filter:
+        5: 1792:part.:noaffix:nolen
       translations: {}

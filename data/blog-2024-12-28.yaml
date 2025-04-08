@@ -15,6 +15,8 @@ inputs:
         en: 1+2Why 3he 4left 6made 5me 6laugh.
     - id: Dg3_RTtFQMCAkiGFHdHq8g
       text: 1Omum 2oel 3teyngta 4lumpe 5po 6holum.
+      lookup_filter:
+        3: 7976:sbd.:noaffix:nolen
       translations:
         en: 2I 1know 3+4why 5he 6left.
     - id: VUQu-N0aTj-Q95sDLufTDQ
@@ -23,6 +25,8 @@ inputs:
         en: 1Please 2clarify 3+4why 5he 6left.
     - id: Y7XG4TjZTNC73HdAWM6pZQ
       text: 1Tìrunìl 2teyngä 3lumpe 4po 5holum 6oeti 7keftxo 8'eykolefu.
+      lookup_filter:
+        2: 13575:sbd.:noaffix:nolen
       translations:
         en: 1(The discovery) 2of 2+3why 4he 5left 7+8saddened 6me.
     - id: JcKdWna2R--EtGLb3WrrKQ
@@ -53,6 +57,7 @@ inputs:
       text: 1Ayoel 2lawk 3teyngta 4lumpe 5po 6holum.
       lookup_filter:
         1: 212:pn.:noprefix:noinfix:=-l:nolen
+        3: 7976:sbd.:noaffix:nolen
       translations:
         en: 1(We)2('re talking about) 3+4why 5he 6left.
     - id: SnwBQKYuSc2VC326fN50HA

@@ -76,6 +76,7 @@ inputs:
     - id: H215yxRcRlyiL0sMvxQgPQ
       text: 1Ngal 2ke 3tslängam 4teyngta 5fìtìngäzìkìri 6pefyinep'ang.
       lookup_filter:
+        4: 7976:sbd.:noaffix:nolen
         6: 9160:inter.:noaffix:nolen
       translations:
         en: 3Unfortunately 1you 2don't 3understand 4+6(how complex) 5(this problem) 4+6is.
@@ -90,7 +91,7 @@ inputs:
     - id: EufUmVJzQuGr3Xd67lAnYw
       text: 1Hufwa 2rolun 3oel 4'a'awa 5kxeyeyti, 6fìtìkangkemvi 7lu 8txantsan 9ka 10wotx.
       lookup_filter:
-        2: 6356:intj.:noaffix:nolen
+        2: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
         9: 676:adp.:noaffix:nolen
       translations:
         en: 1Although 3I 2found 4(a few) 5errors, 6(this piece of work) 7is 9+10generally 8excellent.

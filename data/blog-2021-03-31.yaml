@@ -18,7 +18,7 @@ inputs:
       translations:
         en: 2Her 3words 6moved 1me 6greatly.
     - id: UhIjtXi6TOq5XVtmqmX0OA
-      text: 1Ngey 2(aylì'u)3(ftu) 4wrrzärìp/11(tìpe’ngayt wrrzärìp|wrrzärìp) 5oel 6tìpe'ngayt 7a 8lu 9ngar 10yewla.
+      text: 1Ngey 2(aylì'u)3(ftu) 4+11wrrzärìp 5oel 6tìpe'ngayt/11tìpe'ngayt- 7a 8lu 9ngar 10yewla.
       translations:
         en: 3From 1your 2words, 5I 4+6+11infer 6that 9(you)8('re) 10disappointed.
     - id: Ponfxgj0QbiItRLGhRQIsQ
@@ -54,6 +54,8 @@ inputs:
         en: 4Medicine 1+3against 2(this disease) 5is 5happily 6now 7available.
     - id: o9AoCdolR-untbqdcvK2xg
       text: 1Oel 2ngeyä 3txinfpìlit 4mi 5ke 6tslam.
+      lookup_filter:
+        4: 1096:adv.:noaffix:nolen
       translations:
         en: 1I 4still 5don't 6understand 2your 3(main point).
     - id: tygEWPFjQoSJSVQfqYtgXg

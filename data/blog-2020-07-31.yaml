@@ -16,6 +16,7 @@ inputs:
     - id: Er8kWvamSBiT49d-my-_BA
       text: 1Sran, 2sran, 3oeri 4pìtìk 5tsatsenget 6a 7mì 8tal! 9Fkxake 10nìftxan 11kuma 12terkup!
       lookup_filter:
+        7: 1108:adp.:noaffix:nolen
         11: 8836:conj.:noaffix:nolen
       translations:
         en: 1Yeah, 2yeah, 4scratch 5(that place) 6+7on 3my 8back! 9(It itches) 10+11+12(like crazy)!
@@ -63,5 +64,7 @@ inputs:
         en: 1(Everything's OK).
     - id: PmFofjFNRUe5JJC-ljV8Xw
       text: 1Fraw 2mì 3la'ang.
+      lookup_filter:
+        2: 1108:adp.:noaffix:nolen
       translations:
         en: 1Everything 2+3(is screwed up).

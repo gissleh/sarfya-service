@@ -61,5 +61,7 @@ inputs:
         en: 8(Thank you) 1for 6caring 7(so much) 2about 4our 3language.
     - id: T66wPJtQT0m4WL8e13JEOA
       text: 1Oeri 2tengkrr 3terul 4mì 5na'rìng, 6tsunit 7askien 8(tìsraw seykoli).
+      lookup_filter:
+        4: 1108:adp.:noaffix:nolen
       translations:
         en: 2While 1I 3(was running) 4in 5(the forest), 1I 8hurt 1my 7right 6heel.

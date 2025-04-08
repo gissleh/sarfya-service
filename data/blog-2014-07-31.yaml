@@ -7,6 +7,9 @@ source:
 inputs:
     - id: sX-tDKI4SumFb2xxPa3gGA
       text: 1Mawfwa 2zup 3tompa, 4lu 5ngoa 6atxan 7(fìhapxì)8(mì) 9na'rìngä.
+      lookup_filter:
+        6: 2500:adj.:=a-:noinfix:nosuffix:nolen
+        8: 1108:adp.:noaffix:nolen
       translations:
         en: 1After 2+3rain, 4there's 6(a lot of) 5mud 8in 7(this part) 9(of the forest).
     - id: yoW7gFbaSj-_mKeULBJv3Q

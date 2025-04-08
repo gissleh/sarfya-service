@@ -8,8 +8,8 @@ require (
 	github.com/a-h/templ v0.3.819
 	github.com/aws/aws-lambda-go v1.47.0
 	github.com/awslabs/aws-lambda-go-api-proxy v0.16.2
-	github.com/fwew/fwew-lib/v5 v5.23.4
-	github.com/gissleh/sarfya v1.0.0
+	github.com/fwew/fwew-lib/v5 v5.24.0
+	github.com/gissleh/sarfya v1.1.0
 	github.com/labstack/echo/v4 v4.12.0
 	golang.org/x/sync v0.10.0
 	gopkg.in/yaml.v3 v3.0.1

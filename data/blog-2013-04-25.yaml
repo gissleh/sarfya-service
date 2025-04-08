@@ -58,12 +58,12 @@ inputs:
       translations:
         en: '1Blood 4(is coming) 3(out of )3{(literally: exiting from the inside of)} 2(the wound).'
     - id: aoB8sc91SRWXuobMc6vStw
-      text: 1Fwa 2tsyìl 3Ayramit 4Alusìng 5lu 6sä'eoio 7a 8zene 9frapo 10(sä'eoio sivi) 11fte 12slivu 13taronyu.
+      text: 1Fwa 2tsyìl 3Ayramit 4Alusìng 5lu 6sä'eoio 7a 8zene 9frapo 10sivi/14(sä'eoio sivi|sivi) 11fte 12slivu 13taronyu.
       lookup_filter:
         9: 460:pn.:noaffix:nolen
         13: 2008:n.:noaffix:nolen
       translations:
-        en: 1+2Climbing 3+4Iknimaya 5is 6(a ritual) 7that 9everyone 8has 10(to perform) 11to 12become 13(a hunter).
+        en: 1+2Climbing 3+4Iknimaya 5is 6(a ritual) 7that 9everyone 8has 10+14(to perform) 11to 12become 13(a hunter).
     - id: 57GCM5wgTRC1M1N_GRnQWA
       text: 1Fkxile 2(pewn)3(ta) 4tutéyä 5kur.
       lookup_filter:

@@ -7,6 +7,8 @@ source:
 inputs:
     - id: wOsmnpR9SxSJecr4MgO6KA
       text: 1Ke 2längu 3(fìpostì)4(mì) 5ke'u 6a 7lu 8mip.
+      lookup_filter:
+        4: 1108:adp.:noaffix:nolen
       translations:
         en: 2(I'm afraid there's) 1+5nothing 6+7+8new 4in 3(this post).
     - id: 8szYyLFiRr22uqGHRMLZFQ

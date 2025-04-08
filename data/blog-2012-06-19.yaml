@@ -156,6 +156,8 @@ inputs:
         en: 3(How wide is) 1(the river) 2there?
     - id: tJ0Kgn7jRgWKL7a_8xZ-gw
       text: 1('Rrta)6(mì) 2a 3tampay 4lu 5hoet.
+      lookup_filter:
+        6: 1108:adp.:noaffix:nolen
       translations:
         en: 3(The oceans) 2+6on 1Earth 4are 5vast.
     - id: fH4ChoLuSH2YlpH4P7SKSw

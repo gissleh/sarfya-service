@@ -14,6 +14,7 @@ inputs:
         13Ma 14Eywa {(3X.)}
       lookup_filter:
         3: 1024:adj.:=a-:noinfix:nosuffix:nolen
+        4: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             1O 3beautiful 2forest,

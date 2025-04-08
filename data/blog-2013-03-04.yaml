@@ -19,6 +19,7 @@ inputs:
       text: 1Ke 2tsun 3oe 4tslivam 5teyngta 6tìrusol 7peyä 8lumpe 9fe'ul 10krra 11oe 12(tìng mikyun).
       lookup_filter:
         2: 2476:vim.:noaffix:nolen
+        5: 7976:sbd.:noaffix:nolen
         9: 9680:vin.:noaffix:nolen
       translations:
         en: 3I 1+2can't 4understand 5+8why 7her 6singing 9(gets worse) 10when 11I 12listen.

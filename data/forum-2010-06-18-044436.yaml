@@ -33,6 +33,8 @@ inputs:
         en: 1(I)2('m just fascinated by) 3the 4Na'vi 3language.
     - id: qwpkyLUzR6iBCuXEtK5sdQ
       text: 1Mì 2na'rìng 3(N-ìl|Tsyeykìl) 4loreyuti 5'olampi 6a 7tsaswaw 8WOU 9oer 10nìwotx!
+      lookup_filter:
+        1: 1108:adp.:noaffix:nolen
       translations:
         en: 7(That instant) 6when 3Jake 5touched 4(the Helicoradiam Spiral) 1in 2(the forest) 9I 8was 10totally 8amazed.
     - id: M9qUdh-WTnmhxDvpmNunWg
@@ -73,6 +75,8 @@ inputs:
         en: 3(The ones) 2(who)1('re being patient) 4are 5you 6and 8the 7other 9+10Sprachbund 8members.
     - id: _nepaNC1QIG1ge0pEyp_kg
       text: 1Alo 2ahay 3oe 4zasya'u 5mì 6rewon.
+      lookup_filter:
+        5: 1108:adp.:noaffix:nolen
       translations:
         en: 2Next 1time 3(I)4('ll come) 5in 6(the morning).
     - id: 59uPt2RLSQ-JCnUjrEU1ug

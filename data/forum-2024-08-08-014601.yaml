@@ -13,4 +13,5 @@ inputs:
       text: 1Sunu 2oer 3'a'awa 4lì'fya—5natkenong 6Toitsye, 7(M|Tsyungwen), 8sì 9Na'vi.
       lookup_filter:
         1: 6376:vin.:noaffix:nolen
+        8: 1792:part.:noaffix:nolen
       translations: {}

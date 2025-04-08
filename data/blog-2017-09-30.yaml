@@ -25,6 +25,8 @@ inputs:
         en: 2He 1protested 3that 4it 8was 9unfair 4for 5Akwey 6(to become) 7(clan leader).
     - id: Ccg4StA0Q3-VSnhfv4uSew
       text: 1Eyktanìl 2ngeyä 3säleymkemit 4stolawm 5ulte 6paye'un 7teyngta 8zene 9fko 10(pehem sivi).
+      lookup_filter:
+        7: 7976:sbd.:noaffix:nolen
       translations:
         en: 1(The leader) 4(has heard) 2your 4protest 5and 6(will decide) 7what 8must 9+10(be done).
     - id: FBCoooYVQHeL1o-adXFY0A

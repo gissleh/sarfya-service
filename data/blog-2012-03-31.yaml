@@ -31,6 +31,7 @@ inputs:
     - id: BDUB4CIxQ22ueITu81Odlg
       text: 1Ayskxe 2a 3mì 4sasna'o 5ku'up 6lu 7nìtxan.
       lookup_filter:
+        3: 1108:adp.:noaffix:nolen
         7: 1312:adv.:noaffix:nolen
       translations:
         en: 1(The rocks) 2+3in 4(that pile) 6are 7very 5heavy.
@@ -45,7 +46,7 @@ inputs:
       translations:
         en: 1His 2(ability to fight) 5greatly 4impressed 3(all the warriors).
     - id: -g5fizbJTPmntiWqyMIwQA
-      text: 1Kxari 2(tstu sitswo|tstutswo) 3tsranten 4krra 5ke 6lu 7kea 8säfpìl 9lesar.
+      text: 1Kxari 2tstutswo 3tsranten 4krra 5ke 6lu 7kea 8säfpìl 9lesar.
       translations:
         en: 4When one 6has 5+7no 9useful 8thoughts, 2(the ability to close) one's 1mouth 3(is important).
     - id: uhaTBBfiShGbT-HYob7rRA
@@ -58,5 +59,7 @@ inputs:
         en: 1I 4met 3with 2him.
     - id: AiwCf3NQS7mnR8jCpIJ9KQ
       text: 1Vola 2taronyu 3mì 4na'rìng 5(ultxa soli).
+      lookup_filter:
+        3: 1108:adp.:noaffix:nolen
       translations:
         en: 1Eight 2hunters 5met together 3in 4(the forest).

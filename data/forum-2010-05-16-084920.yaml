@@ -7,6 +7,9 @@ source:
 inputs:
     - id: DaDEKWL1RtW_pzqudt2Jog
       text: 1Oel 2tsole'a 3palulukanit 4atsawl 5frato 6mì 7sìrey.
+      lookup_filter:
+        4: 2364:adj.:=a-:noinfix:nosuffix:nolen
+        6: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             1I 2saw 3the 4(big)5(gest) 3thanator 6in {(my)} 7life.

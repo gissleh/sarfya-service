@@ -89,7 +89,9 @@ inputs:
     - id: 6znXH9ZHREyH8DuGjXNFSg
       text: 1Oe 2'olongokx 3mì 4sray 5a 6txampayìri 7sim, 8slä 9set 10(kelku si) 11mì 12Helutral.
       lookup_filter:
+        3: 1108:adp.:noaffix:nolen
         7: 3816:vin.:noaffix:nolen
+        11: 1108:adp.:noaffix:nolen
       translations:
         en: 1I 2(was born) 3in 4(a town) 5+7near 6(the ocean), 8but 1I 9now 10live 11in 12Hometree.
     - id: kGZJhvS0QcigFp6zl9CyZg

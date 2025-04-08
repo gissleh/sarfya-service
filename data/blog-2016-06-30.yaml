@@ -81,6 +81,7 @@ inputs:
     - id: DdUtBDMLQ06fOXyTCIf4Lw
       text: 1Stiwi 2rä'ä 1si, 3ma 4'eveng! 5(Uvan si) 6mì 7sengo 8alahe.
       lookup_filter:
+        6: 1108:adp.:noaffix:nolen
         7: 4188:pn.:noaffix:=ts→s
       translations:
         en: 2Don't 1(be naughty), 3+4child! 5Play 6+7somewhere 8else.

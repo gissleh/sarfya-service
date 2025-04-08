@@ -54,6 +54,7 @@ inputs:
         35: 4456:conj.:noaffix:nolen
         36: 8740:adp.:noaffix:nolen
         39: 412:pn.:noprefix:noinfix:=-ti:nolen
+        44: 7976:sbd.:noaffix:nolen
         45: 4456:conj.:noaffix:nolen
         47: 412:pn.:noprefix:noinfix:=-ru:nolen
       translations:

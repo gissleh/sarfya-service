@@ -9,11 +9,13 @@ inputs:
       text: 1Tsatsawlultxari 2alu 3(M|SETIkon) 4(amuve|a2ve), 5nolume 6oe 7nìtxan 8teri 9tìtsunslu 10tìreyä 11a 12(hifkey)13(mì) 14alahe.
       lookup_filter:
         7: 1312:adv.:noaffix:nolen
+        13: 1108:adp.:noaffix:nolen
       translations:
         en: 1(At the) 3SETIcon 4II 1conference 6I 5learned 7(a lot) 8about 9(the possibility) 10(of life) 11+13on 14other 12worlds.
     - id: ieVnp1zjTqKA4qoEYsIbtA
       text: 1Mì 2(M|Siätll) 3a 4numultxari 5lì'fyayä 6leNa'vi, 7sìlpey 8oe 9slìyevu 10nga 11numultxatu!
       lookup_filter:
+        1: 1108:adp.:noaffix:nolen
         7: 1800:vin.:noaffix:nolen
       translations:
         en: 8I 7hope 10(you)9+11('ll participate) 4(in the) upcoming 5+6Na'vi 4class 1in 2Seattle!

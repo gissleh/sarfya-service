@@ -38,12 +38,12 @@ export class BackendClient {
     ).then(j => j.input);
   }
 
-  public parseSentence(text: string, lookup: boolean = true): Promise<ParsedSentence> {
+  public parseSentence(text: string, lookup: boolean = true, allowReef: boolean = false): Promise<ParsedSentence> {
     return this.fetch<ParsedSentence>(
       `/api/utils/parse-sentence`, {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({text, lookup})
+        body: JSON.stringify({text, lookup, allowReef})
       }
     );
   }

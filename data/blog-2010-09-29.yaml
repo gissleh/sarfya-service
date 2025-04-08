@@ -47,6 +47,8 @@ inputs:
         en: 3I 2was 4completely 2swamped 2{(overwhelmed)} 1(at work).
     - id: WCX6buwzTPiaTdb3u923gg
       text: 1Peyä 2tìkangkemìl 3mi 4veykrreiyìn 5pot 6nìwotx.
+      lookup_filter:
+        3: 1096:adv.:noaffix:nolen
       translations:
         en: 1His 2work 4is 3still 6completely 4overwhelming 5him 4{(and I'm glad)}.
     - id: 6RIktcF7SrKvtQDYg6tLug

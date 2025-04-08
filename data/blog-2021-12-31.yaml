@@ -58,6 +58,8 @@ inputs:
         en: 1Two 2beautiful 1leaves 5were 5floating 4on 3(the water).
     - id: xE6CJZyaRpGxgwpNMqsFZQ
       text: 1Ke 2omum 3teyngta 4fìuran 5aku'up 6fu 7fwayum 8fu 9wayapx.
+      lookup_filter:
+        3: 7976:sbd.:noaffix:nolen
       translations:
         en: 1+2(It's not known) 3+6whether 4this 5heavy 4boat 7+9will 7float 3+8or 9sink.
     - id: 1iTvT3XsRl-rxqom9q6IEw

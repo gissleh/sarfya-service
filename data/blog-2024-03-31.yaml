@@ -44,6 +44,8 @@ inputs:
         en: 4Your 3explanation 5+6helped 1my 2understanding.
     - id: O8zQLm4hRma47XZvAGnSeQ
       text: 1Fwa 2kahena 3fìuranit 4atsawl 5ftu 6tsray 7oeyä 8ne 9pum 10ngeyä 11layu 12ngäzìk.
+      lookup_filter:
+        4: 2364:adj.:=a-:noinfix:nosuffix:nolen
       translations:
         en: 1(It)11('s going to be) 12difficult 1to 2transport 3this 4large 3boat 5from 7my 6village 8to 9+10yours.
     - id: GZkDJKZxTVaecjMvr03_FQ

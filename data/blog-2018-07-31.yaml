@@ -19,6 +19,9 @@ inputs:
         en: 1I 2(just yawned) 3because 1I 4feel 5tired.
     - id: i09AyZOqSBeYDkWO5TUboQ
       text: 1Keng 2krra 3sänumvi 4(eltur tìtxen) 5ke 4si, 6nga 7sweylu 8txo 9ke 10kxivange 11mì 12numtseng.
+      lookup_filter:
+        2: 8768:conj.:noaffix:nolen
+        11: 1108:adp.:noaffix:nolen
       translations:
         en: 1Even 2when 3(the lesson) 4(is)5(n't) 4interesting, 6you 7+8+9shouldn't 10yawn 11in 12school.
     - id: Yw4AegnSQfGSUZiMla31JA
@@ -52,6 +55,7 @@ inputs:
     - id: 0znfWVqBQcy-3Aw1qp8EtA
       text: 1Naranawmä 2mawl 3mi 4lu 5uo 6tawtxew.
       lookup_filter:
+        3: 1096:adv.:noaffix:nolen
         5: 4056:adp.:noaffix:nolen
       translations:
         en: 2Half 1(of Polyphemus) 4is 3still 5behind 6(the horizon).
@@ -71,10 +75,13 @@ inputs:
       text: 1Ke 2tsun 3ioang 4rivun 5syuvet 6mì 7hllte 8aleyr.
       lookup_filter:
         2: 2476:vim.:noaffix:nolen
+        6: 1108:adp.:noaffix:nolen
       translations:
         en: 3Animals 1+2can't 4find 5food 6in 7the 8frozen 7ground.'
     - id: JjAse3OiR72keBBijWZlpA
       text: 1Mì 2zìsìkrr 3atxawew 4slu 5ayora 6leyr.
+      lookup_filter:
+        1: 1108:adp.:noaffix:nolen
       translations:
         en: 1In 2the 3(very cold) 2season, 5(the lakes) 4+6freeze.
     - id: IkNYSIdZQvC8m-fTa8yEUA

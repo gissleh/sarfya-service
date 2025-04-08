@@ -6,6 +6,7 @@ import (
 	"fmt"
 	fwew "github.com/fwew/fwew-lib/v5"
 	"github.com/gissleh/sarfya"
+	"runtime/debug"
 	"slices"
 	"strings"
 	"sync"
@@ -47,23 +48,18 @@ func (d *dictionary) Entry(ctx context.Context, id string) (*sarfya.DictionaryEn
 	return nil, errors.New("entry not found")
 }
 
-func (d *dictionary) Lookup(ctx context.Context, word string) (entries []sarfya.DictionaryEntry, err error) {
+func (d *dictionary) Lookup(ctx context.Context, word string, allowReef bool) (entries []sarfya.DictionaryEntry, err error) {
 	if ctx.Err() != nil {
 		return nil, ctx.Err()
 	}
 
 	defer func() {
 		if err2 := recover(); err2 != nil {
-			err = fmt.Errorf("panic: %v", err2)
+			err = fmt.Errorf("panic: %s\n %v", err2, string(debug.Stack()))
 		}
 	}()
 
-	if len(word) > 24 {
-		return []sarfya.DictionaryEntry{}, nil
-	}
-
-	// Fwew gets a bit ornery with multi-thread access.
-	res, err := fwew.TranslateFromNaviHash(word, true, false)
+	res, err := fwew.TranslateFromNaviHash(word, true, true, allowReef)
 	if err != nil {
 		return nil, err
 	}

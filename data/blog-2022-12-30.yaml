@@ -13,6 +13,9 @@ inputs:
         14Mipa 15tìreyti, 16mipa 17'itanti.
         21Lawnol 22a 23mì 24te'lan.
         25Lawnol 26a 27mì 28te'lan.
+      lookup_filter:
+        23: 1108:adp.:noaffix:nolen
+        27: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             2I 1experience 3Neteyam,
@@ -52,6 +55,8 @@ inputs:
         25Lawnol 26a 27mì 28te'lan.
       lookup_filter:
         2: 5588:adv.:noaffix:nolen
+        23: 1108:adp.:noaffix:nolen
+        27: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             1+2Welcome, 3+4Kiri.

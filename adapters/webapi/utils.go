@@ -19,7 +19,7 @@ func Utils(group *echo.Group, dict sarfya.Dictionary) {
 		res := make([][]sarfya.DictionaryEntry, len(terms))
 
 		for i, term := range terms {
-			entries, err := dict.Lookup(c.Request().Context(), term)
+			entries, err := dict.Lookup(c.Request().Context(), term, c.QueryParam("allow_reef") == "true")
 			if err != nil {
 				return err
 			}
@@ -34,8 +34,9 @@ func Utils(group *echo.Group, dict sarfya.Dictionary) {
 
 	group.POST("/parse-sentence", func(c echo.Context) error {
 		var input struct {
-			Text   string `json:"text"`
-			Lookup bool   `json:"lookup"`
+			Text      string `json:"text"`
+			Lookup    bool   `json:"lookup"`
+			AllowReef bool   `json:"allowReef"`
 		}
 		if err := c.Bind(&input); err != nil {
 			return err
@@ -53,7 +54,7 @@ func Utils(group *echo.Group, dict sarfya.Dictionary) {
 		if input.Lookup {
 			entries = make(map[int][]entryWithFilter, 16)
 			for id, search := range wordMap {
-				res, err := dict.Lookup(c.Request().Context(), search)
+				res, err := dict.Lookup(c.Request().Context(), search, input.AllowReef)
 				if err != nil {
 					return err
 				}

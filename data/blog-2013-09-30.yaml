@@ -47,8 +47,8 @@ inputs:
     - id: ZzbGlGLtS0--Ble6cuujhQ
       text: 1Woleyn 2Ìstawl 3yeyfyat 4mì 5hllte 6fte 7oeyktivìng 8fraporu 9(tìhawl)10(teri) 11sneyä.
       lookup_filter:
+        4: 1108:adp.:noaffix:nolen
         8: 460:pn.:noprefix:noinfix:=-ru:nolen
-        11: 8240:pn.:noaffix:nolen
       translations:
         en: 2Ìstaw 1drew 3(a line) 4on 5(the ground) 6to 7+10explain 11his 9plan 8(to everyone).
     - id: bWuK9e2-SE-dEGw5seiAJg

@@ -12,15 +12,16 @@ import (
 
 func main() {
 	dict := sarfya.WithDerivedPoS(fwewdictionary.Global())
-	args := strings.Join(os.Args[1:], " ")
 
 	short := false
-	if os.Args[1] == "-s" {
-		args = strings.Join(os.Args[2:], " ")
-		short = true
+	allowReef := false
+	for os.Args[1] == "-s" || os.Args[1] == "-r" {
+		short = os.Args[1] == "-s"
+		allowReef = os.Args[1] == "-r"
+		os.Args = os.Args[1:]
 	}
 
-	res, err := dict.Lookup(context.Background(), args)
+	res, err := dict.Lookup(context.Background(), strings.Join(os.Args[1:], " "), allowReef)
 	if err != nil {
 		log.Fatalln(err)
 		return

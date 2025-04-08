@@ -23,7 +23,9 @@ inputs:
     - id: 5cNyd80wTGCSjghqYQQpjQ
       text: 1Hufwa 2mefo 3leru 4muntxatu 5txankrr, 6mi 7lu 8munsnar 9hona 10tìflrr 11a 12na 13pum 14meyawnetuä 15amip 16nìwotx.
       lookup_filter:
+        1: 4172:conj.:noaffix:nolen
         2: 1076:pn.:noaffix:nolen
+        6: 1096:adv.:noaffix:nolen
       translations:
         en: 1Although 2(the two of them) 3(have been) 4mates 5(a long time), 8they 7still 6have 16all 10the 9adorable 10tenderness 11+12+13+14of 15new 14sweethearts.
     - id: bpmrw0SqQTuN-uNub6oCkQ
@@ -71,8 +73,10 @@ inputs:
     - id: B09zL9AoRku0z9Iy4B4OuQ
       text: 1Txìm 2a'aw 3ke 4tsun 5hiveyn 6mì 7tal 8mefa'liyä.
       lookup_filter:
+        1: 2536:n.:noaffix:nolen
         2: 12:num.:=a-:noinfix:nosuffix:nolen
         4: 2476:vim.:noaffix:nolen
+        6: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             2One 1butt 3+4can't 5sit 6on 7(the backs) 8(of two direhorses).

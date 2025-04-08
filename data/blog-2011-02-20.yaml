@@ -39,6 +39,8 @@ inputs:
             B: 5Not 6yet.
     - id: zyTZdz0yTAGILsvTL71D6g
       text: 1Ngal 2mi 3fìtsengit 4terok 5srak? 6Li 7kä!
+      lookup_filter:
+        2: 1096:adv.:noaffix:nolen
       translations:
         en: 1(You)4('re) 2still 3(here)5(?) 6+7(Get going)!
     - id: RprzE8BdQ7-qVuNDRhP9EA
