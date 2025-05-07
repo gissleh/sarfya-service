@@ -45,6 +45,8 @@ inputs:
         en: 1From 4(the mouth) 3(of a) 2strict 3teacher 5comes 7+8valuable 6instruction.
     - id: JtJ_l4uDTwm8ze9CkKgCgQ
       text: 1Po 2sìn 3pa'li 4fäkolä 5makto 6neto.
+      lookup_filter:
+        2: 4048:adp.:noaffix:nolen
       translations:
         en: 1She 2+4(got on) her 3direhorse and 5rode 6away.
     - id: gyatoDU_SKy2aDylpaVXcw
