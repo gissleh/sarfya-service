@@ -1,0 +1,17 @@
+source:
+    id: forum-2011-07-11-032833
+    date: "2011-07-11"
+    url: https://forum.learnnavi.org/language-updates/some-little-bits-on-tut/
+    title: 'Some little bits on "tut" '
+    author: omängum fra'uti
+inputs:
+    - id: QUWbzsMBSiO8tf8N_jMi3g
+      text: |-
+        A: 1Ngal 2poti 3tsole'a 4srak?
+        B: 5Kehe, 6ngal 7tut?
+        A: 8Srane!
+      translations:
+        en: |-
+            A: 3Did 1you 3see 2him?
+            B: 5No, 7did 6you?
+            A: 8Yes!
