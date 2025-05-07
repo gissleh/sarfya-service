@@ -13,6 +13,8 @@ inputs:
         en: You 3are 4part 2of 1(The People).
     - id: i2g8PDtYQduAReZj8kXAZQ
       text: 1Na'viyä 2luyu 3hapxì.
+      lookup_filter:
+        2: 1044:vin.:noprefix:=<uy>:nosuffix:nolen
       translations:
         en: You 2are 3part 1(of The People).
     - id: PdBf4PApTwG63xIdhkYxag
