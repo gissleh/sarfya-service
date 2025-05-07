@@ -1,0 +1,69 @@
+source:
+    id: blog-2025-03-30
+    date: "2025-03-30"
+    url: https://naviteri.org/2025/04/mevosinga-liu-amip-twenty-new-words/
+    title: Mevosìnga lì’u amip     Twenty new words
+    author: Paul Frommer
+inputs:
+    - id: JPHimLqnQfqn-tU3yQdyTA
+      text: 1Tsayerikìl 2mu'nitkana 3wantsengit 4rolun; 5ke 6tsun 7fko 8pot 9tsive'a 10kaw'it.
+      lookup_filter:
+        4: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1(That hexapede) 4(has found) 3an 2effective 3(hiding place). 8He 5+6can't 7+9(be seen) 10(at all).
+    - id: ONNIerD0Ro6ew3rpYtEj0Q
+      text: 1Fìtìkangkemvi 2hasey 3lu 4napxì 5nì'aw.
+      translations:
+        en: 1(This project) 3is 5only 4partially 2complete.
+    - id: UxLbc2NwRs6wOvje-4NAHw
+      text: 1Rä'ä 2zup 3nemfa 4tsup.
+      translations:
+        en: |-
+            1Don't 2fall 3into 4(the chasm).
+            {(That is, don't fall into the trap that someone has laid for you.)}
+      flags:
+        - proverb
+    - id: jjfglI7sTQS1w2qoC6PK3A
+      text: 1Peyä 2aylì'uri 3atxumnga' 4wätumìl 5pesenget?
+      translations:
+        en: 5(Where is) 4(the antidote) 2for 1his 3poisonous 2words?
+    - id: hF1MBg4zTwuOCRslLdzHoQ
+      text: 1Zola'u 2ftu 3käpxì 4numtsengviyä 5sämewn 6awok.
+      translations:
+        en: 2From 3(the back) 4(of the classroom) 1came 5a 6loud 5sigh.
+    - id: JpXZ-fftSwqTaBxzMXs8SA
+      text: 1Nìwin 2'ìp 3tì'ewan, 4nìwin 5pähem 6tìkoak.
+      lookup_filter:
+        1: 1316:adv.:noaffix:nolen
+        4: 1316:adv.:noaffix:nolen
+      translations:
+        en: 3Youth 2vanishes 1quickly, 6(old age) 5arrives 4quickly.
+    - id: gUGCv2LGQaa_zD7d_CdKgw
+      text: 1Ftumfa 2kxala 3karyuä 4kxa 5za'u 6sänume 7a 8ley.
+      translations:
+        en: 1From 4(the mouth) 3(of a) 2strict 3teacher 5comes 7+8valuable 6instruction.
+    - id: JtJ_l4uDTwm8ze9CkKgCgQ
+      text: 1Po 2sìn 3pa'li 4fäkolä 5makto 6neto.
+      translations:
+        en: 1She 2+4(got on) her 3direhorse and 5rode 6away.
+    - id: gyatoDU_SKy2aDylpaVXcw
+      text: 1Fìtìngäzìkìri 2'efu 3po 4kxäl; 5pori 6tsa'u 7ke 8tsranten 9kaw'it.
+      translations:
+        en: 3(She)2('s) 4apathetic 1(about this problem); 6it 7doesn't 8matter 5(to her) 9(at all).
+    - id: YRnT_7hASVyR2Wv6t7cZzQ
+      text: 1Tìkxalìl 2tìkxälit 3zeyko.
+      translations:
+        en: 1Discipline 3cures 2apathy.
+    - id: J_y_jHT1SQCzP8v_FJR-2A
+      text: 1Nga 2merewn 3pelun, 4ma 5paskalin?
+      lookup_filter:
+        3: 1508:inter.:noaffix:nolen
+      translations:
+        en: 3Why 2are 1you 2sighing, 4+5sweetie?
+    - id: _hUZaCyHQ9OAH4dFtALBhg
+      text: 1Tìkxäl 2lu 3peu? 4Lu 5tskxepay 6a 7mì 8te'lan 9sì 10kxitx 11a 12mì 13eltu.
+      lookup_filter:
+        3: 1528:inter.:noaffix:nolen
+      translations:
+        en: 3What 2is 1apathy? 4It's 5ice 6+7in 8(the heart) 9and 10(a death) 11+12in 13(the brain).

@@ -1,0 +1,22 @@
+source:
+    id: blog-2025-03-21
+    date: "2025-03-21"
+    url: https://naviteri.org/2025/03/conlang-adventure-and-more/
+    title: Conlang Adventure and more
+    author: Paul Frommer
+inputs:
+    - id: BXNoghIuR-CfxJ-wfqaH5g
+      text: 1Tsun 2na'rìng 3lehrrap 4livu, 5ma 6'eveng. 7Zene 8livare 9frakrr.
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+        9: 456:adv.:noaffix:nolen
+      translations:
+        en: 2(The forest) 1can 4be 3dangerous, 5+6child. You 7(need to) 8(be alert) 9(at all times).
+    - id: sGkG4ldqQ02RuQKK9XQugQ
+      text: 1Ngengeyä 2hafyonìri 3irayo, 4ma 5leiokoakte.
+      translations:
+        en: 3(Thank you) 2for 1your 2wisdom, 4+5(respected female elder).
+    - id: FXpraRf4QIqvCroagwOblA
+      text: 1Aysäleymfe'it 2peyä 3yune 4rä'ä. 5Lu 6po 7keve'otu 8nì'aw.
+      translations:
+        en: 4Don't 3(listen to) 2his 1complaints. 6(He)5('s) 8just 7(a troublemaker).
