@@ -3,14 +3,18 @@ package templfrontend
 import (
     "github.com/gissleh/sarfya"
     "github.com/gissleh/sarfya/sarfyaservice"
+    "github.com/gissleh/sarfya-service/emphasis"
     "strconv"
 )
 
-templ searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGroup) {
+templ searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGroup, stresses map[string]*emphasis.FitResult) {
     @searchBox(filter)
     if err != "" {
         <div class="error">{err}</div>
     }
+
+	<div class="warning">The stress accents (underlines) is an experimental feature, so please report any errors that you see!</div>
+
 	for i, group := range groups {
 	    if len(groups) > 1 {
 	        <div class={"group-word-list idx-"+strconv.Itoa(i)}>
@@ -23,7 +27,7 @@ templ searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGr
 	        </div>
 	    }
 	    for _, match := range group.Examples {
-	        @example(match, ctx.Value(langCtxKey).(string))
+	        @example(match, ctx.Value(langCtxKey).(string), stresses[match.ID])
 	    }
 	}
 }
@@ -34,7 +38,7 @@ templ indexPage() {
 
     @searchBox("")
     if ctx.Value(demoCtxKey) != nil {
-        @example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string))
+        @example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), nil)
     }
 
     @queryExample("uvan si", "Search for the verb.")

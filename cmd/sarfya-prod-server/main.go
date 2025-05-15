@@ -4,6 +4,7 @@ import (
 	"flag"
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/adapters/fwewdictionary"
+	"github.com/gissleh/sarfya-service/adapters/jsonemphasisdata"
 	"github.com/gissleh/sarfya-service/adapters/templfrontend"
 	"github.com/gissleh/sarfya-service/adapters/webapi"
 	"github.com/gissleh/sarfya/adapters/jsonstorage"
@@ -18,6 +19,7 @@ import (
 
 var flagSourceFile = flag.String("source-file", "./data-compiled.json", "File containing data.")
 var flagListenAddr = flag.String("listen", ":$PORT", "Listen address")
+var flagEmphasisFile = flag.String("emphasis-file", "./stress-data.json", "File containing stress data.")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
@@ -42,9 +44,15 @@ func main() {
 
 	api.File("/data.json", *flagSourceFile)
 
+	emphasisStorage, err := jsonemphasisdata.Load(*flagEmphasisFile)
+	if err != nil {
+		log.Fatalln("Failed to load emphasis:", err)
+		return
+	}
+
 	webapi.Utils(api.Group("/api/utils"), dict)
-	webapi.Examples(api.Group("/api/examples"), svc)
-	templfrontend.Endpoints(api.Group(""), svc)
+	webapi.Examples(api.Group("/api/examples"), svc, emphasisStorage)
+	templfrontend.Endpoints(api.Group(""), svc, emphasisStorage)
 
 	log.Println("Listening on", *flagListenAddr)
 

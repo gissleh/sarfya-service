@@ -2,6 +2,7 @@ package webapi
 
 import (
 	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
 	"github.com/gissleh/sarfya/sarfyaservice"
 	"github.com/labstack/echo/v4"
 	"log"
@@ -10,7 +11,7 @@ import (
 	"time"
 )
 
-func Examples(group *echo.Group, svc *sarfyaservice.Service) {
+func Examples(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emphasis.Storage) {
 	group.GET("/:search", func(c echo.Context) error {
 		search, err := url.QueryUnescape(c.Param("search"))
 		if err != nil {
@@ -25,8 +26,22 @@ func Examples(group *echo.Group, svc *sarfyaservice.Service) {
 			return err
 		}
 
+		stressAnnotations := make(map[string]emphasis.FitResult)
+		if emphasisStorage != nil {
+			for _, group := range res {
+				for _, example := range group.Examples {
+					fitResult, err := emphasisStorage.FindEmphasis(c.Request().Context(), example.ID)
+					if err != nil {
+						return err
+					}
+
+					stressAnnotations[example.ID] = *fitResult
+				}
+			}
+		}
+
 		duration := time.Since(startTime)
-		if duration > time.Millisecond*100 {
+		if duration > time.Millisecond*200 {
 			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
 		}
 
@@ -37,15 +52,17 @@ func Examples(group *echo.Group, svc *sarfyaservice.Service) {
 			}
 
 			return c.JSON(http.StatusOK, map[string]any{
-				"groups":      compacts,
-				"executionMs": duration.Seconds() * 1000.0,
-				"lang":        compactLang,
+				"groups":            compacts,
+				"executionMs":       duration.Seconds() * 1000.0,
+				"lang":              compactLang,
+				"stressAnnotations": stressAnnotations,
 			})
 		}
 
 		return c.JSON(http.StatusOK, map[string]any{
-			"examples":    res,
-			"executionMs": duration.Seconds() * 1000.0,
+			"examples":          res,
+			"executionMs":       duration.Seconds() * 1000.0,
+			"stressAnnotations": stressAnnotations,
 		})
 	})
 

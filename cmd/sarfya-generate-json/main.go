@@ -22,7 +22,7 @@ func main() {
 		placeholderdictionary.New(),
 	}
 
-	sourceStorage, err := sourcestorage.Open(context.Background(), *flagSourceDir, dict)
+	sourceStorage, err := sourcestorage.Open(context.Background(), "https://localhost:8001", *flagSourceDir, dict)
 	if err != nil {
 		log.Fatal("Failed to open source storage:", err)
 	}

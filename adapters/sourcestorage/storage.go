@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
 	"golang.org/x/sync/errgroup"
 	"gopkg.in/yaml.v3"
 	"log"
@@ -17,6 +18,8 @@ type Storage struct {
 	mu         sync.Mutex
 	path       string
 	examples   []sarfya.Example
+	emphasises []emphasis.Input
+	litxap     *emphasis.LitxapClient
 	dictionary sarfya.Dictionary
 }
 
@@ -85,6 +88,29 @@ func (s *Storage) FetchExamples(ctx context.Context, filter *sarfya.Filter, reso
 	return res, nil
 }
 
+func (s *Storage) FindEmphasis(ctx context.Context, id string) (*emphasis.FitResult, error) {
+	if ctx.Err() != nil {
+		return nil, ctx.Err()
+	}
+
+	example, err := s.FindExample(ctx, id)
+	if err != nil {
+		return nil, err
+	}
+
+	s.mu.Lock()
+	var input emphasis.Input
+	for _, existing := range s.emphasises {
+		if existing.ID == id {
+			input = *existing.Copy()
+			break
+		}
+	}
+	s.mu.Unlock()
+
+	return emphasis.Run(ctx, s.litxap, example, input)
+}
+
 func (s *Storage) AllExamples() []sarfya.Example {
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -126,6 +152,30 @@ func (s *Storage) SaveExample(ctx context.Context, example sarfya.Example) error
 	return s.save(example.Source)
 }
 
+func (s *Storage) SaveEmphasisInput(ctx context.Context, input emphasis.Input) error {
+	if err := ctx.Err(); err != nil {
+		return err
+	}
+
+	example, err := s.FindExample(ctx, input.ID)
+	if err != nil {
+		return err
+	}
+
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	for i, existing := range s.emphasises {
+		if existing.ID == input.ID {
+			s.emphasises[i] = input
+			return nil
+		}
+	}
+	s.emphasises = append(s.emphasises, input)
+
+	return s.save(example.Source)
+}
+
 func (s *Storage) DeleteExample(ctx context.Context, example sarfya.Example) error {
 	if err := ctx.Err(); err != nil {
 		return err
@@ -137,6 +187,13 @@ func (s *Storage) DeleteExample(ctx context.Context, example sarfya.Example) err
 	for i, existing := range s.examples {
 		if existing.ID == example.ID {
 			s.examples = append(s.examples[:i], s.examples[i+1:]...)
+			break
+		}
+	}
+	for i, existing := range s.emphasises {
+		if existing.ID == example.ID {
+			s.emphasises = append(s.emphasises[:i], s.emphasises[i+1:]...)
+			break
 		}
 	}
 
@@ -192,13 +249,19 @@ func (s *Storage) save(source sarfya.Source) error {
 			}
 			input.Source = sarfya.Source{}
 			savedData.Inputs = append(savedData.Inputs, *input)
+
+			for _, emphasisInput := range s.emphasises {
+				if emphasisInput.ID == example.ID {
+					savedData.Emphasis = append(savedData.Emphasis, *emphasisInput.Copy())
+				}
+			}
 		}
 	}
 
 	return yaml.NewEncoder(f).Encode(savedData)
 }
 
-func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary) (*Storage, error) {
+func Open(ctx context.Context, litxapApiURL string, storagePath string, dictionary sarfya.Dictionary) (*Storage, error) {
 	stat, err := os.Stat(storagePath)
 	if os.IsNotExist(err) {
 		err := os.MkdirAll(storagePath, 0766)
@@ -264,10 +327,11 @@ func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary)
 		return nil, err
 	}
 
-	return &Storage{path: storagePath, examples: examples[:nextOffset], dictionary: dictionary}, nil
+	return &Storage{path: storagePath, litxap: &emphasis.LitxapClient{ApiURL: litxapApiURL}, examples: examples[:nextOffset], dictionary: dictionary}, nil
 }
 
 type sourceFileData struct {
-	Source sarfya.Source  `yaml:"source"`
-	Inputs []sarfya.Input `yaml:"inputs"`
+	Source   sarfya.Source    `yaml:"source"`
+	Inputs   []sarfya.Input   `yaml:"inputs"`
+	Emphasis []emphasis.Input `yaml:"emphasis"`
 }

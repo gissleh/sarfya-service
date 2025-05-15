@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"github.com/a-h/templ"
 	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
 	"github.com/gissleh/sarfya/sarfyaservice"
 	"github.com/labstack/echo/v4"
 	"io/fs"
@@ -18,7 +19,7 @@ import (
 //go:embed assets/*
 var assets embed.FS
 
-func Endpoints(group *echo.Group, svc *sarfyaservice.Service) {
+func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emphasis.Storage) {
 	outputHtml := func(c echo.Context, code int, component templ.Component) error {
 		c.Response().Header().Add("Content-Type", "text/html; charset=utf-8")
 		c.Response().WriteHeader(code)
@@ -76,41 +77,37 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service) {
 	group.GET("/search/:search", func(c echo.Context) error {
 		search, err := url.QueryUnescape(c.Param("search"))
 		if err != nil {
-			return outputHtml(c, http.StatusUnprocessableEntity, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil)))
+			return outputHtml(c, http.StatusUnprocessableEntity, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil, nil)))
 		}
 
 		startTime := time.Now()
 		res, err := svc.QueryExample(c.Request().Context(), search)
 		if err != nil {
-			return outputHtml(c, http.StatusInternalServerError, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil)))
+			return outputHtml(c, http.StatusInternalServerError, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil, nil)))
+		}
+
+		stressAnnotations := make(map[string]*emphasis.FitResult)
+		if emphasisStorage != nil {
+			for _, group := range res {
+				for _, example := range group.Examples {
+					stress, err := emphasisStorage.FindEmphasis(c.Request().Context(), example.ID)
+					if err != nil {
+						return outputHtml(c, http.StatusInternalServerError, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil, nil)))
+					}
+
+					if len(stress.Ambiguities) == 0 && len(stress.MissingParts) == 0 {
+						stressAnnotations[example.ID] = stress
+					}
+				}
+			}
 		}
 
 		duration := time.Since(startTime)
-		if duration > time.Millisecond*100 {
+		if duration > time.Millisecond*200 {
 			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
 		}
 
-		return outputHtml(c, 200, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, "", res)))
-	})
-
-	group.GET("/search", func(c echo.Context) error {
-		search, err := url.QueryUnescape(c.QueryParam("q"))
-		if err != nil {
-			return outputHtml(c, http.StatusUnprocessableEntity, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil)))
-		}
-
-		startTime := time.Now()
-		res, err := svc.QueryExample(c.Request().Context(), search)
-		if err != nil {
-			return outputHtml(c, http.StatusInternalServerError, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil)))
-		}
-
-		duration := time.Since(startTime)
-		if duration > time.Millisecond*30 {
-			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
-		}
-
-		return outputHtml(c, 200, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, "", res)))
+		return outputHtml(c, 200, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, "", res, stressAnnotations)))
 	})
 
 	group.GET("/fragments/example/:id", func(c echo.Context) error {
@@ -142,6 +139,6 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service) {
 			})
 		}
 
-		return outputHtml(c, 200, example(*match, c.Request().Context().Value(langCtxKey).(string)))
+		return outputHtml(c, 200, example(*match, c.Request().Context().Value(langCtxKey).(string), nil))
 	})
 }

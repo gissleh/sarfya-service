@@ -16,6 +16,7 @@ import (
 
 var flagSourceDir = flag.String("source-dir", "./data", "Source directory")
 var flagListenAddr = flag.String("listen", ":8080", "Listen address")
+var flagLitxapApi = flag.String("litxap-api", "http://localhost:8081", "Litxap root address")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
@@ -23,7 +24,7 @@ func main() {
 		placeholderdictionary.New(),
 	}
 
-	storage, err := sourcestorage.Open(context.Background(), *flagSourceDir, dict)
+	storage, err := sourcestorage.Open(context.Background(), *flagLitxapApi, *flagSourceDir, dict)
 	if err != nil {
 		log.Fatal("Failed to open storage:", err)
 	}
@@ -34,8 +35,8 @@ func main() {
 	api, errCh := webapi.Setup(*flagListenAddr)
 
 	webapi.Utils(api.Group("/api/utils"), dict)
-	webapi.Examples(api.Group("/api/examples"), svc)
-	templfrontend.Endpoints(api.Group(""), svc)
+	webapi.Examples(api.Group("/api/examples"), svc, storage)
+	templfrontend.Endpoints(api.Group(""), svc, storage)
 
 	go func() {
 		example, err := storage.FetchExamples(context.Background(), nil, nil)

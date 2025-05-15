@@ -10,11 +10,12 @@ import templruntime "github.com/a-h/templ/runtime"
 
 import (
 	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
 	"github.com/gissleh/sarfya/sarfyaservice"
 	"strconv"
 )
 
-func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGroup) templ.Component {
+func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGroup, stresses map[string]*emphasis.FitResult) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
@@ -47,7 +48,7 @@ func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGro
 			var templ_7745c5c3_Var2 string
 			templ_7745c5c3_Var2, templ_7745c5c3_Err = templ.JoinStringErrs(err)
 			if templ_7745c5c3_Err != nil {
-				return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/pages.templ`, Line: 12, Col: 31}
+				return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/pages.templ`, Line: 13, Col: 31}
 			}
 			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var2))
 			if templ_7745c5c3_Err != nil {
@@ -58,6 +59,10 @@ func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGro
 				return templ_7745c5c3_Err
 			}
 		}
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "<div class=\"warning\">The stress accents (underlines) is an experimental feature, so please report any errors that you see!</div>")
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
 		for i, group := range groups {
 			if len(groups) > 1 {
 				var templ_7745c5c3_Var3 = []any{"group-word-list idx-" + strconv.Itoa(i)}
@@ -65,7 +70,7 @@ func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGro
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
-				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "<div class=\"")
+				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 4, "<div class=\"")
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
@@ -78,49 +83,49 @@ func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGro
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
-				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 4, "\">")
+				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 5, "\">")
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
 				for _, entry := range group.Entries {
-					templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 5, "<div class=\"word\"><span class=\"word\">")
+					templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "<div class=\"word\"><span class=\"word\">")
 					if templ_7745c5c3_Err != nil {
 						return templ_7745c5c3_Err
 					}
 					var templ_7745c5c3_Var5 string
 					templ_7745c5c3_Var5, templ_7745c5c3_Err = templ.JoinStringErrs(entry.Word)
 					if templ_7745c5c3_Err != nil {
-						return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/pages.templ`, Line: 19, Col: 51}
+						return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/pages.templ`, Line: 23, Col: 51}
 					}
 					_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var5))
 					if templ_7745c5c3_Err != nil {
 						return templ_7745c5c3_Err
 					}
-					templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "</span> <span class=\"pos\">(")
+					templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 7, "</span> <span class=\"pos\">(")
 					if templ_7745c5c3_Err != nil {
 						return templ_7745c5c3_Err
 					}
 					var templ_7745c5c3_Var6 string
 					templ_7745c5c3_Var6, templ_7745c5c3_Err = templ.JoinStringErrs(entry.OriginalPoS)
 					if templ_7745c5c3_Err != nil {
-						return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/pages.templ`, Line: 20, Col: 59}
+						return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/pages.templ`, Line: 24, Col: 59}
 					}
 					_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var6))
 					if templ_7745c5c3_Err != nil {
 						return templ_7745c5c3_Err
 					}
-					templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 7, ")</span></div>")
+					templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 8, ")</span></div>")
 					if templ_7745c5c3_Err != nil {
 						return templ_7745c5c3_Err
 					}
 				}
-				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 8, "</div>")
+				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 9, "</div>")
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
 			}
 			for _, match := range group.Examples {
-				templ_7745c5c3_Err = example(match, ctx.Value(langCtxKey).(string)).Render(ctx, templ_7745c5c3_Buffer)
+				templ_7745c5c3_Err = example(match, ctx.Value(langCtxKey).(string), stresses[match.ID]).Render(ctx, templ_7745c5c3_Buffer)
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
@@ -151,7 +156,7 @@ func indexPage() templ.Component {
 			templ_7745c5c3_Var7 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 9, "<h1>Sarfya</h1><h6>Säsrung a fwew sìkenongit</h6>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 10, "<h1>Sarfya</h1><h6>Säsrung a fwew sìkenongit</h6>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -160,7 +165,7 @@ func indexPage() templ.Component {
 			return templ_7745c5c3_Err
 		}
 		if ctx.Value(demoCtxKey) != nil {
-			templ_7745c5c3_Err = example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string)).Render(ctx, templ_7745c5c3_Buffer)
+			templ_7745c5c3_Err = example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), nil).Render(ctx, templ_7745c5c3_Buffer)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

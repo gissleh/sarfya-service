@@ -6,14 +6,16 @@ import (
 	"fmt"
 	"github.com/a-h/templ"
 	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
 	"io"
 	"strconv"
 	"strings"
+	"unicode/utf8"
 )
 
 // sentence is a templ code that generates <a>s and <span>s for the sentence parts.
 // This cannot be a normal .templ component since templ inserts spaces for every if-statement.
-func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, wordMap map[int][]sarfya.DictionaryEntry, sentence sarfya.Sentence) templ.Component {
+func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, wordMap map[int][]sarfya.DictionaryEntry, sentence sarfya.Sentence, stress *emphasis.FitResult) templ.Component {
 	id = templ.EscapeString(id)
 	language = templ.EscapeString(language)
 	className := "sentence lang-" + language
@@ -46,6 +48,49 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 		return sb.String()
 	}
 
+	// writeStressed applies stress, if there is any, otherwise just writes the escaped raw text.
+	writeStressed := func(w *bufio.Writer, partIndex int, rawText string) {
+		if stress != nil && len(stress.Underlinings[partIndex]) > 0 {
+			var currBytes, iOffset int
+			for _, pos := range stress.Underlinings[partIndex] {
+				// Convert rune offsets to byte offsets
+				pos0 := currBytes
+				var pos1 int
+				for i := iOffset; i < pos[0]+pos[1]; i += 1 {
+					if i == pos[0] {
+						pos1 = currBytes
+					}
+					_, size := utf8.DecodeRuneInString(rawText[currBytes:])
+					currBytes += size
+				}
+
+				// Multiple stresses are not stored relative to each other
+				iOffset = pos[0] + pos[1]
+
+				// Unressed part, if any
+				if pos0 != pos1 {
+					_, _ = w.WriteString("<span>")
+					_, _ = w.WriteString(templ.EscapeString(rawText[pos0:pos1]))
+					_, _ = w.WriteString("</span>")
+				}
+
+				// Underline the stressed part
+				_, _ = w.WriteString("<u>")
+				_, _ = w.WriteString(templ.EscapeString(rawText[pos1:currBytes]))
+				_, _ = w.WriteString("</u>")
+			}
+
+			// Write the remaining unstressed text
+			if currBytes != len(rawText) {
+				_, _ = w.WriteString("<span>")
+				_, _ = w.WriteString(templ.EscapeString(rawText[currBytes:]))
+				_, _ = w.WriteString("</span>")
+			}
+		} else {
+			_, _ = w.WriteString(templ.EscapeString(rawText))
+		}
+	}
+
 	return templ.ComponentFunc(func(ctx context.Context, w io.Writer) error {
 		bw := bufio.NewWriterSize(w, 128)
 		_, _ = bw.WriteString("<div class=\"")
@@ -73,7 +118,7 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 				_, _ = bw.WriteString("\" data-ids=\"")
 				_, _ = bw.WriteString(idList(part.IDs))
 				_, _ = bw.WriteString("\">")
-				_, _ = bw.WriteString(templ.EscapeString(part.RawText()))
+				writeStressed(bw, i, part.RawText())
 				_, _ = bw.WriteString("</a>")
 			} else {
 				wrapInSpan := len(part.IDs) > 0 || inSpan[i] || inAdjacent[i]
@@ -92,7 +137,7 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 					_, _ = bw.WriteString(">")
 				}
 
-				_, _ = bw.WriteString(templ.EscapeString(part.RawText()))
+				writeStressed(bw, i, part.RawText())
 
 				if wrapInSpan {
 					_, _ = bw.WriteString("</span>")
