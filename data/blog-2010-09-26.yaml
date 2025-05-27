@@ -51,7 +51,9 @@ inputs:
       lookup_filter:
         1: 356:pn.:noaffix:nolen
       translations:
-        en: 1This 2is 3Ìstaw.
+        en: |-
+            1This 2is 3Ìstaw.
+            {(Using fì'u for a person would be highly insulting.)}
     - id: HDM4AIFzRTuyzI75yTVK0A
       text: 1Fìpor 2syaw 3fko 4Ìstaw.
       lookup_filter:
@@ -68,7 +70,9 @@ inputs:
         3: 2476:vim.:noaffix:nolen
         14: 208:pn.:noprefix:noinfix:=-ri:nolen
       translations:
-        en: 1Hi! 2(Excuse me). 3May I 4interrupt 5(a moment)6(?) 7(I)8('m) 9Va'ru 10+11+13from 12(the plains). 16(How about) 14+15you?
+        en: |-
+            1Hi! 2(Excuse me). 3May I 4interrupt 5(a moment)6(?) 7(I)8('m) 9Va'ru 10+11+13from 12(the plains). 16(How about) 14+15you?
+            {(This can be accompanied with the “I See you” hand gesture in the appropriate context and atmosphere. The gesture increases the level of formality.)}
     - id: pejlzRREQrSW_ohDUz4PrA
       text: 1Kaltxì. 2Nga 3lu 4Sorewn, 5kefyak? 6Oer 7syaw 8fko 9Tsenu. 10Tsatsmukel 11alu 12Rini 13molok 14futa 15oe 16ngar 17muwäpivìntxu. 18Poltxe 19po 20san 21Sorewnìl 22kan'ìn 23tì'emit 24nìtxan 25ulte 26kxawm 27tsatxele 28(menga)29(ne) 30za'atsu 31nì'eng.
       lookup_filter:
@@ -76,3 +80,70 @@ inputs:
         24: 1312:adv.:noaffix:nolen
       translations:
         en: 1Hi. 2(You)3('re) 4Sorewn, 5right? 6(I)7+8('m) 9Tsenu. 10Sister 11+12Rini 10(over there) 13suggested 14that 15I 17+16(introduce myself). 19She 18said, 20(“)21(Sorewn) 22is 24really 22into 23cooking, 25and 26perhaps 28(the two of you) 29+30+31(might share) 27(that matter) 29+30+31(in common).”
+    - id: nRFiiuPZTqaEBqUC8Oo0-g
+      text: 1Po 2smon 3oer
+      translations:
+        en: |-
+            1He 2(is familiar) 3(to me).
+            {(I know him)}
+    - id: fWBhyUvoTo2g7UZkG5ZFew
+      text: 1Po 2läpolawk
+      translations:
+        en: 1He 2(talked about himself)
+    - id: svq-pPc0QiqzBxZ6MiO0Bw
+      text: 1Pol 2moläkxu 3ultxati.
+      translations:
+        en: |-
+            1He 2interrupted 3(the meeting).
+            {(It does not necessarily have a negative connotation even though it evolved from a compound containing the component kxu, which in other contexts is clearly 'harm.')}
+    - id: jCLdqEdSRuG3P1yBMs_BRw
+      text: 1Hìtxoa, 2ke 3new 4oel 5futa 6fìtìpängkxot 7ayngeyä 8hivultstxem, 9slä 10tsun 11miväkxu 12hìkrr 13nì'aw 14srak?
+      translations:
+        en: 1(Excuse me). 4I 2don't 3want 5to 8derail 7your 6chat, 9but 10can I 11interrupt 12for 13just 12(a moment)14(?)
+    - id: 4CByyBVMR_mVRE8v00xYLA
+      text: 1Entul 2kan'ìn 3tìwusemit.
+      translations:
+        en: 1Entu 2(specializes in) 3fighting.
+    - id: NYqofCW0QmG7WJejmTEz4w
+      text: 1za'u 2nì'eng
+      translations:
+        en: |-
+            1come 2(in a level or equal manner).
+            {(share an interest in common)}
+    - id: FlEFzdJRRmqLO53OP9bh_A
+      text: 1Tìrusol 2za'u 3ne 4fo 5nì'eng
+      lookup_filter:
+        4: 412:pn.:noaffix:nolen
+      translations:
+        en: |-
+            1Singing 2comes 3to 4them 5equally.
+            {(They share an interest in singing.)}
+    - id: ucuOAS0MSgW0lQdgqzTZcg
+      text: 1(N|Loak) 2(kaltxì soli) 3oer.
+      translations:
+        en: 1Loak 2greeted 3me.
+    - id: 6SJsDpN8Sle6FUUn_OLM_A
+      text: 1(N|Loak) 2poltxe 3oeru 4san 5kaltxì 6{(sìk)}
+      lookup_filter:
+        6: 1796:adv.:noaffix:nolen
+      translations:
+        en: 1Loak 2+4+5+6greeted 3me.
+    - id: dn0nGI4CR8ST6cNwspvNAA
+      text: 1Oe 2zola'u 3ftu 4Pari
+      translations:
+        en: 1I 2came 3from 4Paris
+    - id: RGk6FVkiQEeM0_-pubmZLw
+      text: 1Oel 2kan'ìn 3tì'emit.
+      translations:
+        en: 1(I)2('m into) 3(the study of cooking and cuisine).
+    - id: 0XVhWZdJSHCC1GnQHc-tjQ
+      text: 1Oel 2kan'ìn 3tì'usemit.
+      translations:
+        en: 1I 2enjoy 3(the activity of cooking).
+    - id: yJgTmAd3TTuIFnn-U9e3wQ
+      text: 1Oel 2muwivìntxu 3ngaru 4oeyä 5lertut.
+      translations:
+        en: |-
+            2Allow 1me 2(to introduce) 4my 5colleague.
+            {(Pandorans almost always omit the first two words as being “understood.”)}
+emphasis: []

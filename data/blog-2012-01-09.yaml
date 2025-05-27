@@ -30,9 +30,7 @@ inputs:
     - id: j0uQlgiwQVKqER5YhYDnnA
       text: 1Maw 2sätswayon 3ayol 4ayoe 5kllpolä 6mì 7tayo 8a 9lu 10rofa 11kilvan.
       lookup_filter:
-        3: 2756:adj.:=a-:noinfix:nosuffix:nolen
         4: 212:pn.:noaffix:nolen
-        6: 1108:adp.:noaffix:nolen
         11: 804:n.:noaffix:nolen
       translations:
         en: 1After 2a 3short 2flight 4we 5landed 6in 7(a field) 8+9+10beside 11(the river).
@@ -92,13 +90,11 @@ inputs:
     - id: vqrmXu-1QN-XiAZfyyIoVQ
       text: 1Ngeyä 2faysäfngo'ìl 3nìwotx 4steykerängi 5oeti 6nìhawng.
       translations:
-        en: 3All 2(these demands) 1(of yours) 3(are making) 5me 6exceedingly 3angry.
+        en: 3All 2(these demands) 1(of yours) 4(are making) 5me 6exceedingly 4angry.
     - id: KPM9pzVXRxW3mOK-cfrujA
       text: 1(Fìslär)7(mì) 2tsun 3fko 4stivawm 5ngamit 6apxay.
       lookup_filter:
         2: 2476:vim.:noaffix:nolen
-        6: 1592:adj.:=a-:noinfix:nosuffix:nolen
-        7: 1108:adp.:noaffix:nolen
       translations:
         en: 3You 2can 4hear 6(a lot of) 5echoes 7in 1(this cave).
     - id: UZDuitJwTRu-xpFMfsHgyw
@@ -107,9 +103,6 @@ inputs:
         en: 1+2(The words) 3mungwrr 4and 5nìfkrr 6rhyme.
     - id: ypL6Jho5TymBaKGHod_MRw
       text: 1New 2Rini 3sì 4Ralu 5muntxa 6slivu, 7slä 8(tì'efu)9(mì) 10oeyä, 11ngampam 12ke 11si.
-      lookup_filter:
-        3: 1792:part.:noaffix:nolen
-        9: 1108:adp.:noaffix:nolen
       translations:
         en: 2Rini 3and 4Ralu 1(want to) 5+6marry, 7but 8+9+10(I feel) 11they're 12not 11compatible.
     - id: QHBgBZDiSS6ExRQvkXSdtA
@@ -172,7 +165,6 @@ inputs:
       text: 1Srake 2tsun 3nga 4rivun 5(fìtìfkeytok)8(mì) 6a 7tì'iput?
       lookup_filter:
         2: 2476:vim.:noaffix:nolen
-        8: 1108:adp.:noaffix:nolen
       translations:
         en: 2Can 3you 4find 7(the humor) 6+8in 5(this situation)?
     - id: x2I9yXJ1TgCx2BT0g25qcg
@@ -189,3 +181,4 @@ inputs:
       text: 1Aylì'uvan 2aswey 3lu 4'ipu, 5lu 6sìlronsem.
       translations:
         en: 1The 2best 1puns 3+5(are both) 4funny 3+5and 6clever.
+emphasis: []
