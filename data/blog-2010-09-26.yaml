@@ -146,4 +146,10 @@ inputs:
         en: |-
             2Allow 1me 2(to introduce) 4my 5colleague.
             {(Pandorans almost always omit the first two words as being “understood.”)}
+    - id: KAkN9-2PRr-qwS1KYXdypQ
+      text: 1Poel 2oeti 3larmawk
+      lookup_filter:
+        1: 1556:pn.:noprefix:noinfix:=-l:nolen
+      translations:
+        en: 1She 3(was talking about) 2me.
 emphasis: []

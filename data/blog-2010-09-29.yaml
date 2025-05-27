@@ -10,7 +10,7 @@ inputs:
       translations:
         en: |-
             1Hi. 4+5Who 3are 2you?
-            {(This is one place where the honoric form of the pronoun is standard.)}
+            {[This is one place where the honoric form of the pronoun is standard.]}
     - id: rndzC0nfRo2a0rXj6KUBeA
       text: 1Fyape 2fko 3syaw 4ngar?
       translations:
@@ -22,11 +22,11 @@ inputs:
       translations:
         en: 1+2+3(My name is) 4Txewì.
     - id: XR4PUbX0QJSN1y2SNsWMBQ
-      text: 1'Awa 2swawtsyìp. 3Oe 4fperìl.
+      text: 1'Awa 2swawtsyìp {(}5livu 6oer{)}. 3Oe 4fperìl.
       lookup_filter:
         2: 6860:n.:noaffix:nolen
       translations:
-        en: 1+2(Just a tiny moment). 3(I)4('m thinking).
+        en: 1+2+5+6(Just a tiny moment). 3(I)4('m thinking).
     - id: oHUiLZgLQHiiYz0PTfV9eg
       text: 1Nga 2(pesu)3(hu) 4käteng 5nìtrrtrr?
       translations:
@@ -47,8 +47,6 @@ inputs:
         en: 3I 2was 4completely 2swamped 2{(overwhelmed)} 1(at work).
     - id: WCX6buwzTPiaTdb3u923gg
       text: 1Peyä 2tìkangkemìl 3mi 4veykrreiyìn 5pot 6nìwotx.
-      lookup_filter:
-        3: 1096:adv.:noaffix:nolen
       translations:
         en: 1His 2work 4is 3still 6completely 4overwhelming 5him 4{(and I'm glad)}.
     - id: 6RIktcF7SrKvtQDYg6tLug
@@ -86,3 +84,18 @@ inputs:
         en: |-
             A: 2Are 3you 2(good at) 4+5(Na'vi)1(?)
             B: 6No, 9I 12totally 11(suck at) 10it, 7+8+13but 16I 7+8+13still 14+15(love it) 17(to death).
+    - id: 5WUjSspGRMWo3mwAKbe44w
+      text: 1Ngari 2tstxo 3lu 4pelì'u?
+      translations:
+        en: |-
+            4What 3is 1your 2name?
+            {[It's not wrong, but there's a more idiomatic way to ask the question]}
+    - id: 9do7tSTlQ0GjQsJELloKxA
+      text: 1Sìlpey 2oe, 3zaya'u 4trro 5a 6tsun 7awnga 8nìwotx 9pivlltxe 10san 11fnan 12oel 13nìngay 14lì'fyat 15leNa'vi 16sìk!
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        6: 2476:vim.:noaffix:nolen
+        13: 1296:adv.:noaffix:nolen
+        16: 1796:adv.:noaffix:nolen
+      translations: {}
+emphasis: []

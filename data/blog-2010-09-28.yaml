@@ -71,7 +71,7 @@ inputs:
       translations:
         en: 1(Unfortunately there is) 4no 5(attention to detail) 4in 3their 2work.
     - id: C1RAlEeAR_2ChIlSCcmuKQ
-      text: 1{(Ngari)} 2solalew 3polpxaya 4{(zìsìt)}?
+      text: 1Ngari 2solalew 3polpxaya 4zìsìt?
       translations:
         en: |-
             1(As for you), 3(how many) 4years 2(have passed)?
@@ -89,9 +89,7 @@ inputs:
     - id: 6znXH9ZHREyH8DuGjXNFSg
       text: 1Oe 2'olongokx 3mì 4sray 5a 6txampayìri 7sim, 8slä 9set 10(kelku si) 11mì 12Helutral.
       lookup_filter:
-        3: 1108:adp.:noaffix:nolen
         7: 3816:vin.:noaffix:nolen
-        11: 1108:adp.:noaffix:nolen
       translations:
         en: 1I 2(was born) 3in 4(a town) 5+7near 6(the ocean), 8but 1I 9now 10live 11in 12Hometree.
     - id: kGZJhvS0QcigFp6zl9CyZg
@@ -138,3 +136,28 @@ inputs:
       text: 1Oel 2vewng 3futa 4ayeveng 5nivume 6teri 7ayewll 8na'rìngä.
       translations:
         en: 1I 2(see to it) 3that 4(the children) 5learn 6about 7the 8forest 7plants.
+    - id: imrw0-OoSg2lER_uuzMmZw
+      text: 1Rä'ä 2liveyn!
+      translations:
+        en: |-
+            1Don't 2(do that again)!
+            {(For example, a mother can say to a naughty child who's just been chastised for a misdeed)}
+    - id: R8jbdxNaQbiMzfdEzkgQcg
+      text: 1Sunu 2oeru 3nì'Ìnglìsì 4(M|basketball) 5nìtxan.
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+        5: 1312:adv.:noaffix:nolen
+      translations: {}
+    - id: fXCGUi8SQoCZp23_R3zz9Q
+      text: 1Pol 2ngop 3frakrr 4sìkenongit 5ahìno 6nìhawng.
+      lookup_filter:
+        3: 456:adv.:noaffix:nolen
+      translations:
+        en: 1He 3always 2creates 6excessively 5detailed 4examples.
+    - id: NXq7TnnHR02XIhvXEh7reg
+      text: 1Pol 2ngop 3frakrr 4nìhawng 5hìnoa 6sìkenongit.
+      lookup_filter:
+        3: 456:adv.:noaffix:nolen
+      translations:
+        en: 1He 3always 2creates 4excessively 5detailed 6examples
+emphasis: []
