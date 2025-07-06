@@ -27,3 +27,9 @@ inputs:
             8Let us 7celebrate!
       flags:
         - poetry
+    - id: sw8VecqeRgK6eqjKWhVMMw
+      text: 1sìlronsem 2nìngay, 3kefyak?
+      lookup_filter:
+        2: 1296:adv.:noaffix:nolen
+      translations: {}
+emphasis: []

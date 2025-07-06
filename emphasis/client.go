@@ -17,7 +17,7 @@ type LitxapClient struct {
 func (client *LitxapClient) Call(ctx context.Context, raw string, customWords []string) ([]litxap.Line, error) {
 	var resLines []litxap.Line
 	for _, line := range strings.Split(strings.Trim(raw, "\n"), "\n") {
-		reqUrl := fmt.Sprint(client.ApiURL, "/api/run?unstress_si=true&line=", url.QueryEscape(line))
+		reqUrl := fmt.Sprint(client.ApiURL, "/api/run?line=", url.QueryEscape(line))
 		if customWords != nil {
 			reqUrl += "&names=" + url.QueryEscape(strings.Join(customWords, ","))
 		}

@@ -18,11 +18,15 @@ inputs:
       lookup_filter:
         3: 1528:inter.:noprefix:noinfix:=-t:nolen
       translations:
-        en: 3What 1did 2she 1say?
+        en: |-
+            3What 1did 2she 1say?
+            {(The sentence above is acceptable Na'vi, but it's not the best style. The reason is that they're using forms of the catch-all word 'u, 'thing'—you're talking about saying a thing.)}
     - id: iGltXhCSRiuGPyWCTnNWiQ
       text: 1Ke 2poltxe 3pol 4tsat.
       translations:
-        en: 3She 1didn't 2say 4that.
+        en: |-
+            3She 1didn't 2say 4that.
+            {(The sentence above is acceptable Na'vi, but it's not the best style. The reason is that they're using forms of the catch-all word 'u, 'thing'—you're talking about saying a thing.)}
     - id: gHvxttzDQGqAArLoBGDPjw
       text: 1Poltxe 2pol 3paylì'ut?
       translations:
@@ -145,3 +149,4 @@ inputs:
         4: 460:pn.:noaffix:nolen
       translations:
         en: 1I 2(asked for) 3+4+5silence.
+emphasis: []

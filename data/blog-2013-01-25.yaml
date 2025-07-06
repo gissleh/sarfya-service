@@ -221,3 +221,16 @@ inputs:
         6: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1Jake 3hopefully 2requested 4+5+6+7(the Dream Hunt).
+    - id: dSxj9SUwQRi6qo90pozRpw
+      text: 1lu 2{oer(u)} 3ingyen 4a . . .
+      translations:
+        en: 1+2+3(I'm puzzled) 4that
+    - id: aFT19NyZRMy19IiRfpe4mQ
+      text: 1lu 2oer 3sngum 4a . . .
+      translations:
+        en: 1+2+3(I'm worried) 4that . . .
+    - id: ou5JV9CpT2Gq_kPY7P82tw
+      text: 1lu 2oer 3yayayr 4a . . .
+      translations:
+        en: 1+2+3(I'm confused) 4that . . .
+emphasis: []

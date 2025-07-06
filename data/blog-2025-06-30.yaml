@@ -1,0 +1,66 @@
+source:
+    id: blog-2025-06-30
+    date: "2025-06-30"
+    url: https://naviteri.org/2025/06/vospikin-lefpom-happy-july/
+    title: Vospìkin Lefpom!  Happy July!
+    author: Paul Frommer
+inputs:
+    - id: sa2GY1s2QYm01P3C6DITww
+      text: 1Fìzìsìtìri, 2mawl 3a'awve 4(solalew|solew), 5mawl 6amuve 7polähem.
+      translations: {}
+    - id: g4XCynigQTSRPmeee2RWVw
+      text: 1Plltxe 2Sawtute 3fa 4aylì'fya 5leketengsyon.
+      translations:
+        en: '2Humans 1speak 5{diverse (OR: a variety of)} 3+4languages.'
+    - id: urxwv2kxQhqPCqVK6TXUeQ
+      text: 1Nawnumtsengä 2aynumeyuri 3ley 4ayngaru 5tìtengwotx, 6ayoeru 7ketengsyon.
+      lookup_filter:
+        4: 208:pn.:noprefix:noinfix:=-ru:nolen
+        6: 212:pn.:noprefix:noinfix:=-ru:nolen
+      translations:
+        en: 2Regarding 1university 2students, 4you 3value 5uniformity, 6we 3value 7diversity.
+    - id: XLD1fxfRT0Ske2Latj9P_w
+      text: 1Fwa 2kxapaytsre' 3lu 4txavä'.
+      translations:
+        en: 1+2Spitting 3is 4disgusting.
+    - id: YZdieTyHT6Od3E2H8PIMIQ
+      text: 1Fìtsngalit 2fkol 3txula 4ta 5zäfizal.
+      translations:
+        en: |-
+            1(This cup) 2+3(is made) 4of 5(fired clay/ceramic material).
+            {(This is a ceramic cup)}
+    - id: q7dILbj2QeuI7Po3g-oy3A
+      text: 1Tute 2aketstun 3slivu 4'eylan 5ke 6tsun.
+      lookup_filter:
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1An 2unkind 1person 5+6cannot 3be 4(a friend).
+      flags:
+        - proverb
+    - id: lu2Il8KRQdW5BNbPZUVzxQ
+      text: 1Längu 2zama 3spxintu 4mì 5sray 6oeyä.
+      translations:
+        en: 1(I'm sorry to say there are) 2sixty-four 3(sick people) 4in 6my 5village.
+    - id: _EYg0JsXRxKIhH6OvyxvzA
+      text: 1Oe 2ngaru 3(tìng räzekx), 4ma 5kalweyaveng!
+      translations:
+        en: '1I 3curse 2you, {(OR: Damn you!)}, 4+5(you SOB).'
+    - id: 2lttVfP3TMCWHb_EHuDwDg
+      text: 1Pori 2sa'nok 3tìmerkup; 4'efu 5oe 6rayl.
+      translations:
+        en: 1His 2mother 3(just died); 5I 4feel 6bad 1(for him).
+    - id: GSEbzOVnTjCD85kgQ-IdoQ
+      text: 1Eyweveng 2lu 3lornusrr.
+      translations:
+        en: 1Pandora 2is 3radiant.
+    - id: aDWSAMzMQsWH_oVWC19EcA
+      text: 1Räzekx 2{ngar(u)}!
+      translations:
+        en: 1Damn 2you!
+    - id: 7EK4Ey3XS_iFlZnS96S48Q
+      text: 1Ngal 2tsautumautit 3holiup 4pelun?
+      lookup_filter:
+        4: 1508:inter.:noaffix:nolen
+      translations:
+        en: 4Why 3did 1you 3(spit out) 2(that banana fruit)?
+emphasis: []

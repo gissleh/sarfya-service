@@ -1,0 +1,21 @@
+source:
+    id: blog-2020-04-02
+    date: "2020-04-02"
+    url: https://naviteri.org/2020/04/pukapa-way-a-mikyunfpi-six-poems-for-listening/
+    title: Pukapa Way a Mikyunfpi    Six Poems for Listening
+    author: Paul Frommer
+inputs:
+    - id: Sy-eMid1QaKGgLZtO8UsTg
+      text: 1Fayway 2(aynga)3(ne) 4zivawprrte'!
+      lookup_filter:
+        2: 208:pn.:noaffix:nolen
+      translations: {}
+    - id: PJDID501Qr-C1v-6_ZOp9g
+      text: 1Makto 2zong 3slä 4ro 5helku 6'ì'awn.
+      translations: {}
+    - id: _eP_UtcDShCR4xw5GbpBOA
+      text: '{[}1Oeyä 2aywayri,{]} 3txampxì 4lu 5waytsyìp 6a 7teri 8Eywa''eveng 9sì 10reyfya 11leNa''vi. 12Oe 13fmoli 14ngivop 15fyina 16aywayt 17a 18tsari 19lam 20fwa 21nìngay 22zola''u 23ftu 24Eywa''eveng.'
+      lookup_filter:
+        21: 1296:adv.:noaffix:nolen
+      translations: {}
+emphasis: []
