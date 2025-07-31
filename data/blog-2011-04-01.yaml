@@ -70,3 +70,11 @@ inputs:
       text: 1Ngari/2Ngeyä 3tìfkeytok 4{(lu)} 5fyape?
       translations:
         en: 5How 3+4are 1+2you 3+4doing?
+    - id: fr7DmSapRYKmndTkmkNRzA
+      text: 1Yafkeykìri 2pängkxo 3frapo.
+      lookup_filter:
+        1: 7360:n.:noprefix:noinfix:=-ìri:nolen
+        3: 460:pn.:noaffix:nolen
+      translations:
+        en: 3Everyone 2talks 1(about the weather).
+emphasis: []

@@ -81,7 +81,6 @@ inputs:
     - id: DdUtBDMLQ06fOXyTCIf4Lw
       text: 1Stiwi 2rä'ä 1si, 3ma 4'eveng! 5(Uvan si) 6mì 7sengo 8alahe.
       lookup_filter:
-        6: 1108:adp.:noaffix:nolen
         7: 4188:pn.:noaffix:=ts→s
       translations:
         en: 2Don't 1(be naughty), 3+4child! 5Play 6+7somewhere 8else.
@@ -126,3 +125,12 @@ inputs:
         7: 364:adv., n.:noaffix:nolen
       translations:
         en: 2Don't 1(do that), 3+4son. 5(It)9('s) 8not 10proper 5to 6spit 7here.
+    - id: f-YaOgzJSim8jLmX3td2sA
+      text: 1Tsun 2{(fko)} 3{pehem (sivi)}?
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+      translations:
+        en: |-
+            3What 1can 2one 3do?
+            {(It's used in a somewhat fatalistic way, when you throw up your hands in an unpleasant situation or when something doesn't turn out well, and you say, “What are you gonna do? That's life.”)}
+emphasis: []

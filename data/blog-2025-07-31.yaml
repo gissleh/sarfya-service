@@ -1,0 +1,46 @@
+source:
+    id: blog-2025-07-31
+    date: "2025-07-31"
+    url: https://naviteri.org/2025/07/ayu-leketengsyon-various-things/
+    title: Ayu leketengsyon   Various things
+    author: Paul Frommer
+inputs:
+    - id: 07DYF0vJQEmZkdkCUJkw7w
+      text: 1Kxì, 2ma 3frapo!
+      lookup_filter:
+        3: 460:pn.:noaffix:nolen
+      translations:
+        en: 1Hi 2+3all!
+    - id: mvS9dVkgQOu4AqG7nVRRsQ
+      text: 1Ayu 2leketengsyon
+      translations:
+        en: 2Various 1things
+    - id: P8skhbWdQcCnpxLf5YNLCg
+      text: 1Nga 2za'u 3nìltsan 4ne 5nari.
+      translations:
+        en: |-
+            1You 2come 3well 4to 5(the eye).
+            {(You look good.')}
+    - id: tzKs3fhJREm6U4Ayg28seg
+      text: 1Po 2za'u 3nìfe' 4ne 5nari.
+      lookup_filter:
+        3: 7756:adv.:noaffix:nolen
+      translations:
+        en: 1She 2+4+5looks 3bad.
+    - id: MRifsefcRP2piOOCAvNtPg
+      text: 1Fìsyuve 2za'u 3nìfe' 4ne 5ftxì.
+      lookup_filter:
+        3: 7756:adv.:noaffix:nolen
+      translations:
+        en: |-
+            1(This food) 2comes 3badly 4to 5(the tongue).
+            {(This food tastes bad.)}
+    - id: awpYKOFyQlOgFGyB6zrfUQ
+      text: 1Nga 2za'u 3nìfpxamo 4ne 5mikyun. 6Mokriri 7kempe 8lolen?
+      lookup_filter:
+        3: 11740:adv.:noaffix:nolen
+      translations:
+        en: |-
+            1You 2come 3terribly 4to 5(the ear). 7What 8happened 6(to your voice)?
+            {(You sound terrible. What happened to your voice?)}
+emphasis: []
