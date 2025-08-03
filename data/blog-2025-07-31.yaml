@@ -43,4 +43,46 @@ inputs:
         en: |-
             1You 2come 3terribly 4to 5(the ear). 7What 8happened 6(to your voice)?
             {(You sound terrible. What happened to your voice?)}
+    - id: CrruK1-cRY-uQe3Ibj_-yQ
+      text: 1Tarontswot 2peyä 3frapol 4sweri.
+      lookup_filter:
+        3: 460:pn.:noprefix:noinfix:=-l:nolen
+      translations:
+        en: 3Everyone 4praises 2his 1(hunting ability).
+    - id: oe23CTl-Tg2Qeh140QaQzg
+      text: 1Ngeyä 2nantangtsyìpit 3sweri 4krra 5lek 6aysäkxìmit!
+      lookup_filter:
+        2: 10968:n.:noprefix:noinfix:=-it:nolen
+      translations:
+        en: 3Praise 1your 2dog 4when he 5follows your 6commands!
+    - id: ZXBX0n1PTpuq1kawScz-7Q
+      text: 1Lesnonrra 2tute 3a 4swäperi 5frakrr 6slu 7eyktan 8afpxamo.
+      lookup_filter:
+        5: 456:adv.:noaffix:nolen
+      translations:
+        en: 2An 1arrogant 2individual 3who 5always 4(praises himself) 6makes 7a 8terrible 7leader.
+    - id: WDOlvYluQEmmdJIZPh_zSw
+      text: 1Oeti 2fenge 3rä'ä!
+      translations:
+        en: 3Don't 2mock 1me!
+    - id: QHH3oAc6QamA0eeb_RX09w
+      text: 1Folenge 2frapol 3peyä 4tìhawlit 5lehangham.
+      lookup_filter:
+        2: 460:pn.:noprefix:noinfix:=-l:nolen
+      translations:
+        en: 2Everyone 1ridiculed 3his 5ridiculous 4plan.
+    - id: VsdnRT0xRN6lEYDt797tdA
+      text: 1Krra 2tse'a 3oel 4tìfkeytokit 5txanlokxeyä 6oey, 7nal 8nìtxan 9mì 10te'lan.
+      lookup_filter:
+        8: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1When 3I 2see 4(the condition) 5of 6my 5country, I 7suffer 8greatly 9in my 10heart.
+    - id: vou0WwFZRRulTdouGluVyA
+      text: 1Pori 2oe 3nalsteng.
+      translations:
+        en: 2I 3(feel compassion) 1(for him).
+    - id: ltu7DfD0QiGJtyRV8ZtvTA
+      text: 1(Po)2(hu) 3oe 4nalsteng.
+      translations:
+        en: 3I 4(feel compassion) 1+2(for him).
 emphasis: []
