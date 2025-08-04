@@ -7,6 +7,14 @@ html, body {
     font-family: sans-serif;
 }
 
+a {
+    color: #fc1;
+}
+
+p.footer {
+    text-align: center;
+}
+
 h1 {
     font-size: 4em;
     padding: 0;
