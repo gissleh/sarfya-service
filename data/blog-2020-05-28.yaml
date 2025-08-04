@@ -30,7 +30,7 @@ inputs:
       translations:
         en: 1He 2+3+4(asked if/whether) 5Ralu 6left.
     - id: xx3WTOmGQmSsYUPMnkXjHw
-      text: 1Po 2polawm, 3Srake 4Ralu 5holum?
+      text: 1Po 2polawm, 3srake 4Ralu 5holum?
       translations:
         en: 1He 2+3(asked if/whether) 4Ralu 5left.
     - id: 2u6VX948QpSZ3hiFxj-Nag
@@ -90,3 +90,4 @@ inputs:
             A: 1+2(How's everything)?
             B: 3Good. 4+5You?
             A: 6So-so. 7(I)8+9('m fine), 10but 11my 12son 13is 14sick.
+emphasis: []

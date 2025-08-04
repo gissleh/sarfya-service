@@ -98,6 +98,9 @@ inputs:
             {(It does not necessarily have a negative connotation even though it evolved from a compound containing the component kxu, which in other contexts is clearly 'harm.')}
     - id: jCLdqEdSRuG3P1yBMs_BRw
       text: 1Hìtxoa, 2ke 3new 4oel 5futa 6fìtìpängkxot 7ayngeyä 8hivultstxem, 9slä 10tsun 11miväkxu 12hìkrr 13nì'aw 14srak?
+      lookup_filter:
+        7: 208:pn.:noprefix:noinfix:=-yä:nolen
+        10: 2476:vim.:noaffix:nolen
       translations:
         en: 1(Excuse me). 4I 2don't 3want 5to 8derail 7your 6chat, 9but 10can I 11interrupt 12for 13just 12(a moment)14(?)
     - id: 4CByyBVMR_mVRE8v00xYLA

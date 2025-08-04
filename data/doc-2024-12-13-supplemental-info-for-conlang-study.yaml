@@ -1,0 +1,507 @@
+source:
+    id: doc-2024-12-13-supplemental-info-for-conlang-study
+    date: "2024-12-13"
+    url: https://www.pnas.org/action/downloadSupplement?doi=10.1073%2Fpnas.2313473122&file=pnas.2313473122.sapp.pdf
+    title: Supplementary Information for Malik-Moraleda et al. (2024), Constructed languages are processed by the same brain mechanisms as natural languages
+    author: Paul Frommer
+inputs:
+    - id: 1TstquZFTMq5d40WZCRhfA
+      text: 1Sunu 2oer 3fwa 4slele.
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+      translations:
+        en: 2I 1like 3+4(to swim).
+    - id: QKeaTxgdQ0q85e8JYx43cA
+      text: 1Ayfo 2(kempe si) 3mì 4na'rìng?
+      lookup_filter:
+        1: 204:pn.:noaffix:nolen
+      translations:
+        en: 2(What do) 1they 2do 3in 4(the forest)?
+    - id: IjNSYoVgRd6jqdQNHrtM7A
+      text: 1Omum 2oel 3teyngta 4pelun 5pol 6ke 7tok 8fìtsenget.
+      lookup_filter:
+        3: 7976:sbd.:noaffix:nolen
+        4: 1508:inter.:noaffix:nolen
+        8: 365:adv., n.:noprefix:noinfix:=-t:nolen
+      translations:
+        en: 2I 1know 3+4why 5she 7(is)6(n't) 8here.
+    - id: jiSypTDmRDWhe1Q_K_gWxw
+      text: 1Lu 2fìkilvan 3sloa 4nìhawng; 5ke 6tsun 7fko 8emkivä.
+      lookup_filter:
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2(This river) 1is 4too 3wide 5+6+7+8(to cross).
+    - id: xQgR5E_TTLiA1EQ5b3JWHw
+      text: 1Sunu 2oeyä 3palukantsyìpur 4fwa 5yom 6payoangit.
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+        3: 13375:n.:noprefix:noinfix:=-ur:nolen
+      translations:
+        en: 2My 3cat 1likes 4to 5eat 6fish.
+    - id: aTjJ7ibTSl6AR4X8_uB0Pg
+      text: 1Tsa'opin 2a 3sunu 4oer 5frato 6lu 7eampin.
+      lookup_filter:
+        3: 6376:vin.:noaffix:nolen
+      translations:
+        en: 4My 2+3+5favorite 1color 6is 7blue.
+    - id: dfWCVyNCSey6-M101QkNng
+      text: 1Ke 2sunu 3oer 4fwa 5(tìkangkem si) 6txonkrr.
+      lookup_filter:
+        2: 6376:vin.:noaffix:nolen
+      translations:
+        en: 3I 1don't 2like 4to 5work 6(at night).
+    - id: MTKG9cxuQOesTIPvOgw6wQ
+      text: 1Oeti 2nìn 3rä'ä 4tsafya!
+      translations:
+        en: 3Don't 2(look at) 1me 4(like that)!
+    - id: nFkcrOpnT36bdsnoQMUWlg
+      text: 1Lu 2foru 3aynantangtsyìp 4alor.
+      lookup_filter:
+        2: 412:pn.:noprefix:noinfix:=-ru:nolen
+        3: 10968:n.:=ay-:noinfix:nosuffix:nolen
+        4: 5444:n.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 2They 1have 4beautiful 3dogs.
+    - id: Hnn2VbxLRR6iD_qqbmp1kw
+      text: 1Txo 2nga 3'efu 4ohakx, 5oeng 6yivom 7ko!
+      translations:
+        en: 1If 2(you)3('re) 4hungry, 5+7let's 6eat!
+    - id: Rhkvz_CxQTmB2T9NsS3TOA
+      text: 1Poe 2lu 3tsulfätu 4lì'fyayä 5leNa'vi.
+      lookup_filter:
+        1: 1556:pn.:noaffix:nolen
+      translations:
+        en: 1She 2is 3(a master) 4(of the) 5Na'vi 4language.
+    - id: oDjzFAMrSRm8SypFB0IJNA
+      text: 1Tsaolo'eyktan 2lu 3tutan 4asìltsan.
+      lookup_filter:
+        1: 1408:n.:=tsa-:noinfix:nosuffix:nolen
+      translations:
+        en: 1(The clan leader) 2is 3a 4good 3man.
+    - id: wbmmbrvySGmhD5_b5QI1xA
+      text: 1Ayoe 2(tìkangkem si) 3'awsiteng 4nìsoaia.
+      lookup_filter:
+        1: 212:pn.:noaffix:nolen
+      translations:
+        en: 1We 2work 3together 4(as a family).
+    - id: vd-U837UQp-DZ1k_oxF1LA
+      text: 1Sìlpey 2oe 3tsnì 4fìtìrol 5sìyevunu 6ngar.
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+      translations:
+        en: 2I 1+3hope 6(you)5('ll like) 4(this song).
+    - id: 1HwHkJA6QCS7x78gqkcPpQ
+      text: 1Lu 2oeru 3sngum 4a 5fo 6ke 7tìyevätxaw.
+      lookup_filter:
+        5: 412:pn.:noaffix:nolen
+      translations:
+        en: 2(I)1+3('m worried) 4that 5they 6+7(won't return).
+    - id: x_M2nQjpRqmoYLtvYTJk1g
+      text: 1Oel 2pukit 3fpole' 4ngaru 5trram
+      translations:
+        en: 1I 3sent 4you 2(the book) 5yesterday.
+    - id: 5YRrTYaRQSCedvEXJiecqA
+      text: 1Oeyä 2'Eylan 3alu 4(N|Sofia) 5(kelku si) 6mì 7(M|Nu Yorkì).
+      translations:
+        en: 1My 2friend 3+4Sofia 5lives 6in 7(New York).
+    - id: Ydi2WQK7RUGtoO0s0U41KA
+      text: 1Aylì'fya 2(eltur tìtxen si) 3nìtxan.
+      lookup_filter:
+        3: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1Languages 2are 3very 2interesting.
+    - id: J2sx49BoT-GYpjNZVrqdUw
+      text: 1Po 2tìkangkem 3ke 2si 4pelun?
+      lookup_filter:
+        4: 1508:inter.:noaffix:nolen
+      translations:
+        en: 4Why 2(is)3(n't) 1he 2working?
+    - id: RHrB3ovPRey2lvfZIhyYlA
+      text: 1Furia 2nì'Ìnglìsì 3(pamrel si) 4oe, 5oeru 6txoa 7livu.
+      translations:
+        en: 5+6+7(I'm sorry) 1for 3writing 2(in English).
+    - id: DcXphxBZTn2X7tKsj60QYw
+      text: 1Polawm 2po 3san 4srake 5Neytiri 6holum 7sìk.
+      lookup_filter:
+        7: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2He 1asked 3+4+7if 5Neytiri 6left.
+    - id: HdsJDlJkS9OjrTi2JIZ3Zw
+      text: 1Oe 2new 3ngeyä 4(tsmuke)5(hu) 6(muntxa sivi).
+      translations:
+        en: 1I 2(want to) 6+5marry 3your 4sister.
+    - id: 2EvoEQiyS1CKwn8U8FLhKw
+      text: 1Fwa 2tok 3fìtsenget 4lu 5oeru 6meuia.
+      translations:
+        en: 4It's 6(an honor) 5(for me) 1to 2be 3here.
+    - id: 487nBh6yQmqFyTlqBhkwfA
+      text: 1Fìtìpe'un 2ke 3layatem.
+      translations:
+        en: 1(This decision) 3will 2not 3change.
+    - id: xuToiKAtQFO7v-MkhzsB_w
+      text: 1Lu 2mì 3tampay 4payoang 5apxay.
+      translations:
+        en: 1(There are) 5many 4fish 2in 3(the sea).
+    - id: gzwJiTX8R5q5PXj9xTTaTA
+      text: 1Peng 2oer 3teyngta 4lumpe 5nga 6sti.
+      lookup_filter:
+        1: 1512:vtr.:noaffix:nolen
+        3: 7976:sbd.:noaffix:nolen
+      translations:
+        en: 1Tell 2me 3+4why 5(you)6('re angry).
+    - id: icBsP0BzQvGmEStI80WFMw
+      text: 1'Ul 2yom, 3'ul 4slu 5txur.
+      lookup_filter:
+        1: 8516:vin.:noaffix:nolen
+        3: 8516:vin.:noaffix:nolen
+      translations:
+        en: 1(The more you) 2eat, 3the 5(strong)3(er) 3you'll 4get.
+    - id: M5uhE8r1Qf62NJ5MLPjEsQ
+      text: 1Tsatìoeyktìng 2(srung soli) 3oer 4fte 5tìngäzìkit 6tslivam.
+      translations:
+        en: 1(That explanation) 2helped 3me 4+6understand 5(the problem).
+    - id: GnJgg4lvQlWCeoOtKnuK2A
+      text: 1Oe 2(mowar si) 3ngaru 4tsnì 5tsyivul 6pxiye'rìn.
+      translations:
+        en: 1I 2advise 3you 4to 5begin 6immediately.
+    - id: uvp372XHRNmcfDlPFsDoxg
+      text: 1Tsavur 2(eltur tìtxen) 3ke 2si.
+      translations:
+        en: 1(That story) 2(is)3(n't) 2interesting.
+    - id: 1lA6wtkdTE-pszdLd3b85A
+      text: 1Lu 2(fìkilvan)3(mì) 4spono 5alor.
+      lookup_filter:
+        5: 1024:adj.:=a-:noinfix:nosuffix:nolen
+      translations:
+        en: 1There's 4a 5beautiful 4island 3in 2(this river).
+    - id: 3rjftnHhRMqeF5Gwp7UPZA
+      text: 1Ke 2tsun 3fko 4tsawket 5tsive'a 6txonkrr.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 3One 1+2can't 5see 4(the sun) 6(at night).
+    - id: 9X8xBrUuQh-O1ZrBktiuIw
+      text: 1'Rrta 2pxaw 3tsawke 4rikx.
+      translations:
+        en: 1(The earth) 4moves 2around 3(the sun).
+    - id: WFrrJoG_RHaD-Wi9j9S8xw
+      text: 1Oeri 2re'o 3(tìsraw sängi).
+      translations:
+        en: 1My 2head 3hurts.
+    - id: nl4vp4L5SVObEqUMa8n91g
+      text: 1Nga 2krrpe 3hu 4karyu 5(ultxa sayi)?
+      lookup_filter:
+        2: 892:inter.:noaffix:nolen
+      translations:
+        en: 2When 5+3will 1you 5+3meet 4(the teacher)?
+    - id: sflIC5-YTW-esklBf-ukFA
+      text: 1Rutxe 2foti 3rä'ä 4spivaw!
+      lookup_filter:
+        2: 412:pn.:noprefix:noinfix:=-ti:nolen
+      translations:
+        en: 1Please 3don't 4believe 2them!
+    - id: G2XjG3n6TqKroNT2XeFqKA
+      text: 1Sivop 2nìzawnong, 3ma 4'ite.
+      translations:
+        en: 1+2(Have a good trip), 3+4daughter.
+    - id: MoVBCblhRkSP700MFzM1Kg
+      text: 1Oeru 2peyä 3tsmukan 4snumìna 5latsam.
+      translations:
+        en: 2His 3brother 5seems 4dim 1(to me).
+    - id: L3p2iosrSw6JHO1H4x369Q
+      text: 1Tewti, 2nga 3kanu 4lu 5fìtxan 6nang!
+      lookup_filter:
+        1: 2100:intj.:noaffix:nolen
+      translations:
+        en: 1+6Gee, 2(you)4('re) 5so 3smart!
+    - id: 3HHfV_23Rli_gpnkwj3j5A
+      text: 1Pol 2polawm 3tenga 4tìpawmit 5alo 6amrr.
+      translations:
+        en: 1She 2asked 4the 3same 4question 6five 5times.
+    - id: 0obpc9JmReiEoz3-QzqOyQ
+      text: 1Menantangtsyìp 2sì 3pxefalukantsyìp 4yerom.
+      lookup_filter:
+        1: 10968:n.:=me-:noinfix:nosuffix:nolen
+        3: 13375:n.:=pxe-:noinfix:nosuffix:=p→f
+      translations:
+        en: 1(Two dogs) 2and 3(three cats) 4(are eating).
+    - id: NDGBFMZSRUKgI5QzpvvntA
+      text: 1Tsa'evenge 2tsun 3rivol 4nìmiklor.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1(That girl) 2can 3sing 4beautifully.
+    - id: YF63uJBfSxSfvfYKcG7h7A
+      text: 1Tsafkxilet 2tolìng 3ngaru 4tupel?
+      translations:
+        en: 4Who 2gave 3you 1(that necklace)?
+    - id: H0D8Bg-vTjGezQE37j_bmg
+      text: 1Plltxe 2frapo 3san 4fìmauti 5lu 6ftxìlor 7sìk.
+      lookup_filter:
+        2: 460:pn.:noaffix:nolen
+        7: 1796:adv.:noaffix:nolen
+      translations:
+        en: 2Everybody 1+3+7says 4(this fruit) 5is 6delicious.
+    - id: f0hyczWjSi2CDX9UXquTwQ
+      text: 1Ftxozäri 2aylrrtok 3ngaru, 4ma 5sempu!
+      translations:
+        en: 1+2+3(Happy birthday), 4+5daddy!
+    - id: w8Eh9PWsQ6qtY3HUOXejBw
+      text: 1Lu 2oeru 3fmawn 4a 5tsranten.
+      translations:
+        en: 2I 1have some 4+5important 3news.
+    - id: Ls_6Z-PxQue0E6hKSBEnZA
+      text: 1Po 2plltxe 3nìNa'vi 4nìwin 5na 6hufwe.
+      lookup_filter:
+        4: 1316:adv.:noaffix:nolen
+      translations:
+        en: 1He 2speaks 3Na'vi 4+5+6fluently.
+    - id: pR0bY_U6Qu6fMT2sRgRVTA
+      text: 1Lumpe 2poltxe 3nga 4san 5ke 6sunu 7oer 8fwa 9taron 10sìk?
+      lookup_filter:
+        6: 6376:vin.:noaffix:nolen
+        10: 1796:adv.:noaffix:nolen
+      translations:
+        en: 1Why 2+4+10did 3you 2+4+10say 7you 5don't 6like 8to 9hunt?
+    - id: Y97_SRKxQDG-sMkBoMDfTA
+      text: 1Ke 2lu 3kawtu 4ro 5helku.
+      translations:
+        en: 1+3(No one) 2is 4at 5home.
+    - id: dI4j2AXcTkytKe_YcUAPMg
+      text: 1Ayyayo 2rerol.
+      translations:
+        en: 1(The birds) 2(are singing).
+    - id: 6FDSc-92SXupJa5KoGoglA
+      text: 1Lu 2tsa'evenganur 3'eylan.
+      translations:
+        en: 2(The boy) 1has 3(a friend).
+    - id: JXDobZNuRd2IgULxpNaWdA
+      text: 1Ayfrrtu 2herahaw 3tsatseng.
+      lookup_filter:
+        3: 2352:n.:noaffix:nolen
+      translations:
+        en: 1(The guests) 2(are sleeping) 3there.
+    - id: 1ZaHzeWDT2iM7s-UmXcmDQ
+      text: 1Tsa'evengel 2tìng 3syulangit 4taronyur.
+      lookup_filter:
+        2: 2176:vtr.:noaffix:nolen
+      translations:
+        en: 1(The girl) 2(is giving) 3flowers 4(to the hunter).
+    - id: l8QvaIpvQl23lkua74dH9Q
+      text: 1Tsatutan 2lu 3sempul 4oeyä.
+      lookup_filter:
+        3: 1764:n.:noaffix:nolen
+      translations:
+        en: 1(That man) 2is 4my 3father.
+    - id: UUrkL4PzQFS-jvR2aTEq_w
+      text: 1(Tsatxanlokxe)8(mì), 2aysutan 3sì 4aysuté 5ke 6ftia 7'awsiteng.
+      translations:
+        en: 8In 1(that country), 2men 3and 4women 6do 5not 6study 7together.
+    - id: 63nHSRnDRnCwCzK4I2n2dw
+      text: 1Ke 2omum 3teyngta 4Ralu 5kolä 6(peseng)7(ne).
+      lookup_filter:
+        3: 7976:sbd.:noaffix:nolen
+      translations:
+        en: I 1don't 2know 3+6where 4Ralu 5+7went.
+    - id: AYr7dLAHQtaVJhk7wDqXpg
+      text: 1Lu 2ngeyä 3sempulur 4mepun 5atsawl.
+      translations:
+        en: 2Your 3father 1has 5big 4arms.
+    - id: Rs1beKbZTSSE0VuxiNVSWw
+      text: 1Sneyä 2sa'nok 3yawne 4lu 5tsa'evenganur.
+      translations:
+        en: 5(The boy) 3+4loves 1his 2mother.
+    - id: L5Mv1zBzQ0-5kH_2oJOspw
+      text: 1Fì'evengan 2ke 3lu 4'itan 5oeyä.
+      translations:
+        en: 1(This boy) 3is 2not 5my 4son.
+    - id: ebzVycaeSP6YdMJf0H__kA
+      text: 1+6Pefnerel 2+6arusikx 3sunu 4ngar 5frato?
+      lookup_filter:
+        3: 6376:vin.:noaffix:nolen
+      translations:
+        en: 1+2+6(What kinds of films) 3+5do 4you 3+5prefer?
+    - id: zTx0RqF3RZOl64pMyFUWuw
+      text: 1Nga 2ngong 3längu, 4ha 5ke 6flolä.
+      lookup_filter:
+        4: 540:conj.:noaffix:nolen
+      translations:
+        en: 1(You)3('re) 2lazy, 4so you 6(did)5(n't) 6succeed.
+    - id: lwsoEhseQrmpbEsNF95mMA
+      text: 1Srake 2payoang 3tsun 4yivom 5yayot?
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 3Can 2(a fish) 4eat 5(a bird)1(?)
+    - id: swCxsnEmSwOm4pLHfqujPw
+      text: 1Zamunge 2oel 3'upxaret 4a 5ta 6Eywa.
+      translations:
+        en: 2I 1bring 3(a message) 4+5from 6Eywa.
+    - id: c7-iAxWVRwesDJ0tYMG3sQ
+      text: 1Ngal 2pelun 3ngeyä 4(tsko swizawti) 5tolìng 6oeru?
+      lookup_filter:
+        2: 1508:inter.:noaffix:nolen
+      translations:
+        en: 2Why 5did 1you 5give 6me 3your 4(bow and arrow)?
+    - id: IIeJleFTR1yOFtYkTuc9Gw
+      text: 1Kelku 2feyä 3hì'i 4lu 5nìtxan.
+      lookup_filter:
+        2: 412:pn.:noprefix:noinfix:=-yä:nolen
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 2Their 1home 4is 5very 3small.
+    - id: IOsnlceJTdKENjukYTuJ0Q
+      text: 1Ngeyä 2tìpawmìri 3tolel 4ngal 5tì'eyngit 6srak?
+      lookup_filter:
+        3: 2056:vtr.:noprefix:=<ol>:nosuffix:nolen
+      translations:
+        en: 3Did 4you 3receive 5(an answer) 2to 1your 2(question)6(?)
+    - id: PrnOHqDrRXifjWkjDa0ZuQ
+      text: 1Fì'eveng 2ahì'i 3ke 4tsun 5ikranit 6mivakto.
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1This 2little 1child 4(can)3(not) 6ride 5(a banshee).
+    - id: d2nH8rIPTLu_7lcGGteqGg
+      text: 1Prrnen 2ke 3tsun 4pivlltxe.
+      lookup_filter:
+        3: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1(A baby) 3(can)2(not) 4speak.
+    - id: jjw3mNyNRDCKhQtxIExQsg
+      text: 1Ngeyä 2tsmukanìl 3tok 4pesenget 5set?
+      translations:
+        en: 4Where 3is 1your 2brother 5now?
+    - id: 3qvCkN6jTQmh7jTsSIKdQQ
+      text: 1Ngal 2pelun 3pot 4spolaw?
+      lookup_filter:
+        2: 1508:inter.:noaffix:nolen
+      translations:
+        en: 2Why 4did 1you 4believe 3him?
+    - id: vrnVdo7xSQ2ytZ3Ui3Ub6w
+      text: 1Fìlì'fyavi 2lesar 3lu 4nìtxan.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1(This expression) 3is 4very 2useful.
+    - id: ogMDHsEzSpKZaUfIHp5wBQ
+      text: 1Rutxe 2palukantsyìpur 3yomtìng 4trray.
+      lookup_filter:
+        2: 13375:n.:noprefix:noinfix:=-ur:nolen
+      translations:
+        en: 1Please 3feed 2(the cat) 4tomorrow.
+    - id: a6vWibCHT1q8ea9erOcctg
+      text: 1Tsa'evengìl 2ahì'i 3ke 4tslam 5fya'ot 6a 7inan 8pamrelti.
+      translations:
+        en: 1The 2little 1child 4(does)3(n't) 4know 5+6+7+8(how to read).
+    - id: iD_hcwqLQVOCC31W2d7bkw
+      text: 1Nga 2lu 3le'awa 4tute 5a 6tsun 7(srung sivi).
+      lookup_filter:
+        6: 2476:vim.:noaffix:nolen
+      translations:
+        en: 1You 2are 4the 3only 4one 5who 6can 7help.
+    - id: eoJxNVhyQ3y0vRLD0M_ecQ
+      text: 1Sko 2frrtu 3a 4mì 5helku 6ngeyä, 7oe 8'efu 9nitram 10frakrr.
+      lookup_filter:
+        1: 8740:adp.:noaffix:nolen
+        10: 456:adv.:noaffix:nolen
+      translations:
+        en: 7I 10always 8feel 9happy 1as 2(a guest) 3+4in 6your 5home.
+    - id: VQhOXNSRSv-7x7ACjmOuSA
+      text: 1Ngaru 2lu 3fpom 4fìtrr 5srak?
+      lookup_filter:
+        4: 4280:adv.:noaffix:nolen
+      translations:
+        en: 1+2+3(How are you) 4(today)5(?)
+    - id: 4bA-soC5Q0-vydBDRkG5vw
+      text: 1Srake 2syuve 3som 4lu 5nìhawng?
+      translations:
+        en: 4Is 2(the food) 5too 3(hot)1(?)
+    - id: AjukE1DYQqC5iByWJnUXFg
+      text: 1Feyä 2lì'fyati 3oel 4ke 5tslam.
+      lookup_filter:
+        1: 412:pn.:noprefix:noinfix:=-yä:nolen
+      translations:
+        en: 3I 5(do)4(n't) 5understand 1their 2language.
+    - id: YXYakcJbQAK4GSpfyUe6KQ
+      text: 1Peyä 2sa'nok 3ayawne 4tolerkängup 5trram.
+      translations:
+        en: 1His 3dear 2mother 4died 5yesterday.
+    - id: LgZ4rzvhS_6y4jgpxy9_aQ
+      text: 1Faylì'uru 2(tìng mikyun).
+      translations:
+        en: 2Listen 1(to these words).
+    - id: AQyJ0j7MTNmHkFRa7KoZ8Q
+      text: 1Talun 2tìtstew 3ngeyä, 4oe 5ngaru 6(leioae si).
+      lookup_filter:
+        1: 9084:adp.:noaffix:nolen
+      translations:
+        en: 1(Because of) 3your 2courage, 4I 6respect 5you.
+    - id: QKbmwJDAQLC8264irz-PHg
+      text: 1Tsaspe'etut 2lonu 3pxiset!
+      translations:
+        en: 2Release 1(the captive) 3now!
+    - id: RoKi86w6R-GvuA-WW6VrHw
+      text: 1Oeyä 2'eylan 3lu 4spxin 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1My 2friend 3is 5very 4sick.
+    - id: BtTnloK0R8OcAviBW1Pxjg
+      text: 1Awnga 2ne 3na'rìng 4kivä 5ko 6fte 7stivarsìm 8aysyulangit.
+      translations:
+        en: 1+5Let's 4go 2to 3(the forest) 6to 7gather 8flowers.
+    - id: 7gYODUkoSdm2D94EZqfEPw
+      text: 1Fìstxeliri 2akosman 3irayo.
+      translations:
+        en: 3(Thank you) 1(for this) 2wonderful 1gift.
+    - id: ihYT63MDSSisFAgBbOVeGQ
+      text: 1Ayoel 2fot 3tsole'a 4trram.
+      lookup_filter:
+        1: 212:pn.:noprefix:noinfix:=-l:nolen
+        2: 412:pn.:noprefix:noinfix:=-t:nolen
+      translations:
+        en: 1We 3saw 2them 4yesterday.
+    - id: LGaZj5UCS-aCSyyAhZQM0A
+      text: 1Nga 2zene 3fnivu 4set.
+      translations:
+        en: 1You 2(have to) 3(be quiet) 4now.
+    - id: vmLY-KgwSXi29vAn8ZsGjQ
+      text: 1Tivel 2ngal 3ta 4prrnen 5ngeyä 6lawnolti.
+      translations:
+        en: 1+3May 5your 4(little one) 1+3bring 2you 6(great joy).
+    - id: EYX_eoQzRHmJUNu8AX0SEA
+      text: 1Fìtaronyu 2lu 3txur 4sì 5tstew.
+      translations:
+        en: 1(This hunter) 2is 3strong 4and 5brave.
+    - id: a7LYhYTDSHebDeSOIwikvQ
+      text: 1Tsa'u 2lu 3tsole'a 4oel 5a 6utral 7a 8tsawl 9frato 10mì 11sìrey.
+      lookup_filter:
+        8: 2364:adj.:noaffix:nolen
+      translations:
+        en: 1(That)2('s) 6the 7+8+9tallest 6tree 4(I)5+3('ve ever seen) 10in 11(my life).
+    - id: N0elsizsQ2WPYlF9L2NdgA
+      text: 1Txopu 2rä'ä 1si, 3tsa'u 4lu 5tsawla 6palukantsyìp 7nì'aw.
+      lookup_filter:
+        6: 13375:n.:noaffix:nolen
+      translations:
+        en: 2Don't 1(be afraid), 3(it)4('s) 7just 6a 5big 6cat.
+    - id: bqOsmkIARIy0QBVVnLM0Fw
+      text: 1Nì'i'a 2leiu 3tsam 4hasey.
+      translations:
+        en: 3(The war) 2is 1finally 4over.
+    - id: t4KU0VBPQvuDFywkAbh3sA
+      text: 1Po 2ke 3new 4slivu 5tsamsiyu.
+      translations:
+        en: 1He 3(does)2(n't) 3(want to) 4become 5(a warrior).
+    - id: 68bf8GLERrW7Y_03RcrzBw
+      text: 1Lam 2oer 3fwa 4tsatutan 5'efu 6keftxo 7nìtxan.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 4(That man) 1+2+3+5seems 7very 6upset.
+    - id: QBePkVXFTaa6ASDPDxToVQ
+      text: 1Krro 2len 3ayhem 4afe'.
+      translations:
+        en: 1Sometimes 4bad 3things 2happen.
+emphasis: []
