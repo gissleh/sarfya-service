@@ -68,7 +68,7 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 				iOffset = pos[0] + pos[1]
 
 				// Unressed part, if any
-				if pos0 != pos1 {
+				if pos0 < pos1 {
 					_, _ = w.WriteString("<span>")
 					_, _ = w.WriteString(templ.EscapeString(rawText[pos0:pos1]))
 					_, _ = w.WriteString("</span>")
