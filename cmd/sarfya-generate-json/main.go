@@ -3,12 +3,13 @@ package main
 import (
 	"context"
 	"flag"
+	"log"
+
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/adapters/fwewdictionary"
 	"github.com/gissleh/sarfya-service/adapters/sourcestorage"
 	"github.com/gissleh/sarfya/adapters/jsonstorage"
 	"github.com/gissleh/sarfya/adapters/placeholderdictionary"
-	"log"
 )
 
 var flagSourceDir = flag.String("source-dir", "./data", "Source directory")
@@ -22,7 +23,7 @@ func main() {
 		placeholderdictionary.New(),
 	}
 
-	sourceStorage, err := sourcestorage.Open(context.Background(), "https://localhost:8001", *flagSourceDir, dict)
+	sourceStorage, err := sourcestorage.Open(context.Background(), *flagSourceDir, dict)
 	if err != nil {
 		log.Fatal("Failed to open source storage:", err)
 	}
