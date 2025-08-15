@@ -3,6 +3,9 @@ package main
 import (
 	"context"
 	"flag"
+	"log"
+	"strings"
+
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/adapters/fwewdictionary"
 	"github.com/gissleh/sarfya-service/adapters/sourcestorage"
@@ -10,13 +13,10 @@ import (
 	"github.com/gissleh/sarfya-service/adapters/webapi"
 	"github.com/gissleh/sarfya/adapters/placeholderdictionary"
 	"github.com/gissleh/sarfya/sarfyaservice"
-	"log"
-	"strings"
 )
 
 var flagSourceDir = flag.String("source-dir", "./data", "Source directory")
 var flagListenAddr = flag.String("listen", ":8080", "Listen address")
-var flagLitxapApi = flag.String("litxap-api", "http://localhost:8081", "Litxap root address")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
@@ -24,7 +24,7 @@ func main() {
 		placeholderdictionary.New(),
 	}
 
-	storage, err := sourcestorage.Open(context.Background(), *flagLitxapApi, *flagSourceDir, dict)
+	storage, err := sourcestorage.Open(context.Background(), *flagSourceDir, dict)
 	if err != nil {
 		log.Fatal("Failed to open storage:", err)
 	}

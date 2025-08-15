@@ -2,6 +2,12 @@ package main
 
 import (
 	"flag"
+	"log"
+	"os"
+	"os/signal"
+	"strings"
+	"syscall"
+
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/adapters/fwewdictionary"
 	"github.com/gissleh/sarfya-service/adapters/jsonemphasisdata"
@@ -10,11 +16,6 @@ import (
 	"github.com/gissleh/sarfya/adapters/jsonstorage"
 	"github.com/gissleh/sarfya/adapters/placeholderdictionary"
 	"github.com/gissleh/sarfya/sarfyaservice"
-	"log"
-	"os"
-	"os/signal"
-	"strings"
-	"syscall"
 )
 
 var flagSourceFile = flag.String("source-file", "./data-compiled.json", "File containing data.")

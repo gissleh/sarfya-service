@@ -3,15 +3,16 @@ package sourcestorage
 import (
 	"context"
 	"fmt"
-	"github.com/gissleh/sarfya"
-	"github.com/gissleh/sarfya-service/emphasis"
-	"golang.org/x/sync/errgroup"
-	"gopkg.in/yaml.v3"
 	"log"
 	"os"
 	"path"
 	"strings"
 	"sync"
+
+	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
+	"golang.org/x/sync/errgroup"
+	"gopkg.in/yaml.v3"
 )
 
 type Storage struct {
@@ -19,7 +20,6 @@ type Storage struct {
 	path       string
 	examples   []sarfya.Example
 	emphasises []emphasis.Input
-	litxap     *emphasis.LitxapClient
 	dictionary sarfya.Dictionary
 }
 
@@ -108,7 +108,7 @@ func (s *Storage) FindEmphasis(ctx context.Context, id string) (*emphasis.FitRes
 	}
 	s.mu.Unlock()
 
-	return emphasis.Run(ctx, s.litxap, example, input)
+	return emphasis.Run(ctx, example, input)
 }
 
 func (s *Storage) AllExamples() []sarfya.Example {
@@ -261,7 +261,7 @@ func (s *Storage) save(source sarfya.Source) error {
 	return yaml.NewEncoder(f).Encode(savedData)
 }
 
-func Open(ctx context.Context, litxapApiURL string, storagePath string, dictionary sarfya.Dictionary) (*Storage, error) {
+func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary) (*Storage, error) {
 	stat, err := os.Stat(storagePath)
 	if os.IsNotExist(err) {
 		err := os.MkdirAll(storagePath, 0766)
@@ -327,7 +327,7 @@ func Open(ctx context.Context, litxapApiURL string, storagePath string, dictiona
 		return nil, err
 	}
 
-	return &Storage{path: storagePath, litxap: &emphasis.LitxapClient{ApiURL: litxapApiURL}, examples: examples[:nextOffset], dictionary: dictionary}, nil
+	return &Storage{path: storagePath, examples: examples[:nextOffset], dictionary: dictionary}, nil
 }
 
 type sourceFileData struct {

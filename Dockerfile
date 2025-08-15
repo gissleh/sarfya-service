@@ -2,7 +2,7 @@ FROM docker.io/library/golang:1.23-alpine AS builder
 WORKDIR /project
 COPY . .
 RUN go get ./...
-RUN go run ./cmd/sarfya-generate-emphasis/ -litxap-api https://litxap.vmaple.dev
+RUN go run ./cmd/sarfya-generate-emphasis/
 RUN go run ./cmd/sarfya-generate-json/
 RUN go build ./cmd/sarfya-prod-server
 

@@ -4,20 +4,20 @@ import (
 	"context"
 	"encoding/json"
 	"flag"
+	"log"
+	"os"
+	"sync"
+
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/adapters/fwewdictionary"
 	"github.com/gissleh/sarfya-service/adapters/sourcestorage"
 	"github.com/gissleh/sarfya-service/emphasis"
 	"github.com/gissleh/sarfya/adapters/placeholderdictionary"
 	"golang.org/x/sync/errgroup"
-	"log"
-	"os"
-	"sync"
 )
 
 var flagSourceDir = flag.String("source-dir", "./data", "Source directory")
 var flagDestFile = flag.String("dest-file", "./stress-data.json", "Destination file")
-var flagLitxapApi = flag.String("litxap-api", "http://localhost:8081", "Litxap root address")
 
 func main() {
 	flag.Parse()
@@ -27,7 +27,7 @@ func main() {
 		placeholderdictionary.New(),
 	}
 
-	storage, err := sourcestorage.Open(context.Background(), *flagLitxapApi, *flagSourceDir, dict)
+	storage, err := sourcestorage.Open(context.Background(), *flagSourceDir, dict)
 	if err != nil {
 		log.Fatal("Failed to open storage:", err)
 	}
