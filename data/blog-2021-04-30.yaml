@@ -54,7 +54,34 @@ inputs:
         en: 2We 1(need to) 5solve 3the 4hammock 3problem 6quickly.
     - id: XY1vIo9ORiilewNsnP-7Ow
       text: 1Fwa 2fpìl 3nìfya'o 4avenga' 5(fìtìzin)8(mì) 6lu 7keltsun.
-      lookup_filter:
-        8: 1108:adp.:noaffix:nolen
       translations:
         en: 1(It)6('s) 7impossible 2(to think) 3+4clearly 3+4{(i.e., in an organized manner)} 8in 5(this muddled situation).
+    - id: eJRk2J_GRT2erxx5cWsiYg
+      text: 1polpxaya 2zìsìt
+      translations:
+        en: 1(how many) 2years
+    - id: sIinFy5eT1uYX-fldTUItA
+      text: 1pìmtxana 2pay
+      lookup_filter:
+        2: 1480:n.:noaffix:nolen
+      translations:
+        en: 1(how much) 2water
+    - id: -ywIHerISAuXHjvtqfAnMw
+      text: 1pìmtxana 2tìsom
+      translations:
+        en: |-
+            1(how much) 2heat
+            {(Interchangeable with somwewpe)}
+    - id: LXZ5FQTXQLOh6yVnjqARMQ
+      text: 1Nga 2{(lu)} 3pesu?
+      translations:
+        en: 1Who 2are 3you?
+    - id: raqsLZuuT4aDCPSjIlBiFw
+      text: 1Pol 2{(tok)} 3pesenget?
+      translations:
+        en: 3Where 2is 1he?
+    - id: dd2kKvUKQFqKsujIRGsTjw
+      text: 1Fìtsko 2lu 3{(pum)} 4oeyä.
+      translations:
+        en: 1(This bow) 2is 3+4mine.
+emphasis: []
