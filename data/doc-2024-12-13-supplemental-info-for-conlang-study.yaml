@@ -59,7 +59,7 @@ inputs:
       lookup_filter:
         2: 412:pn.:noprefix:noinfix:=-ru:nolen
         3: 10968:n.:=ay-:noinfix:nosuffix:nolen
-        4: 5444:n.:noprefix:noinfix:=-r:nolen
+        4: 1024:adj.:=a-:noinfix:nosuffix:nolen
       translations:
         en: 2They 1have 4beautiful 3dogs.
     - id: Hnn2VbxLRR6iD_qqbmp1kw

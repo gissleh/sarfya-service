@@ -131,6 +131,22 @@ div.example-source a {
 div.example-source a:hover {
     color: #abc;
 }
+a.example-flag {
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.66em;
+}
+a.example-flag.flag-non-canon {
+    color: #ff3;
+}
+a.example-flag.flag-proverb {
+    color: #3f3;
+}
+a.example-flag.flag-reef-dialect {
+    color: #3ff;
+}
+
 
 div.group-word-list {
     margin-top: 1.5em;
@@ -153,3 +169,4 @@ div.group-word-list > .word:first-child {
 div.group-word-list > .word:last-child {
     margin-right: auto;
 }
+

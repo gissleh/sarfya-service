@@ -4,13 +4,14 @@ import (
 	"bufio"
 	"context"
 	"fmt"
-	"github.com/a-h/templ"
-	"github.com/gissleh/sarfya"
-	"github.com/gissleh/sarfya-service/emphasis"
 	"io"
 	"strconv"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/a-h/templ"
+	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
 )
 
 // sentence is a templ code that generates <a>s and <span>s for the sentence parts.

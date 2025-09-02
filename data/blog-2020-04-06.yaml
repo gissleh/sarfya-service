@@ -16,6 +16,8 @@ inputs:
         1: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 2(I present) 1(to you) 2(this story) 3+8about 5Ìstaw's 6and 7Syuku's 4friendship
+      flags:
+        - non_canon
     - id: oO-e_u4KQQWjfOAN97pwAQ
       text: 1New 2oe 3piveng 4ayngar 5teri 6zeya 7tì'eylan. 8Zey 9pelun? 10Taluna 11fìtì'eylan 12lu 13pum 14a 15mìkam 16tutan 17sì 18syaksyuk. 19Srekrr 20ke 21lolen 22fìtìfkeytok 23kawkrr. 24Fìtì'eylanìri 25pefya 26len, 27set 28(tìng mikyun) …
       lookup_filter:
@@ -23,16 +25,22 @@ inputs:
         9: 1508:inter.:noaffix:nolen
       translations:
         en: 2I 1(want to) 3tell 4you 5about 7a 6special 7friendship. 9Why is it 8special? 10(It's special because) 11(it)12('s) 13(a friendship) 14+15between 16(a man) 17and 18(a Prolemuris). 22That 21had 20+23never 21happened 19before. 28Listen 27now 25how 24(this friendship) 26(came about) …
+      flags:
+        - non_canon
     - id: W_pUb6xmQHmhQ5lnapv5Jw
       text: 1Txono 2krra 3tutan 4a'ewan 5alu 6Ìstaw 7(tarmìng nari) 8(pxawpa)9(ro) 10txanlokxeyä, 12tsìk 13stolawm 14pol 15hawmpamti 16astxong 17a 18mì 19na'rìng. 20Olomum 21pol 22futa 23kea 24snanantang 25ke 26sim. 27Slä 28nìfkeytongay 29smon 30poru 31frazawr 32na'rìngä; 33tafral 34olomum 35futa 36fìzawr 37(syaksyuk)48(ta) 38za'u. 39Pole'un 40pol 41futa 42(nari si) 44keynven 45ne 46pamä 47tsim.
       lookup_filter:
         26: 3816:vin.:noaffix:nolen
       translations:
         en: 1(One night), 2while 3a 4young 3man 5+6(named Ìstaw) 7(had the watch) 9at 8(the border) 10(of his country), 14he 12suddenly 13heard 15a 16strange 16unexpected 15noise 17+18in 19(the forest). 21He 20knew 22that 26(there was) 23+25no 24(viperwolf pack) 26nearby. 27But 28(as a matter of fact) 30he 29(was familiar with) 31(every animal cry) 32(of the forest); 33therefore 21he 34knew 35that 36(this cry) 38(had come) 48from 37(a Prolemuris). 40He 39decided 41to 42+44(carefully step) 45to 47(the source) 46(of the sound).
+      flags:
+        - non_canon
     - id: dw41H6DRRB6tDrX577lR_Q
       text: 1Nì'i'a 2rolun 3pol 4syaksyukä 5linit 6a 7mì 8tal 9lolu 10poru 12txukxa 13skxir 14a 15ftu 16'etnaw 17askien 18ne 19mepun 20aftär. 21Lam 22fwa 23skxir 24za'u 25ta 26säfrìp 27nantangä. 28Tsari 29reypay 30wrrzera'u.
       lookup_filter:
         2: 1724:vtr.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1Finally 3he 2(came upon) 5a 4Prolemuris 5youngling 6that 9had 13a 12deep 13wound 7on its 8back 14+15from 16its 17right 16shoulder 14+18to its 19two 20left 19arms. 21+22(It seemed) 23(the wound) 24came 25from 26(a bite) 27(of a viperwolf). 29Blood 30(was coming out) 28(of it).
+      flags:
+        - non_canon
 emphasis: []

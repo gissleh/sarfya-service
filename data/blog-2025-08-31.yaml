@@ -1,0 +1,14 @@
+source:
+    id: blog-2025-08-31
+    date: "2025-08-31"
+    url: https://naviteri.org/2025/08/revising-the-resource-list/
+    title: Revising the resource list
+    author: Paul Frommer
+inputs:
+    - id: MU-TvaMvSsSkwEfW82Gm6A
+      text: 1Ftxozä 2Tìkangkemä 3prrte' 4livu 5ayngar!
+      lookup_filter:
+        5: 208:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 3+4+5(Enjoy your) 1+2(Labor Day)!
+emphasis: []

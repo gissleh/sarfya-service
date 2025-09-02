@@ -13,6 +13,8 @@ inputs:
       text: 1slä 2hayalo 3alahe
       translations:
         en: 1+2+3(but this is for another time)
+      flags:
+        - non_canon
     - id: b86knD6tTceFEKUfvSxpQQ
       text: 1Ma 2Entu, 3ngal 4lumpe 5ngey 6tsmukeyä 7yomyot 8tseykolawng?
       lookup_filter:
@@ -55,3 +57,4 @@ inputs:
       text: 1Fì'upxare 2(kangay si) 3fura 4po 5zaya'u.
       translations:
         en: 1(This message) 2confirms 3that 4he 5(will come).
+emphasis: []

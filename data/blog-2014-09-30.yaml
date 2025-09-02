@@ -43,10 +43,8 @@ inputs:
       lookup_filter:
         3: 208:pn.:noaffix:nolen
         4: 10144:adp.:noaffix:nolen
-        8: 1108:adp.:noaffix:nolen
         16: 1132:pn.:noprefix:noinfix:=-yä:nolen
         26: 6916:adv.:noaffix:nolen
-        28: 1792:part.:noaffix:nolen
       translations:
         en: 1As 2you 3know, 4during 5the 6(Avatar Community) 5Meet-up 7+8in 9(Los Angeles) 10(last month), 13(all the participants) 12came 14to 16our 15house 11(one evening) 17to 18+19(have dinner), 20study 21(a little) 22+23Na'vi, 25(hang out together), 26(and have fun). 27(For John) 28and 29me, 31(that evening) 30was 32a 33real 32treasure.
     - id: X1HmGK_jRmaKMuYvjEr7rA
@@ -73,9 +71,8 @@ inputs:
     - id: pwJQGVj6SSazEtMcM2B3mA
       text: 1Fìmestxeli 2alor 3kur 4set 5ta 6kxemyo 7a 8mì 9helku 10moeyä.
       lookup_filter:
-        2: 5444:n.:noprefix:noinfix:=-r:nolen
+        2: 1024:adj.:=a-:noinfix:nosuffix:nolen
         3: 9796:vin.:noaffix:nolen
-        8: 1108:adp.:noaffix:nolen
         10: 1132:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1(These two) 2beautiful 1gifts 3are 4now 3hanging 5on 6(a wall) 7+8in 10our 9home.
@@ -86,3 +83,4 @@ inputs:
         9: 1296:adv.:noaffix:nolen
       translations:
         en: 3We 2(thank you) 4(so much) 1(for this honor), 5+6(brothers and sisters). 7(We)8('re) 9greatly 8touched.
+emphasis: []
