@@ -76,3 +76,15 @@ inputs:
         en: |-
             1If 3I 2were 4(Clan Leader) . . .
             but I'm not
+    - id: g3UGzNMJRNiX2dtS7TvcxA
+      text: 1Fìpostì 2mektsengur 3(teya si).
+      translations:
+        en: 1(This post) 3fills 2(a gap).
+    - id: cw841t50TEm9-Yes4u9CHA
+      text: 1Txo 2ngal 3tsat 4txivula, 5{(tsakrr)} 6fo 7zaya'u
+      lookup_filter:
+        5: 2332:adv.:noaffix:nolen
+        6: 412:pn.:noaffix:nolen
+      translations:
+        en: 1If 2you 4build 3it, 6they 7(will come).
+emphasis: []

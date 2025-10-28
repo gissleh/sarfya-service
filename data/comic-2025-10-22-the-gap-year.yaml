@@ -1,0 +1,17 @@
+source:
+    id: comic-2025-10-22-the-gap-year
+    date: "2025-10-22"
+    url: https://www.darkhorse.com/Comics/3010-552/Avatar-The-Gap-Year--Tipping-Point-1
+    title: 'Avatar: The Gap Year--Tipping Point #1'
+    author: Dark Horse
+inputs:
+    - id: 3mAV66y2ScOrPj019G8TFw
+      text: 1La'ang...
+      translations: {}
+    - id: YyGsIb29RlKENa0eMp581w
+      text: 1Foti 2(N-l|Toruk Maktol) 3tayakuk 4mì 5te'lan!
+      lookup_filter:
+        1: 412:pn.:noprefix:noinfix:=-ti:nolen
+      translations:
+        en: 2(Toruk Makto) 3(will strike) 1them 4in 5(the heart)!
+emphasis: []
