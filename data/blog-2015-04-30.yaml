@@ -7,8 +7,6 @@ source:
 inputs:
     - id: 7N7Eq8kpRciOnAKuspAJGA
       text: 1Tìkelu 2tìeyktanä 3asìltsan 4längu 5mì 6olo' 7awngeyä 8tìngäzìk.
-      lookup_filter:
-        5: 1108:adp.:noaffix:nolen
       translations:
         en: 4Unfortunately, 1(the lack) 2of 3good 2leadership 5in 7our 6clan 4is 8(a problem).
     - id: Ykf20ieqTDaz866MebzV9g
@@ -48,16 +46,13 @@ inputs:
       text: 1Peioang 2tsun 3mì 4tampay 5kop 6mì 7reym 8rivey?
       lookup_filter:
         2: 2476:vim.:noaffix:nolen
-        3: 1108:adp.:noaffix:nolen
         5: 10476:conj.:noaffix:nolen
-        6: 1108:adp.:noaffix:nolen
       translations:
         en: 1(What animal) 2can 8live both 3in 4(the sea) 5and 6on 7(the land)?
     - id: YEInN485R32Yi1kIhk1pbw
       text: 1Entu 2lu 3tuvoma 4taronyu. 5Kawtut 6na 7po 8ke 9tsole'a 10oel 11mì 12sìrey.
       lookup_filter:
         4: 2008:n.:noaffix:nolen
-        11: 1108:adp.:noaffix:nolen
       translations:
         en: 1Entu 2is 4an 3incredible 4hunter. 10(I)9('ve) 8+11+12never 9seen 5anyone 6like 7him 8+11+12before.
     - id: YZxoAeLwRsiQ7t8t1z4RcA
@@ -118,3 +113,17 @@ inputs:
       text: 1Tsasäplltxeri 2säwìngay 3a 4tolìng 5ngal 6lu 7meyp.
       translations:
         en: 2(The proof) 5you 3+4gave 1(of that statement) 6is 7weak.
+    - id: tX2mgtPsRJ2zAX9Q7N7ylA
+      text: 1Sìlpey 2oe 3tsnì 4fpom 5livu 6ayngaru 7nìwotx 8ulte 9sngerä'i 10a 11zìsìkrr 12asang 13zivawprrte' 14ayngane.
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        6: 208:pn.:noprefix:noinfix:=-ru:nolen
+        14: 208:pn.:noprefix:noinfix:=-ne:nolen
+      translations: {}
+    - id: bgfVQmG7SwaTcOLuYUZjpw
+      text: 1Rutxe, 2ma 3eylan, 4ayoeru 5fpe' 6payti!
+      lookup_filter:
+        4: 212:pn.:noprefix:noinfix:=-ru:nolen
+        6: 1480:n.:noprefix:noinfix:=-ti:nolen
+      translations: {}
+emphasis: []

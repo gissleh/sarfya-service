@@ -9,3 +9,9 @@ inputs:
       text: 1Ke 2'efu 3oe 4ohakx 5nìhawng; 6tam 7tsyey.
       translations:
         en: 3(I)2('m) 1not 5too 4hungry; 7(a snack) 6(will do).
+    - id: LW4fWsvqQQyAweWBk08AaA
+      text: 1Kaltxì 2nìmun 3ayngaru 4nìwotx!
+      lookup_filter:
+        3: 208:pn.:noprefix:noinfix:=-ru:nolen
+      translations: {}
+emphasis: []

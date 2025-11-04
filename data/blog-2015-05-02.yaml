@@ -1,0 +1,26 @@
+source:
+    id: blog-2015-05-02
+    date: "2015-05-02"
+    url: https://naviteri.org/2015/05/cirque-du-soleils-toruk-the-first-flight-teaser-video-online/
+    title: 'Cirque du Soleil’s “Toruk: The First Flight”–Teaser video online!'
+    author: Paul Frommer
+inputs:
+    - id: 3nNv8EC0ScC-kqHGFexBfg
+      text: |-
+        1Oe 2lu 3Anuraiyä 4syena 5hapxì 6a 7rey.
+        8(Tsaheyl si) 9hu 10Eywa 11a 12krr,
+        13Stawm 14oel 15aymokrit 16fizayuä 17a 18lìm
+        19Krra 20kxap 21larmu 22(sìrey)27(wä) 23feyä 24nìwotx.
+        25Ayngaru 26tsavurit.
+      lookup_filter:
+        23: 412:pn.:noprefix:noinfix:=-yä:nolen
+        25: 208:pn.:noprefix:noinfix:=-ru:nolen
+      translations: {}
+    - id: W6J6-NzdRoay4hZlqwxAJA
+      text: 1Sìlpey 2oe 3tsnì 4hì'ia 5fìrel 5arusikx 8sì 9mì 10saw 11a 12lì'fya 13leNa'vi 14zivawprrte' 15ayngane!
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        10: 5268:pn.:noaffix:=ts→s
+        15: 208:pn.:noprefix:noinfix:=-ne:nolen
+      translations: {}
+emphasis: []

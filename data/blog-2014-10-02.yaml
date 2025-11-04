@@ -55,7 +55,10 @@ inputs:
       lookup_filter:
         1: 10180:n.:noaffix:nolen
       translations:
-        en: 1+2(Please! Go ahead. You first.)
+        en: |-
+            My 1commander is 2you.
+            {(Please! Go ahead. You first.)}
+            {(It's used as politeness formula to tell someone (who doesn't necessarily have to be above you) to go through a door first, take the last piece of teylu, etc.)}
     - id: LZ3j0FQ6Tfy1Y1Y-weSxFQ
       text: 1Pori 2fpomtokx 3sì 4fpomron 5yo'.
       translations:
@@ -110,3 +113,8 @@ inputs:
         1: 208:pn.:noprefix:noinfix:=-ri:nolen
         2: 1800:vin.:noaffix:nolen
       translations: {}
+    - id: RKK_twlCR2SPs5zEVfHzgg
+      text: 1Pesu 2(tìkxìm si) 3ngar?
+      translations:
+        en: 1(Who)2('s) 3your 2boss?
+emphasis: []
