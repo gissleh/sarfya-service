@@ -1,0 +1,32 @@
+source:
+    id: blog-2014-06-01
+    date: "2014-06-01"
+    url: https://naviteri.org/2014/06/teri-tsaliu-alu-nifkeytongay-about-nifkeytongay/
+    title: Teri tsalì’u alu nìfkeytongay—About “nìfkeytongay”
+    author: Paul Frommer
+inputs:
+    - id: dotr1jSsTiugC8wRgyT-Ag
+      text: 1Plltxe 2frapo 3san 4Peyral 5ke 6tsun 7rivol 8nìltsan 9sìk. 10Nìfkeytongay 11lu 12po 13rolyu 14atxantsan. 15Pori 16mokri 17lor 18lu 19nìtxan 20ulte 21rol 22po 23nìftxavang. 24Tìngäzìk 25le'aw 26längu 27fwa 28nim 29lu. 30Ke 31sunu 32por 33fwa 34rol 35eo 36tute 37apxay.
+      lookup_filter:
+        2: 460:pn.:noaffix:nolen
+        6: 2476:vim.:noaffix:nolen
+        9: 1796:adv.:noaffix:nolen
+        19: 1312:adv.:noaffix:nolen
+        23: 1276:adv.:noaffix:nolen
+        31: 6376:vin.:noaffix:nolen
+        32: 1548:pn.:noprefix:noinfix:=-r:nolen
+      translations: {}
+      flags:
+        - transcribed
+    - id: 0A23wLlwQa-bd0icvBTn5A
+      text: |-
+        NUMEYU: 1Tok 2pesenget 3pamrelìl? 4Tsat 5ngal 6tswolänga' 7nìlam.
+        PAWL: 8Nìfkeytongay 9ke 10tswola' 11kaw'it.
+      lookup_filter:
+        4: 5980:pn.:noaffix:nolen
+      translations: {}
+    - id: u4ozrYZoR3CPKJ6JfUD2mw
+      text: 1Teri 2tsalì'u 3alu 4nìfkeytongay
+      translations:
+        en: 1About 2+3+4"nìfkeytongay"
+emphasis: []

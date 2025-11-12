@@ -138,15 +138,17 @@ a.example-flag {
     font-size: 0.66em;
 }
 a.example-flag.flag-non-canon {
-    color: #ff3;
+    color: #cd4;
 }
 a.example-flag.flag-proverb {
-    color: #3f3;
+    color: #4c5;
 }
 a.example-flag.flag-reef-dialect {
-    color: #3ff;
+    color: #3cc;
 }
-
+a.example-flag.flag-transcribed {
+    color: #ace;
+}
 
 div.group-word-list {
     margin-top: 1.5em;

@@ -32,6 +32,8 @@ inputs:
       text: 1Po 2täpeykìyeverkeiup 3nìnäk
       translations:
         en: 2(I am jazzed that) 1he 2(is apparently about to) 3drink 2(himself to death).
+      flags:
+        - non_canon
     - id: w5mN9maiQNioDoH3rcxZQA
       text: 1Oel 2poru 3teykaron.
       translations:
@@ -56,3 +58,4 @@ inputs:
       text: 1Po 2kllkxäpeykem.
       translations:
         en: 1He 2(stands himself up).
+emphasis: []

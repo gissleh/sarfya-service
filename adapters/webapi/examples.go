@@ -1,14 +1,15 @@
 package webapi
 
 import (
-	"github.com/gissleh/sarfya"
-	"github.com/gissleh/sarfya-service/emphasis"
-	"github.com/gissleh/sarfya/sarfyaservice"
-	"github.com/labstack/echo/v4"
 	"log"
 	"net/http"
 	"net/url"
 	"time"
+
+	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
+	"github.com/gissleh/sarfya/sarfyaservice"
+	"github.com/labstack/echo/v4"
 )
 
 func Examples(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emphasis.Storage) {
@@ -42,7 +43,7 @@ func Examples(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emp
 
 		duration := time.Since(startTime)
 		if duration > time.Millisecond*200 {
-			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
+			log.Printf("Slow! %#+v took %s", search, time.Since(startTime))
 		}
 
 		if compactLang != "" {

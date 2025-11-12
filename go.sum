@@ -23,6 +23,10 @@ github.com/gissleh/litxap-fwew v0.0.0-20250815125607-8b87ab613a4b h1:8llMxdvXRrt
 github.com/gissleh/litxap-fwew v0.0.0-20250815125607-8b87ab613a4b/go.mod h1:T3w9Q6rfRZr1ti7WZlyQL0fHk3JxTaqs+6zWWvzsK90=
 github.com/gissleh/sarfya v1.1.0 h1:S7M3zOyPlo6YArvPRldGFIzQFqooh2v+e27qogt2y/k=
 github.com/gissleh/sarfya v1.1.0/go.mod h1:qOVccVAJSTZCv4cl1tRwiAPagd14+n51q7hYQ8mYeEU=
+github.com/gissleh/sarfya v1.1.1 h1:zfYI8S6fMItSoQJZqFutdSTY98pl/LecwHqsdu2PIeU=
+github.com/gissleh/sarfya v1.1.1/go.mod h1:qOVccVAJSTZCv4cl1tRwiAPagd14+n51q7hYQ8mYeEU=
+github.com/gissleh/sarfya v1.1.2 h1:ft4tuSyaXlJKjVHz8Ahb32b70Y4vtGUn43Z+F3kD0NY=
+github.com/gissleh/sarfya v1.1.2/go.mod h1:qOVccVAJSTZCv4cl1tRwiAPagd14+n51q7hYQ8mYeEU=
 github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpvNJ1Y=
 github.com/go-sql-driver/mysql v1.8.1/go.mod h1:wEBSXgmK//2ZFJyE+qWnIsVGmvmEKlqwuVSjsCm7DZg=
 github.com/golang-jwt/jwt v3.2.2+incompatible h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY=

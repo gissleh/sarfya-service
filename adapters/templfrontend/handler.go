@@ -4,16 +4,17 @@ import (
 	"context"
 	"embed"
 	"fmt"
-	"github.com/a-h/templ"
-	"github.com/gissleh/sarfya"
-	"github.com/gissleh/sarfya-service/emphasis"
-	"github.com/gissleh/sarfya/sarfyaservice"
-	"github.com/labstack/echo/v4"
 	"io/fs"
 	"log"
 	"net/http"
 	"net/url"
 	"time"
+
+	"github.com/a-h/templ"
+	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
+	"github.com/gissleh/sarfya/sarfyaservice"
+	"github.com/labstack/echo/v4"
 )
 
 //go:embed assets/*
@@ -104,7 +105,7 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage em
 
 		duration := time.Since(startTime)
 		if duration > time.Millisecond*200 {
-			log.Printf("Slow! %#+v exectured in %s", search, time.Since(startTime))
+			log.Printf("Slow! %#+v took %s", search, time.Since(startTime))
 		}
 
 		return outputHtml(c, 200, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, "", res, stressAnnotations)))

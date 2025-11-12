@@ -19,7 +19,7 @@ inputs:
         23: 208:pn.:noprefix:noinfix:=-yä:nolen
         32: 208:pn.:noaffix:nolen
       translations:
-        en: 1I 3See 2you, 4my 5+6friends, 7and I 9thank 8you. 18I 17(have heard) 16(the message) 11you 10+15(have sent) 12me 13so 14passionately. 21I 22feel 23your 24love 19(for the) 20Na'vi 19language. 25And 27I 26know 32you 28+31are 33all 28+31waiting 29for 30my 29guidance.
+        en: 1I 3See 2you, 5my 4+6friends, 7and I 9thank 8you. 18I 17(have heard) 16(the message) 11you 10+15(have sent) 12me 13so 14passionately. 21I 22feel 23your 24love 19(for the) 20Na'vi 19language. 25And 27I 26know 32you 28+31are 33all 28+31waiting 29for 30my 29guidance.
     - id: wiF9TW4HSHSKZrIUu6GQXA
       text: '1Spivaw 2oeti 3rutxe, 4ma 5oeyä 6eylan: 7oe 8new 9nìtxan 10ayngaru 11fyawivìntxu. 12Slä 13nìawnomum, 14zene 15oe 16''awsiteng 17(tìkangkem sivi) 18(fo)19(hu) 20a 21Uniltìrantokxit 22sì 23kifkeyit 24Eywa''evengä 25zamolunge 26awngar. 27Foru 28''upxaret 29oel 30fpole'', 31slä 32vay 33set 34ke 35pamähängem 36kea 37tì''eyng. 38Nìaynga 39oe 40perey 41nìteng.'
       lookup_filter:
@@ -49,3 +49,4 @@ inputs:
         12: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations:
         en: 2I 1hope 4I 3will 5soon 3have 6+7good 8news 9+10+13(to give) 12you.
+emphasis: []
