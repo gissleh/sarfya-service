@@ -1,0 +1,72 @@
+source:
+    id: blog-2025-11-19
+    date: "2025-11-19"
+    url: https://naviteri.org/2025/11/kaltxi-nimun-hello-again/#comments
+    title: Kaltxì nìmun! Hello again!
+    author: Paul Frommer
+inputs:
+    - id: K_CW8ZqPQ9GZox3qKRXdIA
+      text: 1Aylì'u 2akeri 3tsun 4lekxu 5livu 6nì'ul 7to 8tìtseri
+      lookup_filter:
+        3: 13353:n.:noaffix:nolen
+        7: 2224:part.:noaffix:nolen
+      translations:
+        en: 2Fierce 1words 3can 5be 7+8more 4harmful 7+8(than you think).
+    - id: un60u1r-Q9-MAQM7VfyRxw
+      text: |-
+        1Aylì'u 2akeri
+        3Lekxu 4to 5tìtseri.
+      lookup_filter:
+        4: 2224:part.:noaffix:nolen
+      translations:
+        en: 2Fierce 1words can be 4+5more 3harmful 4+5(than you think).
+      flags:
+        - poetry
+        - proverb
+    - id: jCjkLNBHQ-uuf3N0ReQ5Og
+      text: 1Fleyul 2aylì'uä 3peyä 4law 5slolu 6frapor.
+      lookup_filter:
+        6: 460:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 1(The falsity) 2of 3his 2words 5became 4clear 6(to everyone).
+    - id: xs6fVM20QweZap7jwzY40Q
+      text: 1Fleyulìl 2pot 3skola'a.
+      translations:
+        en: 1Falsehood 3destroyed 2her.
+    - id: hBVlL_yKRXyY7QVCJ7DL_g
+      text: 1Tsanivi 2atxawnula 3nìfe' 4(hufwe)5(mì) 6palolate.
+      lookup_filter:
+        3: 7756:adv.:noaffix:nolen
+      translations:
+        en: 1That 3poorly 2constructed 1hammock 6(fell apart) 5in 4(the wind).
+    - id: tr9t4mHjQhuJ7N6fu6kycw
+      text: 1Kxew! 2Oey 3tsko 4tsìlmawng!
+      translations:
+        en: 1Damn! 2My 3bow 4(just broke into pieces)!
+    - id: xnYe_C6KTZWcGvhVXINgQg
+      text: 1Oey 2fänut 3oel 4fpal 5frakrr.
+      lookup_filter:
+        5: 456:adv.:noaffix:nolen
+      translations:
+        en: 3I 5always 4keep 1my 2promises.
+    - id: FmgCB_RpTFe9TFEz5UiAIg
+      text: 1Ngal 2kea 3tsonit 4ke 5fpal 6kawkrr!
+      translations:
+        en: 1You 2+4+6never 5fulfill 1your 3obligations!
+    - id: 1My-CexbT9mZ17cnhORgZA
+      text: 1Zene 2awnga 3fayuturtur 4(srung sivi).
+      translations:
+        en: 2We 1must 4help 3(these refugees).
+    - id: A-P3t8CATl2T6CrHExhE6Q
+      text: 1Pori 2pxun 3kakzir 4latsu.
+      translations:
+        en: 1His 2arm 4(must be/appears to be) 3numb.
+    - id: Qaylm7qQTvG9Kx8_jLM6kQ
+      text: 1Teri 2kxitx 3peyä 4stawm 5a 6krr, 7oe 8kakzir 9slolu 10nìwotx.
+      translations:
+        en: 5+6When 7I 4heard 1about 3her 2death, 7I 9became 10completely 8numb.
+    - id: g0TVkLorReyfSO3_96MikA
+      text: 1Kaltxì 2nìmun!
+      translations:
+        en: 1Hello 2again!
+emphasis: []
