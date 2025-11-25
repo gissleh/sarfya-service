@@ -28,8 +28,6 @@ inputs:
         2: 212:pn.:noaffix:nolen
         11: 12:num.:=a-:noinfix:nosuffix:nolen
         16: 13195:adv.:noaffix:nolen
-        33: 1592:adj.:=a-:noinfix:nosuffix:nolen
-        34: 1108:adp.:noaffix:nolen
         36: 212:pn.:noprefix:noinfix:=-yä:nolen
         40: 368:pn.:noaffix:nolen
         43: 1080:n.:noaffix:nolen
@@ -61,6 +59,7 @@ inputs:
       lookup_filter:
         3: 212:pn.:noprefix:noinfix:=-ru:nolen
         11: 1548:pn.:noprefix:noinfix:=-r:nolen
+        14: 5128:adv.:noaffix:nolen
         17: 212:pn.:noprefix:noinfix:=-r:nolen
         32: 8020:adp.:noaffix:nolen
         45: 1548:pn.:noprefix:noinfix:=-r:nolen
@@ -68,27 +67,23 @@ inputs:
     - id: B1jMQYgzSO67QZU2srKE_g
       text: '1Srake 2tsayun 3fko 4fìtìfkeytokit 5a 6(M|Amerika)7(mì) 8zeykivo? 9Oe 10ke 11omum. 12Slä 13law 14lu 15''u 16a''aw 17nìwotx: 18Kam 19puzama 20zìsìt 21wum 22(fìatxkxe)44(mì), 23fkol 24yolem 25nemfa 26kllte 27utralit 28akawng 29ulte 30tsat 31peykolaw. 32Tsautral 33(tsawl slolu). 35Tolìng 36ayoer 37mautit 38asyä''ä. 39Ulte 40yerom 41ayoel 42tsamautit 43fìtrr.'
       lookup_filter:
-        7: 1108:adp.:noaffix:nolen
         8: 6428:vtr.:noprefix:=<iv>:nosuffix:nolen
         16: 12:num.:=a-:noinfix:nosuffix:nolen
         18: 8020:adp.:noaffix:nolen
         36: 212:pn.:noprefix:noinfix:=-r:nolen
         41: 212:pn.:noprefix:noinfix:=-l:nolen
         43: 4280:adv.:noaffix:nolen
-        44: 1108:adp.:noaffix:nolen
       translations: {}
     - id: 4U-LxF8_RaeRD91yo9DlDw
       text: '1Fìpostì 2lolu 3pum 4avawm, 5slä 6zene 7oe 8pivlltxe 9san 10mì 11(M|Amerika) 12a 13tìfkeytokìri 14set 15(sngum si) 17oe 18nìnän 19nì''it. 20Pelun? 21Kxawm 22livu 23oer 24tìkxey, 25slä 26fìalo 27lam 28fwa 29''uo 30lolatem. 31Mì 32ftawnemkrr, 33sìleymkem 34a 35(tìkemwiä)78(wä) 36maw 37kintrr 38a''aw 39tolerkup; 40set 41ke 42tererkup 43ki 44''erul. 45Ulte 46lam 47fwa 48txampxìl 49suteyä 50ayoeyä—51ftxey 52lu 53for 54ta''leng 55avawm, 56ftxey 57ta''leng 58ateyr—59tslam 60nì''i''a 61fìtìngayt: 62Sìrey 63Alayon 64Tsranten. 65Tsafya 66sìlpey 77oe.'
       lookup_filter:
-        10: 1108:adp.:noaffix:nolen
         20: 1508:inter.:noaffix:nolen
         29: 4180:pn.:noaffix:nolen
-        31: 1108:adp.:noaffix:nolen
         38: 12:num.:=a-:noinfix:nosuffix:nolen
-        43: 6288:conj.:noaffix:nolen
         50: 212:pn.:noprefix:noinfix:=-yä:nolen
         51: 4456:conj.:noaffix:nolen
         53: 412:pn.:noprefix:noinfix:=-r:nolen
         56: 4456:conj.:noaffix:nolen
         66: 1800:vin.:noaffix:nolen
       translations: {}
+emphasis: []

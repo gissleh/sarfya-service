@@ -20,7 +20,7 @@ inputs:
       translations:
         en: |-
             1You 2come 3well 4to 5(the eye).
-            {(You look good.')}
+            {(You look good.)}
     - id: tzKs3fhJREm6U4Ayg28seg
       text: 1Po 2za'u 3nìfe' 4ne 5nari.
       lookup_filter:

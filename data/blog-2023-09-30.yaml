@@ -7,10 +7,6 @@ source:
 inputs:
     - id: 1u_1JZKVR4mWvk8Di1qnzQ
       text: 1na 2txim 3a 4(txìm)5(mì)
-      lookup_filter:
-        2: 13385:n.:noaffix:nolen
-        4: 2536:n.:noaffix:nolen
-        5: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             1like 2(a thorn) 3+5in 4(the butt)
@@ -21,14 +17,12 @@ inputs:
       text: 1Tuteol 2asipit 3aytäremä 4txolula 5mì 6na'rìng.
       lookup_filter:
         1: 4184:pn.:noprefix:noinfix:=-l:nolen
-        5: 1108:adp.:noaffix:nolen
       translations:
         en: 1Someone 4built 2(a tower) 3(of bones) 5in 6(the forest).
     - id: YpltsG3JS3--11YDoyhIaQ
       text: 1(N|Ranu) 2(kilvan)3(mì) 4fyarmufye 5na 6tsawla 7payoang 8apìsaw.
       lookup_filter:
         2: 804:n.:noaffix:nolen
-        3: 1108:adp.:noaffix:nolen
       translations:
         en: 1Ranu 4(was splashing) 3in 2(the river) 5like 7a 6big 8clumsy 7fish.
     - id: FthgZyRMSIWcAZ0hFHnO5A
@@ -92,10 +86,11 @@ inputs:
       lookup_filter:
         2: 13395:adv.:noaffix:nolen
       translations:
-        en: 1(be pleasurable) 4to 3one 2(in an innocent way) {(This expresses the idea of taking pure pleasure in someone else's good fortune or achievements without the slightest hint of envy or jealousy.)}
+        en: "1(be pleasurable) 4to 3one 2(in an innocent way) \n{(This expresses the idea of taking pure pleasure in someone else's good fortune or achievements without the slightest hint of envy or jealousy.)}"
     - id: 1ivLjvDZTkq_RPGPd9C0Jg
       text: 1Po 2lu 3ngong 4nìngay.
       lookup_filter:
         4: 1296:adv.:noaffix:nolen
       translations:
         en: 1(He)2('s) 4really 3lazy.
+emphasis: []

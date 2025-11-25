@@ -5,12 +5,6 @@ source:
     title: 'Confirmations (comparisons & gerund) '
     author: Plumps, Paul Frommer
 inputs:
-    - id: oV1eB6ANRlyfi3vTLN2ziA
-      text: 1Oe 2tul 3nìftxan 4nìwin 5na 6nga.
-      lookup_filter:
-        4: 1316:adv.:noaffix:nolen
-      translations:
-        en: 1I 2run 3as 4fast 5as 6you.
     - id: 9o1bI73oQqS-Qf07rnlkFg
       text: 1Oel 2yerikit 3taron 4nìftxan 5nìltsan 6na 7nga.
       translations:
@@ -46,3 +40,4 @@ inputs:
         3: 1316:adv.:noaffix:nolen
       translations:
         en: 1She 2runs 3+4(the fastest)
+emphasis: []

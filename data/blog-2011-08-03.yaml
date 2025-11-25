@@ -66,12 +66,12 @@ inputs:
       translations: {}
     - id: usmSfJJqS7CzLMQ3HP69yg
       text: 1Nìkeftxo 2lu 3fì'evengur 4'awa 5sa'sem 6nì'aw.
+      lookup_filter:
+        1: 5128:adv.:noaffix:nolen
       translations:
         en: 1Unfortunately 3(this child) 1has 6only 4one 5parent.
     - id: gwWFcJJ6SE6b_-JaDhGp1A
       text: 1Nì'awve 2oengal 3yolom 4wutsot; 5mawkrr 6(uvan si).
-      lookup_filter:
-        1: 1256:adv.:noaffix:nolen
       translations:
         en: 1First 2we 3+4(had dinner); 5afterwards 2we 6(played )6{(a game)}.
     - id: K3d1n7s5TwiI7nu8h2H1eA
@@ -90,3 +90,4 @@ inputs:
       text: 1Ftu 2oe 3neto 4rikx!
       translations:
         en: 4+3(Get away) 1from 2me!
+emphasis: []

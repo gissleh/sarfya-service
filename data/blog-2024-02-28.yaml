@@ -20,6 +20,8 @@ inputs:
         en: 3+4(How long) 2were 1you 2sleeping?
     - id: NfrknLu4TceL-b1sZszWFg
       text: 1Tsasäftxulì'ul 2peyä 3(eltut heykolahaw) 4nìtxan.
+      lookup_filter:
+        4: 1312:adv.:noaffix:nolen
       translations:
         en: 1(That speech) 2(of his) 3was 4very 3boring.
     - id: patoGQbLRsGMZXMz-trCQw
@@ -105,3 +107,4 @@ inputs:
       text: 1Zìsìtnuntrr 2Lefpom!
       translations:
         en: 2Happy 1(Leap Year Day)!
+emphasis: []

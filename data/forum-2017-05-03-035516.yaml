@@ -10,4 +10,7 @@ inputs:
       translations: {}
     - id: JE2LQrPYQZmcwEVyr43-pw
       text: 1Nìrangal 2lirvu 3oer 4tì'eyng 5asìltsan! 6Nìkeftxo 7ke 8längu 9oeru.
+      lookup_filter:
+        6: 5128:adv.:noaffix:nolen
       translations: {}
+emphasis: []

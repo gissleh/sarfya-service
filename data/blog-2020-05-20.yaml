@@ -81,3 +81,22 @@ inputs:
       text: 1Eywa 2vayun.
       translations:
         en: 1Eywa 2(will provide).
+    - id: wTZBmeDFRpqHnfH1f3e7-g
+      text: 1Kaltxì 2nìmun, 3ma 4eylan. 5Sìlpey 6oe, 7ayngaru 8livu 9fpom 10nìwotx 11ulte 12Ro 13Helku 14a 15Tì'usì'awn 16Anawm 17ke 18livu 19ngäzìk 20nìhawng.
+      lookup_filter:
+        5: 1800:vin.:noaffix:nolen
+        7: 208:pn.:noprefix:noinfix:=-ru:nolen
+      translations: {}
+    - id: IgzQkBZnTNaTD4WmfSzHAA
+      text: 1Oe 2(tsakem soli) 3nìnew
+      translations:
+        en: 1I 2(did it) 3voluntarily
+    - id: Tku_Lsq9Q8iqNIUNT5iNiA
+      text: 1Oe 2(tsakem soli) 3+4(äzan)3+5(luke).
+      lookup_filter:
+        3: 13174:adv.:noaffix:nolen
+      translations:
+        en: |-
+            1I 2(did it) 3+4+5voluntarily.
+            {(However, unlike nìnew, äzanluke can be also used on the part of the potential forcer to show that no force is being exerted)}
+emphasis: []
