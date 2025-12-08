@@ -21,3 +21,6 @@ inputs:
         7: 2224:part.:noaffix:nolen
       translations:
         en: 2+5Nothing 3(could be) 4{(seem/appear)} 7more 6beautiful 1(to me) 7than 9a 8Pandoran 9forest 10that 11(has covered) 12in 13moss, 15except 14perhaps 16(this world) 17+18(soon covering itself) 19in 20(peaceful well-being) 21and 22the 23Na'vi 22language.
+      flags:
+        - non_canon
+emphasis: []
