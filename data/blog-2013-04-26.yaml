@@ -1,7 +1,24 @@
 source:
     id: blog-2013-04-26
     date: "2013-04-26"
-    url: https://naviteri.org/2013/04/wheres-the-bathroom-and-other-useful-things/
-    title: “Where’s the bathroom?” and other useful things
+    url: https://naviteri.org/2013/04/sin-asok-sin-zusawkrra-recent-and-upcoming-activities/
+    title: Sìn Asok, Sìn Zusawkrrä—Recent and Upcoming Activities
     author: Paul Frommer
-inputs: []
+inputs:
+    - id: vUWB8seFQ7aEZqwH5qKb_A
+      text: 1Sìn 2Asok, 3Sìn 4Zusawkrrä
+      lookup_filter:
+        1: 6820:n.:noaffix:=t→s
+        3: 6820:n.:noaffix:=t→s
+      translations:
+        en: 2Recent 3and 4Upcoming 1+3Activities
+    - id: xZ_CaEVWQ9C-two5ezRJ7Q
+      text: 1Sìlpey 2oe, 3nga 4tsìyevun 5ne 6(M|Wasyìngton) 7kivä. 8Slä 9fìfya 10tsafya, 11ngari 12tireal 13tsatsenget 14tayok.
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+      translations: {}
+    - id: 7Ys3PyPGSpeRy3fUsjal7g
+      text: 1fìfya 2tsafya
+      translations:
+        en: 1+2(one way or another)
+emphasis: []

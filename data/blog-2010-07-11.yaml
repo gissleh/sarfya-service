@@ -36,7 +36,7 @@ inputs:
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
       translations:
-        en: 6(What a) 3pretty 2(little queue) 1you 5have!
+        en: 6+4(What a) 3pretty 2(little queue) 1you 5have!
     - id: wH4mL1beRA-4f6XzflquNg
       text: 1Fìtaronyutsyìp 2ke 3tsun 4ke'ut 5stivä'nì.
       lookup_filter:
@@ -125,3 +125,4 @@ inputs:
             {(That is, may you derive strength and happiness from this event, accomplishment, etc.)}
       flags:
         - proverb
+emphasis: []
