@@ -72,11 +72,14 @@ inputs:
         en: 1Regarding 2+3+4(your lack of improvement), 6you 8only 5keep 7(making excuses).
     - id: I6mneBbeRrSRI9XCVLImig
       text: 1Ken 2tìnawri 3peyä, 4ke 5flolä.
+      lookup_filter:
+        1: 13472:adp.:noaffix:nolen
       translations:
         en: 1Despite 3her 2talent, she 4didn't 5succeed.
     - id: aIBxv1--RLOP8aC_3kpKUA
       text: 1Ken 2fwa 3lu 4por 5'awa 6nari 7nì'aw, 8lu 9(N|Mati) 10taronyu 11aswey.
       lookup_filter:
+        1: 13472:adp.:noaffix:nolen
         4: 1548:pn.:noprefix:noinfix:=-r:nolen
       translations:
         en: 1(In spite of) 2+3+4having 7only 5one 6eye, 9Mati 8is 11(the best) 10hunter

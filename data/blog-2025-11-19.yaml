@@ -69,4 +69,15 @@ inputs:
       text: 1Kaltxì 2nìmun!
       translations:
         en: 1Hello 2again!
+    - id: _KaOSu-hSuCHUHrws0slig
+      text: 1Kllkxem 2kiven!
+      translations:
+        en: 1+2(Stand up straight)!
+    - id: KDO4k98rTsmYD8AEBSisQw
+      text: 1Eyktan 2asìltsan, 3ken 4ayskxe 5mì 6te'lan, 7zene 8kiven 9frakrr.
+      lookup_filter:
+        3: 13472:adp.:noaffix:nolen
+        9: 456:adv.:noaffix:nolen
+      translations:
+        en: 1A 2good 1leader, 3despite 4(the stones) 5in his 6heart, 7must 9always 8(behave confidently).
 emphasis: []

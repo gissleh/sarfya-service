@@ -26,11 +26,9 @@ inputs:
     - id: dReVvnrjSCGnkgKjJZKCAg
       text: 1Hem 2ngeyä 3zenke 4fkoru 5livu, 6Tsayhem 7a 8ngaru 9prrte' 10ke 11lu.
       translations:
-        en: 2Your 1actions{ /must not)} 5be 4(to others), 6(those actions) 7that 8you 10don't 9+11like.
+        en: 2Your 1actions 3(must not) 5be 4(to others), 6(those actions) 7that 8you 10don't 9+11like.
     - id: I2jlWSMRRGqMijKlVbMqoA
       text: 1Lì'fyari 2leNa'vi 3('Rrta)4(mì), 5vay 6set 7'almong 8a 9fra'u 10zera'u 11ta 12ngrrpongu.
-      lookup_filter:
-        4: 1108:adp.:noaffix:nolen
       translations:
         en: 9Everything 8that 7blossomed 1+2(regarding Na'vi) 5until 6now 4on 3Earth 10(has come) 11from 12(a grassroots movement).
     - id: gFYG7QpORKWmFkZ171SIKQ
@@ -43,3 +41,4 @@ inputs:
       text: 1Neto 2rä'ä 3kivä!
       translations:
         en: 2Don't 3go 1away.
+emphasis: []
