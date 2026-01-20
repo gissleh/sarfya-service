@@ -1,0 +1,26 @@
+source:
+    id: comic-2025-01-07-the-gap-year
+    date: "2026-01-07"
+    url: https://www.darkhorse.com/comics/3010-554/avatar-the-gap-year-tipping-point-3/
+    title: 'Avatar: The Gap Year--Tipping Point #3'
+    author: Dark Horse
+inputs:
+    - id: uTekPdnKQ6mzxTAZjCtEhQ
+      text: 1(Nari si) 2lonu 3swizawit!
+      translations:
+        en: 2Release 3(the arrow) 1carefully!
+    - id: o3rEoQFORv2dTM-_-xEang
+      text: 1Ayoe 2ke 3wasyem 4(aynga)5(wä).
+      lookup_filter:
+        1: 212:pn.:noaffix:nolen
+        4: 208:pn.:noaffix:nolen
+      translations:
+        en: 1We 3will 2not 3+5fight 4you.
+    - id: Euf70MSQRy68NQTZM10x2w
+      text: 1Ayngal 2txana 3tìkawngit 4zamolunge 5(atxkxe)6(ne) 7ayoeyä!
+      lookup_filter:
+        1: 208:pn.:noprefix:noinfix:=-l:nolen
+        7: 212:pn.:noprefix:noinfix:=-yä:nolen
+      translations:
+        en: 1You 4(have brought) 3a 2great 3evil 6to 7our 5land!
+emphasis: []
