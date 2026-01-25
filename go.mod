@@ -8,8 +8,8 @@ require (
 	github.com/a-h/templ v0.3.819
 	github.com/aws/aws-lambda-go v1.47.0
 	github.com/awslabs/aws-lambda-go-api-proxy v0.16.2
-	github.com/fwew/fwew-lib/v5 v5.25.1
-	github.com/gissleh/litxap v1.7.0
+	github.com/fwew/fwew-lib/v5 v5.25.5
+	github.com/gissleh/litxap v1.7.4
 	github.com/gissleh/sarfya v1.1.2
 	github.com/labstack/echo/v4 v4.12.0
 	golang.org/x/sync v0.10.0
@@ -18,7 +18,7 @@ require (
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
-	github.com/gissleh/litxap-fwew v0.0.0-20250815125607-8b87ab613a4b // indirect
+	github.com/gissleh/litxap-fwew v1.7.4-fwew5.25.5 // indirect
 	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/uuid v1.6.0 // indirect

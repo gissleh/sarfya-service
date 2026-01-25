@@ -5,10 +5,6 @@ source:
     title: 'Avatar: The Gap Year--Tipping Point #3'
     author: Dark Horse
 inputs:
-    - id: uTekPdnKQ6mzxTAZjCtEhQ
-      text: 1(Nari si) 2lonu 3swizawit!
-      translations:
-        en: 2Release 3(the arrow) 1carefully!
     - id: o3rEoQFORv2dTM-_-xEang
       text: 1Ayoe 2ke 3wasyem 4(aynga)5(wä).
       lookup_filter:
