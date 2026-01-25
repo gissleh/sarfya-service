@@ -149,6 +149,9 @@ a.example-flag.flag-reef-dialect {
 a.example-flag.flag-transcribed {
     color: #ace;
 }
+a.example-flag.flag-user-translation {
+    color: #ace;
+}
 
 div.group-word-list {
     margin-top: 1.5em;

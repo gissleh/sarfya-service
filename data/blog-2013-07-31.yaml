@@ -16,3 +16,13 @@ inputs:
       text: 1('En si) 3oe, 4lora 5tsafkxileri 6apxayopin 7solar 8Tsenul 9srokit 10avozam.
       translations:
         en: 3I 1(would guess that) 8Tsenu 7used 10(a thousand )10{(lit. 512)} 9beads 5(for that) 4beautiful 6multi-colored 5(bib necklace).
+    - id: nPr2T4EjTNWLJ3oGeKa-tg
+      text: 1Moe 2sìlpey 3nìteng 4tsnì 5pxoeng 6tsäpìyeve'a 7fìtsap 8ye'rìn 9nìmun.
+      lookup_filter:
+        2: 1800:vin.:noaffix:nolen
+        3: 1304:adv.:noaffix:nolen
+      translations:
+        en: 1(We both) 3also 2hope 4that 5(the three of us) 6+7(will see each other) 9again 8soon.
+      flags:
+        - user_translation
+emphasis: []
