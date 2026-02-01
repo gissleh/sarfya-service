@@ -1,0 +1,41 @@
+source:
+    id: blog-2026-01-31
+    date: "2026-01-31"
+    url: https://naviteri.org/2026/01/follow-up-to-txep-si-txeva/
+    title: Follow-up to Txep sì Txeva
+    author: Paul Frommer
+inputs:
+    - id: Hl5Ecww4RP29zaGgMrgVKw
+      text: 1Kllkxem 2kiven! 3'Ur 4fkivan 5tstew!
+      lookup_filter:
+        3: 9400:n.:noaffix:nolen
+      translations:
+        en: |-
+            1+2(Stand up straight)! 3+4Look 5brave!
+            {(Stand up straight! Do not show fear!)}
+    - id: IwQMl-nTQw25R77yp8Xn-w
+      text: 1Txep 2payalon, 3payalon 4txep!
+      translations:
+        en: |-
+            1+4(The fire) 2+3(will burn)!
+            {(Varang's chanting)}
+    - id: OT0WudYVSO-mQ9UWzbIXcA
+      text: 1Lì'uti 2oel 3omum.
+      translations:
+        en: |-
+            2I 3know 1(the word).
+            {(implies you have a deeper understanding of the word's meaning)}
+    - id: BpSe3U3VQ1WhWuouHNHN4A
+      text: 1Tsalì'u 2smon 3oer
+      translations:
+        en: |-
+            1(That word) 2(is familiar) 3(to me).
+            {(could merely state you're familiar with the word, in the sense that you've heard it before)}
+    - id: DDZwfTKMSvGO_v62mWB5dw
+      text: 1Ha 2nume 3fte 4kivame! 5Täpare 6hu 7'uo 8a 9(nga)18(to) 10lu 11nawm—12'uo 13a 14nawm 15frato 16mì 17sìrey.
+      lookup_filter:
+        1: 540:conj.:noaffix:nolen
+        18: 2224:part.:noaffix:nolen
+      translations:
+        en: 1Then 2learn 3to 4See! 5Connect 6to 7+12something 8+11(great)18(er than) 9you—13+14(great)15+16+17(er than anything you've ever known).
+emphasis: []

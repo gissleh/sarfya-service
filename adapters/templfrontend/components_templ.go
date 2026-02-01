@@ -84,7 +84,7 @@ func example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult) t
 			}
 		}
 		if data.Example.HasFlag(sarfya.EFUserTranslation) {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 7, "<a href=\"/search/flag:transcribed\" class=\"example-flag flag-transcribed flag-user-translation\">English translation is from non-canon source</a> ")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 7, "<a href=\"/search/flag:transcribed\" class=\"example-flag flag-transcribed flag-user-translation\">English translation is not provided by the source</a> ")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
