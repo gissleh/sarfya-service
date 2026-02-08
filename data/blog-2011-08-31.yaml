@@ -127,6 +127,7 @@ inputs:
     - id: EhZJgkBiTKaUnQ4u8H2vtA
       text: 1Ulte 2sìlpey 3oe, 4faysìoeyktìng 5livu 6law 7nìwotx!
       lookup_filter:
+        1: 2592:conj.:noaffix:nolen
         2: 1800:vin.:noaffix:nolen
       translations: {}
     - id: -lN-aYvOTgqkYQMBwwI0sw

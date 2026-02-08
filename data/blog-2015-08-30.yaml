@@ -10,7 +10,6 @@ inputs:
       lookup_filter:
         1: 8740:adp.:noaffix:nolen
         3: 456:adv.:noaffix:nolen
-        4: 1108:adp.:noaffix:nolen
         10: 1312:adv.:noaffix:nolen
       translations:
         en: 8I 3always 7+9feel 10very 7+9comfortable 1as 2(a guest) 4in 6your 5home, brother.
@@ -35,6 +34,7 @@ inputs:
     - id: eEfdc7zpRGaJZJjLPr8-1A
       text: 1Muntrram 2oe 3koläteng 4hu 5Ralu 6ulte 7sunu 8oer 9tsakrr
       lookup_filter:
+        6: 2592:conj.:noaffix:nolen
         7: 6376:vin.:noaffix:nolen
         9: 880:n.:=tsa-:noinfix:nosuffix:nolen
       translations:
@@ -80,3 +80,4 @@ inputs:
         6: 1312:adv.:noaffix:nolen
       translations:
         en: 3(She)2('s) 4a 6very 5fluent 4speaker 1(of German).
+emphasis: []

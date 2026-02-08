@@ -10,6 +10,7 @@ inputs:
       lookup_filter:
         5: 1800:vin.:noaffix:nolen
         7: 208:pn.:noprefix:noinfix:=-ri:nolen
+        11: 2592:conj.:noaffix:nolen
       translations: {}
     - id: Qw2CFyunTd62qbGJf3hXBw
       text: 1Ngeyä 2fìtìsopìri 3pehantseng?
@@ -65,3 +66,4 @@ inputs:
       text: 1Ngeyä 2tìhanìri 3keftxo.
       translations:
         en: 3Sorry 2for 1your 2loss.
+emphasis: []

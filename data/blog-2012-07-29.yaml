@@ -20,6 +20,7 @@ inputs:
       text: 1Kaltxì, 2ma 3frapo, 4ulte 5zola'u 6nìprrte' 7awngeyä 8(numultxa)13(ne) 9a 10teri 11lì'fya 12leNa'vi.
       lookup_filter:
         3: 460:pn.:noaffix:nolen
+        4: 2592:conj.:noaffix:nolen
         6: 5588:adv.:noaffix:nolen
       translations:
         en: 1Hello, 2+3everyone, 4and 5+6welcome 13to 7our 9+10+11+12(Na'vi language) 8class.
@@ -48,3 +49,4 @@ inputs:
         4: 460:pn.:noaffix:nolen
       translations:
         en: 1Ready, 3+4(everyone)2(?) 5+7Let's 6begin!
+emphasis: []

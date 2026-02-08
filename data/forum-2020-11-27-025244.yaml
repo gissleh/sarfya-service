@@ -8,12 +8,12 @@ inputs:
     - id: OGNTBFG3SwSB_Qoh_IqecA
       text: 1Skxawngìri 2zìmup 3ulte 4sneyä 5tsko 6kxakx.
       lookup_filter:
+        3: 2592:conj.:noaffix:nolen
         4: 8240:pn.:noaffix:nolen
       translations:
         en: 1(The idiot) 2fell 3and 6broke 4(his/her )4{(own)} 5bow.
     - id: MKRPDunQQL-T6M1t8zyg0w
       text: 1Tawtuteri 2(sno)3(hu) 4perängkxo 5tengkrr 6terìran 7mì 8na'rìng.
-      lookup_filter:
-        7: 1108:adp.:noaffix:nolen
       translations:
         en: 1(The human) 4(was talking) 2+3(to himself) 5while 6walking 7in 8(the forest).
+emphasis: []

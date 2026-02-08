@@ -13,6 +13,8 @@ inputs:
       translations: {}
     - id: dNPLPA_nTC6zBgwGvbnD3A
       text: 1Furia 2nì'Ìnglìsì 3(pamrel sivi), 4oeru 5txoa 6livu. 7Ke 8lu 9oer 10set 11krr 12atxan, 13ulte 14ke 15new 16(T|kxeyey sivi).
+      lookup_filter:
+        13: 2592:conj.:noaffix:nolen
       translations: {}
     - id: agmy5KiaS_Sx34CB9m2b7A
       text: 1Oel 2tel 3'upxaret 4leNa'vi 5a 6krr, 7new 8oe 9nìtengfya 10(pamrel sivi) 11nì'eyng. 12Slä 13krr 14a 15nìNa'vi 16(pamrel si) 17oe, 18new 19oel 20futa 21upxare 22oeyä 23luke 24keyey 25livu 26nìwotx, 27fte 28eyawra 29sìkenongit 30tivìng 31suteru.
@@ -25,3 +27,4 @@ inputs:
         14: 1796:adv.:noaffix:nolen
       translations:
         en: 2Can 3I 5understand 4(these messages) 6(easily)1(?)  7Well...  I 8must 9say 10(")11(Often) 12(that way)10(")
+emphasis: []

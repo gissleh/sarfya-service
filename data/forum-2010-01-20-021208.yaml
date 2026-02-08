@@ -13,10 +13,12 @@ inputs:
       text: 1Oel 2ayngati 3kameie, 4ma 5oeyä 6eylan, 7ulte 8ayngaru 9seiyi 9irayo-. 10Fpole' 11ayngal 12oer 13fìtxan 14nìftxavang 15a 16'upxaret 17stolawm 18oel. 19Lì'fyari 20leNa'vi 21oel 22'efu 23ayngeyä 24tìyawnit. 25Ulte 26omum 27oel 28futa 29tìfyawìntxuri 30oeyä 31perey 32aynga 33nìwotx.
       lookup_filter:
         2: 208:pn.:noprefix:noinfix:=-ti:nolen
+        7: 2592:conj.:noaffix:nolen
         8: 208:pn.:noprefix:noinfix:=-ru:nolen
         11: 208:pn.:noprefix:noinfix:=-l:nolen
         14: 1276:adv.:noaffix:nolen
         23: 208:pn.:noprefix:noinfix:=-yä:nolen
+        25: 2592:conj.:noaffix:nolen
         32: 208:pn.:noaffix:nolen
       translations:
         en: 1I 3See 2you, 5my 4+6friends, 7and I 9thank 8you. 18I 17(have heard) 16(the message) 11you 10+15(have sent) 12me 13so 14passionately. 21I 22feel 23your 24love 19(for the) 20Na'vi 19language. 25And 27I 26know 32you 28+31are 33all 28+31waiting 29for 30my 29guidance.

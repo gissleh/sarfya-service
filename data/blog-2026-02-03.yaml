@@ -1,0 +1,28 @@
+source:
+    id: blog-2026-02-03
+    date: "2026-02-03"
+    url: https://naviteri.org/2026/02/way-tilalima-the-windtrader-song/
+    title: Way Tìlalimä  The Windtrader Song
+    author: Paul Frommer
+inputs:
+    - id: CWldf0H6TY-UvoXdxw_E0g
+      text: 1Txong 2(hufwe)3(sru) 4'ulte, 5ulte 6'efu 7nitram 8(taw)9(ka).
+      lookup_filter:
+        5: 2592:conj.:noaffix:nolen
+        8: 2020:n.:noaffix:nolen
+        9: 676:adp.:noaffix:nolen
+      translations:
+        en: 1(The ship) 4glides 3in 2(the wind), 5and we 6feel 7happy 9across 8(the sky).
+    - id: yMs2eSQlRVWgh4Krgf8fMg
+      text: 1Ke 2tsun 3kenten 4tswivayon 5sru 6kumpay.
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 3(A fan lizard) 1+2can't 4fly 5through 6gel.
+    - id: RcTfCLBASqigtZG_4Jgj3Q
+      text: 1Ayngeyä 2kosmana 3aysäplltxeviri 4a 5teri 6tsapostì 7oeyä, 8seiyi 8irayo- 9nìtxan!
+      lookup_filter:
+        1: 208:pn.:noprefix:noinfix:=-yä:nolen
+        9: 1312:adv.:noaffix:nolen
+      translations: {}
+emphasis: []

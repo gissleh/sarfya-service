@@ -9,6 +9,7 @@ inputs:
       text: 1Tse, 2Vospxìvolaw 3polähem 4sneyä 5(tì'i'a)6(ro), 7ulte 8leiu 9oe 10txen.
       lookup_filter:
         4: 8240:pn.:noaffix:nolen
+        7: 2592:conj.:noaffix:nolen
       translations: {}
     - id: I1D4BRxdTbyEC-AgJWHiyA
       text: 1Oeri 2tsavur 3(eltur tìtxen si).
@@ -20,8 +21,6 @@ inputs:
         en: 1I 2feel 3happy.
     - id: sAX427KhT4eAQBIgPkx6Mg
       text: 1Ngeyä 2(aysäfpìl)3(mì) 4tse'änga 5oel 6keve'ot 7nì'aw.
-      lookup_filter:
-        3: 1108:adp.:noaffix:nolen
       translations:
         en: 3In 2your 3thinking, 5I 4see 7only 6chaos.
     - id: lGamqswaTQmwOJBJLwGwmg
@@ -40,8 +39,6 @@ inputs:
         en: 2(You)1('re) 4really 3(a sweet person).
     - id: I7vsHIy5QTicyf2-qMvAew
       text: 1Melì'u 2alu 3pxel 4sì 5na 6lu 7tengralì'u.
-      lookup_filter:
-        4: 1792:part.:noaffix:nolen
       translations:
         en: 1(The two words) 2+3pxel 4and 2+5na 6are 7synonyms.
     - id: wtlf1CpfQKSUrLs-Up8AdQ
@@ -79,7 +76,6 @@ inputs:
     - id: 6dTroHBnQ0OW69MdvcB4vw
       text: 1(Fìpuk)2(mì) 3a 4aysäfpìl 5lu 6tìwätenga' 7nìtxan.
       lookup_filter:
-        2: 1108:adp.:noaffix:nolen
         7: 1312:adv.:noaffix:nolen
       translations:
         en: 4(The ideas) 3+2in 1(this book) 5are 7very 6controversial.
@@ -121,3 +117,4 @@ inputs:
       text: 1tìlen 2atìnitramnga'
       translations:
         en: 2happy 1event.
+emphasis: []

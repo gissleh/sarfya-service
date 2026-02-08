@@ -7,6 +7,8 @@ source:
 inputs:
     - id: QufeCBDJSDa7qvFzojdQLg
       text: 1Oe 2leymkem! 3Fìtsamìl 4Na'vit 5(tìsraw seykayi) 6nì'aw 7ulte 8kutut 9ke 10lätxayn.
+      lookup_filter:
+        7: 2592:conj.:noaffix:nolen
       translations:
         en: 1I 2protest! 3(This war) 5will 6only 5harm 4(the People) 7and 9not 10defeat 8(the enemy).
     - id: bZFhNzVCRPyuQOiFdH3tgw
@@ -26,6 +28,7 @@ inputs:
     - id: Ccg4StA0Q3-VSnhfv4uSew
       text: 1Eyktanìl 2ngeyä 3säleymkemit 4stolawm 5ulte 6paye'un 7teyngta 8zene 9fko 10(pehem sivi).
       lookup_filter:
+        5: 2592:conj.:noaffix:nolen
         7: 7976:sbd.:noaffix:nolen
       translations:
         en: 1(The leader) 4(has heard) 2your 4protest 5and 6(will decide) 7what 8must 9+10(be done).

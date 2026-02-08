@@ -43,18 +43,21 @@ inputs:
     - id: kDbYXuQ0TpCGJWgh91ClHA
       text: 1Rolawn 2oel 3pa'lit 4fa 5ikran, 6ulte 7makto 8set 9ikranit 10frakrr.
       lookup_filter:
+        6: 2592:conj.:noaffix:nolen
         10: 456:adv.:noaffix:nolen
       translations:
         en: 2I 1(replaced my) 3direhorse 4with 5(a banshee), 6and 8now I 7ride 9(a banshee) 10(all the time).
     - id: -DHTrPk2R3-guW3OtAxXcw
       text: 1Po 2'efu 3ngeyn 4ulte 5kin 6tìrawnit 7nìtxan.
       lookup_filter:
+        4: 2592:conj.:noaffix:nolen
         7: 1312:adv.:noaffix:nolen
       translations:
         en: 1He 2is 3tired 4and 7(very much) 5(needs to) 6(be replaced).
     - id: RwHsnVi1QiSlHXChV9aBGA
       text: 1Po 2'efu 3ngeyn 4ulte 5kin 6nìtxan 7futa 8fkol 9pot 10rivawn.
       lookup_filter:
+        4: 2592:conj.:noaffix:nolen
         6: 1312:adv.:noaffix:nolen
       translations:
         en: 1He 2is 3tired 4and 6(very much) 5(needs to) 7+8+9+10(be replaced).

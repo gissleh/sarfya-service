@@ -152,6 +152,8 @@ inputs:
         en: 6+7When 1I 2+3(was about) 5(12) 4years 2+3old 1I 8visited 9(an island) 10(for the) 11first 10time.
     - id: dvlxqE9hSoKmiZd8zJII_Q
       text: 1Peyä 2säftxulì'u 3lolängu 4kesran 5ulte 6kawtur 7slantire 8ke 7si.
+      lookup_filter:
+        5: 2592:conj.:noaffix:nolen
       translations:
         en: 3Unfortunately 1his 2speech 3was 4(only so-so) 5and 7inspired 6+8(no one).
     - id: 7eDwdAV3RaO47XfcU_ZcPQ

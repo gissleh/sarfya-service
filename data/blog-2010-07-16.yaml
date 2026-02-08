@@ -23,8 +23,6 @@ inputs:
         en: 1my 2family's 3history
     - id: PIjBJMXFQK6SBT4vPETuTQ
       text: 1okvur 2Sawtuteyä 3mì 4Eywa'eveng
-      lookup_filter:
-        3: 1108:adp.:noaffix:nolen
       translations:
         en: 1(the history) 2(of the Sky People) 3on 4Pandora.
     - id: 3fJrmwc7SainjLZSFZF5yg
@@ -106,6 +104,8 @@ inputs:
         en: 1+2+3(The fact that) 5I 4(was able to) 8speak 7with 6you 11is 12really 10pleasurable 9(to me).
     - id: eSyZcM2QR7ilMazzbAfvjg
       text: 1Plltxe 2fko 3san 4ngaru 5lu 6mowan 7Txilte 8ulte 9poru 10nga.
+      lookup_filter:
+        8: 2592:conj.:noaffix:nolen
       translations:
         en: 1+2+3(I hear) 4you 5+6like 7Txilte 8+9+10(and vice versa).
     - id: _1F_LwhwR2-Giim9ec_-eg
@@ -151,3 +151,4 @@ inputs:
         4: 1316:adv.:noaffix:nolen
       translations:
         en: 2May 1Eywa 2heal 3you 4quickly.
+emphasis: []

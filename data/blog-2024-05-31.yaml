@@ -33,8 +33,6 @@ inputs:
         en: 2Grasp 1(the bow) 4at 3(this spot).
     - id: tqiMD0NTQd-aFgAPvBzG7A
       text: 1Ro 2salik 3a 4mì 5säftxulì'u 6atì'iluke 7peyä, 8oe 9holum.
-      lookup_filter:
-        4: 1108:adp.:noaffix:nolen
       translations:
         en: 1At 2(that point) 3+4in 7his 6endless 5speech, 8I 9left.
     - id: YSS3SmxVSX-Cqa4BmB9uKQ
@@ -57,4 +55,7 @@ inputs:
             B: 4At 5+6(five o'clock). OR 7At 8five.
     - id: rLW2jdRWQWuVZ9tMbr-rOA
       text: 1Kaltxì, 2ma 3eylan, 4ulte 5Vospxìpuk 6lefpom!
+      lookup_filter:
+        4: 2592:conj.:noaffix:nolen
       translations: {}
+emphasis: []

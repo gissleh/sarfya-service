@@ -53,6 +53,8 @@ inputs:
       translations: {}
     - id: Ib7G93HSQpKK971BNLmCfA
       text: 1Ulte 2tengkrr 3fayhem 4afpxamo 5verar 6liven, 7säspxin 8lehrrap 9var 10vivirä.
+      lookup_filter:
+        1: 2592:conj.:noaffix:nolen
       translations: {}
     - id: jzBS3Q_RR7OBe4wfaQNiGg
       text: 1Nìrangal 2lirvu 3ayoeru 4eyktan 5a 6tsivun 7(srung sivi), 8pum 9a 10livu 11por 12aylì'u 13azeykuso. 14Nìkeftxo 15ke 16lu 17ayoer 18eyktan 19anafì'u. 20Tìeyktanìri 21eyktan 22a 23fkeytok 24ke 25lu 26pxan 27kaw'it. 28Nìfya'o 29a 30(pamrel soli) 31oe 32kam 33'a'awa 34zìsìt, 35fìtutan 36ayaymak 37yawne 38lu 39snor 40nì'aw; 41fpom 42txanlokxeyä 43ke 44tsranten 45por. 46Fpìl 47pol 48futa 49tsaktapìri 50'umtsa 51aswey 52lu 53tsaktap 54nì'ul.
@@ -70,7 +72,9 @@ inputs:
         8: 6428:vtr.:noprefix:=<iv>:nosuffix:nolen
         16: 12:num.:=a-:noinfix:nosuffix:nolen
         18: 8020:adp.:noaffix:nolen
+        29: 2592:conj.:noaffix:nolen
         36: 212:pn.:noprefix:noinfix:=-r:nolen
+        39: 2592:conj.:noaffix:nolen
         41: 212:pn.:noprefix:noinfix:=-l:nolen
         43: 4280:adv.:noaffix:nolen
       translations: {}
@@ -80,6 +84,7 @@ inputs:
         20: 1508:inter.:noaffix:nolen
         29: 4180:pn.:noaffix:nolen
         38: 12:num.:=a-:noinfix:nosuffix:nolen
+        45: 2592:conj.:noaffix:nolen
         50: 212:pn.:noprefix:noinfix:=-yä:nolen
         51: 4456:conj.:noaffix:nolen
         53: 412:pn.:noprefix:noinfix:=-r:nolen

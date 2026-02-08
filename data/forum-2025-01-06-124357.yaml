@@ -21,6 +21,8 @@ inputs:
     - id: EeEVFeurRlu8mm6vWF9oqQ
       text: 1Lu 2ngaru 3kelku, 4ulte 5oeru 6nìteng.
       lookup_filter:
+        4: 2592:conj.:noaffix:nolen
         6: 1304:adv.:noaffix:nolen
       translations:
         en: 2You 1have 3(a house) 4and 5I 6(have one too).
+emphasis: []

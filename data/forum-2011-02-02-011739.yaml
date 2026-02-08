@@ -8,6 +8,7 @@ inputs:
     - id: q8wOiFK2Q-yZ__UOvA7WYA
       text: 1Ulte 2kawtu 3ke 4tsun 5ayoer 6(tìftang sivi).
       lookup_filter:
+        1: 2592:conj.:noaffix:nolen
         4: 2476:vim.:noaffix:nolen
         5: 212:pn.:noprefix:noinfix:=-r:nolen
       translations:
@@ -24,3 +25,4 @@ inputs:
         en: 1I 3stopped 2him.
       flags:
         - user_translation
+emphasis: []

@@ -15,8 +15,6 @@ inputs:
         en: 5Sadly, 1after 2(the loss) 3of 4his 3mother, 4Txewì 5grieved 7for 8many 7years.
     - id: TMeNeR1mTwOGN98FCVWRjg
       text: 1Karyu 2asìltsan 3zene 4tsivun 5aynumeyut 6hivipx 7mì 8numtsengvi.
-      lookup_filter:
-        7: 1108:adp.:noaffix:nolen
       translations:
         en: 1A 2good 1teacher 3(has to) 4(be able to) 6control {(his/her )}5students 7in 8(the classroom).
     - id: pwiQGerMRMOcqfqYChVePg
@@ -35,6 +33,7 @@ inputs:
       text: 1Oe 2lu 3le'awa 4tute 5a 6tsun 7(srung sivi), 8ulte 9'efu 10le'awtu 11nìngay.
       lookup_filter:
         6: 2476:vim.:noaffix:nolen
+        8: 2592:conj.:noaffix:nolen
         11: 1296:adv.:noaffix:nolen
       translations:
         en: 1(I)2('m) 4the 3only 4one 5who 6can 7help, 8and 1I 9feel 11really 10alone.
@@ -69,6 +68,7 @@ inputs:
       text: 1(Tìkangkem soli) 2oe 3kawl 4nìtxan, 5'efu 6ngeyn, 7ulte 8kin 9oel 10tìsyortsyìpit.
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
+        7: 2592:conj.:noaffix:nolen
         10: 11604:n.:noprefix:noinfix:=-it:nolen
       translations:
         en: 2(I)1('ve worked) 3+4hard, 2(I)5('m) 6tired, 7and 9I 8need 10(a break).
@@ -87,3 +87,4 @@ inputs:
         7: 1312:adv.:noaffix:nolen
       translations:
         en: 1(Be careful), 2+3son. 4(The river) 5(is flowing) 7very 6swiftly.
+emphasis: []

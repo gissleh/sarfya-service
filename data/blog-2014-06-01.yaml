@@ -12,6 +12,7 @@ inputs:
         6: 2476:vim.:noaffix:nolen
         9: 1796:adv.:noaffix:nolen
         19: 1312:adv.:noaffix:nolen
+        20: 2592:conj.:noaffix:nolen
         23: 1276:adv.:noaffix:nolen
         31: 6376:vin.:noaffix:nolen
         32: 1548:pn.:noprefix:noinfix:=-r:nolen

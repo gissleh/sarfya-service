@@ -12,6 +12,7 @@ inputs:
     - id: e-FW5nePSlqLYdi-lkurEQ
       text: 1Newey 2yawne 3lu 4oer 5ulte 6new 7oe 8(muntxa sivi) 9(poe)17(hu). 10Rutxe, 11ma 12sempul, 13tìng 14moer 15ngeyä 16syawnit.
       lookup_filter:
+        5: 2592:conj.:noaffix:nolen
         9: 1556:pn.:noaffix:nolen
         12: 1764:n.:noaffix:nolen
         13: 2176:vtr.:noaffix:nolen
@@ -59,8 +60,6 @@ inputs:
         en: 3(Put down) 1your 2bow. 5(The hexapede) 6has 4already 6(run away).
     - id: K6G1cXRqRO6AB6q2vfxCyA
       text: 1Txep 2ahì'i 3mì 4teptseng 5parmalon.
-      lookup_filter:
-        3: 1108:adp.:noaffix:nolen
       translations:
         en: 1A 2little 1fire 5(was burning) 3in 4(the fireplace).
     - id: ND2y7AcOQbqVLFj3R9QMAA
@@ -115,7 +114,6 @@ inputs:
         en: 1(The child) 3(colored )3{(in)} 2(this picture) 4with 5a 6red 5crayon.
     - id: bG02VQVDSZO9pHC1ZT_hEQ
       text: 1'Eveng 2'opinsarmung 3mì 4fuk.
-      lookup_filter:
-        3: 1108:adp.:noaffix:nolen
       translations:
         en: 1(The child) 2(was coloring) 3in 4(a book).
+emphasis: []

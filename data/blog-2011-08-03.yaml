@@ -62,6 +62,7 @@ inputs:
     - id: Y05vY1lZRsK5chFR8OdUgQ
       text: 1Ulte 2oeri 3(fìtseng)4(ta) 5'äpaku 6nìteng. 7Hayalovay!
       lookup_filter:
+        1: 2592:conj.:noaffix:nolen
         6: 1304:adv.:noaffix:nolen
       translations: {}
     - id: usmSfJJqS7CzLMQ3HP69yg

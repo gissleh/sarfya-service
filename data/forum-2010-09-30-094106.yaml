@@ -8,5 +8,7 @@ inputs:
     - id: E6kXGx6fSSmOTXyrsyr2Wg
       text: 1Fula 2tsayun 3oeng 4pivängkxo 5ye'rìn 6ulte 7ngari 8oel 9mokrit 10stayawm, 11oeti 12nitram 13sleyku 14nìtxan.
       lookup_filter:
+        6: 2592:conj.:noaffix:nolen
         14: 1312:adv.:noaffix:nolen
       translations: {}
+emphasis: []

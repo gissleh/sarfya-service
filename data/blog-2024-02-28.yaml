@@ -26,6 +26,8 @@ inputs:
         en: 1(That speech) 2(of his) 3was 4very 3boring.
     - id: patoGQbLRsGMZXMz-trCQw
       text: 1Oe 2'efu 3skeykx 4ulte 5new 6tivätxaw 7ne 8kelku.
+      lookup_filter:
+        4: 2592:conj.:noaffix:nolen
       translations:
         en: 1(I)2('m) 3bored 4and 1I 5(want to) 6go 7+8home.
     - id: 69vVF8GRR1iTwooJIZ8NvA

@@ -17,8 +17,11 @@ inputs:
       translations: {}
     - id: BQPtx_g5RhiG2Ck6PvDmpA
       text: 1Ulte 2kxawm 3zìyeva'u 4(nga)5(ne) 6tìyora' 7zìsìtay!
+      lookup_filter:
+        1: 2592:conj.:noaffix:nolen
       translations: {}
     - id: 0xAsTV4vRXG6f1RtNWSa-Q
       text: 1Teri 2fwa 3fmal 4fìlì'fyati 5ayawne.
       translations:
         en: 1On 2+3keeping 4this 5beloved 4language 2+3alive.
+emphasis: []

@@ -68,6 +68,8 @@ inputs:
         en: 1Please 2pour 5+6me some 4water; 5(I)7('m) 9very 8thirsty.
     - id: AJdGtpTMRq-P6BnSaoRHfA
       text: 1Tsawla 2palulukanìl 3oeti 4'ìlmeko 5a 6krr, 7Nawma 8Sa'nok 9(lrrtok seiyi) 10ulte 11oe 12emroley.
+      lookup_filter:
+        10: 2592:conj.:noaffix:nolen
       translations:
         en: 8The 7Great 8Mother 9(was looking after me) 5+6when 2the 1big 2thanator 4attacked 10and 11(I)12('ve survived).
     - id: d3U1gmbSQLukKlSWGDb5iQ
@@ -122,6 +124,7 @@ inputs:
       text: 1(Nari si)! 2Tsatsko 3lu 4spuwin 5ulte 6ke 7lu 8mi 9txur, 10slä 11oeri 12txanwawe 13leiu. 14Lu 15stxeli 16a 17(sempul)18(ta).
       lookup_filter:
         2: 2408:n.:=tsa-:noinfix:nosuffix:nolen
+        5: 2592:conj.:noaffix:nolen
         17: 1764:n.:noaffix:nolen
       translations:
         en: 1Careful! 2(That bow) 3is 4old 5+7and 6no 8longer 9strong, 10but 12+13(it means a lot) 14(to me). It 14was 15(a gift) 16+18from my 17father.
@@ -129,3 +132,4 @@ inputs:
       text: 1Tsatxon 2(ayutral)3(äo) 4krr 5a 6pol 7oeti 8nolìn 9nìwawe, 10olomeium 11oel 12fa 13keyrel 14futa 15lu 16yawne 17oe 18poru.
       translations:
         en: 1(That night) 3beneath 2(the trees) 4+5when 6she 8(looked at) 7me 9meaningfully, 11I 10knew 12by 13(the expression on her face) 14that 18she 15+16loves 17me.
+emphasis: []

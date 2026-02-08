@@ -86,6 +86,7 @@ inputs:
       lookup_filter:
         5: 1800:vin.:noaffix:nolen
         7: 208:pn.:noprefix:noinfix:=-ru:nolen
+        11: 2592:conj.:noaffix:nolen
       translations: {}
     - id: IgzQkBZnTNaTD4WmfSzHAA
       text: 1Oe 2(tsakem soli) 3nìnew

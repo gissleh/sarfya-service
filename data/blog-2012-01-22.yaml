@@ -12,7 +12,7 @@ inputs:
     - id: o2r8zw77SwyJzJumPj38ZQ
       text: 1(Tì'efu)2(mì) 3oeyä, 4ngeyä 5fìsäkanom 6lu 7lehrrap 8ulte 9tsun 10ngati 11(tìsraw seykivi).
       lookup_filter:
-        2: 1108:adp.:noaffix:nolen
+        8: 2592:conj.:noaffix:nolen
         9: 2476:vim.:noaffix:nolen
       translations:
         en: 1+2+3(In my opinion), 5(this acquisition) 4(of yours) 6is 7dangerous 8and 9can 11hurt 10you.
@@ -54,7 +54,6 @@ inputs:
       text: 1Tsun 2awnga 3(kelku sivi) 4nì'eng 5(Sawtute)6(hu) 7mì 8atxkxe 9awngeyä.
       lookup_filter:
         1: 2476:vim.:noaffix:nolen
-        7: 1108:adp.:noaffix:nolen
       translations:
         en: 2We 1can 3+4+7share 9our 8land 6with 5(the Skypeople).
     - id: Gajda9YWS7C6BmGpaJfIDA
@@ -149,6 +148,7 @@ inputs:
     - id: pbl00o4zSl6LbKp8CEkXbA
       text: 1Tsyìl 2Iknimayat 3ulte 4(tsaheyl si) 5(ikran)6(hu) 7a 8fì'u 9lu 10tìfmetok 11a 12zene 13frataronyu 14a'ewan 15emziva'u.
       lookup_filter:
+        3: 2592:conj.:noaffix:nolen
         8: 368:pn.:noaffix:nolen
         13: 2008:n.:=fra-:noinfix:nosuffix:nolen
       translations:
@@ -159,3 +159,4 @@ inputs:
         7: 1312:adv.:noaffix:nolen
       translations:
         en: 1(Last week's) 2climb 3was 4dangerous 5but 7very 6exciting.
+emphasis: []

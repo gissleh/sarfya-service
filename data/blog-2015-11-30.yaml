@@ -102,9 +102,11 @@ inputs:
     - id: CbZN06O9SdC8Q-hXKDG0hQ
       text: 1(N|Lukan) {(}2alu 3tsmukantsyìp{)} 4sì 5(N|Palu) {(}6alu 7tsmuketsyìp{)} 8mi 9lu 10prrnen, 11ulte 12leiu 13lor 14sì 15hona 16nìtxan. 17Slä 18längu 19kop 20nim, 21stum 22loreyu 23'awnampi. 24Polähem 25ne 26kelku 27moeyä 28txonam, 29ulte 30kezemplltxe 31fìtsenge 32amip 33sì 34mesutan 35amip 36nìteng 37lu 38meforu 39stxong 40nìtxan 41nì'aw. 42Fìtrr 43mì 44tampxì 45krrä 46wäperan. 47Sìlpey 48moe 49tsnì 50slìyevu 51ye'rìn 52tstew 53fìtxan 54kuma 55tsun 56wrrziva'u 57(uvan sivi) 58(moe)59(hu). 60Fwa 61'efu 62mawey 63sì 64nitram 65mì 66pawngip 67amip 68krrnekx, 69ha 70moe 71zene 72maweypivey.
       lookup_filter:
+        11: 2592:conj.:noaffix:nolen
         16: 1312:adv.:noaffix:nolen
         19: 872:adv.:noaffix:nolen
         27: 1132:pn.:noprefix:noinfix:=-yä:nolen
+        29: 2592:conj.:noaffix:nolen
         31: 365:adv., n.:noaffix:nolen
         36: 1304:adv.:noaffix:nolen
         38: 1076:pn.:noprefix:noinfix:=-ru:nolen
@@ -138,3 +140,4 @@ inputs:
         3: 704:vtrm.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1He 3raised 1his 2bow 4against 5(the enemy).
+emphasis: []

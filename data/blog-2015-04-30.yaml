@@ -118,6 +118,7 @@ inputs:
       lookup_filter:
         1: 1800:vin.:noaffix:nolen
         6: 208:pn.:noprefix:noinfix:=-ru:nolen
+        8: 2592:conj.:noaffix:nolen
         14: 208:pn.:noprefix:noinfix:=-ne:nolen
       translations: {}
     - id: bgfVQmG7SwaTcOLuYUZjpw

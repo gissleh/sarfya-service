@@ -35,14 +35,10 @@ inputs:
         en: 1(It just occurred to) 2me 3that 4she 5+6+7(hasn't yet) 8+9said 10(she)11('s coming).
     - id: jY3clj_tSJ6qzXmrsRTPNg
       text: 1(Tìomum)2(mì) 3oeyä, 4pol 5na'rìngit 6inan 7nìltsan.
-      lookup_filter:
-        2: 1108:adp.:noaffix:nolen
       translations:
         en: 1+2+3(As far as I know), 4he 6reads 5(the forest) 7well.
     - id: dyJTZgtISoSWl8XeUmsX5Q
       text: 1(tìomum)2(mì) 3oeyä
-      lookup_filter:
-        2: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             2to 3my 1knowledge
@@ -70,7 +66,6 @@ inputs:
         B: 7Inan 8pukot 9a 10teri 11aysam 12a 13('Rrta)14(mì).
       lookup_filter:
         2: 1764:n.:noaffix:nolen
-        14: 1108:adp.:noaffix:nolen
       translations:
         en: |-
             A: 1(What is) 2father 1doing?
@@ -80,7 +75,9 @@ inputs:
     - id: YrmK0TqXSVey5fLMDIecdg
       text: 1Ulte 2sìlpey 3oe, 4fì'upxaret 5inan 6a 7fì'u 8silvunu 9ayngaru 10nìwotx!
       lookup_filter:
+        1: 2592:conj.:noaffix:nolen
         2: 1800:vin.:noaffix:nolen
         7: 368:pn.:noaffix:nolen
         9: 208:pn.:noprefix:noinfix:=-ru:nolen
       translations: {}
+emphasis: []

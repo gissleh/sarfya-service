@@ -27,10 +27,14 @@ inputs:
         en: 1He 2+3feared 5his 4son 8might 7not 8pass 6(the test).
     - id: o1QPp3uURY-nb9l-96ryYw
       text: 1Nga 2ketrìpa 3krr 4zola'u; 5Ralu 6set 7sti 8ulte 9ke 10new 11(nga)12(hu) 13pivängkxo.
+      lookup_filter:
+        8: 2592:conj.:noaffix:nolen
       translations:
         en: 1You 4came 3(at the) 2wrong 3time; 5Ralu 6+7(is angry) 8and 9+10won't 13speak 12with 11you.
     - id: Yz5Q26j5TZisb0iLe45ngw
       text: 1Ke 2lu 3syuve 4ulte 5tute 6apxay 7(txansngum si).
+      lookup_filter:
+        4: 2592:conj.:noaffix:nolen
       translations:
         en: 2(There is) 1no 3food, 4and 6many 5people 7(are desperate).
     - id: OgbrygZuR3e5GnTxn71n8g
@@ -133,8 +137,6 @@ inputs:
         en: 1(This cat) 2eats 3meat 4(every day).
     - id: AnICzppERVqUTnchVcYpJw
       text: 1Snayerik 2yeromzeswa 3mì 4tayo.
-      lookup_filter:
-        3: 1108:adp.:noaffix:nolen
       translations:
         en: 1(A herd of hexapedes) 2(are grazing) 3in 4(the field).
     - id: tAlHLS0aSK2r0wbzRzxbXA
@@ -212,7 +214,6 @@ inputs:
         A. 1(Epxang)2(mì) 3lu 4'upe?
         B. 5Tìloho.
       lookup_filter:
-        2: 1108:adp.:noaffix:nolen
         4: 112:inter.:noaffix:nolen
       translations:
         en: |-
@@ -222,3 +223,4 @@ inputs:
       text: 1Poltxe 2po 3nìloho 4san 5oe 6zasya'u.
       translations:
         en: 3Surprisingly, 2he 1+4said 5he 6(would come).
+emphasis: []

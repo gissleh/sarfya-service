@@ -63,6 +63,7 @@ inputs:
       text: 1Entul 2fot 3ve'kì 4ulte 5sänui 6feyä 7zolawprrte' 8nìtokat 9(po)10(ne).
       lookup_filter:
         2: 412:pn.:noprefix:noinfix:=-t:nolen
+        4: 2592:conj.:noaffix:nolen
         6: 412:pn.:noprefix:noinfix:=-yä:nolen
         8: 13398:adv.:noaffix:nolen
       translations:

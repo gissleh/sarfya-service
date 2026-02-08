@@ -14,6 +14,7 @@ inputs:
         13: 2476:vim.:noaffix:nolen
         17: 208:pn.:noaffix:nolen
         27: 412:pn.:noaffix:nolen
+        32: 2592:conj.:noaffix:nolen
         37: 412:pn.:noprefix:noinfix:=-l:nolen
         39: 9068:adv.:noaffix:nolen
       translations: {}
