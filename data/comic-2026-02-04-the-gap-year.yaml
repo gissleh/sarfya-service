@@ -1,0 +1,14 @@
+source:
+    id: comic-2026-02-04-the-gap-year
+    date: "2026-02-04"
+    url: https://www.darkhorse.com/comics/3010-555/avatar-the-gap-year-tipping-point-4/
+    title: 'Avatar: The Gap Year--Tipping Point #4'
+    author: Dark Horse
+inputs:
+    - id: LM4NJKwYSn-Q60rSrHdvfg
+      text: 1Awnga 2takuk 3fìtseng.
+      lookup_filter:
+        2: 1976:vtr.:noaffix:nolen
+      translations:
+        en: 3(This is where) 1we 2strike.
+emphasis: []
