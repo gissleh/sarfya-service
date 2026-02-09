@@ -11,7 +11,7 @@ require (
 	github.com/fwew/fwew-lib/v5 v5.25.5
 	github.com/gissleh/litxap v1.7.5
 	github.com/gissleh/litxap-fwew v1.7.4-fwew5.25.5
-	github.com/gissleh/sarfya v1.1.2
+	github.com/gissleh/sarfya v1.1.3
 	github.com/labstack/echo/v4 v4.12.0
 	golang.org/x/sync v0.10.0
 	gopkg.in/yaml.v3 v3.0.1

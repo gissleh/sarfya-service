@@ -19,6 +19,8 @@ github.com/gissleh/litxap-fwew v1.7.4-fwew5.25.5 h1:2kVmdSKyr5WqGzpQHAYg/FMMQEPJ
 github.com/gissleh/litxap-fwew v1.7.4-fwew5.25.5/go.mod h1:MCd6HK9NkdgOLsWV+q/G0na0utoJIg/naUTca1z3VkQ=
 github.com/gissleh/sarfya v1.1.2 h1:ft4tuSyaXlJKjVHz8Ahb32b70Y4vtGUn43Z+F3kD0NY=
 github.com/gissleh/sarfya v1.1.2/go.mod h1:qOVccVAJSTZCv4cl1tRwiAPagd14+n51q7hYQ8mYeEU=
+github.com/gissleh/sarfya v1.1.3 h1:TK08LWIMCd1JhUrvwtiaHwnURZsUszbXrVrYeaWVwAA=
+github.com/gissleh/sarfya v1.1.3/go.mod h1:qOVccVAJSTZCv4cl1tRwiAPagd14+n51q7hYQ8mYeEU=
 github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpvNJ1Y=
 github.com/go-sql-driver/mysql v1.8.1/go.mod h1:wEBSXgmK//2ZFJyE+qWnIsVGmvmEKlqwuVSjsCm7DZg=
 github.com/golang-jwt/jwt v3.2.2+incompatible h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY=
