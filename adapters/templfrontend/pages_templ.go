@@ -121,7 +121,7 @@ func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGro
 				}
 			}
 			for _, match := range group.Examples {
-				templ_7745c5c3_Err = example(match, ctx.Value(langCtxKey).(string), stresses[match.ID]).Render(ctx, templ_7745c5c3_Buffer)
+				templ_7745c5c3_Err = example(match, ctx.Value(langCtxKey).(string), stresses[match.ID], i).Render(ctx, templ_7745c5c3_Buffer)
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}
@@ -165,7 +165,7 @@ func indexPage() templ.Component {
 			return templ_7745c5c3_Err
 		}
 		if ctx.Value(demoCtxKey) != nil {
-			templ_7745c5c3_Err = example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), nil).Render(ctx, templ_7745c5c3_Buffer)
+			templ_7745c5c3_Err = example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), nil, -1).Render(ctx, templ_7745c5c3_Buffer)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

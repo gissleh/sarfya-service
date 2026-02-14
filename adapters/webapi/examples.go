@@ -1,13 +1,16 @@
 package webapi
 
 import (
+	"errors"
 	"log"
 	"net/http"
 	"net/url"
+	"strconv"
 	"time"
 
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/emphasis"
+	"github.com/gissleh/sarfya-service/formatutils"
 	"github.com/gissleh/sarfya/sarfyaservice"
 	"github.com/labstack/echo/v4"
 )
@@ -80,6 +83,60 @@ func Examples(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emp
 
 		return c.JSON(http.StatusOK, map[string]any{
 			"input": input,
+		})
+	})
+
+	group.GET("/:id/discord-quote", func(c echo.Context) error {
+		example, err := svc.FindExample(c.Request().Context(), c.Param("id"))
+		if err != nil {
+			return err
+		}
+
+		var match *sarfya.FilterMatch
+
+		if c.QueryParam("filter") != "" {
+			filter, resolvedMaps, err := sarfya.ParseFilter(c.Request().Context(), c.QueryParam("filter"), svc.Dictionary)
+			if err != nil {
+				return err
+			}
+
+			filterIndex, err := strconv.Atoi(c.QueryParam("filter_index"))
+			if err != nil {
+				if c.Param("filter_index") == "" {
+					filterIndex = 0
+				} else {
+					return err
+				}
+			}
+
+			match = filter.CheckExample(*example, resolvedMaps[filterIndex])
+			if match == nil {
+				return errors.New("filter is not supposed to fail, parameters must be incorrect")
+			}
+		} else {
+			match = &sarfya.FilterMatch{
+				Example:             *example,
+				Spans:               nil,
+				TranslationAdjacent: nil,
+				TranslationSpans:    nil,
+				WordMap:             nil,
+			}
+		}
+
+		var stress *emphasis.FitResult
+		if emphasisStorage != nil {
+			stress, err = emphasisStorage.FindEmphasis(c.Request().Context(), example.ID)
+			if err != nil {
+				return err
+			}
+
+			if len(stress.Ambiguities) > 0 || len(stress.MissingParts) > 0 {
+				stress = nil
+			}
+		}
+
+		return c.JSON(http.StatusOK, map[string]any{
+			"text": formatutils.DiscordQuote(*match, c.Param("lang"), stress),
 		})
 	})
 

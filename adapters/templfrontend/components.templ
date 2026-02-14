@@ -13,8 +13,8 @@ func hostnameFromUrl(u string) string {
     return uu.Hostname()
 }
 
-templ example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult) {
-	<div id={"example-"+templ.EscapeString(data.ID)} class="example">
+templ example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult, groupIndex int) {
+	<div id={"example-"+strconv.Itoa(groupIndex)+"-"+templ.EscapeString(data.ID)} class="example">
         if data.Example.HasFlag(sarfya.EFNonCanon) {
             <a href="/search/flag:non_canon" class="example-flag flag-non-canon">Contribution from the li'fyaolo'</a>
         }

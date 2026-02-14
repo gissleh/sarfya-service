@@ -21,7 +21,7 @@ func hostnameFromUrl(u string) string {
 	return uu.Hostname()
 }
 
-func example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult) templ.Component {
+func example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult, groupIndex int) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
@@ -47,9 +47,9 @@ func example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult) t
 			return templ_7745c5c3_Err
 		}
 		var templ_7745c5c3_Var2 string
-		templ_7745c5c3_Var2, templ_7745c5c3_Err = templ.JoinStringErrs("example-" + templ.EscapeString(data.ID))
+		templ_7745c5c3_Var2, templ_7745c5c3_Err = templ.JoinStringErrs("example-" + strconv.Itoa(groupIndex) + "-" + templ.EscapeString(data.ID))
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/components.templ`, Line: 17, Col: 48}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/components.templ`, Line: 17, Col: 77}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var2))
 		if templ_7745c5c3_Err != nil {

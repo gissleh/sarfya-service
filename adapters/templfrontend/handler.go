@@ -140,6 +140,6 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage em
 			})
 		}
 
-		return outputHtml(c, 200, example(*match, c.Request().Context().Value(langCtxKey).(string), nil))
+		return outputHtml(c, 200, example(*match, c.Request().Context().Value(langCtxKey).(string), nil, -1))
 	})
 }

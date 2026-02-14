@@ -19,13 +19,13 @@ templ searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGr
 	            for _, entry := range group.Entries {
 	                <div class="word">
 	                    <span class="word">{entry.Word}</span>
-	                    <span class="pos"> ({entry.OriginalPoS  })</span>
+	                    <span class="pos"> ({entry.OriginalPoS})</span>
 	                </div>
 	            }
 	        </div>
 	    }
 	    for _, match := range group.Examples {
-	        @example(match, ctx.Value(langCtxKey).(string), stresses[match.ID])
+	        @example(match, ctx.Value(langCtxKey).(string), stresses[match.ID], i)
 	    }
 	}
 
@@ -38,7 +38,7 @@ templ indexPage() {
 
     @searchBox("")
     if ctx.Value(demoCtxKey) != nil {
-        @example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), nil)
+        @example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), nil, -1)
     }
 
     @queryExample("uvan si", "Search for the verb.")

@@ -110,4 +110,16 @@ inputs:
     - id: v7cb8P1MSy64DQge3PsKjA
       text: 1Plltxeyu 2lu 3pesu?
       translations: {}
+    - id: HhcQRZNJQqe95gUBjxGW6w
+      text: 1Txo 2nemfa 3pay 4zivup, 5tìk 6spayakat.
+      lookup_filter:
+        3: 1480:n.:noaffix:nolen
+      translations:
+        en: 1If it 4falls 2into 3(the water), it 5immediately 6drowns.
+    - id: Fgh3hkCJRiukrFID41y2vA
+      text: 1Fula 2sunu 3ngar 4tsalì'u 5alu 6tìsay 7oeti 8'eykefu 9nitram 10nìteng, 11ma 12'eylan.
+      lookup_filter:
+        2: 6376:vin.:noaffix:nolen
+        10: 1304:adv.:noaffix:nolen
+      translations: {}
 emphasis: []

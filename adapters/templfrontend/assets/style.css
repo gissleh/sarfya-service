@@ -131,6 +131,30 @@ div.example-source a {
 div.example-source a:hover {
     color: #abc;
 }
+div.example-source button {
+    color: #789;
+    text-decoration: none;
+    background: #123;
+    border: none;
+    margin-left: 0.5em;
+}
+div.example-source button:hover {
+    color: #abc;
+}
+textarea.copy-paste-text {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+    background: none;
+    padding: 0.25em;
+    font-size: 1em;
+    color: #789;
+    background-color: #272736;
+    outline: none;
+    border: 1px solid;
+    border-radius: 0.25em;
+    height: 5em;
+}
 a.example-flag {
     margin: 0;
     display: inline-block;
