@@ -25,7 +25,7 @@ templ searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGr
 	        </div>
 	    }
 	    for _, match := range group.Examples {
-	        @example(match, ctx.Value(langCtxKey).(string), stresses[match.ID], i)
+	        @example(match, ctx.Value(langCtxKey).(string), stresses[match.ID], group.Index)
 	    }
 	}
 

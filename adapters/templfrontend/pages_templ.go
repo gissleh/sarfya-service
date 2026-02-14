@@ -121,7 +121,7 @@ func searchPage(filter string, err string, groups []sarfyaservice.FilterMatchGro
 				}
 			}
 			for _, match := range group.Examples {
-				templ_7745c5c3_Err = example(match, ctx.Value(langCtxKey).(string), stresses[match.ID], i).Render(ctx, templ_7745c5c3_Buffer)
+				templ_7745c5c3_Err = example(match, ctx.Value(langCtxKey).(string), stresses[match.ID], group.Index).Render(ctx, templ_7745c5c3_Buffer)
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}

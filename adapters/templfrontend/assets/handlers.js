@@ -95,12 +95,17 @@ window.addEventListener("DOMContentLoaded", function() {
 
     const allExamples = document.querySelectorAll(".example");
     for (const el of allExamples) {
+        const sourceRow = el.querySelector(".example-source");
+        if (sourceRow == null) {
+            continue;
+        }
+
         const button = document.createElement("button");
         button.className = "tool";
         button.onclick = generateDiscordQuote.bind(el, el.id, filter, Number(el.dataset.groupIndex))
         button.innerHTML = "Quote"
 
-        el.querySelector(".example-source").append(button);
+        sourceRow.append(button);
     }
 
     // Process them in batches to leave room for other things to run.
