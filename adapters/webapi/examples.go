@@ -2,6 +2,7 @@ package webapi
 
 import (
 	"errors"
+	"fmt"
 	"log"
 	"net/http"
 	"net/url"
@@ -10,7 +11,7 @@ import (
 
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/emphasis"
-	"github.com/gissleh/sarfya-service/formatutils"
+	"github.com/gissleh/sarfya-service/textformats"
 	"github.com/gissleh/sarfya/sarfyaservice"
 	"github.com/labstack/echo/v4"
 )
@@ -135,8 +136,18 @@ func Examples(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emp
 			}
 		}
 
+		var formatter textformats.Formatter
+		switch c.QueryParam("format") {
+		case "discord", "":
+			formatter = textformats.DiscordFormatter()
+		case "bbcode":
+			formatter = textformats.BBCodeFormatter()
+		default:
+			return fmt.Errorf("unknown format: %s", c.QueryParam("format"))
+		}
+
 		return c.JSON(http.StatusOK, map[string]any{
-			"text": formatutils.DiscordQuote(*match, c.Param("lang"), stress),
+			"text": textformats.Generate(formatter, *match, c.Param("lang"), stress),
 		})
 	})
 

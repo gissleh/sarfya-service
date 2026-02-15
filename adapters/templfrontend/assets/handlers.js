@@ -100,12 +100,17 @@ window.addEventListener("DOMContentLoaded", function() {
             continue;
         }
 
-        const button = document.createElement("button");
-        button.className = "tool";
-        button.onclick = generateDiscordQuote.bind(el, el.id, filter, Number(el.dataset.groupIndex))
-        button.innerHTML = "Quote"
+        const quoteDiscordButton = document.createElement("button");
+        quoteDiscordButton.className = "tool";
+        quoteDiscordButton.onclick = generateDiscordQuote.bind(el, el.id, filter, "discord")
+        quoteDiscordButton.innerHTML = "Quote (Discord)"
+        sourceRow.append(quoteDiscordButton);
 
-        sourceRow.append(button);
+        const quoteForumButton = document.createElement("button");
+        quoteForumButton.className = "tool";
+        quoteForumButton.onclick = generateDiscordQuote.bind(el, el.id, filter, "bbcode")
+        quoteForumButton.innerHTML = "Quote (Forum)"
+        sourceRow.append(quoteForumButton);
     }
 
     // Process them in batches to leave room for other things to run.
@@ -130,7 +135,7 @@ window.addEventListener("DOMContentLoaded", function() {
     setTimeout(handleBatch, 0);
 });
 
-function generateDiscordQuote(exampleElementId, filter) {
+function generateDiscordQuote(exampleElementId, filter, format) {
     const [_, filterIndex, ...exampleIdParts] = exampleElementId.split("-");
     const exampleId = exampleIdParts.join("-");
     console.log(exampleId, filter, filterIndex);
@@ -145,7 +150,7 @@ function generateDiscordQuote(exampleElementId, filter) {
     }
     copyTextArea.textContent = "Loading...";
 
-    fetch(`/api/examples/${exampleId}/discord-quote?filter=${encodeURIComponent(filter)}&filter_index=${filterIndex}`)
+    fetch(`/api/examples/${exampleId}/discord-quote?filter=${encodeURIComponent(filter)}&format=${format}&filter_index=${filterIndex}`)
         .then(res => {
             return res.json();
         }).then(data => {
