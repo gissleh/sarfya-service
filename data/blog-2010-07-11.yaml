@@ -36,7 +36,9 @@ inputs:
       lookup_filter:
         4: 1312:adv.:noaffix:nolen
       translations:
-        en: 6+4(What a) 3pretty 2(little queue) 1you 5have!
+        en: |-
+            6+4(What a) 3pretty 2(little queue) 1you 5have!
+            {(Note that in sentences like this that involve possession, especially “inalienable possession, the –ri form (i.e. the topic marker) is slightly more idiomatic than the possessive pronoun, although both are correct. So “Ngeyä tswintsyìp . . .” is fine, although many Na'vi would prefer to say “Ngari . . .”)}
     - id: wH4mL1beRA-4f6XzflquNg
       text: 1Fìtaronyutsyìp 2ke 3tsun 4ke'ut 5stivä'nì.
       lookup_filter:
@@ -45,23 +47,29 @@ inputs:
         en: 1This 1{(worthless)} 1(little hunter) 2+3+4can't 5catch 2+3+4anything.
     - id: tIoN0uaiSH6JmYcB8is6nQ
       text: 1Ngatsyìpìl 2new 3peut 4ta 5oe?
-      lookup_filter:
-        3: 1528:inter.:noprefix:noinfix:=-t:nolen
       translations:
-        en: 3What 2does 1(little you) 2want 4from 5me?
+        en: |-
+            3What 2does 1(little you) 2want 4from 5me?
+            Note that while ngatsyìp was endearing in the previous example, here it's disparaging. To tell which is which, you need to consider the context, facial expressions, and body language.
     - id: KGOZ7d1eS5mQ9jyySCLe0g
       text: 1Nga 2nìawnomum 3to 4oetsyìp 5lu 6txur 7nìtxan.
       lookup_filter:
         3: 2224:part.:noaffix:nolen
         7: 1312:adv.:noaffix:nolen
       translations:
-        en: 2(As everyone knows), 1(you)5('re) 7(a lot) 6(strong)3(er than) 4(little old me).
+        en: |-
+            2(As everyone knows), 1(you)5('re) 7(a lot) 6(strong)3(er than) 4(little old me).
+            {(Here –tsyìp is used ironically, for mock self-deprecation. Also, oetsyìp is pronounced WE.tsyìp.)}
     - id: zAjHBOFJRTWP3wKFVCZr5Q
       text: 1Sìlpey 2oe, 3ayngari 4fìtìpängkxotsyìp 5(eltur tìtxen silvi).
       lookup_filter:
         1: 1800:vin.:noaffix:nolen
         3: 208:pn.:noprefix:noinfix:=-ri:nolen
-      translations: {}
+        4: 6164:n.:=fì-:noinfix:nosuffix:nolen
+      translations:
+        en: 2I 1hope, 3you 5(have found) 4(this dialog) 5interesting.
+      flags:
+        - user_translation
     - id: T6_gHiRxTQC6vgqXnnIcOA
       text: 1Kea 2tìkin.
       translations:
@@ -125,4 +133,10 @@ inputs:
             {(That is, may you derive strength and happiness from this event, accomplishment, etc.)}
       flags:
         - proverb
+    - id: gKQEdwjoRWeEqB1MD2yluA
+      text: 1Po 2zola'u 3fìtseng{(}4ne{)}
+      lookup_filter:
+        3: 2380:n.:=fì-:noinfix:nosuffix:nolen
+      translations:
+        en: '{(With verbs of motion, ne can be optionally omitted if the destination comes after the verb.)}'
 emphasis: []

@@ -6,8 +6,11 @@ source:
     author: Paul Frommer
 inputs:
     - id: I69C11R9QbCSKixYBsm0XQ
-      text: 1Teri 2lì'fya 3leNa'vi 4a 5tsanumultxa 6loleiu 9säflä!
-      translations: {}
+      text: 1Teri 2lì'fya 3leNa'vi 4a 5tsanumultxa 6loleiu 7säflä!
+      translations:
+        en: 5(The class) 4+1about 2the 3Na'vi 2language 6was 7(a success).
+      flags:
+        - user_translation
     - id: L7nI63uISLO50_dC7t7slA
       text: 1Nitram 2nì'aw!
       translations:
@@ -49,4 +52,33 @@ inputs:
         4: 460:pn.:noaffix:nolen
       translations:
         en: 1Ready, 3+4(everyone)2(?) 5+7Let's 6begin!
+    - id: sCsVwl1RTw64glN2vLvaNg
+      text: 1Txampxìri 2suteyä, 3ke 4tsun 5fko 6nivume 7fte 8(T|nìlì’fya) 9amip 10pivlltxe 11nìltsan 12fa 13fwa 14(tìng mikyun) 15horenur 16nì'aw. 17Zene 18tsalì'fyati 19sivar. 20Tafral 21holawl 22ayoel 23(aynga)49(fpi) 24'a'awa 25tìpängkxotsyìpit 26a 27tsun 28fko 29sivar 30mì 31sìrey 32letrrtrr. 33Ulte 34ke 35stìyawm 36ayngal 37fìtrr 38kea 39horenit 40aep'ang. 41Sìlpey 42ayoe, 43fìnumultxa 44'o' 45lìyevu 46ayngaru 47ulte 48(eltur tìtxen sivi).
+      lookup_filter:
+        4: 2476:vim.:noaffix:nolen
+        22: 212:pn.:noprefix:noinfix:=-l:nolen
+        23: 208:pn.:noaffix:nolen
+        25: 6164:n.:noprefix:noinfix:=-it:nolen
+        27: 2476:vim.:noaffix:nolen
+        33: 2592:conj.:noaffix:nolen
+        36: 208:pn.:noprefix:noinfix:=-l:nolen
+        37: 4280:adv.:noaffix:nolen
+        41: 1800:vin.:noaffix:nolen
+        42: 212:pn.:noaffix:nolen
+        46: 208:pn.:noprefix:noinfix:=-ru:nolen
+        47: 2592:conj.:noaffix:nolen
+      translations:
+        en: 1(For the majority) 2(of people), 3+4+5(it's not possible to) 6learn 7to 10speak 8a 9new 8language 11well 16simply 12by 13+14listening 15(to rules). 5You 17(have to) 19use 18(the language). 20Accordingly, 22we've 21prepared 24several 25(small dialogs) 49for 23you 26that 28you 27can 29use 30in 32daily 31life. 33And 36you 34+35+38(won't hear any) 40complicated 39rules 37today. 42We 41hope 46(you)45('ll find) 43(this class) 44fun 47and 48interesting.
+    - id: gcbsVLTQTwWlpCCjmLdUwA
+      text: 1Pxefeyä 2tìtstunwiri 3awnga 4(irayo sivi) 5ko!
+      lookup_filter:
+        1: 1548:pn.:=pxe-:noinfix:=-yä:=p→f
+      translations:
+        en: 5Let's 4thank them 2for 3their 2kindness.
+    - id: 3q4V1BwTQ2qVning7iSiSw
+      text: 1Hufwa 2lu 3oe 4fìtrr 5karyu 6atxin, 7leiu 8oer 9kop 10pxesrungsiyu 11a 12fìlì'fyari 13slolu 14tsulfätu.
+      lookup_filter:
+        9: 872:adv.:noaffix:nolen
+      translations:
+        en: 1Although 3(I)2('m) 5the 6main 5teacher 4today, 7(I'm happy to say) 8I 9also 7have 10(three assistants) 11who 13(have become) 14masters 12(of the language).
 emphasis: []
