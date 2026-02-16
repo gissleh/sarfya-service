@@ -44,6 +44,5 @@ func Run(ctx context.Context, example *sarfya.Example, input Input) (*FitResult,
 		return nil, ctx.Err()
 	}
 
-	fitRes := Fit(example.Text, resLines, true, input.Selections)
-	return &fitRes, nil
+	return new(Fit(example.Text, resLines, true, input.Selections)), nil
 }

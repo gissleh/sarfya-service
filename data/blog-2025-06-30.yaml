@@ -63,4 +63,7 @@ inputs:
         4: 1508:inter.:noaffix:nolen
       translations:
         en: 4Why 3did 1you 3(spit out) 2(that banana fruit)?
-emphasis: []
+emphasis:
+    - id: sa2GY1s2QYm01P3C6DITww
+      custom_words:
+        - so-*lew

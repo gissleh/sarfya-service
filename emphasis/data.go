@@ -6,20 +6,15 @@ import (
 )
 
 type Input struct {
-	ID          string        `json:"id,omitempty" yaml:"id,omitempty"`
-	Selections  []map[int]int `json:"selections,omitempty" yaml:"selections,omitempty"`
-	CustomWords []string      `json:"customWords,omitempty" yaml:"custom_words,omitempty"`
+	ID          string            `json:"id,omitempty" yaml:"id,omitempty"`
+	Selections  map[string]string `json:"selections,omitempty" yaml:"selections,omitempty"`
+	CustomWords []string          `json:"customWords,omitempty" yaml:"custom_words,omitempty"`
 }
 
 func (input *Input) Copy() *Input {
-	var selections []map[int]int
-	for _, selectionMap := range input.Selections {
-		selections = append(selections, maps.Clone(selectionMap))
-	}
-
 	return &Input{
 		ID:          input.ID,
-		Selections:  selections,
+		Selections:  maps.Clone(input.Selections),
 		CustomWords: slices.Clone(input.CustomWords),
 	}
 }

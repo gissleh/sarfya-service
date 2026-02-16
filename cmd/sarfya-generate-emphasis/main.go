@@ -38,6 +38,8 @@ func main() {
 	eg := errgroup.Group{}
 	eg.SetLimit(4)
 
+	safeCount := 0
+
 	for _, example := range storage.AllExamples() {
 		if len(example.Text) == 0 {
 			continue
@@ -47,6 +49,10 @@ func main() {
 			fitRes, err := storage.FindEmphasis(context.Background(), example.ID)
 			if err != nil {
 				return err
+			}
+
+			if fitRes.IsSafe() {
+				safeCount++
 			}
 
 			resMu.Lock()
@@ -79,4 +85,6 @@ func main() {
 	if err != nil {
 		log.Fatal("Failed to close destination file:", err)
 	}
+
+	log.Println("Safe examples:", safeCount, "/", len(res))
 }

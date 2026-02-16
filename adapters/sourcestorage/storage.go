@@ -286,6 +286,7 @@ func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary)
 	eg, egCtx := errgroup.WithContext(ctx)
 
 	examples := make([]sarfya.Example, 64*1024)
+	emphasises := make([]emphasis.Input, 0, 64*1024)
 	nextOffset := 0
 	for _, entry := range entries {
 		if entry.IsDir() && !strings.HasSuffix(entry.Name(), ".yaml") {
@@ -321,13 +322,15 @@ func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary)
 				return nil
 			})
 		}
+
+		emphasises = append(emphasises, loadedData.Emphasis...)
 	}
 
 	if err := eg.Wait(); err != nil {
 		return nil, err
 	}
 
-	return &Storage{path: storagePath, examples: examples[:nextOffset], dictionary: dictionary}, nil
+	return &Storage{path: storagePath, examples: examples[:nextOffset], emphasises: emphasises, dictionary: dictionary}, nil
 }
 
 type sourceFileData struct {

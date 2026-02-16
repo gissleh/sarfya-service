@@ -65,3 +65,7 @@ inputs:
         1: 460:pn.:noaffix:nolen
       translations:
         en: 1Everybody 2+3inside! 5A 6big 5storm 4(is approaching)!
+emphasis:
+    - id: XYQZ9JUJT3-oDORMzvHReA
+      selections:
+        fuke[0,16]: "fuke[0]"

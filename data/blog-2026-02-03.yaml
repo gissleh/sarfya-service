@@ -25,4 +25,9 @@ inputs:
         1: 208:pn.:noprefix:noinfix:=-yä:nolen
         9: 1312:adv.:noaffix:nolen
       translations: {}
-emphasis: []
+emphasis:
+    - id: CWldf0H6TY-UvoXdxw_E0g
+      selections:
+        ulte: ulte
+      custom_words:
+        - hu-*fwe-sru
