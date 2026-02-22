@@ -54,6 +54,7 @@ inputs:
         en: |-
             A: 4What 2do 1you 2(want to) 3eat 5tonight?
             B: 6(Whatever. )6{(Or: Anything at all.)} 7+8(I don't care).
+            {(And note that in the colloquial expression Oeru (ngaru, poru, etc.) ke'u, the stress in ke'u shifts to the second syllable: ke.'U.)}
     - id: PNeRN3hVTOKzNfgItHCynQ
       text: 1Oe 2(tìkangkem si) 4trrtxon 5nìwotx, 6ngaru 7ke'u!
       translations:
@@ -70,3 +71,14 @@ inputs:
         5: 1312:adv.:noaffix:nolen
         6: 5184:adv.:noaffix:nolen
       translations: {}
+emphasis:
+    - id: nXpBtF4mSneNRhQMmXAF7A
+      selections:
+        ke'u: '*[1]'
+      custom_words:
+        - ke-*'u
+    - id: PNeRN3hVTOKzNfgItHCynQ
+      selections:
+        ke'u: '*[1]'
+      custom_words:
+        - ke-*'u
