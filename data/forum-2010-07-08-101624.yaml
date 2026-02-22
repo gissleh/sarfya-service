@@ -1,0 +1,15 @@
+source:
+    id: forum-2010-07-08-101624
+    date: "2010-07-08"
+    url: https://forum.learnnavi.org/language-updates/eltur-titxen-si-a-mesisusar-tsaliua-a-san-tok-sik/msg258956/#msg258956
+    title: 'Eltur tìTxen Si a mesìSusar tsaLì''uä a san« TOK »sìk. '
+    author: Paul Frommer, Prrton
+inputs:
+    - id: Fav3Q6SZSdG9fVTiyNip0w
+      text: 1Lora 2aylì'u, 3lora 4aysäfpìl. 5Tsata 6txe'lanit 7ngeyä 8tok 9wolìntxu 10ngal 11ayoeru 12nìngay.
+      lookup_filter:
+        5: 5436:sbd.:noaffix:nolen
+        11: 212:pn.:noprefix:noinfix:=-ru:nolen
+        12: 1296:adv.:noaffix:nolen
+      translations: {}
+emphasis: []

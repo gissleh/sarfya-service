@@ -1,0 +1,31 @@
+source:
+    id: forum-2023-02-25-070523
+    date: "2023-02-25"
+    url: https://forum.learnnavi.org/language-updates/contrasting-nominalized-phrases-futa-vs-tsata/msg682691/?PHPSESSID=bsbn5b2lk7kgi01eqmljqpo6fp#msg682691
+    title: 'Contrasting nominalized phrases: futa vs. tsata '
+    author: wm.annis, Paul Frommer
+inputs:
+    - id: C7K1hbobTW-p3XWpDO6VCQ
+      text: 1Oel 2new 3(futa|fta) 4fo 5kivä, 6slä 7sa'nokìl 8{(new)} 9(tsata|tsta) 10{(fo)} 11'ivì'awn.
+      lookup_filter:
+        4: 412:pn.:noaffix:nolen
+        9: 5436:sbd.:noaffix:nolen
+        10: 412:pn.:noaffix:nolen
+      translations:
+        en: |-
+            1I 2want 4them 3+5(to go), 6but 7mother 8wants 10them 9+11(to stay).
+            {Although the standard choice is futa, tsata is possible and actually preferred in contrasting situations such as this, where it sets off the contrast (this vs. that}{ and also serves to avoid the repetition of futa.)}
+    - id: TrLkGJkkTSqEXZnva7bSsA
+      text: 1Oel 2new 3(futa|fta) 4fo 5kivä, 6sa'nokìri 7'ivì'awn.
+      lookup_filter:
+        4: 412:pn.:noaffix:nolen
+      translations:
+        en: 1I 2want 4them 3+5(to go), 6(but mother wants them to) 7stay.
+    - id: IdT2y2GXRSOM7VFFbZFu2A
+      text: 1Po 2new 3hivum, 4oe 5ke 6new.
+      translations: {}
+    - id: oT3MjlthR7O0GLQEfA2DZw
+      text: 1Po 2new 3hivum, 4oeri 5ke 6new.
+      translations:
+        en: 1He 2(wants to) 3leave; 4(I, on the other hand), 5+6don't.
+emphasis: []

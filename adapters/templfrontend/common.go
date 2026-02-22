@@ -12,7 +12,7 @@ var demoCtxKey = &struct{ key string }{key: "demoCtxKey"}
 var langCtxKey = &struct{ key string }{key: "langCtxKey"}
 
 func findLanguage(match sarfya.FilterMatch, langs string) string {
-	for _, l := range strings.Split(langs, ",") {
+	for l := range strings.SplitSeq(langs, ",") {
 		l := strings.TrimSpace(l)
 
 		if match.Translations[l] != nil {

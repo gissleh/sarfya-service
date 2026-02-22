@@ -82,9 +82,9 @@ func maxStr(str string, length int) string {
 		return str[:length-3] + "..."
 	}
 
-	newLine := strings.Index(str, "\n")
-	if newLine != -1 {
-		return str[:newLine] + "..."
+	before, _, ok := strings.Cut(str, "\n")
+	if ok {
+		return before + "..."
 	}
 
 	return str

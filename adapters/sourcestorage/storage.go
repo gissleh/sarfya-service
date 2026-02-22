@@ -309,7 +309,6 @@ func Open(ctx context.Context, storagePath string, dictionary sarfya.Dictionary)
 		nextOffset += len(loadedData.Inputs)
 
 		for i, input := range loadedData.Inputs {
-			i := i
 			input.Source = loadedData.Source
 
 			eg.Go(func() error {

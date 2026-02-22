@@ -23,7 +23,7 @@ func Run(ctx context.Context, example *sarfya.Example, input Input) (*FitResult,
 	})
 
 	var resLines []litxap.Line
-	for _, line := range strings.Split(strings.Trim(example.Text.RawText(), "\n"), "\n") {
+	for line := range strings.SplitSeq(strings.Trim(example.Text.RawText(), "\n"), "\n") {
 		if ctx.Err() != nil {
 			return nil, ctx.Err()
 		}

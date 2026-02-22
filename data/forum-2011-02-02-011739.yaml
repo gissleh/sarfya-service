@@ -21,8 +21,5 @@ inputs:
         en: 1If 4I 3should 2not 3(succeed in) 5stopping 6them . . .
     - id: XwfwtrrXTUGjDApFp_PjFQ
       text: 1Oe 2poru 3(tìftang soli).
-      translations:
-        en: 1I 3stopped 2him.
-      flags:
-        - user_translation
+      translations: {}
 emphasis: []

@@ -86,7 +86,7 @@ inputs:
         B: 5Kempe 6leren?
         A: 7Nemfa 8na'rìng, 9ma 10skxawngtsyìp! 11Kä 12li!
         B: 13Slä . . .
-        A: 14(NEMREY|NEMREEEY)!!!
+        A: 14(NEMREY|NEMREEEY!!!)
       lookup_filter:
         5: 772:inter.:noaffix:nolen
       translations:
@@ -132,4 +132,7 @@ inputs:
       text: 1Tsatxon 2(ayutral)3(äo) 4krr 5a 6pol 7oeti 8nolìn 9nìwawe, 10olomeium 11oel 12fa 13keyrel 14futa 15lu 16yawne 17oe 18poru.
       translations:
         en: 1(That night) 3beneath 2(the trees) 4+5when 6she 8(looked at) 7me 9meaningfully, 11I 10knew 12by 13(the expression on her face) 14that 18she 15+16loves 17me.
-emphasis: []
+emphasis:
+    - id: t7WoGoGUTl2kJTRw0tC4ew
+      custom_words:
+        - nem-*reeey

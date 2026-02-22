@@ -16,7 +16,7 @@ var skipMissing = []string{
 }
 
 var skipWords = []string{
-	"ìlä", "tsatseng",
+	"ìlä", "tsatseng", "ayfo", "tsakem", "mìfa",
 }
 
 var alwaysChoose = map[string]string{

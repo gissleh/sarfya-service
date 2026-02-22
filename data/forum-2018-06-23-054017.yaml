@@ -22,8 +22,5 @@ inputs:
       lookup_filter:
         9: 216:pn.:noaffix:nolen
       translations:
-        en: |-
-            2(Contrary to) 3my 1opinion, 5Peyral 4thinks 6that 9we 7don't 8(have to) 10go.
-            {(Original translation: I think we have to go, but Peyral doesn't.)}
-      flags:
-        - user_translation
+        en: 1+2(I think we have to) 10go, 1+2but 5Peyral 4+6+7+8+9doesn't.
+emphasis: []
