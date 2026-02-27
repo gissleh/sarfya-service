@@ -13,7 +13,7 @@ inputs:
       translations:
         en: 1+2Welcome 3(to you) 4all!
     - id: KRWohuZsS86AG5VZGS3Ltw
-      text: 1Tse . . . 2Nìawnomum, 3fwa 4oel 5fìtìkangkemvit 6sngeykivä'i 7krrnolekx 8nìtxan, 9slä 10nì'i'a 11tsun 12oe 13pivlltxe 14san 15Zola'u 16nìprrte' 17ne 18pìlok 19(M|Na’viteri) 20sìk! 21Tìmweypeyri 22ayngeyä 23seiyi 23irayo- 24nìngay. 25Sìlpey 26oe, 27awngeyä 28lì'fyaolo'ìri 29fìpìlok 30lìyevu 31pxan, 32ulte 33frapo—34ftxey 35sngä'iyu 36ftxey 37tsulfätu—38tsìyevun 39fìtsenge 40rivun 41'uot 42lesar.
+      text: 1Tse . . . 2Nìawnomum, 3fwa 4oel 5fìtìkangkemvit 6sngeykivä'i 7krrnolekx 8nìtxan, 9slä 10nì'i'a 11tsun 12oe 13pivlltxe 14san 15Zola'u 16nìprrte' 17ne 18pìlok 19(M|Na'viteri) 20sìk! 21Tìmweypeyri 22ayngeyä 23seiyi 23irayo- 24nìngay. 25Sìlpey 26oe, 27awngeyä 28lì'fyaolo'ìri 29fìpìlok 30lìyevu 31pxan, 32ulte 33frapo—34ftxey 35sngä'iyu 36ftxey 37tsulfätu—38tsìyevun 39fìtsenge 40rivun 41'uot 42lesar.
       lookup_filter:
         8: 1312:adv.:noaffix:nolen
         11: 2476:vim.:noaffix:nolen

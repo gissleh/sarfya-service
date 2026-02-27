@@ -124,7 +124,7 @@ inputs:
         en: 1The 2original 1plan 3was 4(the work) 5(of an idiot), 6but 7+8+9(this one) 10is 11just 10perfect.
     - id: HhYUgZCFQqyimNRSAeBlDQ
       text: |-
-        A: 1(Ultxa sivi) 2oeng 3sìn 4ramtsyìp 5(T|txon’ongay).
+        A: 1(Ultxa sivi) 2oeng 3sìn 4ramtsyìp 5(T|txon'ongay).
         B: 6Yeio'! 7Tsakrrvay 9ko!
       lookup_filter:
         3: 4048:adp.:noaffix:nolen

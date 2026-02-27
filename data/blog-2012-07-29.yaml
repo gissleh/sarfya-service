@@ -53,7 +53,7 @@ inputs:
       translations:
         en: 1Ready, 3+4(everyone)2(?) 5+7Let's 6begin!
     - id: sCsVwl1RTw64glN2vLvaNg
-      text: 1Txampxìri 2suteyä, 3ke 4tsun 5fko 6nivume 7fte 8(T|nìlì’fya) 9amip 10pivlltxe 11nìltsan 12fa 13fwa 14(tìng mikyun) 15horenur 16nì'aw. 17Zene 18tsalì'fyati 19sivar. 20Tafral 21holawl 22ayoel 23(aynga)49(fpi) 24'a'awa 25tìpängkxotsyìpit 26a 27tsun 28fko 29sivar 30mì 31sìrey 32letrrtrr. 33Ulte 34ke 35stìyawm 36ayngal 37fìtrr 38kea 39horenit 40aep'ang. 41Sìlpey 42ayoe, 43fìnumultxa 44'o' 45lìyevu 46ayngaru 47ulte 48(eltur tìtxen sivi).
+      text: 1Txampxìri 2suteyä, 3ke 4tsun 5fko 6nivume 7fte 8(T|nìlì'fya) 9amip 10pivlltxe 11nìltsan 12fa 13fwa 14(tìng mikyun) 15horenur 16nì'aw. 17Zene 18tsalì'fyati 19sivar. 20Tafral 21holawl 22ayoel 23(aynga)49(fpi) 24'a'awa 25tìpängkxotsyìpit 26a 27tsun 28fko 29sivar 30mì 31sìrey 32letrrtrr. 33Ulte 34ke 35stìyawm 36ayngal 37fìtrr 38kea 39horenit 40aep'ang. 41Sìlpey 42ayoe, 43fìnumultxa 44'o' 45lìyevu 46ayngaru 47ulte 48(eltur tìtxen sivi).
       lookup_filter:
         4: 2476:vim.:noaffix:nolen
         22: 212:pn.:noprefix:noinfix:=-l:nolen
