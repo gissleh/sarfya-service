@@ -95,22 +95,21 @@ window.addEventListener("DOMContentLoaded", function() {
 
     const allExamples = document.querySelectorAll(".example");
     for (const el of allExamples) {
-        const sourceRow = el.querySelector(".example-source");
-        if (sourceRow == null) {
-            continue;
-        }
+        const buttonRow = document.createElement("div");
+        buttonRow.className = "button-row"
+        el.append(buttonRow);
 
         const quoteDiscordButton = document.createElement("button");
         quoteDiscordButton.className = "tool";
         quoteDiscordButton.onclick = generateDiscordQuote.bind(el, el.id, filter, "discord")
         quoteDiscordButton.innerHTML = "Quote (Discord)"
-        sourceRow.append(quoteDiscordButton);
+        buttonRow.append(quoteDiscordButton);
 
         const quoteForumButton = document.createElement("button");
         quoteForumButton.className = "tool";
         quoteForumButton.onclick = generateDiscordQuote.bind(el, el.id, filter, "bbcode")
         quoteForumButton.innerHTML = "Quote (Forum)"
-        sourceRow.append(quoteForumButton);
+        buttonRow.append(quoteForumButton);
     }
 
     // Process them in batches to leave room for other things to run.
@@ -135,19 +134,28 @@ window.addEventListener("DOMContentLoaded", function() {
     setTimeout(handleBatch, 0);
 });
 
+const lastFormat = {}
+
 function generateDiscordQuote(exampleElementId, filter, format) {
     const [_, filterIndex, ...exampleIdParts] = exampleElementId.split("-");
     const exampleId = exampleIdParts.join("-");
-    console.log(exampleId, filter, filterIndex);
+    console.log(exampleElementId, exampleId, filter, filterIndex);
     const copyTextAreaId = exampleElementId + "-" + filterIndex + "-copy-text-area";
     let copyTextArea = document.getElementById(copyTextAreaId);
     if (copyTextArea == null) {
-        copyTextArea = document.createElement("textarea");
+        copyTextArea = document.createElement("pre");
         copyTextArea.id = copyTextAreaId;
         copyTextArea.className = "copy-paste-text";
-        copyTextArea.disabled = true;
         document.getElementById(exampleElementId).append(copyTextArea)
     }
+
+    if (lastFormat[exampleElementId] === format) {
+        copyTextArea.remove();
+        lastFormat[exampleElementId] = "";
+    } else {
+        lastFormat[exampleElementId] = format;
+    }
+
     copyTextArea.textContent = "Loading...";
 
     fetch(`/api/examples/${exampleId}/discord-quote?filter=${encodeURIComponent(filter)}&format=${format}&filter_index=${filterIndex}`)

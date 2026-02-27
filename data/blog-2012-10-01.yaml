@@ -139,9 +139,11 @@ inputs:
       translations:
         en: 1+2(living room)
     - id: JxrWvlEBSbuXL8E2v24Pjw
-      text: 1mo 2a 3yom
+      text: 1mo 2a 3{(fko)} 4yom 5{(tsatseng)}
       translations:
-        en: 2+3dining 1room
+        en: |-
+            2+3+4+5dining 1room
+            {(Note: The last two expressions do not mean 'room that eats' and 'room that sleeps,' although theoretically they could! You can think of mo a yom as shorthand for mo a fko yom tsatseng and so on.)}
     - id: mFlmk61xRKGrAy6-P0bLmw
       text: 1{(sno)}1+2(mo) 3a 4hahaw
       translations:

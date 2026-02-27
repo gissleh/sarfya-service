@@ -2,13 +2,20 @@ package templfrontend
 
 import (
 	"context"
-	"github.com/gissleh/sarfya"
+	"math/rand/v2"
 	"strings"
+	"sync"
+	"time"
+
+	"github.com/gissleh/sarfya"
+	"github.com/gissleh/sarfya-service/emphasis"
+	"github.com/gissleh/sarfya/sarfyaservice"
 )
 
 var exampleCount = 0
 
 var demoCtxKey = &struct{ key string }{key: "demoCtxKey"}
+var demoEmphasisCtxKey = &struct{ key string }{key: "demoEmphasisCtxKey"}
 var langCtxKey = &struct{ key string }{key: "langCtxKey"}
 
 func findLanguage(match sarfya.FilterMatch, langs string) string {
@@ -23,27 +30,43 @@ func findLanguage(match sarfya.FilterMatch, langs string) string {
 	return ""
 }
 
-func createDemo(dictionary sarfya.Dictionary) *sarfya.FilterMatch {
-	demoData, err := sarfya.NewExample(context.Background(), sarfya.Input{
-		ID:   "demo",
-		Text: "1Kaltxì, 2ulte 3zola'u 4nìprrte' 5fìweptseng6ne! 7(Pamrel si) 8lì'uor 9nefä 10fu 11takuk 12pumit 25a 13mì 14fìpamrel 15fte 16fwivew 24sìkenongit 26lefkeytongay. 17Fko 18tsun 19kop 20mivay' 21sìkenongit 22a 23fìpamreläo.",
-		LookupFilter: map[int]string{
-			11: "vtr.",
-		},
-		Translations: map[string]string{
-			"en": "1Hello, 2and 3+4(welcome) 6to 5(this website)! 7Write 8(a word) 9above 10or 11click 12one 25+13in 14(this text) 15to 16(search for) 26canon 24examples. 17You 18can 19also 20(check out) 21(the examples) 22+23(below this text.)"},
-		Source: sarfya.Source{},
-	}, dictionary)
-	if err != nil {
-		return nil
+var eotdMutex sync.Mutex
+var eotd *sarfya.Example
+var eotdEmphasis *emphasis.FitResult
+var eotdAt time.Time
+
+func getEotd(storage sarfyaservice.ExampleStorage, emphasisStorage emphasis.Storage) (*sarfya.Example, *emphasis.FitResult) {
+	eotdMutex.Lock()
+	defer eotdMutex.Unlock()
+
+	if eotd != nil && time.Now().Truncate(24*time.Hour).Equal(eotdAt) {
+		return eotd, eotdEmphasis
 	}
 
-	return &sarfya.FilterMatch{
-		Example:             *demoData,
-		Spans:               [][]int{},
-		TranslationAdjacent: map[string][][]int{"en": {}},
-		TranslationSpans: map[string][][]int{
-			"en": {},
-		},
+	examples, _ := storage.FetchExamples(context.Background(), nil, nil)
+	rng := rand.NewPCG(uint64(time.Now().Truncate(time.Hour*24).Unix()), uint64(time.Now().Truncate(time.Hour*24).Unix()))
+
+	index := int(rng.Uint64() % uint64(len(examples)))
+	for i := range len(examples) {
+		i := (index + i) % len(examples)
+		if len(examples[i].Translations["en"]) == 0 {
+			continue
+		}
+		if strings.HasPrefix(examples[i].Translations["en"][0].RawText(), "(") {
+			continue
+		}
+
+		exampleEmphasis, err := emphasisStorage.FindEmphasis(context.Background(), examples[i].ID)
+		if err != nil || !exampleEmphasis.IsSafe() {
+			continue
+		}
+
+		eotd = new(examples[i])
+		eotdEmphasis = exampleEmphasis
+		eotdAt = time.Now().Truncate(24 * time.Hour)
+
+		return eotd, eotdEmphasis
 	}
+
+	return new(examples[index]), nil
 }

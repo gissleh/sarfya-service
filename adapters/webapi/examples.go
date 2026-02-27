@@ -116,11 +116,8 @@ func Examples(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emp
 			}
 		} else {
 			match = &sarfya.FilterMatch{
-				Example:             *example,
-				Spans:               nil,
-				TranslationAdjacent: nil,
-				TranslationSpans:    nil,
-				WordMap:             nil,
+				Example: *example,
+				WordMap: example.Text.WordMap(),
 			}
 		}
 

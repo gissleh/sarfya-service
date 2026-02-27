@@ -57,7 +57,7 @@ inputs:
         1: 2592:conj.:noaffix:nolen
       translations: {}
     - id: jzBS3Q_RR7OBe4wfaQNiGg
-      text: 1Nìrangal 2lirvu 3ayoeru 4eyktan 5a 6tsivun 7(srung sivi), 8pum 9a 10livu 11por 12aylì'u 13azeykuso. 14Nìkeftxo 15ke 16lu 17ayoer 18eyktan 19anafì'u. 20Tìeyktanìri 21eyktan 22a 23fkeytok 24ke 25lu 26pxan 27kaw'it. 28Nìfya'o 29a 30(pamrel soli) 31oe 32kam 33'a'awa 34zìsìt, 35fìtutan 36ayaymak 37yawne 38lu 39snor 40nì'aw; 41fpom 42txanlokxeyä 43ke 44tsranten 45por. 46Fpìl 47pol 48futa 49tsaktapìri 50'umtsa 51aswey 52lu 53tsaktap 54nì'ul.
+      text: 1Nìrangal 2lirvu 3ayoeru 4eyktan 5a 6tsivun 7(srung sivi), 8pum 9a 10livu 11por 12aylì'u 13(azeykuso|azuseyko). 14Nìkeftxo 15ke 16lu 17ayoer 18eyktan 19anafì'u. 20Tìeyktanìri 21eyktan 22a 23fkeytok 24ke 25lu 26pxan 27kaw'it. 28Nìfya'o 29a 30(pamrel soli) 31oe 32kam 33'a'awa 34zìsìt, 35fìtutan 36ayaymak 37yawne 38lu 39snor 40nì'aw; 41fpom 42txanlokxeyä 43ke 44tsranten 45por. 46Fpìl 47pol 48futa 49tsaktapìri 50'umtsa 51aswey 52lu 53tsaktap 54nì'ul.
       lookup_filter:
         3: 212:pn.:noprefix:noinfix:=-ru:nolen
         11: 1548:pn.:noprefix:noinfix:=-r:nolen
@@ -69,7 +69,6 @@ inputs:
     - id: B1jMQYgzSO67QZU2srKE_g
       text: '1Srake 2tsayun 3fko 4fìtìfkeytokit 5a 6(M|Amerika)7(mì) 8zeykivo? 9Oe 10ke 11omum. 12Slä 13law 14lu 15''u 16a''aw 17nìwotx: 18Kam 19puzama 20zìsìt 21wum 22(fìatxkxe)44(mì), 23fkol 24yolem 25nemfa 26kllte 27utralit 28akawng 29ulte 30tsat 31peykolaw. 32Tsautral 33(tsawl slolu). 35Tolìng 36ayoer 37mautit 38asyä''ä. 39Ulte 40yerom 41ayoel 42tsamautit 43fìtrr.'
       lookup_filter:
-        8: 6428:vtr.:noprefix:=<iv>:nosuffix:nolen
         16: 12:num.:=a-:noinfix:nosuffix:nolen
         18: 8020:adp.:noaffix:nolen
         29: 2592:conj.:noaffix:nolen

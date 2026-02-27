@@ -164,21 +164,37 @@ func indexPage() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 10, "<h2>Random Example of the Day</h2>")
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
 		if ctx.Value(demoCtxKey) != nil {
-			templ_7745c5c3_Err = example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), nil, -1).Render(ctx, templ_7745c5c3_Buffer)
+			templ_7745c5c3_Err = example(*ctx.Value(demoCtxKey).(*sarfya.FilterMatch), ctx.Value(langCtxKey).(string), ctx.Value(demoEmphasisCtxKey).(*emphasis.FitResult), 0).Render(ctx, templ_7745c5c3_Buffer)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
 		}
-		templ_7745c5c3_Err = queryExample("uvan si", "Search for the verb.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 11, "<h2>Search Syntax</h2>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("sìk:1796", "Filter by word-ID to not get tsìk or tìk.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("sìlpey", "Search for a word, matching on derivations as well.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("*:adp.", "Search for adpositions.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("sìk:1796", "Search for sìk with the fwew word ID.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("*:adp.", "Search for any adposition.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("teraron", "Matches taron, but does not filter on infix.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("taron:<er>", "Search for taron with the <er> infix.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -186,11 +202,23 @@ func indexPage() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("*:<äng>|<ei>|<ui>", "Search for affect infixes.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("*:<äng>|<ei>|<uy>", "Search for affect infixes.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
 		templ_7745c5c3_Err = queryExample("*:<ats>", "Search for inferential infix.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("*:<äp>|<eyk>:<us>|<awn>", "Search for <0> + <us>/<awn>.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("zun && zel", "Find all examples with both zun and zel (conterfactual conditionals)").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("fpìl +>> san", "Search all cases where fpìl comes before san.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -207,14 +235,6 @@ func indexPage() templ.Component {
 			return templ_7745c5c3_Err
 		}
 		templ_7745c5c3_Err = queryExample("*:n.|pn. +> *:adj.:a- +> a:part.", "Attributive particle after attributed verb.").Render(ctx, templ_7745c5c3_Buffer)
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		templ_7745c5c3_Err = queryExample("fpìl +>> san", "Search all cases where fpìl comes before san.").Render(ctx, templ_7745c5c3_Buffer)
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		templ_7745c5c3_Err = queryExample("zun && zel", "Find all conterfactual conditionals.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

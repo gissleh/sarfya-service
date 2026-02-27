@@ -36,8 +36,6 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage em
 		exampleCount = len(examples)
 	}()
 
-	demo := createDemo(svc.Dictionary)
-
 	assets, err := fs.Sub(assets, "assets")
 	if err != nil {
 		panic(err)
@@ -55,14 +53,23 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage em
 				}
 			}
 
+			example, exampleEmphasis := getEotd(svc.Storage, emphasisStorage)
+
 			c.SetRequest(c.Request().WithContext(context.WithValue(
 				context.WithValue(
-					c.Request().Context(),
-					langCtxKey,
-					lang,
+					context.WithValue(
+						c.Request().Context(),
+						langCtxKey,
+						lang,
+					),
+					demoCtxKey,
+					&sarfya.FilterMatch{
+						Example: *example,
+						WordMap: example.Text.WordMap(),
+					},
 				),
-				demoCtxKey,
-				demo,
+				demoEmphasisCtxKey,
+				exampleEmphasis,
 			)))
 
 			return next(c)

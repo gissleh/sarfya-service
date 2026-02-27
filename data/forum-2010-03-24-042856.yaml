@@ -8,7 +8,9 @@ inputs:
     - id: 5q3bAkgYSEOW6YfUdOWdzg
       text: 1(Utral)21(mì) 2a 3nantang 4ke 5namew 6fpive' 7ikranur 8a 9mì 10saw 11upxaret 12a 13tsìyun 14wivìntxu 15futa 16pol 17tsatsengit 18terok 19fa 20nguway.
       lookup_filter:
-        9: 1108:adp.:noaffix:nolen
         10: 2020:n.:noaffix:=t→s
-        21: 1108:adp.:noaffix:nolen
-      translations: {}
+      translations:
+        en: 3(The nantang), 2(which is) 21in 1(the tree), 5did 4not 5(want to) 6send 7(to the ikran) 8+9in 10(the sky) 11messages 12which 13would 14show 15that 16he 18was 17there 19by 20howling.
+      flags:
+        - user_translation
+emphasis: []

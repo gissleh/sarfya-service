@@ -8,6 +8,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/gissleh/litxap"
+	"github.com/gissleh/litxap/litxaputil"
 	"github.com/gissleh/sarfya"
 )
 
@@ -19,7 +20,23 @@ var skipWords = []string{
 	"ìlä", "tsatseng", "ayfo", "tsakem", "mìfa",
 }
 
-var alwaysChoose = map[string]string{
+var defaultChoices = map[string]string{
+	"ulte":     "ulte",
+	"fìpo":     "fìpo",
+	"fìpol":    "fìpo",
+	"fìpot":    "fìpo",
+	"fìpoti":   "fìpo",
+	"fìpori":   "fìpo",
+	"fìpor":    "fìpo",
+	"fìporu":   "fìpo",
+	"tsapo":    "tsapo",
+	"tsapol":   "tsapo",
+	"tsapot":   "tsapo",
+	"tsapoti":  "tsapo",
+	"tsapori":  "tsapo",
+	"tsapor":   "tsapo",
+	"tsaporu":  "tsapo",
+	"tsapohu":  "tsapo",
 	"frapo":    "frapo",
 	"frapor":   "frapo",
 	"frapol":   "frapo",
@@ -86,11 +103,22 @@ func Fit(sentence sarfya.Sentence, lines []litxap.Line, countRunes bool, selecti
 			if len(part.Matches) == 0 {
 				if part.IsWord {
 					if !slices.Contains(skipMissing, part.Raw) {
-						res.MissingParts = append(res.MissingParts, FitResultMissingPart{
-							LineIndex:     i,
-							LinePartIndex: j,
-							Raw:           part.Raw,
-						})
+						failed := true
+						if !strings.Contains(part.Raw, "-") {
+							// If it's just one syllable, do allow it even if it's not found.
+							syllableSplit := litxaputil.SplitSyllables(strings.ToLower(part.Raw))
+							if len(syllableSplit) == 1 {
+								failed = false
+							}
+						}
+
+						if failed {
+							res.MissingParts = append(res.MissingParts, FitResultMissingPart{
+								LineIndex:     i,
+								LinePartIndex: j,
+								Raw:           part.Raw,
+							})
+						}
 					}
 				}
 
@@ -106,31 +134,25 @@ func Fit(sentence sarfya.Sentence, lines []litxap.Line, countRunes bool, selecti
 				if !hasSelection {
 					selection, hasSelection = selections[part.Raw]
 				}
+				if !hasSelection {
+					if defaultChoice, ok := defaultChoices[strings.ToLower(part.Raw)]; ok {
+						selection = defaultChoice
+						hasSelection = true
+					}
+				}
 
 				if !hasSelection && len(part.Matches) != 1 {
-					if alwaysChoose, ok := alwaysChoose[strings.ToLower(part.Raw)]; ok {
-						for k, match := range part.Matches {
-							if match.Entry.Word == alwaysChoose {
-								selection = fmt.Sprintf("*[%d]", k)
-								hasSelection = true
-								break
-							}
-						}
-					}
+					firstStress := part.Matches[0].Stress
+					for _, other := range part.Matches {
+						if other.Stress != firstStress {
+							res.Ambiguities = append(res.Ambiguities, FitResultAmbiguity{
+								LineIndex:     i,
+								LinePartIndex: j,
+								Raw:           part.Raw,
+								Matches:       slices.Clone(part.Matches),
+							})
 
-					if !hasSelection {
-						firstStress := part.Matches[0].Stress
-						for _, other := range part.Matches {
-							if other.Stress != firstStress {
-								res.Ambiguities = append(res.Ambiguities, FitResultAmbiguity{
-									LineIndex:     i,
-									LinePartIndex: j,
-									Raw:           part.Raw,
-									Matches:       slices.Clone(part.Matches),
-								})
-
-								break
-							}
+							break
 						}
 					}
 				}

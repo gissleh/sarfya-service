@@ -22,6 +22,13 @@ h1 {
     text-align: center;
     font-weight: 100;
 }
+h2 {
+    font-size: 1.25em;
+    padding: 0;
+    margin: 2em 0 0 0;
+    text-align: center;
+    font-weight: 100;
+}
 h6 {
     font-size: 1em;
     padding: 0;
@@ -131,29 +138,36 @@ div.example-source a {
 div.example-source a:hover {
     color: #abc;
 }
-div.example-source button {
+div.button-row button {
     color: #789;
     text-decoration: none;
     background: #123;
     border: none;
-    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
-div.example-source button:hover {
+div.button-row button:hover {
     color: #abc;
 }
-textarea.copy-paste-text {
+div.button-row {
+    margin-bottom: 0;
+}
+pre.copy-paste-text {
     display: block;
     margin-bottom: 1em;
     width: 100%;
-    background: none;
     padding: 0.25em;
     font-size: 1em;
     color: #789;
-    background-color: #272736;
+    background: #272736 none;
     outline: none;
     border: 1px solid;
     border-radius: 0.25em;
     height: 5em;
+    word-wrap: normal;
+    white-space: pre-wrap;
+    -webkit-user-select: all; /* Safari support */
+    user-select: all;
+    overflow-y: auto;
 }
 a.example-flag {
     margin: 0;
