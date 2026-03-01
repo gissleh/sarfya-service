@@ -1,0 +1,24 @@
+source:
+    id: forum-2020-05-26-040244
+    date: "2026-02-27"
+    url: https://forum.learnnavi.org/language-updates/on-'efu-and-f-words/msg670672/#msg670672
+    title: 'On ''efu and f-words '
+    author: Paul Frommer, Mako
+inputs:
+    - id: 9iUwqZ5LRriYB64rLfjTFQ
+      text: 1Lu 2oeru 3tì'efu 4a 5po 6new 7kivä.
+      translations:
+        en: 2I 1+3+4(feel that) 5she 6(wants to) 7go.
+    - id: D-nF5n_8QtOtR2mChbiF7Q
+      text: 1Oel 2'efu 3ngeyä 4tìyawnit.
+      translations:
+        en: 1I 2feel 3your 4love.
+    - id: CkzteCrbS0yQ4XBq-EcRKQ
+      text: 1Fìtì'eful 2oeti 3reykangal 4tsnì 5tsivun 6oe 7ikranti 8mivakto.
+      translations: {}
+    - id: eV_eqQnMQ1GEOfcaHVZQgQ
+      text: 1Tsalie 2a 3oeru 4sunu 5frato 6lu 7tìtswusayon.
+      lookup_filter:
+        4: 6376:vin.:noaffix:nolen
+      translations: {}
+emphasis: []
