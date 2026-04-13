@@ -1,0 +1,137 @@
+source:
+    id: blog-2026-04-06
+    date: "2026-04-06"
+    url: https://naviteri.org/2026/04/tsivola-liu-amip-thirty-two-new-words/
+    title: Tsìvola lì’u amip          Thirty-two new words
+    author: Paul Frommer
+inputs:
+    - id: xiJe2vN7RR2lqVnQnBw6uA
+      text: 1Tsatìoeyktìng 2lu 3le'awnì'aw; 4kea 5pumit 6anafì'u 7ke 8stolawm 9oel 10kawkrr.
+      translations:
+        en: 1(That explanation) 2is 3unique; 9(I)8('ve) 4+7+10(never before) 8heard 5one 6(like it).
+    - id: OCERmytoTCyq9fiPQ_gYxQ
+      text: 1Nafì'ua 2mokri 3lu 4säkelpxìmrun.
+      translations:
+        en: 1Such 2(a voice) 3is 4(a rarity).
+    - id: dN8fv58qT8Oy-21jZFyDBg
+      text: 1Tìkelpxìmrunit 2nafì'ua 3mokriyä 4ke 5tsun 6fko 7wätive.
+      translations:
+        en: 1(The rarity) 3of 2such 3(a voice) 5(can)4('t) 6+7(be disputed).
+    - id: qxcm3iZXQ9qShU9slXyy8w
+      text: 1Ke 2lolu 3kea 4tìwesek 5mì 6säftxulì'u 7aräptum 8peyä.
+      translations:
+        en: 2(There was) 1+3no 4subtlety 5in 8his 7coarse 6speech.
+    - id: uJkLwHgpTIuFjBTPUt2HFg
+      text: 1Ngeyä 2mowar 3txanley 4oer.
+      translations:
+        en: 1Your 2advice 3(is invaluable) 4(to me).
+    - id: -vOo9wmKSAm_OKdTYgqmJg
+      text: 1Ngeyä 2wayìl 3nuäslew 4pumit 5oeyä.
+      translations:
+        en: 1Your 2song 3surpasses 4+5mine.
+    - id: ow6AFIl7SXauhBDOXis2fQ
+      text: 1Srake 2nivew 3nga 4huslivew 5oeti 6(ftxozä)7(ne)?
+      translations:
+        en: 2Would 3you 2(like to) 4accompany 5me 7to 6(the celebration)1(?)
+    - id: 2s9KN_lOSOWnwMyJMqf3-A
+      text: 1Fìtuté 2lu 3hapxìtu 4olo'ä 5lereymtxew.
+      translations:
+        en: 1(This woman) 2is 3(a member) 4(of a) 5coastal 4clan.
+    - id: M0J_U0rIT6ysFMg7VadS-A
+      text: 1Zene 2awnga 3mivimu 4tìhawlit 5a 6lätxayn 7kxutut.
+      translations:
+        en: 2We 1(have to) 3develop 4(a plan) 5+6(to defeat) 7the enemy.
+    - id: vAclPyMGTVa7l_EJfr6Lpw
+      text: 1swirä 2afpusìl
+      translations:
+        en: |-
+            2sapient 1creature
+            {(This is just the –us– form—i.e., the present participle—of fpìl 'think.' So usually, it simply means 'thinking.' But since it's also used in a somewhat specialized way to mean 'sapient,' as in swirä afpusìl, 'sapient creature,' it should be listed as such in the dictionary.)}
+    - id: B1BASip3S4Sp6gEATo-gOQ
+      text: 1Sätse'a 2afpxamo 3nìtxan 4nang!
+      lookup_filter:
+        3: 1312:adv.:noaffix:nolen
+      translations:
+        en: |-
+            3+4(What a) 2terrible 1(sight)4(!)
+            {(That is, everything in your field of vision is terrible.)}
+    - id: C3ldiYVMQnWCrdbEQ-LWHA
+      text: 1Po 2txurpoltxe 3san 4nga 5yawne 6lu 7oer!
+      translations:
+        en: 1He 2declared, 3(")7(I) 5+6love 4you!3"
+    - id: mAOOxqo3TiGP84uWYHtgig
+      text: 1Ayngal 2krrpe 3txurpoltxe 4tsyìmawnun'it?
+      lookup_filter:
+        1: 208:pn.:noprefix:noinfix:=-l:nolen
+        2: 892:inter.:noaffix:nolen
+      translations:
+        en: 2When 3did 1you 3declare {(your)} 4independence?
+    - id: IeRRbaXIQN62E6B6NfRgKg
+      text: 1Tsole'a 2oel 3futa 4ngal 5ru'u 6oeti.
+      translations:
+        en: 2I 1saw 3that 4you 5(glanced at) 6me.
+    - id: StOAnyL9SaqFwF3EAlcq6A
+      text: 1Mì 2helku 3oeyä 4pxeswayì 5(kelku si) 6'awsiteng.
+      translations:
+        en: 4(Three generations) 5live 6together 1in 3my 2home.
+    - id: 6-EW5DOSRQOIpQYIitTfqg
+      text: 1(Ayioangpel|Ayioangìlpe) 2fìsponot 3parwun?
+      translations:
+        en: 1(What animals) 3inhabit 2(this island)?
+    - id: iw8dp7A1Qai_I3Z2oG3n2A
+      text: 1Oeru 2txoa 3livu! 4Oel 5ngati 6ke 7lolätek 8mì 9sìvawm.
+      translations:
+        en: 2+3Forgive 1me! 4I 7(did)6(n't) 7recognize 5you 8in 9(the darkness).
+    - id: YxoopT69TIOXF5zghiqVug
+      text: 1Atxkxe 2ayoeyä 3tspu' 4nuä 5ayram.
+      lookup_filter:
+        2: 212:pn.:noprefix:noinfix:=-yä:nolen
+      translations:
+        en: 2Our 1land 3extends 4beyond 5(the mountains).
+    - id: gs4h6CNMR2SVeRA1Tz9Q0g
+      text: 1ve'o 2ayruseyä
+      translations:
+        en: 1+2ecosystem
+    - id: RVOvhxoeS1aDKc6N9_lW7g
+      text: 1Sìlpey 2oe, 3faylì'u 4amip 5ayngaru 6lesar 7lìyevu!
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        5: 208:pn.:noprefix:noinfix:=-ru:nolen
+      translations: {}
+    - id: SVDND4T3SNS9hTllAJwWqw
+      text: 1Ma 2'ite–3oeyä 4tskoti 5ngal 6mivunge. 7Omatikayaru 8(tìhawnu sivi).
+      translations:
+        en: 1+2Daughter–6take 3my 4bow. 8Protect 7(the People).
+    - id: t0n7T8taTrmey37jhQmD7g
+      text: 1Po 2(kelku si) 3(soaia)4(hu).
+      translations:
+        en: |-
+            1He 2lives 4with his 3family.
+            {(Semantically, kelku si is used for anyone living somewhere–most often people. Parwun most often refers to the natural environment of birds, animals, and plants.)}
+    - id: TRrv1pH3QxmOsgCYTDeu9Q
+      text: 1Fo 2(kelku si) 3mì 4sray 5apxa.
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+      translations:
+        en: |-
+            1They 2live 3in 4a 5large 4village.
+            {(Semantically, kelku si is used for anyone living somewhere–most often people. Parwun most often refers to the natural environment of birds, animals, and plants.)}
+    - id: 6MXwbHCYR9Cp42jrvGI5-Q
+      text: 1Pxaya 2ioangìl 3na'rìngit 4parwun.
+      translations:
+        en: |-
+            1Many 2animals 4inhabit 3(the forest).
+            {(Semantically, kelku si is used for anyone living somewhere–most often people. Parwun most often refers to the natural environment of birds, animals, and plants.)}
+    - id: oRvud1dqQPekQO8i518hJw
+      text: 1Palulukanä 2tirea 3(kelku si) 4(po)5(mì).
+      translations: {}
+    - id: s2ES9D__TxqAJYepdw3cZA
+      text: 1Palulukanä 2tireal 3parwun 4poti.
+      translations: {}
+    - id: RDGQZWSRQwegLJrsvHpjOQ
+      text: 1Pol 2tspolu' 3oer 4utumautit 5tsakrr 6oel 7munge.
+      lookup_filter:
+        5: 2332:adv.:noaffix:nolen
+      translations:
+        en: 1She 2held 4(a banana fruit) 2out 3(to me) 5and 6I 7(took it).
+emphasis: []

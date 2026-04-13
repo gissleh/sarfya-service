@@ -15,8 +15,12 @@ github.com/fwew/fwew-lib/v5 v5.25.5 h1:XEQr1KnudGjlL8GOy/QtLhGcSjquOylK4NmL2e8Xc
 github.com/fwew/fwew-lib/v5 v5.25.5/go.mod h1:L6z1myjiD9F2M25GgrXaOIfCn+1FsywG1W3AhZt+bOg=
 github.com/gissleh/litxap v1.7.5 h1:qjtizFbA62z8PzxeJQmJ2QT15eUZJLDdQNA9gR+CBv8=
 github.com/gissleh/litxap v1.7.5/go.mod h1:MQm+GZW5MQSxjfKu4ad/62e/W08rL3whmRQFVXlTioY=
+github.com/gissleh/litxap v1.9.0 h1:qK5NFFlt3FwKQolizDbZdZlwAjf3615a3AYFNAi6JT4=
+github.com/gissleh/litxap v1.9.0/go.mod h1:0fGiI9bqwFbBEs17QNWLRp4orydx+os2E1hHmtspszw=
 github.com/gissleh/litxap-fwew v1.7.4-fwew5.25.5 h1:2kVmdSKyr5WqGzpQHAYg/FMMQEPJHvcojYFWw6oUFGY=
 github.com/gissleh/litxap-fwew v1.7.4-fwew5.25.5/go.mod h1:MCd6HK9NkdgOLsWV+q/G0na0utoJIg/naUTca1z3VkQ=
+github.com/gissleh/litxap-fwew v1.9.0-fwew5.25.5 h1:MmyopUfVGgjidaX0gMTG3NGeDdU49EtHxbUsk8ILfqY=
+github.com/gissleh/litxap-fwew v1.9.0-fwew5.25.5/go.mod h1:FV637wYj1EdJk7Ih2xPHrUv3B6rkSeSo/S/hXzgKiNg=
 github.com/gissleh/sarfya v1.2.0 h1:bsxajG+6azeDuJ1WzzR9+7a7L0DVNcsKpAyGz7qBCUI=
 github.com/gissleh/sarfya v1.2.0/go.mod h1:qOVccVAJSTZCv4cl1tRwiAPagd14+n51q7hYQ8mYeEU=
 github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpvNJ1Y=

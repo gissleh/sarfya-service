@@ -1,0 +1,47 @@
+source:
+    id: forum-2020-05-30-081814
+    date: "2020-05-30"
+    url: https://forum.learnnavi.org/language-updates/correspondence-with-karyu-pawl/
+    title: 'Numbers and OW! '
+    author: Paul Frommer, Txawey
+inputs:
+    - id: m4_wmMCPRWOrQUpvIDvtBA
+      text: |-
+        A: 5Polpxaya 6swizawti 7ngal 8new?
+        B: 1{(Tìng)} 2{(oeru)} 3pumit 4amrr.
+      lookup_filter:
+        1: 2176:vtr.:noaffix:nolen
+      translations: {}
+    - id: Zkdam3LPQs235hRyOPrRjg
+      text: |-
+        A. 1Polpxaya 2taronyu 3(kelku si) 4(tsatsray)5(mì)?
+        B. 6Pum 7amevol.
+      translations:
+        en: '{(Now pum is an all-purpose pronominalizer that can be used for inanimates, animates, and even people--any repeated noun. So this is perfectly possible. However, it''s more elegant to use a more specialized term when possible, one that represents the class of the object(s) under discussion. In the case of taronyu, the class is simply tute.)}'
+    - id: 4iEkHVRtRZKvyTJQyvFINA
+      text: |-
+        A. 1Polpxaya 2taronyu 3(kelku si) 4(tsatsray)5(mì)?
+        B. 6Tute 7amevol.
+      translations: {}
+    - id: uShTOo26SZ-VQXnDeBaoeA
+      text: |-
+        A. 1Äo 2tsautral 3lu 4polpxaya 5loreyu?
+        B. 6Lu 7'ewll 8apukap.
+      translations: {}
+    - id: JTJAsxQJQyqxvQAOv3CliA
+      text: |-
+        A. 1Polpxaya 2ikranti 3ngal 4tse'a?
+        B. 5Pxeioangit.
+      translations: {}
+    - id: xeBJ43SbQnS4rG8TjWp-pw
+      text: |-
+        A. 1Lu 2polpxaya 3vozampasukut 4a 5rofa 6tsakilvan?
+        B. 7Lu 8utral 9avolaw.
+      translations: {}
+    - id: 1tHM5WFwQG-J9e32ixW2bg
+      text: |-
+        A: 1Polpxaya 2swizawti 3ngal 4new?
+        B: 5Mrr
+      translations:
+        en: '{(clipped/military)}'
+emphasis: []

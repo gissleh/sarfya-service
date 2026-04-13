@@ -9,8 +9,8 @@ require (
 	github.com/aws/aws-lambda-go v1.47.0
 	github.com/awslabs/aws-lambda-go-api-proxy v0.16.2
 	github.com/fwew/fwew-lib/v5 v5.25.5
-	github.com/gissleh/litxap v1.7.5
-	github.com/gissleh/litxap-fwew v1.7.4-fwew5.25.5
+	github.com/gissleh/litxap v1.9.0
+	github.com/gissleh/litxap-fwew v1.9.0-fwew5.25.5
 	github.com/gissleh/sarfya v1.2.0
 	github.com/labstack/echo/v4 v4.12.0
 	golang.org/x/sync v0.10.0

@@ -1,0 +1,28 @@
+source:
+    id: forum-2020-08-29-014911
+    date: "2020-08-29"
+    url: https://forum.learnnavi.org/language-updates/small-active-participle-update/
+    title: Small Active Participle Update
+    author: Paul Frommer, Mako
+inputs:
+    - id: dNseogcOTvygRDiOzMWj3Q
+      text: 1Po 2'efu 3ngeyn.
+      translations:
+        en: |-
+            1He 2feels 3tired.
+            {(He's tired)}
+    - id: 3gfXNwXqSyWJq8q_qb9rjg
+      text: 1Po 2sti.
+      translations:
+        en: |-
+            1He 2(feels angry).
+            {(He's angry.)}
+    - id: 18HEjHs7R-eZvtcWTnaqng
+      text: 1tute 2a 3sti
+      translations:
+        en: 1the 2+3angry 1person
+    - id: _VyJHJ8qT5elCJN5j7HtfQ
+      text: 1tute 2astusi
+      translations:
+        en: 1the 2angry 1person
+emphasis: []

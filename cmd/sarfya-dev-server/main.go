@@ -24,6 +24,7 @@ func main() {
 		placeholderdictionary.New(),
 	}
 
+	log.Println("Loading examples...")
 	storage, err := sourcestorage.Open(context.Background(), *flagSourceDir, dict)
 	if err != nil {
 		log.Fatal("Failed to open storage:", err)
