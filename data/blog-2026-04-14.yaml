@@ -1,0 +1,40 @@
+source:
+    id: blog-2026-04-14
+    date: "2026-04-14"
+    url: https://naviteri.org/2026/04/hiia-tisung-postiya-aham-follow-up-to-the-previous-post/
+    title: Hì’ia tìsung postìyä aham    Follow-up to the previous post
+    author: Paul Frommer
+inputs:
+    - id: neMaNh8xTe6Ek2zXnZgCgA
+      text: 1Karyupel 2tolìng 3ngar 4tsapukit?
+      translations:
+        en: 1(Which teacher) 2gave 3you 4(that book)?
+    - id: -KYP1s14TOSflZ5Wujlw0Q
+      text: 1Karyul 2tolìng 3ngar 4pukpet?
+      translations:
+        en: 4(Which book) 2did 1(the teacher) 2give 3you?
+    - id: mdNWMEapS7SHUTdJ_i7O7g
+      text: 1Karyul 2tolìng 3tsapukit 4numeyuper?
+      translations:
+        en: 4(To which student) 2did 1(the teacher) 2give 3(that book)?
+    - id: JXukPTw5RrilAo3ZyOz2BA
+      text: 1Ngal 2tolìng 3tsapukit 4numeyur 5karyupeyä?
+      translations:
+        en: 4To 5(which teacher's) 4student 2did 1you 2give 3(that book)?
+    - id: B9PX6BoQRcmT0lm_CCLYQg
+      text: 1Karyul 2tolìng 3ngar 4pefukit?
+      translations:
+        en: 4(Which book) 2did 1(the teacher) 2give 3you?
+    - id: --6I_GqFQ3-qDzJf6jiWpg
+      text: 1Peharyul 2tolìng 3ngar 4tsapukit?
+      translations:
+        en: 1(Which teacher) 2gave 3you 4(that book)?
+    - id: cJ8O6MaUQs6jej17MdBKrA
+      text: 1Ngal 2tolìng 3tsapukit 4numeyur 5peharyuä?
+      translations:
+        en: 4To 5(which teacher's) 4student 2did 1you 2give 3(that book)?
+    - id: -OtuJDKwS4GWq8t4gQ-ZJQ
+      text: 1Karyul 2tolìng 3tsapukit 4penumeyur?
+      translations:
+        en: 4(To which student) 2did 1(the teacher) 2give 3(that book)?
+emphasis: []
