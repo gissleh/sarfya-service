@@ -1,0 +1,14 @@
+source:
+    id: comic-2026-04-01-the-gap-year
+    date: "2026-04-01"
+    url: https://www.darkhorse.com/comics/3010-557/avatar-the-gap-year-tipping-point-6/
+    title: 'Avatar: The Gap Year--Tipping Point #6'
+    author: Dark Horse
+inputs:
+    - id: 2dOjoyc_ThCxDrfzcQRWxA
+      text: 1Tsun 2kivä 3set. 4Fya'o 5lu 6kawkxan.
+      lookup_filter:
+        1: 2476:vim.:noaffix:nolen
+      translations:
+        en: We 1can 2go 3now. 4(The way) 5is 6clear.
+emphasis: []
