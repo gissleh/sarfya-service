@@ -134,4 +134,11 @@ inputs:
         5: 2332:adv.:noaffix:nolen
       translations:
         en: 1She 2held 4(a banana fruit) 2out 3(to me) 5and 6I 7(took it).
+    - id: NFIcl1P3QqagUmHowUlITg
+      text: 1Dampay 2{l(u)} 3awnga
+      translations:
+        en: 3We 2are 1(the Sea)
+      flags:
+        - reef_dialect
+        - poetry
 emphasis: []
