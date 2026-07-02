@@ -1,0 +1,152 @@
+source:
+    id: blog-2026-06-20
+    date: "2026-06-20"
+    url: https://naviteri.org/2026/06/tskxekeng-a-mikyunfpi-pamrel-listening-exercise-text/
+    title: 'Tskxekeng a mikyunfpi: Pamrel Listening exercise: Text'
+    author: Paul Frommer
+inputs:
+    - id: z_N9sxrjTmWCBwYh5wj2cA
+      text: 1Lì'u 2atìtstunwinga'. 3(T|Tatìp) 4atì'eylanga'.  5Säru'u 6a 7kame.
+      translations:
+        en: 1(A word) 2(of kindness). 3A 4welcoming 3gesture. 5A 6+7seeing 5glance.
+    - id: uNlmN7EMQuOPTTQnyJqNGw
+      text: 1Na'viri 2lì'fyal 3nuäslew 4aylì'ut 5apawnlltxe 6sì 7pamrelit.
+      translations:
+        en: 1(For the Na'vi), 2language 3transcends 4+5(the spoken) 6and 7(the written).
+    - id: Nt5gIwBvQae5HKsNoAKMxQ
+      text: 1Tìsäfpìlyewn 2ke 3lu 4aylì'u 5nì'aw.
+      translations:
+        en: 1Communication 3is 2+5(far more than a matter of) 4words.
+    - id: FZyLXGtZTKKionslDQIqnA
+      text: 1Na 14+2frave'o 14+3ayruseyä, 4farwuntu 5Eywa'evengä 6säfpìlyewn 7(T|nì’awnì’aw) 8fa 9ayfya'o 10a 11tare 12fey 13pxawngipit.
+      lookup_filter:
+        6: 13466:vin.:noaffix:nolen
+      translations:
+        en: 1(As with) 2+3+14(any ecosystem), 4(the inhabitants) 5(of Pandora) 6communicate 8in 9ways 7unique 10+11+12+13(to their environment).
+    - id: nZ9lBvfuRHa5s9r1nnY_TA
+      text: 1Na'viri 2(T|tìplltxe) 3lu 4'awa 5kìng 6nì'aw 7mì 8sätäftxu 9atsawl 10nì'ul—11pumit 12a 13fkol 14täftxu 15fa 16ayfam, 17(T|aysatìp), 18ayway, 19sì 20ayok.
+      translations:
+        en: 1(For the Na'vi), 2speech 3is 6but 4one 5thread 7in 8a 9+10larger 8tapestry. 11One 12+13+14woven 15with 16sounds, 17gestures, 18songs, 19and 20memories.
+    - id: oeIODB4wQcSpUt8kF9gL5A
+      text: 1Ka 2leketengsyona 3ayolo' 4Eywa'evengä, 5plltxe 6fko 7'awa 8(lì'fya)9(fa) 10nì'aw.
+      lookup_filter:
+        1: 676:adp.:noaffix:nolen
+      translations:
+        en: 1Throughout 4Pandora's 2various 3clans, 10only 7one 8language 5+6+9(is spoken).
+    - id: Tzc8YapFS0y30B36DYfSVw
+      text: 1Lì'fya 2leNa'vi 3lu 4tengwotx, 5ken 6ayreymsätsa 7leketengsyon 8Eywa'evengä, 9ken 10hoeta 11tayo 12a 13mìkam 14ayolo'.
+      lookup_filter:
+        5: 13472:adp.:noaffix:nolen
+        9: 13472:adp.:noaffix:nolen
+      translations:
+        en: 1(The language) 2(of the Na'vi) 3is 4consistent, 5despite 6the 8exo-moon's 7varied 6landscapes 9and 11the 10vast 11expanse 12+13between 14clans.
+    - id: -g6tmkM0QOKo7EkdshVSnw
+      text: 1Hufwa 2fkeytok 3hì'ia 4sìketeng 5a 6mì 7aylì'fyafnel, 8nìpxi 9mìkam 10ayolo' 11lereymtxew 12sì 13ayolo' 14a 15parwun 16na'rìngit, 17fìtìtengwotx 18lì'fyayä 19lu 20säkelpxìmrun 21kip 22ayfnerusey 23afpusìl.
+      lookup_filter:
+        8: 5164:adv.:noaffix:nolen
+      translations:
+        en: 1While 3minor 5+6+7dialectical 4differences 2(have been observed), 8particularly 9between 10the 11coastal 10clans 12and 13the 16(forest)-14+15dwelling 13clans, 17the 18linguistic 17uniformity 19is 20(a rarity) 21for 22any 23sapient 22species.
+    - id: MCBYEDa4RmuHYtEtouS_-A
+      text: 1Ìlä 2sìftiatu 3aylì'fyayä 4hifkeyä 5alahe, 6lun 7tìmimuä 8lì'fyayä 9a'aw 10lu 11keltrrtrra 12reyfya 13apawnlltxe 14suteyä 15leNa'vi.
+      translations:
+        en: 4+5Human 2+3xenolinguists 1+6+10(have attributed this) 9single 8language 7development 1+6+10to 12+13the 14+15Na'vi's 11exceptional and rigorous 12+13(oral culture).
+    - id: dkN7gDMtTCuAC4aciJ_5DA
+      text: 1Fa 2sneyä 3sätare 4a 5hu 6Eywa, 7solar 8Na'vil 9aywaytelemit 10sì 11tìrusolit 12a'eoio 13fte 14ayvurit 15säfpìlyivewn 16(ayswayì)17(ka).
+      lookup_filter:
+        17: 676:adp.:noaffix:nolen
+      translations:
+        en: 1Through 2their 3connection 4+5to 6Eywa, 8(the Na'vi) 7used 9(mnemonic Song Cords) 10and 12ceremonial 11singing 13to 15communicate 14stories 17through 16generations.
+    - id: f6Cb_792SEySwvOqBd445Q
+      text: 1Wìntxu 2fì'ul 3futa 4keng 5(pamrel)6(luke) 7mì 8lì'fya, 9ke 10tswa' 11fkol 12ke'ut.
+      lookup_filter:
+        2: 368:pn.:noprefix:noinfix:=-l:nolen
+      translations:
+        en: 2It 1shows 3that 4even 6without 5(a written component) 7to 8(their language), 9+12nothing 10+11(is forgotten).
+    - id: FcRVVHQ4QEKOIcRb7SW30Q
+      text: 1Fa 2(T|tìsar) 3atengwotx 4tìrusolä 5sì 6aysäyìm 7atswalnga' 8tsaheyluä, 9Na'vi 10tsolun 11swiveyn 12ayokrolit 13stum 14zìsìto 15amrrzazam.
+      translations:
+        en: 2This 3consistent 2use 4(of song) 5and 6the 7powerful 6bonds 8(created via tsaheylu) 1+10(have enabled) 9(the Na'vi) 1+10to 11preserve 12histories 14(going back almost) 15(18,000) 14years.
+    - id: R3X2JJt3QwOYvtGDseEDKQ
+      text: 1Fìfya'ol 2tìsäfpìlyewnä 3tung 4'okit 5arusey 6suteyä 7leNa'vi.
+      lookup_filter:
+        3: 2284:vtr.:noaffix:nolen
+      translations:
+        en: 1(This method) 2(of communication) 3(allows for) 4a 5living 4memory 6(of the) 7Na'vi 6people.
+    - id: W7eIlarZRCWTOesMdV_jcA
+      text: 1Lu 2fya'o 3fte 4tsive'a 5nuä 6sekrr, 7nuä 8ayzum 9a 10(ayfo)18(eo). 11Tìng 12wawet 13aylì'ur 14alu 15Oel 16ngati 17kameie.
+      lookup_filter:
+        10: 204:pn.:noaffix:nolen
+        11: 2176:vtr.:noaffix:nolen
+      translations:
+        en: 1+2+3(A way to) 4see 5beyond 6(the present). 7Beyond 18(what)9+18('s in front of) 10them. 11(It gives) 12weight 13+14(to the words) "15oel 16ngati 17kameie" Or 15I 16see 17you.
+    - id: oqm-xlZwS4KweStH3Qw8UA
+      text: 1'Awa 2kaltxì 3lu, 4slä 5lu 6kop 7sätxurplltxe 8tìlätekä, 9tìtokä, 10tìtslamä.
+      lookup_filter:
+        6: 872:adv.:noaffix:nolen
+      translations:
+        en: 1A 2+3greeting, 4but 5+6also 7(a declaration) 8(of recognition), 9(of presence), and 10(of understanding).
+    - id: G9QblIZVR-e5J1ecL7aSeQ
+      text: 1Krra 2Na'vi 3käpame 4fìtsap, 5ke 6plltxe 7nì'aw 8san 9tse'a 10oel 11futa 12eo 13oe 14nga 15kllkxem 16sìk. 17Tutel 18a'aw 19'efu 20tìreyti 21tuteyä 22alahe 23fa 24sätare 25a 26lu 27nuä 28hifkey 29letrrtrr.
+      lookup_filter:
+        16: 1796:adv.:noaffix:nolen
+        18: 12:num.:=a-:noinfix:nosuffix:nolen
+      translations:
+        en: 1When 2(the Na'vi) 3+4(see each other), 2(they)6+8+9+10+11+12+13+14+15+16('re) 5not 7just 6+8+9+10+11+12+13+14+15+16(bearing witness to another), 17+18they 19+20(are perceiving) 21+22(them and their life). 23+24(What connects them) 25+26+27beyond 28+29(the physical).
+    - id: 3znvwCYJQsa54oph3dBtTw
+      text: 1Aylì'ul 2atswalnga' 3fìtxan 4pxìm 5kin 6(T-t|fnetatìpit) 7sko 8sìhuslew.
+      lookup_filter:
+        7: 8740:adp.:noaffix:nolen
+      translations:
+        en: 4Often 1words 3this 2strong 5require 6(some form of gesture) 7+8(to accompany it).
+    - id: CRZmiNoXSZywyjeTP14Eww
+      text: 1Fte 2T-tikaltxìti 3huslivew, 4Na'vil 5pxìm 6tspu' 7tsyokxit 8ne 9zare' 10tsakrr 11zeykup 12nekll.
+      lookup_filter:
+        10: 2332:adv.:noaffix:nolen
+      translations:
+        en: 4(The Na'vi) 5often 3+1pair 2(the greeting) 3+1by 6extending 7(one hand) 8to their 9forehead 10and 12(bringing it back) 11down 12(to the other).
+    - id: UFoHwSJ2TR2qhD_pcCJPng
+      text: 1Fayfnetìsäfpìlyewn 2atìfnunga' 3smon 4Na'viru 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 4(The Na'vi) 3+5(are no strangers to) 1these 2(more silent) 1(forms of communication).
+    - id: 17trUDN7QjGNRLUGrtEwSg
+      text: 1Fey 2(T|satìp) 3a 4fko 5('on si) 7fa 8tsìnga 9(zekwä)10(hu) 11a 12tsyokx 13le'awnì'aw 14slu 15weseka 16lì'fya 17a 18yewn 19nìno 20nìfnusì.
+      translations:
+        en: 1Their 2gestures, 3+4+5shaped 7by 12their 13unique 8four 9+10+11digit 12hands, 14form 16a subtle 17+18+19+20(and expressive) 16(sign language).
+    - id: Bt94bMlLTA-uigSDvhUpbA
+      text: 1Ayolo'ìl 2lereymtxew 3Na'viyä 4sar 5nìpxi 6tìfnunga'a 7(T-it|fitìyewnit) 8a 9(srung si) 10tìsäfpìlyewnur 11krrka 12aysätaron 13sì 14aysä'eoio 15a 16len 17mì 18fay.
+      lookup_filter:
+        4: 3812:vtr.:noaffix:nolen
+        5: 5164:adv.:noaffix:nolen
+        11: 10144:adp.:noaffix:nolen
+      translations:
+        en: 2Coastal 1clans 3(of Na'vi) 4make 5particular 4(use of) 7this 6silent 7expression, 8which 9aids 10communication 11during 12underwater 16endeavors, 12hunts, 13and 14ceremonies.
+    - id: 6l5CEvPKSUGQ81_V8wU_jA
+      text: 1Na 2tsawla 3hapxì 4reyfyayä 5leNa'vi, 6kifkey 7txanley 8mì 9sìmimu 10lì'fyayä 11feyä.
+      lookup_filter:
+        11: 412:pn.:noprefix:noinfix:=-yä:nolen
+      translations:
+        en: 1Like 2+3much 4of 5Na'vi 4culture, 6(the natural world) 7(plays an invaluable role) 8in 9how 11their 10language 9develops.
+    - id: 2vU_jvqAQMKkZqzCUV2KLA
+      text: 1Ro 2ayswotu 3a 4na 5Kelutral, 6lì'fya 7leNa'vi 8tspu' 9nuä 10aylì'u 11fte 12tivìng 13rì'ìrit 14ruseya 15sätareyä 16a 17hu 18atxkxe, 19tsenga 20'ok 21(tìrol)22(sì) 23(srung si) 24fte 25hivena 26ayokrolit 27Na'viyä 28ka 29krr.
+      lookup_filter:
+        28: 676:adp.:noaffix:nolen
+      translations:
+        en: 1At 2(sacred sites) 3+4like 5(the Hometree), 7Na'vi 6language 8extends 9beyond 10words 11to 12+13reflect 15a 14living 15relationship 16+17with 18(the land), 19where 20memory 22and 21song 23+24help 25carry 26(the histories) 27(of the Na'vi) 28through 29time.
+    - id: sC_5X6IhRnir4K-rGTLJQA
+      text: 1Na'viri 2ke 3lu 4lì'fya 5sä'o 6nì'aw.
+      translations:
+        en: 1(For the Na'vi), 4language 3is 2+6(more than) 5(a tool).
+    - id: NNsP93x8RlSy8RcSMcq3AA
+      text: 1Lu 2semkä 3a 4tare 5ayolo'it 6sì 7ayswayìt.
+      translations:
+        en: 1(It is) 2(a bridge), 3(one that) 4connects 5(clans, community) 6and 7generations.
+    - id: fgT1dA3TSyua93My1azTXA
+      text: 1Tengkrr 2verar 3awnga 4livang 5fìtsenget 6akosman, 7tsivun 8kxawm 9tsa'u 10slivu 11semkä 12a 13mìkam 14kifkey 15awngeyä 16sì 17pum 18ayfeyä.
+      lookup_filter:
+        5: 2381:n.:=fì-:noinfix:=-t:nolen
+        9: 2316:n.:noaffix:nolen
+        18: 204:pn.:noprefix:noinfix:=-yä:nolen
+      translations:
+        en: 1As 3we 2(continue to) 4explore 5this 6wondrous 5exo-moon, 8perhaps 9it 7can also 10be 11(a bridge) 12+13between 15our 14world 16and 17+18theirs.

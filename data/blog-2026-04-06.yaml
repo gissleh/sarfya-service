@@ -89,9 +89,9 @@ inputs:
       translations:
         en: 2Our 1land 3extends 4beyond 5(the mountains).
     - id: gs4h6CNMR2SVeRA1Tz9Q0g
-      text: 1ve'o 2ayruseyä
+      text: 1+3ve'o 2+3ayruseyä
       translations:
-        en: 1+2ecosystem
+        en: 1+2+3ecosystem
     - id: RVOvhxoeS1aDKc6N9_lW7g
       text: 1Sìlpey 2oe, 3faylì'u 4amip 5ayngaru 6lesar 7lìyevu!
       lookup_filter:
@@ -141,4 +141,3 @@ inputs:
       flags:
         - reef_dialect
         - poetry
-emphasis: []
