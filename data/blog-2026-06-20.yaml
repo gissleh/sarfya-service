@@ -99,7 +99,7 @@ inputs:
       translations:
         en: 4Often 1words 3this 2strong 5require 6(some form of gesture) 7+8(to accompany it).
     - id: CRZmiNoXSZywyjeTP14Eww
-      text: 1Fte 2T-tikaltxìti 3huslivew, 4Na'vil 5pxìm 6tspu' 7tsyokxit 8ne 9zare' 10tsakrr 11zeykup 12nekll.
+      text: 1Fte 2(T-ti|tikaltxìti) 3huslivew, 4Na'vil 5pxìm 6tspu' 7tsyokxit 8ne 9zare' 10tsakrr 11zeykup 12nekll.
       lookup_filter:
         10: 2332:adv.:noaffix:nolen
       translations:
