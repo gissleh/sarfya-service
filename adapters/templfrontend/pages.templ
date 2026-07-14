@@ -47,6 +47,7 @@ templ indexPage() {
     @queryExample("sìlpey", "Search for a word, matching on derivations as well.")
     @queryExample("sìk:1796", "Search for sìk with the fwew word ID.")
     @queryExample("*:adp.", "Search for any adposition.")
+    @queryExample("*:vim.|vtrm.", "Search for any modal verb.")
     @queryExample("teraron", "Matches taron, but does not filter on infix.")
     @queryExample("taron:<er>", "Search for taron with the <er> infix.")
     @queryExample("*:<äp eyk>", "Search for causative reflexive infixes.")
@@ -66,6 +67,9 @@ templ indexPage() {
     @queryExample("fwa || fula || futa || fura || furia", "The f-words.")
     @queryExample("tsawa || tsala || tsata:sbd. || tsara || tsaria", "The other f-words.")
     @queryExample("teynga:sbd. || teyngla:sbd. || teyngta:sbd. || teyngra:sbd. || teyngria:sbd. || teyngä:sbd.", "The answer-to contractions.")
+    @queryExample("*:\"sä*\"", "Search based on the unmodified word starting with \"sä\".")
+    @queryExample("*:\"tì*tsyìp\"", "Live above, but starting with \"tì\" and ending with \"tsyìp\".")
+    @queryExample("*:vin.:\"* si\"|\"* säpi\"|\"* seyki\"", "Search for si/säpi/seyki verbs.")
 
     @sarfyaFooter()
 }

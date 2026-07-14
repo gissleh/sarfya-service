@@ -190,6 +190,10 @@ func indexPage() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
+		templ_7745c5c3_Err = queryExample("*:vim.|vtrm.", "Search for any modal verb.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
 		templ_7745c5c3_Err = queryExample("teraron", "Matches taron, but does not filter on infix.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
@@ -263,6 +267,18 @@ func indexPage() templ.Component {
 			return templ_7745c5c3_Err
 		}
 		templ_7745c5c3_Err = queryExample("teynga:sbd. || teyngla:sbd. || teyngta:sbd. || teyngra:sbd. || teyngria:sbd. || teyngä:sbd.", "The answer-to contractions.").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("*:\"sä*\"", "Search based on the unmodified word starting with \"sä\".").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("*:\"tì*tsyìp\"", "Live above, but starting with \"tì\" and ending with \"tsyìp\".").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("*:vin.:\"* si\"|\"* säpi\"|\"* seyki\"", "Search for si/säpi/seyki verbs.").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
