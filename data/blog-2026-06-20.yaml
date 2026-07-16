@@ -121,7 +121,7 @@ inputs:
         5: 5164:adv.:noaffix:nolen
         11: 10144:adp.:noaffix:nolen
       translations:
-        en: 2Coastal 1clans 3(of Na'vi) 4make 5particular 4(use of) 7this 6silent 7expression, 8which 9aids 10communication 11during 12underwater 16endeavors, 12hunts, 13and 14ceremonies.
+        en: 2Coastal 1clans 3(of Na'vi) 4make 5particular 4(use of) 7this 6silent 7expression, 8which 9aids 10communication 11during 15+16+17+18underwater endeavors, 12hunts, 13and 14ceremonies.
     - id: 6l5CEvPKSUGQ81_V8wU_jA
       text: 1Na 2tsawla 3hapxì 4reyfyayä 5leNa'vi, 6kifkey 7txanley 8mì 9sìmimu 10lì'fyayä 11feyä.
       lookup_filter:
