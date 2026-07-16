@@ -17,7 +17,7 @@ inputs:
       translations:
         en: |-
             A: 3What 2are 1(these things)?
-            B: I 4don't 5know, 6but 7don't 8touch 1them! 9(They look) 10dangerous.
+            B: I 4don't 5know, 6but 7don't 8touch them! 9(They look) 10dangerous.
     - id: PeRLQHsgQqyY6jENfukuQg
       text: 1Hìpey 2taronyu, 3hifwo 4yerik.
       translations:
@@ -140,4 +140,3 @@ inputs:
         3: 704:vtrm.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1He 3raised 1his 2bow 4against 5(the enemy).
-emphasis: []
