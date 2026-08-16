@@ -41,7 +41,7 @@ inputs:
       lookup_filter:
         9: 2224:part.:noaffix:nolen
       translations:
-        en: 1If 4you 3(want to) 5become 6+1(a master hunter), 4you 7(have to) 10be 9more 11active 9than 4your 8prey.
+        en: 2If 4you 3(want to) 5become 6+1(a master hunter), 4you 7(have to) 10be 9more 11active 9than 4your 8prey.
     - id: S3QfohTnRreZwmvMcSWViA
       text: 1Fìtrr 2oe 3'efu 4ngong 5nìwotx.
       lookup_filter:
@@ -181,4 +181,3 @@ inputs:
         2: 1548:pn.:=pxe-:noinfix:nosuffix:=p→f
       translations:
         en: 1+4(I wonder if) 2(the three of them) 4have 3already 4arrived.
-emphasis: []

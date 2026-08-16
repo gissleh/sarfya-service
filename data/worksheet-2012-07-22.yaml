@@ -1,0 +1,209 @@
+source:
+    id: worksheet-2012-07-22
+    date: "2012-07-22"
+    url: https://tirea.learnnavi.org/download/101-Handout-4-WA-2012.pdf
+    title: Sngä’iyufpi a Lì’fya leNa’vi—Na’vi for Beginners
+    author: Paul Frommer
+inputs:
+    - id: z8iDoSsYR2K5Cnf61XgkaA
+      text: |-
+        A: 1Kaltxì, 2ma 3tsmuk.
+        B: 4Kaltxì. 5Oel 6ngati 7kameie.
+        A: 8Ngati 9kameie 10nìteng.
+      lookup_filter:
+        10: 1304:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1Hello, 2+3{brother (or sister)}.
+            B: 4Hello. 5I 7See 6you
+            A: I 9See 8you 10too.
+    - id: fG1JokRJStmeXhD2ibgTiw
+      text: |-
+        B: 1Ngaru 2lu 3fpom 4srak?
+        A: 5Lu 6fpom. 7Ngaru 8tut?
+        B: 9Oeru 10lu 11fpom 12nìteng.
+      lookup_filter:
+        12: 1304:adv.:noaffix:nolen
+      translations:
+        en: |-
+            B: 2Are 1you 3(well)4(?)
+            A: I5'm 6well. 7+8(And you)?
+            B: 9(I)10('m) 11well 12too.
+    - id: Bl9xFXAkTDm8N5j8Crze8Q
+      text: |-
+        A: 1Oeru 2txoa 3livu. 4Oe 5zene 6kivä. 7Kìyevame.
+        B: 8Kìyevame 9ulte 10Eywa 11(nga)12(hu).
+      lookup_filter:
+        9: 2592:conj.:noaffix:nolen
+      translations:
+        en: |-
+            A: 2+3(Please excuse) 1me. 4I 5(have to) 6go. 7(See you later).
+            B: 8(See you later) 9and may 10Eywa be 12with 11you.
+    - id: 1yEmuV_iTAmgPPjL02r16Q
+      text: |-
+        A: 1Fyape 2fko 3syaw 4ngar, 5ma 6tsmuk?
+        B: 7Oeru 8syaw 9(N|Tsyeyson). 10Ngaru 11tut?
+        A: 12Oeru 13syaw 14(N|Pawl). 15Smon 16nìprrte'.
+        B: 17Smon 18nìprrte' 19nìteng.
+      lookup_filter:
+        16: 5588:adv.:noaffix:nolen
+        18: 5588:adv.:noaffix:nolen
+        19: 1304:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1What 2+3are 4you 2+3called, 5+6{brother (or sister)}?
+            B: 7(I)8('m called) 9Jason. 11And 10you?
+            A: 12(I)13('m) 14Paul. 15+16(Nice to meet you).
+            B: 17+18(Nice to meet you) 19too.
+    - id: Yim7si1rTdinGOelYja1Mg
+      text: |-
+        A: 1Zola'u 2nìprrte', 3ma 4tsmuk.
+        B: 5Frrfeien.
+      lookup_filter:
+        2: 5588:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1+2Welcome, 3+4{brother (or sister)}.
+            B: 5(I'm happy to be visiting).
+    - id: 5d7kBvDjTGq8HC_-Okfomg
+      text: |-
+        A: 1Nga 2zola'u 3ftu 4peseng?
+        B: 5Oe 6zola'u 7ftu 8(M|Wasyington). 9Ngari 10tut?
+        A: 11Oe 12zola'u 13ftu 14(M|El Ey).
+      translations:
+        en: |-
+            A: 2+3+4(Where are) 1you 2+3+4from?
+            B: 5(I)6+7('m from) 8Washington. 10And 9you?
+            A: 11(I)12+13('m from) 14L.A.
+    - id: WFjo0AhDRmOZ6HI5q5l5JQ
+      text: |-
+        B: 1Nga 2kä 3peseng 4nìhay?
+        A: 5Oe 6kä 7ne 8(M|SänFränsìsko) 9trray.
+      lookup_filter:
+        3: 1520:inter.:noaffix:nolen
+        4: 6944:adv.:noaffix:nolen
+      translations:
+        en: |-
+            B: 3Where 2are 1you 2going 4next?
+            A: 5(I)6('m going to) 8(San Francisco) 9tomorrow.
+    - id: qCDbkm9rSqq4UFSQwYamqQ
+      text: |-
+        B: 1Krrpe 2nga 3tätxaw 4ne 5kelku?
+        A: 6Tätxaw 7ne 8kelku 9mesrray.
+        B: 10Sivop 11nìzawnong.
+      lookup_filter:
+        1: 892:inter.:noaffix:nolen
+      translations:
+        en: |-
+            B: 1When 3+4will 2you 3+4return 5home?
+            A: I6+7('ll go) 8home 9(the day after tomorrow).
+            B: 10Travel 11safely.
+    - id: uVD4enw-SqaFdjYtTHDf4g
+      text: |-
+        Q: 1Yafkeyk 2fyape 3{(set)}?
+        A: 4Zup 5tompa.
+        A: 6Zup 7herwì.
+        A: 8Taw 9lu 10piak.
+        A: 11Taw 12lu 13lepwopx.
+        A: 14Tìran (/ )15tul 16hufwe.
+      lookup_filter:
+        1: 7360:n.:noaffix:nolen
+        8: 2020:n.:noaffix:nolen
+        11: 2020:n.:noaffix:nolen
+      translations:
+        en: |-
+            Q: 2What's 1(the weather) 2like 3{(now)}?
+            A: 4+5(It's raining).
+            A: 6+7(It's snowing).
+            A: 8(The sky) 9is 10clear.
+            A: 11(The sky) 12is 13cloudy.
+            A: 14+16(It's breezy). (/ )15+16(It's windy).
+    - id: 5ZrDNVUoQE2fKwpHufWA7w
+      text: |-
+        Q: 1Yari 2somwewpe 3{(set)}?
+        A: 4Ya 5lu 6txawew.
+        A: 7Ya 8lu 9wew.
+        A: 10Ya 11lu 12wur.
+        A: 13Ya 14lu 15tsyafe.
+        A: 16Ya 17lu 18sang.
+        A: 19Ya 20lu 21som.
+        A: 22Ya 23lu 24txasom.
+      lookup_filter:
+        18: 7524:adj.:noaffix:nolen
+      translations:
+        en: |-
+            Q: 1+2(How's the temperature) 3{(now)}?
+            A: 4+5+6(It's frigid).
+            A: 7+8+9(It's cold).
+            A: 10+11+12(It's cool).
+            A: 13+14+15(It's nice).
+            A: 16+17+18(It's warm).
+            A: 19+20+21(It's hot).
+            A: 22+23+24(It's broiling).
+    - id: k-Yi8ffsTS-sD6PNB4_isg
+      text: |-
+        A: 1Srake 2nga 3'efu 4ohakx?
+        B: 5Srane, 6'efu 7nìtxan. 8Yivom 9ko!
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 3Are 2you 4(hungry)1(?)
+            B: 5Yes. 6+7Quite. 9Let's 8eat!
+    - id: K8KhCtF9TqiBA4NMqmv_Yg
+      text: |-
+        A: 1Sunu 2ngaru 3fkxen 4srak?
+        B: 5Kezemplltxe, 6sunu 7oeru 8nìtxan.
+        A: 9Vey 10tut?
+        B: 11Ngaytxoa, 12ke 13tsun 14oe 15yivom 16veyit.
+        A: 17Frawzo. 18Lu 19awngaru 20fkxen 21aftxìlor.
+      lookup_filter:
+        1: 6376:vin.:noaffix:nolen
+        6: 6376:vin.:noaffix:nolen
+        8: 1312:adv.:noaffix:nolen
+        13: 2476:vim.:noaffix:nolen
+      translations:
+        en: |-
+            A: 4Do 2you 1like 3(veggie stuff)4(?)
+            B: 5(Of course), 7I 6like it 8(a lot).
+            A: 10(How about) 9meat?
+            B: 11Sorry, 14I 13(can)12('t) 15eat 16meat.
+            A: 17(No problem). 19We 18have 21delicious 20(vegetarian food).
+    - id: gxMYGCqyRmCt346vV05dvw
+      text: |-
+        A: 1Nga 2'efu 3väng 4srak?
+        B: 5Sran, 6'efu 7nìtxan. 8Niväk 9ko!
+        A: 10Sunu 11ngaru 12pxir 13srak?
+        B: 14Ngaytxoa, 15ke 16tsun 17oe 18niväk 19swoat. 20Oeri 21lu 22swoa 23fnetxum.
+        A: 24Tslolam. 25Nga 26tsun 27niväk 28wewa 29payit. 30Ulte 31ke 32rayou!
+        B: 33Tseiun 34tivam.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+        10: 6376:vin.:noaffix:nolen
+        16: 2476:vim.:noaffix:nolen
+        23: 9220:n.:noaffix:nolen
+        24: 2432:intj.:noaffix:nolen
+        26: 2476:vim.:noaffix:nolen
+        29: 1480:n.:noprefix:noinfix:=-it:nolen
+        30: 2592:conj.:noaffix:nolen
+      translations:
+        en: |-
+            A: 2Are 1you 3(thirsty)4(?)
+            B: 5Yep. I6+7('m parched). 9Let's 8(have a drink)!
+            A: 13Do 11you 10like 12(beer)13(?)
+            B: 14Sorry, but 17I 16(can)15('t) 18drink 19spirits. 20+21+23(I'm allergic to) 22intoxicants.
+            A: 24(Got it). 25You 26can 27drink 28cold 29water. 30And 31not 32(get drunk)!
+            B: 33+34(That's just fine).
+emphasis:
+    - id: 1yEmuV_iTAmgPPjL02r16Q
+      custom_words:
+        - '*tsyey-son'
+    - id: 5d7kBvDjTGq8HC_-Okfomg
+      custom_words:
+        - '*wa-sying-ton'
+    - id: WFjo0AhDRmOZ6HI5q5l5JQ
+      custom_words:
+        - sän-frän-*sì-sko
+    - id: gxMYGCqyRmCt346vV05dvw
+      selections:
+        payit: pay

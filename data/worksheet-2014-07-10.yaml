@@ -1,0 +1,152 @@
+source:
+    id: worksheet-2014-07-10
+    date: "2014-07-10"
+    url: https://tirea.learnnavi.org/download/103-Handout-4-LA-2014.pdf
+    title: Sngä’iyufpi a Lì’fya leNa’vi—Na’vi for Beginners
+    author: Paul Frommer
+inputs:
+    - id: JVG47F_CT22sUFsrEsyt-g
+      text: |-
+        A: 1Tsa'u 2lu 3peu?
+        B: 4Lu 5tsko.
+        A: 6Srake 7lu 8pum 9ngeyä?
+        B: 10Srane, 11lu 12pum 13oeyä.
+      lookup_filter:
+        1: 2316:n.:noaffix:nolen
+        3: 1528:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 3What 2is 1that?
+            B: 4It's 5(a bow).
+            A: 7(Is it) 8+9(yours)6(?)
+            B: 10Yes, 11it's 12+13mine
+    - id: 99IX8_OqRAy-bNTCrPR-yQ
+      text: |-
+        A: 1(Ätxäle si) 2oe 3pivawm, 4fì'u 5lu 6peu?
+        B: 7Lu 8syeprel.
+        A: 9Srake 10lu 11pum 12ngeyä?
+        B: 13Kehe, 14ke 15lu 16pum 17oeyä. 18Lu 19pum 20(N-ä|Syäronä).
+      lookup_filter:
+        4: 368:pn.:noaffix:nolen
+        6: 1528:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1+3May 2I 1+3ask, 4what 5is 6this?
+            B: 7It's 8(a camera).
+            A: 10(Is it) 11+12(yours)9(?)
+            B: 13No, 15it's 14not 16+17mine. 18It's 19+20Sharon's.
+    - id: R4k9RvxmRxusTL7ig4sovg
+      text: |-
+        A: 1Hìtxoa, 2tsaw 3lu 4peu?
+        B: 5Lu 6fkxile.
+        A: 7Lu 8pum 9pesuä?
+        B: 10Pum 11oeyä.
+      lookup_filter:
+        4: 1528:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1(Excuse me), 4(what)3('s) 2that?
+            B: 5It's 6(a necklace).
+            A: 8+9Whose 7(is it)?
+            B: 10+11Mine.
+    - id: F20nR4msQeKUio9BvaJZSQ
+      text: 1Fìtsko 2lu 3tsko 4oeyä.
+      translations:
+        en: 1(This bow) 2is 4my 3bow.
+    - id: BTHQWEwcSreWuoPmf1vd6Q
+      text: 1Fìtsko 2lu 3pum 4oeyä.
+      translations:
+        en: |-
+            1(This bow) 2is 3+4mine.
+            {(In possessive constructions, pum takes the place of a repeated noun.)}
+    - id: dxv_-a4eRGeQw4f_0Bmr1Q
+      text: |-
+        A: 1Ma 2tsmuk, 3tìng 4oeru 5ngeyä 6hawre'ti, 7rutxe.
+        B. 8Ngaru 9fì'u.
+        A: 10Irayo 11nìtxan.
+      lookup_filter:
+        3: 2176:vtr.:noaffix:nolen
+        9: 368:pn.:noaffix:nolen
+        11: 1312:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1+2(Brother/Sister), 3give 4me 5your 6hat, 7please.
+            B: 8+9(Here it is. OR It's yours.)
+            A: 10Thanks 11(very much).
+    - id: cieQBBW1ROSafvKcMq4GtA
+      text: |-
+        A. 1Ma 2tsmuk, 3tìng 4oeru 5ngeyä 6tstalit, 7rutxe.
+        B: 8Ngaru 9fì'u.
+        A: 10Ngeyä 11tìtstunwiri 12irayo 13nìtxan.
+      lookup_filter:
+        3: 2176:vtr.:noaffix:nolen
+        9: 368:pn.:noaffix:nolen
+        13: 1312:adv.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1+2(Brother/Sister), 3give 4me 5your 6knife, 7please.
+            B: 8+9(Here it is. OR It's yours).
+            A: 12Thanks 13(very much) 11for 10your 11kindness.
+    - id: 0pCpZzmyTdeIpld9B2b92Q
+      text: |-
+        A: 1Ma 2tsmuk, 3tìng 4oeru 5ngeyä 6tskoti, 7rutxe.
+        B: 8Oeru 9txoa 10livu, 11ke 12tsun 13oe 14(tsakem sivi).
+        A: 16Pelun.
+        B: 17Taluna 18Neytiri 19(fìtseng)20(ne) 21zaya'u 22ye'rìn, 23ulte 24oel 25tasyìng 26tsat 27poru.
+        A: 28Tslolam. 29Ke 30tsranten.
+      lookup_filter:
+        3: 2176:vtr.:noaffix:nolen
+        12: 2476:vim.:noaffix:nolen
+        16: 1508:inter.:noaffix:nolen
+        19: 364:adv., n.:noaffix:nolen
+        23: 2592:conj.:noaffix:nolen
+        26: 5980:pn.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1+2(Brother/Sister), 3give 4me 5your 6bow, 7please.
+            B: 9+10Forgive 8me, but 13I 12(can)11('t) 14(do that).
+            A: 16Why?
+            B: 17Because 18Neytiri 21(is coming) 19+20here 22soon, 23and 24(I)25('m going to give) 26it 27(to her).
+            A: 28(I understand). It 29doesn't 30matter.
+    - id: Xi3O-OE3SFisLUWlL6PH0Q
+      text: 1Oel 2tolìng 3ngaru 4tstalit.
+      translations:
+        en: 1I 2gave 3you 4(the knife).
+    - id: LDzzRFFJSKmVhY2LRfSUaQ
+      text: 1Eytukanìl 2Neytiriru 3poleng 4fmawnit.
+      translations:
+        en: 1Eytukan 3told 2Neytiri 4(the news).
+    - id: yQ8oLg_JSi6gkArxdI1c6w
+      text: 1Rutxe 2ngeyä 3masatit 4wìntxu 5Ralur.
+      lookup_filter:
+        5: 13077:prop.n.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 1Please 4show 5Ralu 2your 3breastplate.
+    - id: yRI0iholSoWCRNirPacNqA
+      text: |-
+        Q: 1Neytiril 2tolìng 3ngaru 4peut?
+        A: 5{(Po)} 6tolìng 7oeru 8tskoti.
+      lookup_filter:
+        4: 1528:inter.:noprefix:noinfix:=-t:nolen
+      translations: {}
+    - id: H1xYctMPQ2qHzfktgvDWMg
+      text: |-
+        A: 1Tok 2pesenget 3Ralul?
+        B: 4Tok 5na'rìngit.
+        A: 6Po 7pelun 8kolä 9ne 10na'rìng?
+        B: 11Tìomummì 12oeyä, 13kolä 14fte 15tivaron.
+      lookup_filter:
+        7: 1508:inter.:noaffix:nolen
+      translations:
+        en: |-
+            A: 2Where 1is 3Ralu?
+            B: He4('s in) 4(the forest).
+            A: 7Why 8did 6he 8go 9to 10(the forest)?
+            B: 11+12(As far as I know), he 13went 14to 15hunt
+emphasis:
+    - id: JVG47F_CT22sUFsrEsyt-g
+      selections:
+        Tsa'u: tsa'u
+    - id: 99IX8_OqRAy-bNTCrPR-yQ
+      custom_words:
+        - syä-ro-nä

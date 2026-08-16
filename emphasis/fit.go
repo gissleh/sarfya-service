@@ -13,7 +13,7 @@ import (
 )
 
 var skipMissing = []string{
-	"X", "Y", "A", "B", "C", "PAWL",
+	"X", "Y", "A", "B", "C", "PAWL", "Q",
 }
 
 var skipWords = []string{

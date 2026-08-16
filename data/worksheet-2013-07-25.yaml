@@ -1,0 +1,126 @@
+source:
+    id: worksheet-2013-07-25
+    date: "2013-07-25"
+    url: https://tirea.learnnavi.org/download/102-Handout-4-DC-2013.pdf
+    title: Sngä’iyufpi a Lì’fya leNa’vi—Na’vi for Beginners
+    author: Paul Frommer
+inputs:
+    - id: 2cLKwIJkSAGubKUq9AbDqA
+      text: 1Hìtxoa, 2lu 3oeru 4tìpawm.
+      translations:
+        en: 1(Excuse me), 3I 2have 4(a question).
+    - id: LqnQJu6ORDiOpqzRZcJb2g
+      text: 1{(Nga)} 2tslolam 3srak?
+      lookup_filter:
+        2: 2424:vtr.:noprefix:=<ol>:nosuffix:nolen
+      translations:
+        en: '2Did 1you {(OR: }2do 1you{)} 2(understand)3(?)'
+    - id: fMaAbl7zT2myO9U3vfUiZQ
+      text: 1Srane, 2tslolam.
+      lookup_filter:
+        2: 2424:vtr.:noprefix:=<ol>:nosuffix:nolen
+      translations:
+        en: 1Yes, I 2understand.
+    - id: mq_4dYMrQfyUA-3QTbByoA
+      text: 1Kehe, 2ke 3tslolam.
+      lookup_filter:
+        3: 2424:vtr.:noprefix:=<ol>:nosuffix:nolen
+      translations:
+        en: 1No, I 3(did)2(n't) 3understand.
+    - id: YEdd49z6R0GIVzR2Fkrerg
+      text: 1Srake 2tsun 3nga 4(law sivi) 5nì'it?
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2Could 3you 4(make that) 5(a bit) 4(clearer)1(?)
+    - id: pd6z_zmeQc227ztgAr6Hxg
+      text: |-
+        Q: 1Srake 2law 3slolu 4set?
+        A: 5Srane, 6law 7nìwotx. 8Irayo.
+        A: 9Kehe, 10ke 11li. 12Rutxe 13fmi 14nìmun.
+      translations:
+        en: |-
+            Q: 3Is it 2clear 4(now)1(?)
+            A: 5Yes, 7completely 6clear. 8(Thank you).
+            A: 9No, 10+11(not yet). 12Please 13try 14again.
+    - id: p90NbB_oSgiDehyXWDiFbQ
+      text: 1Eyawr. 2Ngaru 3tìyawr.
+      translations:
+        en: 1Correct. 2+3(You're right).
+    - id: i0S8y6_QS424RwCZLaDukw
+      text: 1Keyawr. 2Ngaru 3tìkxey.
+      translations:
+        en: 1Incorrect. 2+3(You're wrong).
+    - id: mHQsKXkhQcqFX0uWZM3x4A
+      text: 1Sponori 2peral?
+      translations:
+        en: 2(What does) 1"spono" 2mean?
+    - id: tq99pAK-SSGV4TqAuitzOg
+      text: 1Ke 2omängum.
+      translations:
+        en: 2(I'm sorry to say) I 1don't 2know.
+    - id: -TDFbRGYRPO4JtZ-HX7kHA
+      text: 1Omum 2nga 3srak?
+      translations:
+        en: 3Do 2you 1(know)3(?)
+    - id: ccda0y7ZQ6G3tUyPHbvqdA
+      text: 1'Awa 2swawtsyìp. 3Oe 4fperìl.
+      lookup_filter:
+        2: 6860:n.:noaffix:nolen
+      translations:
+        en: Just 1a 2moment. 3(I)4('m thinking).
+    - id: _tu0R8XySFWVBgEz3uqChQ
+      text: |-
+        A: 1Kaltxì. 2Ngenga 3lu 4tupe?
+        B: 5Oe 6lu 7Ralu. 8Ngenga 9tut?
+        A: 10Lu 11oe 12Rini. 13Smon 14nìprrte'.
+        B: 15Smon 16nìprrte' 17nìteng.
+        A: 18Ulte 19tsa'evengan 20atsawl 21lu 22tupe?
+        B: 23Lu 24oeyä 25'itan 26alu 27Kamun.
+        A: 28Pori 29solalew 30polpxaya 31zìsìt?
+        B: 32Solalew 33zìsìt 34avomrr.
+      lookup_filter:
+        14: 5588:adv.:noaffix:nolen
+        16: 5588:adv.:noaffix:nolen
+        17: 1304:adv.:noaffix:nolen
+        18: 2592:conj.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1Hello. 2(May I ask) 4who 3you 2are?
+            B: 5(I)6('m) 7Ralu. 9And 8you?
+            A: 11(I)10('m) 12Rini. 13+14(Nice to meet you).
+            B: 15+16(Nice to meet you) 17too.
+            A: 18And 22who 21is 19that 20tall 19boy?
+            B: 23(That is) 24my 25son 26+27Kamun.
+            A: 29+30+31(How old is) 28he?
+            B: 32+33+34(He is thirteen).
+    - id: FFl9y_DeR9qTUcokbMQ_Tw
+      text: |-
+        A: 1(Ätxäle si) 2oe 3pivawm, 4ayfo 5lu 6tupe?
+        B: 7Lu 8oeyä 9smukan 10sì 11smuke.
+        A: 12Tewti! 13Lu 14ngaru 15soaia 16apxa!
+        B: 17Srane. 18Lu 19oeru 20tsmukan 21amrr 22sì 23pxesmuke.
+        A: 24Oeri 25soaia 26lu 27hì'i—28'awa 29tsmukan 30nì'aw. 31Ke 32lu 33oeru 34kea 35tsmuke.
+      lookup_filter:
+        4: 204:pn.:noaffix:nolen
+        12: 2100:intj.:noaffix:nolen
+      translations:
+        en: |-
+            A: 1+3If 2I 1+3(may ask), 6who 5are 4(those people)?
+            B: 7They're 8my 9brothers 10and 11sisters.
+            A: 12Wow! 14You 13have 15a 16large 15family!
+            B: 17Yes. 19I 18have 21five 20brothers 22and 23(three sisters).
+            A: 24My 25family 26is 27small—30only 28one 29brother. 33I 31don't 32have 34any 35sisters.
+    - id: NCWGF5tnTlqFFyhjVlD0-A
+      text: |-
+        A: 1(Kempe si) 3nga?
+        B: 4Oe 5yom.
+        A: 6Ngal 7yom 8peut?
+        B: 9Oel 10yom 11teylut.
+      translations:
+        en: |-
+            A: 1(What are) 3you 1doing?
+            B: 4(I)5('m eating).
+            A: 8What 7are 6you 7eating?
+            B: 9(I)10('m eating) 11teylu
+emphasis: []
