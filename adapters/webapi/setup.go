@@ -3,10 +3,11 @@ package webapi
 import (
 	"errors"
 	"fmt"
+	"net/http"
+
 	"github.com/gissleh/sarfya"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"net/http"
 )
 
 func SetupWithoutListener() *echo.Echo {
@@ -32,6 +33,11 @@ func Setup(addr string) (*echo.Echo, <-chan error) {
 			errCh <- err
 		}
 	}()
+
+	e.GET("/robots.txt", func(c echo.Context) error {
+		robotsContent := "User-agent: *\nDisallow: /search/\nAllow: /\n"
+		return c.String(http.StatusOK, robotsContent)
+	})
 
 	return e, errCh
 }
