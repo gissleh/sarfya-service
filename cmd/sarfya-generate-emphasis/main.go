@@ -6,7 +6,7 @@ import (
 	"flag"
 	"log"
 	"os"
-	"sync"
+	"sync/atomic"
 
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/adapters/fwewdictionary"
@@ -32,15 +32,16 @@ func main() {
 		log.Fatal("Failed to open storage:", err)
 	}
 
-	resMu := sync.Mutex{}
-	res := make(map[string]emphasis.FitResult, 2048)
-
 	eg := errgroup.Group{}
-	eg.SetLimit(4)
+	eg.SetLimit(8)
 
-	safeCount := 0
+	safeCount := uint32(0)
+	totalCount := uint32(0)
 
-	for _, example := range storage.AllExamples() {
+	examples := storage.AllExamples()
+	results := make([]*emphasis.FitResult, len(examples))
+
+	for i, example := range examples {
 		if len(example.Text) == 0 {
 			continue
 		}
@@ -52,18 +53,24 @@ func main() {
 			}
 
 			if fitRes.IsSafe() {
-				safeCount++
+				atomic.AddUint32(&safeCount, 1)
 			}
+			totalCount := atomic.AddUint32(&totalCount, 1)
 
-			resMu.Lock()
-			res[example.ID] = *fitRes
-			if len(res)%100 == 0 {
-				log.Println("Saved", len(res), "example stresses.")
+			results[i] = fitRes
+			if totalCount%100 == 0 {
+				log.Println("Saved", totalCount, "example stresses.")
 			}
-			resMu.Unlock()
 
 			return nil
 		})
+	}
+
+	res := make(map[string]emphasis.FitResult, atomic.LoadUint32(&totalCount))
+	for i, result := range results {
+		if result != nil {
+			res[examples[i].ID] = *result
+		}
 	}
 
 	err = eg.Wait()
@@ -86,5 +93,5 @@ func main() {
 		log.Fatal("Failed to close destination file:", err)
 	}
 
-	log.Println("Safe examples:", safeCount, "/", len(res))
+	log.Printf("Safe examples: %d/%d (%.2f%%)", safeCount, totalCount, 100*float32(safeCount)/float32(totalCount))
 }
