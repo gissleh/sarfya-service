@@ -2,11 +2,12 @@ package main
 
 import (
 	"context"
+	"log"
+	"os"
+
 	"github.com/gissleh/sarfya"
 	"github.com/gissleh/sarfya-service/adapters/fwewdictionary"
 	"github.com/gissleh/sarfya/adapters/placeholderdictionary"
-	"log"
-	"os"
 )
 
 func main() {
@@ -16,7 +17,7 @@ func main() {
 	}
 
 	if len(os.Args) == 1 {
-		os.Args = append(os.Args, "sar + fko")
+		os.Args = append(os.Args, "sar +> fko")
 	}
 
 	input := sarfya.Input{
@@ -48,7 +49,7 @@ func main() {
 	}
 
 	for i, part := range example.Text {
-		log.Printf("Part #%d: %#+v (%v)\n", i, part.Text, part.IDs)
+		log.Printf("example.Text[%d] = { Text: %#+v, IDs: %v }\n", i, part.Text, part.IDs)
 	}
 
 	log.Println("Searching:", os.Args[1])
@@ -60,9 +61,9 @@ func main() {
 	for i, resolvedSet := range resolvedSets {
 		match := filter.CheckExample(*example, resolvedSet)
 		if match != nil {
-			log.Println("Match", i, "Spans in Na'vi text:", match.Spans)
+			log.Printf("match[%d].Spans = %v", i, match.Spans)
 			for lang, spans := range match.TranslationSpans {
-				log.Println("Match", i, "Spans in", lang, "translations:", spans)
+				log.Printf("match[%d].TranslationSpans[%#+v] = %v", i, lang, spans)
 			}
 		}
 	}

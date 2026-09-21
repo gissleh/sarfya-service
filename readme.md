@@ -6,7 +6,7 @@ This was created to break away all the logic from the library to make it easier 
 
 This part of Sarfya, including the annotations to the data are licensed under the GPL license.
 
-The text used in `data/` is the property of their original authors,
+The texts in `data/` is the property of their original authors,
 who are attributed under the `source` property of the YAML documents.
 
 ## Project structure.

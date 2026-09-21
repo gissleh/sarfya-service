@@ -2,6 +2,8 @@ package main
 
 import (
 	"flag"
+	"log"
+
 	"github.com/aws/aws-lambda-go/lambda"
 	echoadapter "github.com/awslabs/aws-lambda-go-api-proxy/echo"
 	"github.com/gissleh/sarfya"
@@ -12,7 +14,6 @@ import (
 	"github.com/gissleh/sarfya/adapters/jsonstorage"
 	"github.com/gissleh/sarfya/adapters/placeholderdictionary"
 	"github.com/gissleh/sarfya/sarfyaservice"
-	"log"
 )
 
 var flagExampleFile = flag.String("example-file", "./data-compiled.json", "File containing example data.")
@@ -40,6 +41,8 @@ func main() {
 
 	svc := &sarfyaservice.Service{Dictionary: dict, Storage: storage, ReadOnly: true}
 	api := webapi.SetupWithoutListener()
+
+	api.File("/data.json", *flagExampleFile)
 
 	webapi.Utils(api.Group("/api/utils"), dict)
 	webapi.Examples(api.Group("/api/examples"), svc, emphasisStorage)
