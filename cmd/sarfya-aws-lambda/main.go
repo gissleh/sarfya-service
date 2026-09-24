@@ -46,7 +46,7 @@ func main() {
 
 	webapi.Utils(api.Group("/api/utils"), dict)
 	webapi.Examples(api.Group("/api/examples"), svc, emphasisStorage)
-	templfrontend.Endpoints(api.Group(""), svc, emphasisStorage)
+	templfrontend.Endpoints(api.Group(""), svc, emphasisStorage, "")
 
 	lambda.Start(echoadapter.New(api).ProxyWithContext)
 }

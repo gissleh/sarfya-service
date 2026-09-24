@@ -37,7 +37,7 @@ func main() {
 
 	webapi.Utils(api.Group("/api/utils"), dict)
 	webapi.Examples(api.Group("/api/examples"), svc, storage)
-	templfrontend.Endpoints(api.Group(""), svc, storage)
+	templfrontend.Endpoints(api.Group(""), svc, storage, "")
 
 	go func() {
 		example, err := storage.FetchExamples(context.Background(), nil, nil)

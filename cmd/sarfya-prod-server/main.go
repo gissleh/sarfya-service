@@ -21,6 +21,7 @@ import (
 var flagSourceFile = flag.String("source-file", "./data-compiled.json", "File containing data.")
 var flagListenAddr = flag.String("listen", ":$PORT", "Listen address")
 var flagEmphasisFile = flag.String("emphasis-file", "./stress-data.json", "File containing stress data.")
+var flagCachePath = flag.String("cache-path", "./prerendered-pages", "Folder containing pre-rendered pages.")
 
 func main() {
 	dict := sarfya.CombinedDictionary{
@@ -53,7 +54,7 @@ func main() {
 
 	webapi.Utils(api.Group("/api/utils"), dict)
 	webapi.Examples(api.Group("/api/examples"), svc, emphasisStorage)
-	templfrontend.Endpoints(api.Group(""), svc, emphasisStorage)
+	templfrontend.Endpoints(api.Group(""), svc, emphasisStorage, *flagCachePath)
 
 	log.Println("Listening on", *flagListenAddr)
 

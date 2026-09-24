@@ -16,3 +16,6 @@ data-compiled.*
 /sarfya-example.exe
 /sarfya-generate-json
 /sarfya-generate-json.exe
+/sarfya-generate-prerendered
+/sarfya-generate-prerendered.exe
+/prerendered-pages

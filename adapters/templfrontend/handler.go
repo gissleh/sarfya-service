@@ -1,13 +1,18 @@
 package templfrontend
 
 import (
+	"compress/gzip"
 	"context"
 	"embed"
+	"encoding/base64"
+	"errors"
 	"fmt"
 	"io/fs"
 	"log"
 	"net/http"
 	"net/url"
+	"os"
+	"path/filepath"
 	"time"
 
 	"github.com/a-h/templ"
@@ -20,7 +25,7 @@ import (
 //go:embed assets/*
 var assets embed.FS
 
-func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emphasis.Storage) {
+func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emphasis.Storage, cacheFolder string) {
 	outputHtml := func(c echo.Context, code int, component templ.Component) error {
 		c.Response().Header().Add("Content-Type", "text/html; charset=utf-8")
 		c.Response().WriteHeader(code)
@@ -88,18 +93,35 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage em
 			return outputHtml(c, http.StatusUnprocessableEntity, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil, nil)))
 		}
 
+		if cacheFolder != "" {
+			cacheFilePath := filepath.Join(cacheFolder, base64.RawURLEncoding.EncodeToString([]byte(search))+".html.gz")
+			cacheFile, err := os.Open(cacheFilePath)
+			if err == nil {
+				defer func() { _ = cacheFile.Close() }()
+
+				gzipReader, err := gzip.NewReader(cacheFile)
+				if err != nil {
+					return err
+				}
+
+				return c.Stream(http.StatusOK, "text/html; charset=utf-8", gzipReader)
+			}
+		}
+
 		startTime := time.Now()
 		res, err := svc.QueryExample(c.Request().Context(), search)
-		if err != nil {
+		if err != nil && !errors.Is(err, sarfya.ErrExampleNotFound) {
 			return outputHtml(c, http.StatusInternalServerError, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil, nil)))
 		}
 
 		stressAnnotations := make(map[string]*emphasis.FitResult)
-		if emphasisStorage != nil {
+		if len(res) > 0 && emphasisStorage != nil {
 			for _, group := range res {
 				for _, example := range group.Examples {
 					stress, err := emphasisStorage.FindEmphasis(c.Request().Context(), example.ID)
-					if err != nil {
+					if errors.Is(err, sarfya.ErrExampleNotFound) {
+						continue
+					} else if err != nil {
 						return outputHtml(c, http.StatusInternalServerError, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil, nil)))
 					}
 

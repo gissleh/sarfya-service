@@ -4,9 +4,11 @@ COPY . .
 RUN go get ./...
 RUN go run ./cmd/sarfya-generate-emphasis/
 RUN go run ./cmd/sarfya-generate-json/
+RUN go run ./cmd/sarfya-generate-prerendered/
 RUN go build ./cmd/sarfya-prod-server
 
 FROM docker.io/library/alpine:latest
 WORKDIR /project
 COPY --from=builder /project/sarfya-prod-server /root/.fwew/dictionary-v2.txt /project/stress-data.json /project/data-compiled.json ./
+COPY --from=builder /project/prerendered-pages ./prerendered-pages
 CMD ./sarfya-prod-server
