@@ -13,8 +13,22 @@ function search(el) {
 let hoverExampleId = "";
 let hoverWordIds = [];
 
+function getHoverableParent(el) {
+    while (["A", "a", "SPAN", "span", "U", "u"].includes(el.nodeName)) {
+        if (!!el.dataset.ids) {
+            break;
+        }
+
+        el = el.parentNode;
+    }
+
+    return el;
+}
+
 function onHover(el) {
-    const ids = JSON.parse(el.dataset.ids);
+    el = getHoverableParent(el);
+
+    const ids = JSON.parse(el.dataset.ids || "[]");
     const extraIds = [];
     const exampleNode = el.parentNode.parentNode;
     const exampleId = el.parentNode.dataset.id;
@@ -24,6 +38,10 @@ function onHover(el) {
         for (const el of prev) {
             el.classList.remove("hover");
         }
+    }
+
+    if (ids.length === 0) {
+        return;
     }
 
     const current = exampleNode.querySelectorAll("span, a");
@@ -60,7 +78,9 @@ function onHover(el) {
 }
 
 function onHoverEnd(el) {
-    const ids = JSON.parse(el.dataset.ids);
+    el = getHoverableParent(el);
+
+    const ids = JSON.parse(el.dataset.ids || "[]");
     const exampleId = el.parentNode.dataset.id;
     const exampleNode = el.parentNode.parentNode;
 
@@ -82,88 +102,81 @@ window.addEventListener("DOMContentLoaded", function() {
     const searchBox = document.querySelector("input.search-box");
     searchBox.value = filter;
 
-    // Find all hover-ables.
-    const allHoverables = document.querySelectorAll("div.sentence span, div.sentence a");
-    let list = [];
-    for (const el of allHoverables) {
-        if (!el.dataset.ids) {
-            continue;
+    let exampleDivs = document.querySelectorAll(".example").values();
+    const addListenersBatch = function() {
+        console.time("addListenersBatch");
+
+        const current = [];
+        while (current.length < 100) {
+            const v = exampleDivs.next();
+            if (v.done) {
+                break
+            }
+            current.push(v.value);
         }
-
-        list.push(el);
-    }
-
-    const allExamples = document.querySelectorAll(".example");
-    for (const el of allExamples) {
-        const buttonRow = document.createElement("div");
-        buttonRow.className = "button-row"
-        el.append(buttonRow);
-
-        const quoteDiscordButton = document.createElement("button");
-        quoteDiscordButton.className = "tool";
-        quoteDiscordButton.onclick = generateDiscordQuote.bind(el, el.id, filter, "discord")
-        quoteDiscordButton.innerHTML = "Quote (Discord)"
-        buttonRow.append(quoteDiscordButton);
-
-        const quoteForumButton = document.createElement("button");
-        quoteForumButton.className = "tool";
-        quoteForumButton.onclick = generateDiscordQuote.bind(el, el.id, filter, "bbcode")
-        quoteForumButton.innerHTML = "Quote (Forum)"
-        buttonRow.append(quoteForumButton);
-    }
-
-    // Process them in batches to leave room for other things to run.
-    // This is only a problem on evil searches like "*"
-    const handleBatch = function() {
-        const current = list.slice(0, 128);
-        list = list.slice(current.length);
 
         for (const el of current) {
-            if (!el.dataset.ids) {
-                continue;
+            const buttonRow = el.querySelector("div.button-row")
+            if (buttonRow != null) {
+                const quoteDiscordButton = buttonRow.querySelector("button.quote-discord");
+                if (quoteDiscordButton != null) {
+                    quoteDiscordButton.onclick = generatePastableQuote.bind(el, el.id, filter, "discord")
+                }
+                const quoteForumButton = buttonRow.querySelector("button.quote-forum");
+                if (quoteForumButton != null) {
+                    quoteForumButton.onclick = generatePastableQuote.bind(el, el.id, filter, "bbcode")
+                }
             }
 
-            el.onmouseenter = function() { onHover(el) };
-            el.onmouseleave = function() { onHoverEnd(el) };
+            el.addEventListener('mouseover', function(event) {
+                if (event.target) {
+                    onHover(event.target);
+                }
+            })
+            el.addEventListener('mouseout', function(event) {
+                if (event.target) {
+                    onHoverEnd(event.target);
+                }
+            })
         }
 
-        if (list.length > 0) {
-            setTimeout(handleBatch, 10);
+        if (current.length === 100) {
+            requestAnimationFrame(addListenersBatch);
         }
+
+        console.timeEnd("addListenersBatch");
     }
-    setTimeout(handleBatch, 0);
+    setTimeout(addListenersBatch, 0);
 });
 
 const lastFormat = {}
 
-function generateDiscordQuote(exampleElementId, filter, format) {
+function generatePastableQuote(exampleElementId, filter, format) {
     const [_, filterIndex, ...exampleIdParts] = exampleElementId.split("-");
     const exampleId = exampleIdParts.join("-");
     console.log(exampleElementId, exampleId, filter, filterIndex);
-    const copyTextAreaId = exampleElementId + "-" + filterIndex + "-copy-text-area";
-    let copyTextArea = document.getElementById(copyTextAreaId);
-    if (copyTextArea == null) {
-        copyTextArea = document.createElement("pre");
-        copyTextArea.id = copyTextAreaId;
-        copyTextArea.className = "copy-paste-text";
-        document.getElementById(exampleElementId).append(copyTextArea)
+    let outputPre = this.querySelector("pre.copy-paste-text");
+    if (outputPre == null) {
+        outputPre = document.createElement("pre");
+        outputPre.className = "copy-paste-text";
+        this.append(outputPre)
     }
 
     if (lastFormat[exampleElementId] === format) {
-        copyTextArea.remove();
+        outputPre.remove();
         lastFormat[exampleElementId] = "";
     } else {
         lastFormat[exampleElementId] = format;
     }
 
-    copyTextArea.textContent = "Loading...";
+    outputPre.textContent = "Loading...";
 
     fetch(`/api/examples/${exampleId}/discord-quote?filter=${encodeURIComponent(filter)}&format=${format}&filter_index=${filterIndex}`)
         .then(res => {
             return res.json();
         }).then(data => {
-            copyTextArea.textContent = data.text;
+            outputPre.textContent = data.text;
         }).catch(err => {
-            copyTextArea.textContent = "REQUEST FAILED:\n" + err.toString()
+            outputPre.textContent = "REQUEST FAILED:\n" + err.toString()
         })
 }

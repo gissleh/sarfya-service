@@ -3,14 +3,14 @@ module github.com/gissleh/sarfya-service
 go 1.26.0
 
 require (
-	github.com/a-h/templ v0.3.1020
+	github.com/a-h/templ v0.3.1070
 	github.com/aws/aws-lambda-go v1.55.1
 	github.com/awslabs/aws-lambda-go-api-proxy v0.16.2
 	github.com/fwew/fwew-lib/v5 v5.25.5
 	github.com/gissleh/litxap v1.15.0
 	github.com/gissleh/litxap-fwew v1.15.0-fwewv5.25.5
 	github.com/gissleh/sarfya v1.3.0
-	github.com/labstack/echo/v4 v4.15.4
+	github.com/labstack/echo/v4 v4.16.0
 	golang.org/x/sync v0.23.0
 	gopkg.in/yaml.v3 v3.0.1
 )
