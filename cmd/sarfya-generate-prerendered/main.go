@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"compress/gzip"
+	"context"
 	"encoding/base64"
 	"flag"
 	"fmt"
@@ -75,6 +76,11 @@ func main() {
 
 	doneCh := make(chan error)
 
+	examples, err := svc.Storage.FetchExamples(context.Background(), nil, nil)
+	if err != nil {
+		return
+	}
+
 	go func() {
 		entries, err := fwew.List([]string{}, 1)
 		if err != nil {
@@ -91,42 +97,60 @@ func main() {
 				doneCh <- err
 				return
 			}
-			if size > 4096 || strings.Contains(entry.PartOfSpeech, "adp.") {
+			if size > 3072 || strings.Contains(entry.PartOfSpeech, "adp.") {
 				extras = append(extras, navi)
-				_, _ = runJob(navi)
 			}
-
 			if withoutPlus, ok := strings.CutSuffix(navi, "+"); ok {
 				extras = append(extras, withoutPlus+":"+entry.ID, withoutPlus)
-				_, _ = runJob(withoutPlus + ":" + entry.ID)
-				_, _ = runJob(withoutPlus)
 			}
-
 			if strings.ToLower(navi) != navi {
 				extras = append(extras, strings.ToLower(navi)+":"+entry.ID)
-				_, _ = runJob(strings.ToLower(navi) + ":" + entry.ID)
-				if size > 4096 {
+				if size > 3072 {
 					extras = append(extras, strings.ToLower(navi))
-					_, _ = runJob(strings.ToLower(navi))
 				}
 			}
 
 			if (i+1)%100 == 0 {
-				log.Printf("Pages pre-rendered: %d/%d (+%d)", i+1, len(entries), len(extras))
+				log.Printf("Pages pre-rendered: %d/%d", i+1, len(entries))
 			}
 		}
+		log.Printf("Pages pre-rendered: %d/%d", len(entries), len(entries))
 
 		for _, l := range "ABCDEFGHIJKLMNOPQRSTUWXYZ" {
 			lookup1 := fmt.Sprintf("%c:P%c", l, l)
 			lookup2 := fmt.Sprintf("%c", l)
-
-			_, _ = runJob(lookup1)
-			_, _ = runJob(lookup2)
 			extras = append(extras, lookup1, lookup2)
 		}
 
-		log.Printf("Pages pre-rendered: %d/%d (+%d)", len(entries), len(entries), len(extras))
-		log.Println("Also pre-rendered for:", strings.Join(extras, ", "))
+		sourceSeen := make(map[string]bool)
+		flagSeen := make(map[sarfya.ExampleFlag]bool)
+		for _, example := range examples {
+			for _, exampleFlag := range example.Flags {
+				if !flagSeen[exampleFlag] {
+					flagSeen[exampleFlag] = true
+					extras = append(extras, "flag:"+string(exampleFlag))
+				}
+			}
+
+			if !sourceSeen[example.Source.ID] {
+				sourceSeen[example.Source.ID] = true
+				extras = append(extras, "src:"+example.Source.ID)
+			}
+		}
+
+		for i, extra := range extras {
+			_, err := runJob(extra)
+			if err != nil {
+				doneCh <- err
+				return
+			}
+
+			if (i+1)%100 == 0 {
+				log.Printf("Extra pages pre-rendered: %d/%d", i+1, len(extras))
+			}
+		}
+		log.Printf("Extra pages pre-rendered: %d/%d", len(extras), len(extras))
+		log.Println("Extras:", strings.Join(extras, ", "))
 
 		close(doneCh)
 	}()
