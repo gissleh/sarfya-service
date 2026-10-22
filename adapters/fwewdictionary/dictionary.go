@@ -4,19 +4,21 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	fwew "github.com/fwew/fwew-lib/v5"
-	"github.com/gissleh/sarfya"
 	"runtime/debug"
 	"slices"
 	"strings"
 	"sync"
+
+	fwew "github.com/fwew/fwew-lib/v5"
+	"github.com/gissleh/sarfya"
 )
 
 var globalLock sync.Mutex
 
 type dictionary struct {
-	mu    sync.Mutex
-	cache map[string]sarfya.DictionaryEntry
+	mu       sync.Mutex
+	cache    map[string]sarfya.DictionaryEntry
+	override map[string][]sarfya.DictionaryEntry
 }
 
 func (d *dictionary) Entry(ctx context.Context, id string) (*sarfya.DictionaryEntry, error) {
@@ -51,6 +53,14 @@ func (d *dictionary) Entry(ctx context.Context, id string) (*sarfya.DictionaryEn
 func (d *dictionary) Lookup(ctx context.Context, word string, allowReef bool) (entries []sarfya.DictionaryEntry, err error) {
 	if ctx.Err() != nil {
 		return nil, ctx.Err()
+	}
+
+	if override, ok := d.override[strings.ToLower(word)]; ok {
+		res := make([]sarfya.DictionaryEntry, len(override))
+		for i, entry := range override {
+			res[i] = entry.Copy()
+		}
+		return res, nil
 	}
 
 	defer func() {
@@ -188,7 +198,74 @@ var dict *dictionary
 func Global() sarfya.Dictionary {
 	once.Do(func() {
 		fwew.StartEverything()
-		dict = &dictionary{}
+		dict = &dictionary{
+			// fwew v5.28.1 bug workaround
+			override: map[string][]sarfya.DictionaryEntry{
+				"fey": {
+					{
+						ID:           "1532",
+						Word:         "pey",
+						PoS:          "vin.",
+						OriginalPoS:  "vin.",
+						Definitions:  map[string]string{"en": "wait, wait for"},
+						InfixIndexes: []int{1, 1},
+						Source:       "https://forum.learnnavi.org/index.php?msg=541820 (2012-04-23)",
+						Lenitions:    []string{"p→f"},
+					},
+					{
+						ID:          "1548",
+						Word:        "po",
+						PoS:         "pn.",
+						OriginalPoS: "pn.",
+						Definitions: map[string]string{"en": "he, she"},
+						Source:      "Activist Survival Guide (2009-11-24)",
+						Suffixes:    []string{"y"},
+						Lenitions:   []string{"p→f"},
+					},
+					{
+						ID:          "412",
+						Word:        "fo",
+						PoS:         "pn.",
+						OriginalPoS: "pn.",
+						Definitions: map[string]string{"en": "they"},
+						Source:      "Activist Survival Guide (2009-11-24)",
+						Suffixes:    []string{"y"},
+					},
+				},
+				"mesat": {
+					{
+						ID:          "5268",
+						Word:        "tsaw",
+						PoS:         "pn.",
+						OriginalPoS: "pn.",
+						Definitions: map[string]string{"en": "that, it (as intransitive subject)"},
+						Source:      "https://forum.learnnavi.org/index.php?msg=254625 (2010-07-03)",
+						Prefixes:    []string{"me"},
+						Suffixes:    []string{"t"},
+						Lenitions:   []string{"ts→s"},
+					},
+					{
+						ID:          "5980",
+						Word:        "tsat",
+						PoS:         "pn.",
+						OriginalPoS: "pn.",
+						Definitions: map[string]string{"en": "that, it (as intransitive subject)"},
+						Source:      "https://forum.learnnavi.org/index.php?msg=254625 (2010-07-03)",
+						Prefixes:    []string{"me"},
+						Lenitions:   []string{"ts→s"},
+					},
+					{
+						ID:          "5972",
+						Word:        "sat",
+						PoS:         "pn.",
+						OriginalPoS: "pn.",
+						Definitions: map[string]string{"en": "those (as direct object)"},
+						Source:      "https://forum.learnnavi.org/index.php?msg=254625 (2010-07-03)",
+						Prefixes:    []string{"me"},
+					},
+				},
+			},
+		}
 	})
 
 	return dict

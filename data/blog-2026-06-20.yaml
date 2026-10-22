@@ -21,6 +21,7 @@ inputs:
       text: 1Na 14+2frave'o 14+3ayruseyä, 4farwuntu 5Eywa'evengä 6säfpìlyewn 7(T|nì’awnì’aw) 8fa 9ayfya'o 10a 11tare 12fey 13pxawngipit.
       lookup_filter:
         6: 13466:vin.:noaffix:nolen
+        12: 412:pn.:noprefix:noinfix:=-y:nolen
       translations:
         en: 1(As with) 2+3+14(any ecosystem), 4(the inhabitants) 5(of Pandora) 6communicate 8in 9ways 7unique 10+11+12+13(to their environment).
     - id: nZ9lBvfuRHa5s9r1nnY_TA
@@ -112,6 +113,8 @@ inputs:
         en: 4(The Na'vi) 3+5(are no strangers to) 1these 2(more silent) 1(forms of communication).
     - id: 17trUDN7QjGNRLUGrtEwSg
       text: 1Fey 2(T|satìp) 3a 4fko 5('on si) 7fa 8tsìnga 9(zekwä)10(hu) 11a 12tsyokx 13le'awnì'aw 14slu 15weseka 16lì'fya 17a 18yewn 19nìno 20nìfnusì.
+      lookup_filter:
+        1: 412:pn.:noprefix:noinfix:=-y:nolen
       translations:
         en: 1Their 2gestures, 3+4+5shaped 7by 12their 13unique 8four 9+10+11digit 12hands, 14form 16a subtle 17+18+19+20(and expressive) 16(sign language).
     - id: Bt94bMlLTA-uigSDvhUpbA
@@ -150,3 +153,4 @@ inputs:
         18: 204:pn.:noprefix:noinfix:=-yä:nolen
       translations:
         en: 1As 3we 2(continue to) 4explore 5this 6wondrous 5exo-moon, 8perhaps 9it 7can also 10be 11(a bridge) 12+13between 15our 14world 16and 17+18theirs.
+emphasis: []

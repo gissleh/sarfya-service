@@ -6,9 +6,9 @@ require (
 	github.com/a-h/templ v0.3.1070
 	github.com/aws/aws-lambda-go v1.55.1
 	github.com/awslabs/aws-lambda-go-api-proxy v0.16.2
-	github.com/fwew/fwew-lib/v5 v5.25.5
-	github.com/gissleh/litxap v1.15.0
-	github.com/gissleh/litxap-fwew v1.15.0-fwewv5.25.5
+	github.com/fwew/fwew-lib/v5 v5.28.1
+	github.com/gissleh/litxap v1.18.1
+	github.com/gissleh/litxap-fwew v1.18.1-fwew5.28.1
 	github.com/gissleh/sarfya v1.3.1
 	github.com/labstack/echo/v4 v4.16.0
 	golang.org/x/sync v0.23.0
@@ -21,7 +21,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/labstack/gommon v0.5.0 // indirect
-	github.com/mattn/go-colorable v0.1.15 // indirect
+	github.com/mattn/go-colorable v0.1.16 // indirect
 	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect

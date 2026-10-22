@@ -87,7 +87,7 @@ inputs:
       translations:
         en: 4Where 2+3are 1you 2+3from?
     - id: 6znXH9ZHREyH8DuGjXNFSg
-      text: 1Oe 2'olongokx 3mì 4sray 5a 6txampayìri 7sim, 8slä 9set 10(kelku si) 11mì 12Helutral.
+      text: 1Oe 2'olongokx 3mì 4sray 5a 6txampayri 7sim, 8slä 9set 10(kelku si) 11mì 12Helutral.
       lookup_filter:
         7: 3816:vin.:noaffix:nolen
       translations:
