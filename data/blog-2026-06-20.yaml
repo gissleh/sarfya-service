@@ -112,11 +112,11 @@ inputs:
       translations:
         en: 4(The Na'vi) 3+5(are no strangers to) 1these 2(more silent) 1(forms of communication).
     - id: 17trUDN7QjGNRLUGrtEwSg
-      text: 1Fey 2(T|satìp) 3a 4fko 5('on si) 7fa 8tsìnga 9(zekwä)10(hu) 11a 12tsyokx 13le'awnì'aw 14slu 15weseka 16lì'fya 17a 18yewn 19nìno 20nìfnusì.
+      text: 1Fey 2(T|satìp) 3a 4fko 5('on si) 7fa 8tsìnga 9(zekwä)10(hu) 11a 12tsyokx 13le'awnì'aw 14slu 15weseka 16lì'fya 17a 18yewn 19nìno 20(nìfnu)21(sì).
       lookup_filter:
         1: 412:pn.:noprefix:noinfix:=-y:nolen
       translations:
-        en: 1Their 2gestures, 3+4+5shaped 7by 12their 13unique 8four 9+10+11digit 12hands, 14form 16a subtle 17+18+19+20(and expressive) 16(sign language).
+        en: 1Their 2gestures, 3+4+5shaped 7by 12their 13unique 8four 9+10+11digit 12hands, 14form 16a 15subtle 21and 19expressive 16+17+18+20(sign language).
     - id: Bt94bMlLTA-uigSDvhUpbA
       text: 1Ayolo'ìl 2lereymtxew 3Na'viyä 4sar 5nìpxi 6tìfnunga'a 7(T-it|fitìyewnit) 8a 9(srung si) 10tìsäfpìlyewnur 11krrka 12aysätaron 13sì 14aysä'eoio 15a 16len 17mì 18fay.
       lookup_filter:

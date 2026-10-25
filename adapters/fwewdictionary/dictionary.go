@@ -203,14 +203,13 @@ func Global() sarfya.Dictionary {
 			override: map[string][]sarfya.DictionaryEntry{
 				"fey": {
 					{
-						ID:           "1532",
-						Word:         "pey",
-						PoS:          "vin.",
-						OriginalPoS:  "vin.",
-						Definitions:  map[string]string{"en": "wait, wait for"},
-						InfixIndexes: []int{1, 1},
-						Source:       "https://forum.learnnavi.org/index.php?msg=541820 (2012-04-23)",
-						Lenitions:    []string{"p→f"},
+						ID:          "412",
+						Word:        "fo",
+						PoS:         "pn.",
+						OriginalPoS: "pn.",
+						Definitions: map[string]string{"en": "they"},
+						Source:      "Activist Survival Guide (2009-11-24)",
+						Suffixes:    []string{"y"},
 					},
 					{
 						ID:          "1548",
@@ -223,13 +222,14 @@ func Global() sarfya.Dictionary {
 						Lenitions:   []string{"p→f"},
 					},
 					{
-						ID:          "412",
-						Word:        "fo",
-						PoS:         "pn.",
-						OriginalPoS: "pn.",
-						Definitions: map[string]string{"en": "they"},
-						Source:      "Activist Survival Guide (2009-11-24)",
-						Suffixes:    []string{"y"},
+						ID:           "1532",
+						Word:         "pey",
+						PoS:          "vin.",
+						OriginalPoS:  "vin.",
+						Definitions:  map[string]string{"en": "wait, wait for"},
+						InfixIndexes: []int{1, 1},
+						Source:       "https://forum.learnnavi.org/index.php?msg=541820 (2012-04-23)",
+						Lenitions:    []string{"p→f"},
 					},
 				},
 				"mesat": {

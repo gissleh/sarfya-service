@@ -19,3 +19,17 @@ inputs:
         8: 1312:adv.:noaffix:nolen
       translations:
         en: 1(This tree) 4only 2grows 2{(i.e., germinates, develops)} 6near 3(a river). 1It 5grows 5{(i.e., gets big)} 8very 7quickly.
+    - id: HcXeoj84QIa7MWbxoF0_Qg
+      text: 1Lu 2ngeyä 3tsapostì 4lesar 5(srunga')6(sì) 7nìtxan, 8ma 9tsmuke.
+      lookup_filter:
+        7: 1312:adv.:noaffix:nolen
+      translations:
+        en: 3(That post) 2(of yours) 1is 7very 4useful 6and 5helpful, 8+9sister.
+      flags:
+        - user_translation
+    - id: ycKTbv0ORNeIqS638TSXSg
+      text: 1Aysäfpìl 2ngey 3sunu 4oer!
+      lookup_filter:
+        3: 6376:vin.:noaffix:nolen
+      translations: {}
+emphasis: []
