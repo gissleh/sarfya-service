@@ -111,3 +111,11 @@ inputs:
             {(It's a set phrase used when giving a gift to a loved one or making a gesture of affection like a kiss or caress.)}
       flags:
         - proverb
+    - id: p6HviOYPOSA9cwEYjyxuPQ
+      text: 1Krrka 2lekye'unga 3faysrr, 4sìlpey 5oe, 6livu 7ayngaru 8fpom 9nìwotx.
+      lookup_filter:
+        1: 10144:adp.:noaffix:nolen
+        4: 1800:vin.:noaffix:nolen
+        7: 208:pn.:noprefix:noinfix:=-ru:nolen
+      translations: {}
+emphasis: []

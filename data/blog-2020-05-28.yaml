@@ -90,4 +90,24 @@ inputs:
             A: 1+2(How's everything)?
             B: 3Good. 4+5You?
             A: 6So-so. 7(I)8+9('m fine), 10but 11my 12son 13is 14sick.
+    - id: 2eJMMT2xDX9MfZYG_zUMOQ
+      text: 1Po 2'efu 3spxin.
+      translations:
+        en: 1He 2feels 3sick.
+    - id: YwRawyXR9ufnKDNay6FIBQ
+      text: 1Po 2lu 3spxin.
+      translations:
+        en: 1He 2is 3sick.
+    - id: EhY_vjTFc7us1MfXScTN7Q
+      text: '1Lu 2tìketeng! 3Natkenong: "4Oeyä 5''eylan 6ke 7''efu 8spxin. 9Slä 10ke 11tslängam 12pol 13futa 14nìfkeytongay 15lu 16spxin 17nìtxan."'
+      lookup_filter:
+        17: 1312:adv.:noaffix:nolen
+      translations: {}
+    - id: rWDT6hXmzIocG1rhRUdqTQ
+      text: 1Peyä 2tì'eyng 3+5eltur 4+5(tìtxen soli).
+      translations: {}
+    - id: tv-Tk70-C3ogZdt0rjK57Q
+      text: 1Po 2poleng 3tì'eyngit 4a 5+7eltur 6+7(tìtxen si)
+      translations:
+        en: 1She 2gave 3an 4+5+6+7interesting 3answer.
 emphasis: []

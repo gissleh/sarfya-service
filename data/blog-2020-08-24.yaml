@@ -1,0 +1,23 @@
+source:
+    id: blog-2020-08-24
+    date: "2020-08-24"
+    url: https://naviteri.org/2026/09/aawa-liu-amip-a-few-new-words/
+    title: Pelie sunu ngar frato?  What’s your favorite experience?
+    author: Paul Frommer
+inputs:
+    - id: OVqinVIvlTIk4j0yQ07vaw
+      text: 1Pelie 2sunu 3ngar 4frato?
+      lookup_filter:
+        2: 6376:vin.:noaffix:nolen
+      translations:
+        en: 1(What)2+4('s) 3your 2+4favorite 1experience?
+    - id: o-qHW13HmqCuOoos9z-4bQ
+      text: 1'Awa 2lie 3a 4txasunu 5oer 6lu 7tìtswusayon. 8Ke 9lu 10ke'u 11na 12kem 13a 14nerìn 15futa 16ftem 17atxkxe 18(ayfìwopx)51(sì). 19Tengkrr 20tswerayon, 21lu 22oeru 23tì'efu 24a 25kifkeyä 26wotxit 27fko 28tsun 29tsive'a. 30Fìtì'eful 31oeti 32reykangal 33tsnì 34tsivun 35oe 36ikranti 37mivakto. 38Nìrangal 39tsirvun 40'ivefu 41hufweti 42mì 43hey 44ulte 45nekll 46nivìn 47kifkeyti 48fa 49kusamea 50menari.
+      lookup_filter:
+        12: 768:n.:noaffix:nolen
+        28: 2476:vim.:noaffix:nolen
+        44: 2592:conj.:noaffix:nolen
+      translations: {}
+      flags:
+        - non_canon
+emphasis: []

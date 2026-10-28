@@ -9,7 +9,7 @@ require (
 	github.com/fwew/fwew-lib/v5 v5.28.1
 	github.com/gissleh/litxap v1.18.1
 	github.com/gissleh/litxap-fwew v1.18.1-fwew5.28.1
-	github.com/gissleh/sarfya v1.3.1
+	github.com/gissleh/sarfya v1.3.2
 	github.com/labstack/echo/v4 v4.16.0
 	golang.org/x/sync v0.23.0
 	gopkg.in/yaml.v3 v3.0.1

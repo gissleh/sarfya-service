@@ -1,0 +1,91 @@
+source:
+    id: blog-2026-09-30
+    date: "2026-09-30"
+    url: https://naviteri.org/2026/09/aawa-liu-amip-a-few-new-words/
+    title: ’A’awa lì’u amip   A few new words
+    author: Paul Frommer
+inputs:
+    - id: GjyHdrsWxFTqZQjHp5AupA
+      text: 1Vospxìvomun 2lefpom! 3'Oli'a 4Vospxìvolaw 5ulte 6polähem 7krr 8a 9(tìtxen si)... 10sì 11krr 12a 13postì 14amip.
+      lookup_filter:
+        5: 2592:conj.:noaffix:nolen
+      translations: {}
+      flags:
+        - open_questions
+    - id: rHSNzlaJfI2IcN2xMGDNyQ
+      text: 1+4(Hayalo)1+5(vay), 2ma 3eylan!
+      translations: {}
+    - id: t4Zy92HtWebcq9uVSLA3kg
+      text: 1Irayo 2nìtxan, 3ma 4sulfätu 5anawm!
+      lookup_filter:
+        2: 1312:adv.:noaffix:nolen
+      translations: {}
+    - id: LQwp0tJii28JxVkE1CAb3g
+      text: 1Polpxaya 2'itu 3lu 4ngar?
+      translations:
+        en: 1(How many) 2(sons and daughters) 3do 4you 3have?
+    - id: 8qlBSnxtGs-5IC043bV_vA
+      text: 1Säsngap 2zize'ä 3(tìsraw si) 4nìngay.
+      lookup_filter:
+        4: 1296:adv.:noaffix:nolen
+      translations:
+        en: 1(The sting) 2(of a hellfire wasp) 3is 4really 3painful.
+    - id: OshEAj9qFXQACfMJV24jrQ
+      text: 1Tsatsnganìri 2txo 3tsat 4yivom 5ngal 6nìwin 7nìhawng, 8tsun 9ngati 10meykive'.
+      lookup_filter:
+        6: 1316:adv.:noaffix:nolen
+        8: 2476:vim.:noaffix:nolen
+      translations:
+        en: 2If 5you 4eat 1+3(that meat) 7too 6fast, 1it 8can 10choke 9you {(}i.e., 10(cause you to choke){)}.
+    - id: sFnj3gnjsccJiV1hrlmT7Q
+      text: 1Fo 2mere'! 3(Srung si) 4for!
+      lookup_filter:
+        1: 412:pn.:noaffix:nolen
+        4: 412:pn.:noprefix:noinfix:=-r:nolen
+      translations:
+        en: 1(They)2('re choking)! 3Help 4them!
+    - id: jb3zMrl-JVxGtcmu11f1UA
+      text: 1Aysä'eko 2a 3ta 4Sawtute 5ke 6ftayang 7liven 8kawkrr.
+      translations:
+        en: 1(The attacks) 2+3from 4(the Skypeople) 6+7will 5+8never 6+7stop.
+    - id: etd52p5kn605gnF794obCg
+      text: 1Ngey 2tsko 3ke 4lu 5fwel, 6ma 7'eveng. 8Mawat 9nì'aw.
+      translations:
+        en: 1Your 2bow 4(is)3(n't) 5broken, 6+7child. It's 9only 8damaged.
+    - id: l_Wgtl-vDywgBCd6KQPONQ
+      text: 1Sa'nokìl 2oeru 3kolar 4fyawta 5sar 6fìrìkit 7sko 8angu.
+      lookup_filter:
+        5: 3812:vtr.:noaffix:nolen
+        7: 8740:adp.:noaffix:nolen
+      translations:
+        en: 1Mother 3taught 2me 4(how to) 5use 6(this leaf) 7as 8(a spoon).
+    - id: XYettyiTkBe2Cqg_gRsm4w
+      text: 1Penunyol 2tsun 3nga 4fpivaksye 5(pay)6(äo)?
+      lookup_filter:
+        2: 2476:vim.:noaffix:nolen
+        5: 1480:n.:noaffix:nolen
+      translations:
+        en: 1(How long) 2can 3you 4(hold your breath) 6under 5water?
+      flags:
+        - open_questions
+    - id: S1c1hW9YzRRtvExwhcS1Cg
+      text: 1Oey 2tsmukanìri 3säfwew 4ke 5flängä.
+      translations:
+        en: 5Sadly, 3(the search) 2for 1my 2brother (4+5was unsuccessful.)
+    - id: tPGmgMzMbayavKEWPWiTTA
+      text: 1Ke 2tslam 3oel 4fyawta 5nga 6(tsakem soli).
+      translations:
+        en: 3I 1don't 2understand 4how 5you 6(did that).
+    - id: 4vo2XbtA_9W45dJa-VOnnQ
+      text: 1Fyawa 2fkol 3tsat 4sar 5loho 6oer.
+      lookup_filter:
+        4: 3812:vtr.:noaffix:nolen
+      translations:
+        en: 1How 3(that)2+4('s used) 5surprises 6me.
+    - id: qDMB6G2jGwQ4oW_SDGOsvg
+      text: 1Fìtìoeyktìng 2lesung 3srunga' 4lu 5nìtxan.
+      lookup_filter:
+        5: 1312:adv.:noaffix:nolen
+      translations:
+        en: 1This 2additional 1explanation 4is 5very 3helpful.
+emphasis: []

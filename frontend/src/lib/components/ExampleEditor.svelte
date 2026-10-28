@@ -145,6 +145,7 @@
     <FlagToggle bind:value={input.flags} flag="syntax" />
     <FlagToggle bind:value={input.flags} flag="clipped" />
     <FlagToggle bind:value={input.flags} flag="transcribed" />
+    <FlagToggle bind:value={input.flags} flag="open_questions" />
   </div>
   <div class="split">
     <div class="left">

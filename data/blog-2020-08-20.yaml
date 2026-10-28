@@ -14,3 +14,9 @@ inputs:
       lookup_filter:
         11: 1528:inter.:noaffix:nolen
       translations: {}
+    - id: ENx5MfvMZR1L6DMGv2Ywkw
+      text: 1Fìtxeleri 2zene 3oe 4fpivìl 5nì'ul. 6Slä 7txo 8livu 9tuteor 10aysäfpìl 11a 12fìtìpawmteri, 13rutxe 14piveng 15oer!
+      lookup_filter:
+        4: 432:vtr.:noprefix:=<iv>:nosuffix:nolen
+      translations: {}
+emphasis: []

@@ -119,9 +119,9 @@ inputs:
       translations:
         en: 1Lukan, 2+3(the little brother), 4and 5Palu, 6+7(the little sister), 9are 8still 10babies, 11and 12(I'm happy to say they're) 16very 13beautiful 14and 15cute. 17But 18(unfortunately they're) 19also 20shy, 21almost like 22a 23touched 22helicoradian. They 24arrived 25at 27our 26house 28(last night), 29and 30(needless to say) 31the 32new 31place 33and 36likewise 34(the two) 35new 34men 37are 40very 39strange 38(to them). 43+44(For most) 45(of the time) 42today they 46(were hiding). 48We 47+49hope they50'll 51soon 50become 52brave 53enough 54+55to 56(come out) 57(and play) 59with 58us. 60+61Feeling 62calm 63and 64happy 65in 66a 67new 66environment 68(takes time), 69so 70we 71(have to) 72(be patient).
     - id: sJW1FgQGTb6-AtiU-XcH8A
-      text: 1(Hayalo)4(vay), 2ma 3smuk.
+      text: 1+4(Hayalo)1+5(vay), 2ma 3smuk.
       translations:
-        en: 4Until 1(next time), 2+3(brothers and sisters).
+        en: 1+4Until 1+5(next time), 2+3(brothers and sisters).
     - id: guifXt9uSLOQpDDWRH_r2w
       text: 1Oe 2kan 3kivä
       translations:
@@ -140,3 +140,4 @@ inputs:
         3: 704:vtrm.:noprefix:=<ol>:nosuffix:nolen
       translations:
         en: 1He 3raised 1his 2bow 4against 5(the enemy).
+emphasis: []

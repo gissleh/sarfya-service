@@ -60,7 +60,7 @@ inputs:
       translations:
         en: 2Get 1him 2out 4of 3here!
     - id: Y05vY1lZRsK5chFR8OdUgQ
-      text: 1Ulte 2oeri 3(fìtseng)4(ta) 5'äpaku 6nìteng. 7Hayalovay!
+      text: 1Ulte 2oeri 3(fìtseng)4(ta) 5'äpaku 6nìteng. 7+8(Hayalo)7+9(vay)!
       lookup_filter:
         1: 2592:conj.:noaffix:nolen
         6: 1304:adv.:noaffix:nolen

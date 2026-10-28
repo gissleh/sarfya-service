@@ -35,6 +35,10 @@ templ example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult, 
             <a href="/search/flag:user_translation" class="example-flag flag-transcribed flag-user-translation">Translation provided by separate source (e.g. AD, Horen, forum poster, comment)</a>
         }
 
+        if data.Example.HasFlag(sarfya.EFOpenQuestions) {
+            <a href="/search/flag:open_questions" class="example-flag flag-open-question flag-non-canon">There are open questions about this example, see source for details</a>
+        }
+
 	    if data.Source.URL != "" {
             <div class="example-source">
               <span class="name"><a href={templ.SafeURL(data.Source.URL)}>{data.Source.Title}</a></span>

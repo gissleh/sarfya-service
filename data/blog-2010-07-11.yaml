@@ -139,4 +139,10 @@ inputs:
         3: 2380:n.:=fì-:noinfix:nosuffix:nolen
       translations:
         en: '{(With verbs of motion, ne can be optionally omitted if the destination comes after the verb.)}'
+    - id: wdW25iEObPtz8b1Af-QqSg
+      text: 1Hayalo 2(oe)3(ta)
+      translations:
+        en: |-
+            1(Next time) 3from 2me
+            {(That is, I've done something for you and you've thanked me, but next time you'll do something comparable for me, and I'll thank you.)}
 emphasis: []
