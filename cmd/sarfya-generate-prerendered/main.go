@@ -14,6 +14,7 @@ import (
 	"os"
 	"os/signal"
 	"path"
+	"slices"
 	"strings"
 	"syscall"
 
@@ -138,6 +139,12 @@ func main() {
 			}
 		}
 
+		for _, frontPageLink := range frontPageLinks {
+			if !slices.Contains(extras, frontPageLink) {
+				extras = append(extras, frontPageLink)
+			}
+		}
+
 		for i, extra := range extras {
 			_, err := runJob(extra)
 			if err != nil {
@@ -214,4 +221,31 @@ func runJob(lookup string) (int, error) {
 	}
 
 	return buf.Len(), nil
+}
+
+var frontPageLinks = []string{
+	"*:adp.",
+	"*:vim.|vtrm.",
+	"teraron",
+	"taron:<er>",
+	"*:<äp eyk>",
+	"*:<äng>|<ei>|<uy>",
+	"*:<ats>",
+	"*:<äp>|<eyk>:<us>|<awn>",
+	"zun && zel",
+	"fpìl +>> san",
+	"*:vin. >+< !*:part.|adj.",
+	"*:n.|pn. ++ *:adj.:-a-",
+	"*:adj.:-a +> *:n.|pn. +> *:adj.:a-",
+	"*:n.|pn. +> *:adj.:a- +> a:part.",
+	"\"kx\"",
+	"\"endless\":en",
+	"\" art \":en",
+	"fwa || fula || futa || fura || furia",
+	"tsawa || tsala || tsata:sbd. || tsara || tsaria",
+	"teynga || teyngla || teyngta || teyngra || teyngria || teyngä",
+	"fyawa || fyawta || fyawria || fyawra || fyawla || fyawä",
+	"*:\"sä*\"",
+	"*:\"tì*tsyìp\"",
+	"*:vin.:\"* si\"|\"* säpi\"|\"* seyki\"",
 }
