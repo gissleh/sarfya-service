@@ -1,0 +1,29 @@
+source:
+    id: blog-2026-10-31
+    date: "2026-10-31"
+    url: https://naviteri.org/2026/10/mipa-vospxiya-sngaikrr-aaw-tseovi-some-works-of-art-at-the-start-of-the-new-month/
+    title: Mipa vospxìyä sngä’ikrr ’a’awa tseovi  Some works of art at the start of the new month
+    author: Paul Frommer
+inputs:
+    - id: gdtViFGPJLsP2yytNd-73A
+      text: 1Sìlpey 2oe, 3ayngari 4ftxozä 5(M-ä|Hälowinä) 6limvu 7'o' 8nì'aw.
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        3: 208:pn.:noprefix:noinfix:=-ri:nolen
+      translations:
+        en: 2I 1hope 3your 4+5Halloween 6was 7+8(a lot of fun).
+    - id: HH_qfWKcWjGtlz8y4A_8pA
+      text: 1Sìlpey 2oe, 3fayseovi 4zìyevawprrte' 5(aynga)6(ne) 7nìwotx!
+      lookup_filter:
+        1: 1800:vin.:noaffix:nolen
+        5: 208:pn.:noaffix:nolen
+      translations: {}
+    - id: IwyOI75eX_uoIyhylLgXhg
+      text: 1(Tìtxen si) 2oer 3Vospxìvolaw 4'i'a 5a 6krr.
+      translations:
+        en: 1Wake 2me 1up 5+6when 3September 4ends.
+    - id: 8wxq5j03ePWtFXN-3NLggw
+      text: 1Mipa 2vospxìyä 3sngä'ikrr 4'a'awa 5tseovi
+      translations:
+        en: 4Some 5(works of art) 3(at the start) 2(of the) 1new 2month
+emphasis: []
