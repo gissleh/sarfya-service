@@ -266,7 +266,11 @@ func indexPage() templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = queryExample("teynga:sbd. || teyngla:sbd. || teyngta:sbd. || teyngra:sbd. || teyngria:sbd. || teyngä:sbd.", "The answer-to contractions.").Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = queryExample("teynga || teyngla || teyngta || teyngra || teyngria || teyngä", "The tì'eyng f-words").Render(ctx, templ_7745c5c3_Buffer)
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		templ_7745c5c3_Err = queryExample("fyawa || fyawta || fyawria || fyawra || fyawla || fyawä", "The fyo'a f-words").Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

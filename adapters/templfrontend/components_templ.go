@@ -60,37 +60,37 @@ func example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult, g
 			return templ_7745c5c3_Err
 		}
 		if data.Example.HasFlag(sarfya.EFNonCanon) {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "<a href=\"/search/flag:non_canon\" class=\"example-flag flag-non-canon\">Contribution from the li'fyaolo'</a> ")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 3, "<a href=\"/search/flag:non_canon\" rel=\"nofollow\" class=\"example-flag flag-non-canon\">Contribution from the li'fyaolo'</a> ")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
 		}
 		if data.Example.HasFlag(sarfya.EFProverb) {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 4, "<a href=\"/search/flag:proverb\" class=\"example-flag flag-proverb\">Proverbial expression or phrase</a> ")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 4, "<a href=\"/search/flag:proverb\" rel=\"nofollow\" class=\"example-flag flag-proverb\">Proverbial expression or phrase</a> ")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
 		}
 		if data.Example.HasFlag(sarfya.EFReefDialect) {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 5, "<a href=\"/search/flag:reef_dialect\" class=\"example-flag flag-reef-dialect\">Reef dialect</a> ")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 5, "<a href=\"/search/flag:reef_dialect\" rel=\"nofollow\" class=\"example-flag flag-reef-dialect\">Reef dialect</a> ")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
 		}
 		if data.Example.HasFlag(sarfya.EFTranscribed) {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "<a href=\"/search/flag:transcribed\" class=\"example-flag flag-reef-dialect flag-transcribed\">Transcribed from audio</a> ")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "<a href=\"/search/flag:transcribed\" rel=\"nofollow\" class=\"example-flag flag-reef-dialect flag-transcribed\">Transcribed from audio</a> ")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
 		}
 		if data.Example.HasFlag(sarfya.EFUserTranslation) {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 7, "<a href=\"/search/flag:user_translation\" class=\"example-flag flag-transcribed flag-user-translation\">Translation provided by separate source (e.g. AD, Horen, forum poster, comment)</a> ")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 7, "<a href=\"/search/flag:user_translation\" rel=\"nofollow\" class=\"example-flag flag-transcribed flag-user-translation\">Translation provided by separate source (e.g. AD, Horen, forum poster, comment)</a> ")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
 		}
 		if data.Example.HasFlag(sarfya.EFOpenQuestions) {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 8, "<a href=\"/search/flag:open_questions\" class=\"example-flag flag-open-question flag-non-canon\">There are open questions about this example, see source for details</a> ")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 8, "<a href=\"/search/flag:open_questions\" rel=\"nofollow\" class=\"example-flag flag-open-question flag-non-canon\">There are open questions about this example, see source for details</a> ")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
@@ -280,14 +280,14 @@ func queryExample(query string, description string) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 20, "\">")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 20, "\" rel=\"nofollow\">")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
 		var templ_7745c5c3_Var13 string
 		templ_7745c5c3_Var13, templ_7745c5c3_Err = templ.JoinStringErrs(query)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/components.templ`, Line: 76, Col: 107}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `adapters/templfrontend/components.templ`, Line: 76, Col: 122}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var13))
 		if templ_7745c5c3_Err != nil {

@@ -16,27 +16,27 @@ func hostnameFromUrl(u string) string {
 templ example(data sarfya.FilterMatch, lang string, stress *emphasis.FitResult, groupIndex int) {
 	<div id={"example-"+strconv.Itoa(groupIndex)+"-"+templ.EscapeString(data.ID)} class="example">
         if data.Example.HasFlag(sarfya.EFNonCanon) {
-            <a href="/search/flag:non_canon" class="example-flag flag-non-canon">Contribution from the li'fyaolo'</a>
+            <a href="/search/flag:non_canon" rel="nofollow" class="example-flag flag-non-canon">Contribution from the li'fyaolo'</a>
         }
 
         if data.Example.HasFlag(sarfya.EFProverb) {
-            <a href="/search/flag:proverb" class="example-flag flag-proverb">Proverbial expression or phrase</a>
+            <a href="/search/flag:proverb" rel="nofollow" class="example-flag flag-proverb">Proverbial expression or phrase</a>
         }
 
         if data.Example.HasFlag(sarfya.EFReefDialect) {
-            <a href="/search/flag:reef_dialect" class="example-flag flag-reef-dialect">Reef dialect</a>
+            <a href="/search/flag:reef_dialect" rel="nofollow" class="example-flag flag-reef-dialect">Reef dialect</a>
         }
 
         if data.Example.HasFlag(sarfya.EFTranscribed) {
-            <a href="/search/flag:transcribed" class="example-flag flag-reef-dialect flag-transcribed">Transcribed from audio</a>
+            <a href="/search/flag:transcribed" rel="nofollow" class="example-flag flag-reef-dialect flag-transcribed">Transcribed from audio</a>
         }
 
         if data.Example.HasFlag(sarfya.EFUserTranslation) {
-            <a href="/search/flag:user_translation" class="example-flag flag-transcribed flag-user-translation">Translation provided by separate source (e.g. AD, Horen, forum poster, comment)</a>
+            <a href="/search/flag:user_translation" rel="nofollow" class="example-flag flag-transcribed flag-user-translation">Translation provided by separate source (e.g. AD, Horen, forum poster, comment)</a>
         }
 
         if data.Example.HasFlag(sarfya.EFOpenQuestions) {
-            <a href="/search/flag:open_questions" class="example-flag flag-open-question flag-non-canon">There are open questions about this example, see source for details</a>
+            <a href="/search/flag:open_questions" rel="nofollow" class="example-flag flag-open-question flag-non-canon">There are open questions about this example, see source for details</a>
         }
 
 	    if data.Source.URL != "" {
@@ -73,7 +73,7 @@ templ searchBox(initialValue string) {
 
 templ queryExample(query string, description string) {
     <div class="query-example">
-        <a href={templ.SafeURL("/search/" + strings.ReplaceAll(url.QueryEscape(query), "+", "%20"))}>{query}</a>
+        <a href={templ.SafeURL("/search/" + strings.ReplaceAll(url.QueryEscape(query), "+", "%20"))} rel="nofollow">{query}</a>
         <span class="dash">&nbsp;–&nbsp;</span>
         <span class="desc">{description}</span>
     </div>

@@ -185,5 +185,4 @@ func Examples(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage emp
 			"example": example,
 		})
 	})
-
 }
