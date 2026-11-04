@@ -118,7 +118,7 @@ func sentence(id string, language string, spans [][]int, adjacentSpans [][]int, 
 				}
 				_, _ = bw.WriteString("\" data-ids=\"")
 				_, _ = bw.WriteString(idList(part.IDs))
-				_, _ = bw.WriteString("\">")
+				_, _ = bw.WriteString("\" rel=\"nofollow\">")
 				writeStressed(bw, i, part.RawText())
 				_, _ = bw.WriteString("</a>")
 			} else {

@@ -93,6 +93,8 @@ func Endpoints(group *echo.Group, svc *sarfyaservice.Service, emphasisStorage em
 			return outputHtml(c, http.StatusUnprocessableEntity, layoutWrapper(fmt.Sprintf("Sarfya – %s", search), searchPage(search, err.Error(), nil, nil)))
 		}
 
+		c.Response().Header().Add("X-Robots-Tag", "noindex, nofollow")
+
 		if cacheFolder != "" {
 			cacheFilePath := filepath.Join(cacheFolder, base64.RawURLEncoding.EncodeToString([]byte(search))+".html.gz")
 			cacheFile, err := os.Open(cacheFilePath)

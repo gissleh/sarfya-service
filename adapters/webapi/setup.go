@@ -35,7 +35,7 @@ func Setup(addr string) (*echo.Echo, <-chan error) {
 	}()
 
 	e.GET("/robots.txt", func(c echo.Context) error {
-		robotsContent := "User-agent: *\nDisallow: /search/\nAllow: /\n"
+		robotsContent := "User-agent: meta-webindexer\nDisallow: /search/\n\nUser-agent: *\nDisallow: /search/\nAllow: /\n"
 		return c.String(http.StatusOK, robotsContent)
 	})
 
