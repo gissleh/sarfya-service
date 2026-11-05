@@ -1,0 +1,17 @@
+source:
+    id: forum-2026-09-23-103828
+    date: "2026-09-23"
+    url: https://forum.learnnavi.org/language-updates/new-colloquial-pronunciations-frawri-and-niswaya/
+    title: ' New colloquial pronunciations: Frawri and Nìswaya '
+    author: Paul Frommer, Tekre, Txonpay
+inputs:
+    - id: bXaJVCqT6kakVdnnwrxVzw
+      text: 1Frawri 2sa 3(nìsoaia|nìswaya)
+      lookup_filter:
+        2: 10864:vin.:noaffix:nolen
+      translations:
+        en: '{(Sullys stick together)}'
+emphasis:
+    - id: bXaJVCqT6kakVdnnwrxVzw
+      custom_words:
+        - nì-*swa-ya
