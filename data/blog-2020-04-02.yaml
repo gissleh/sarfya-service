@@ -18,4 +18,6 @@ inputs:
       lookup_filter:
         21: 1296:adv.:noaffix:nolen
       translations: {}
+      flags:
+        - non_canon
 emphasis: []
